@@ -22,6 +22,7 @@
 | Oliveira Paucar, Mauricio           | U201917831 |
 | Pedraza Maldonado, Joaquin          | U202218514 |
 | Soriano Medrano, Diego              | U202114793 |
+| Velarde Luyo, Piero Alberto         | U20211A620 |
 
 </div>
 
@@ -261,7 +262,7 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 
 # Student Outcome
 
-<!-- Contenido del Student Outcome -->
+<!-- Yo me encargo de completar sus student outcomes muchachos -->
 
 
 # Capítulo I: Introducción
@@ -274,7 +275,16 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<!-- Contenido de los perfiles de integrantes del equipo -->
+|           Photo                        |                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                    |
+| :------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://i.postimg.cc/6qRCcvNF/Captura-de-pantalla-2024-09-08-151747.png"> | **Aranda Vallejos, Oscar Gabriel** <br> Tengo 20 años y soy estudiante de la carrera de Ingeniería de Software, poseo conocimientos básicos en Unity, C++ y diseño web. Me considero una persona preparada y perseverante en cumplir con los objetivos del proyecto; además, siempre estoy dispuesto a aprender nuevos conceptos.            |
+| [![bernaola.jpg](https://i.postimg.cc/PxhJpyCd/bernaola.jpg)](https://postimg.cc/hJycN98Y) | **Bernaola Pérez, André Arturo** <br> Estoy cursando la carrera de Ingeniería de Software, me gusta jugar videojuegos y aprender cosas nuevas en mis ratos libres. Aspiro a trabajar como desarrollador fullstack y me interesa mantenerme actualizado en nuevas tecnologías, buenas prácticas de programación y metodologías ágiles. |
+| [![Josepfp.png](https://i.postimg.cc/kMYMqqvJ/Josepfp.png)](https://postimg.cc/3WpQZMqV) | **Gutierrez Garcia, José Eduardo** <br> Tengo 21 años, actualmente me encuentro cruzando mi 7mo ciclo de la carrera de ingeniería de software en la UPC. Me gusta jugar videojuegos y practicar natación, soy un gran aficionado de la tecnología y del ensamblaje de computadoras. Me considero una persona dispuesta siempre a aprender tecnologías nuevas, creativa y responsable.         |
+| [![68747470733a2f2f696d6775722e636f6d2f657646596870372e706e67.png](https://i.postimg.cc/hGCC5yVG/68747470733a2f2f696d6775722e636f6d2f657646596870372e706e67.png)](https://postimg.cc/qt3XtGbf) | **Oliveira Paucar, Mauricio** <br> Me gusta mucho aprender cosas nuevas sobre mi carrera, trabajar en equipo de manera proactiva y lograr los objetivos junto a mis compañeros. Me considero una persona ambiciosa, ya que mi meta es llegar a obtener un alto cargo en una empresa que me agrade o formar mi propia empresa relacionada al software. Gracias a ello siempre podré trabajar en algo que me guste y llevar una vida cómoda. Cuento con conocimientos de C + + y HTML. |
+| | **Pedraza Maldonado, Joaquin** <br> <!--Indoxeable--> |
+| [![foto-upc.jpg](https://i.postimg.cc/jSpQ1pFv/foto-upc.jpg)](https://postimg.cc/TKcDL4GW) | **Soriano Medrano, Diego** <br>  Estudio la carrera de ingeniería de software. Me considero una persona creativa y paciente. Tengo conocimiento en el uso de diferentes herramientas informáticas y lenguajes de programación. que ayudan a realizar distintos tipos de trabajo y a resolver problemas. Parte de mis habilidades blandas es siempre tomar en cuenta la opinión de mis compañeros, lo cual me facilita el poder trabajar en equipo, para agilizar diferentes actividades. |
+| [![pierovelarde.jpg](https://i.postimg.cc/pdj5nykJ/pierovelarde.jpg)](https://postimg.cc/Y4pC5r5v) | **Velarde Luyo, Piero Alberto** <br> Soy Piero, estudio la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Escogí esta carrera por mi facilidad en el uso de las computadoras. Asímismo, por mi interés en el funcionamiento de las anteriores mencionadas y todo respecto a la programación y las tecnologías emergentes. |
+
 
 ## 1.2. Solution Profile
 
