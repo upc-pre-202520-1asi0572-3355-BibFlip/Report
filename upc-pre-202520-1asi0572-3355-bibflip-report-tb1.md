@@ -148,7 +148,7 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 
 <!--LO COMPLETARE DESPUES -->
 
-
+<br>
 
 # Contenido
 
@@ -268,6 +268,18 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
+
+En el 2020, se reportaron matrículas con aproximadamente 1.3 millones de estudiantes de pregrado y 95 mil de posgrado en universidades peruanas (SUNEDU, 2022). Estos índices, a su vez, provocan una alta demanda de espacios de estudio y problemas con la disponibilidad de las bibliotecas. Un claro ejemplo de esta situación se puede observar en la Universidad Nacional Mayor de San Marcos. Esta institución universitaria, siendo una de las más grandes del país, cuenta con la infraestructura necesaria para poder atender 2500 estudiantes de manera simultánea (Montoro, 2024). Sin embargo, esto resulta insuficiente debido a la gran cantidad de alumnos.
+
+Ante ese contexto, presentamos Bib Flip como una solución tecnológica desarrollada para mejorar la experiencia del uso de cubículos estudiantiles en universidades peruanas. Para ello, la propuesta deberá incluir una aplicación web y móvil con dispositivos IoT integrados. Además, nuestro enfoque es principalmente resolver problemas relacionados con la disponibilidad y la ocupación de cubículos universitarios en tiempo real para reducir tiempos de espera. 
+
+Bib Flip brindará a los estudiantes la posibilidad de verificar la disponibilidad de espacios individuales y grupales, hacer reservas y revisar sus detalles. Además, ofrecerá un mapa interactivo para ubicar las sedes disponibles, así como la opción de registrar nuevos usuarios para acceder a los servicios de la aplicación. Además, contará con un panel exclusivo para que administradores seleccionados puedan gestionar los cubículos de estudio y visualizar las reservas activas, permitiendo un control actualizado del uso de cubículos, planificar la distribución de recursos de manera eficiente y optimizar la organización operativa.
+
+Misión:
+Ofrecer una solución tecnológica eficiente y accesible en la gestión de espacios de estudio para mejorar la experiencia académica y las operaciones de la biblioteca.
+
+Visión:
+Consolidarse como la principal solución digital en el Perú para la gestión de procesos en bibliotecas universitarias, promoviendo una experiencia de estudio más ordenada, ágil y satisfactoria para los estudiantes, y una gestión más eficiente para las instituciones educativas.
 
 ### 1.1.1. Descripción de la Startup
 
@@ -608,6 +620,10 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 # Bibliografía
 
 <!-- Contenido de la bibliografía -->
+
+Montoro, R. (2024). *Esta es la segunda biblioteca más grande del Perú y se encuentra en una prestigiosa universidad*. Infobae. https://www.infobae.com/peru/2024/12/10/esta-es-la-segunda-biblioteca-mas-grande-del-peru-y-se-encuentra-en-una-prestigiosa-universidad/
+
+SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*. https://repositorio.minedu.gob.pe/handle/20.500.12799/7913
 
 ---
 
