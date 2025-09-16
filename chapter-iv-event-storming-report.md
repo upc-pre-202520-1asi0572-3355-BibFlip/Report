@@ -42,7 +42,7 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 <a href="https://ibb.co/ksNTRqh0"><img src="https://i.ibb.co/Ndcq8WLp/Bounded-Context-Canvases-Booking-Management.jpg" alt="Bounded-Context-Canvases-Booking-Management" border="0"></a>
 
 
-### Table Management
+### Cubicle Management
 <a href="https://ibb.co/W4LMXJrP"><img src="https://i.ibb.co/q3vc8QHW/Bounded-Context-Canvases-Table-Management.jpg" alt="Bounded-Context-Canvases-Table-Management" border="0"></a>
 
 
