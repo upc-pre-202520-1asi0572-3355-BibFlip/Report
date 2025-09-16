@@ -34,13 +34,22 @@ Consolidarse como la principal solución digital en el Perú para la gestión de
 
 ### 1.2.1. Antecedentes y problemática
 
-What (¿Qué problema abordamos?)
+**What (¿Qué problema abordamos?)**
+<br>La administración ineficaz de los espacios de estudio en las bibliotecas universitarias peruanas es el problema principal. Los alumnos experimentan incertidumbre con respecto a la disponibilidad de cubículos, se frustran cuando no encuentran espacios libres y deben esperar mucho tiempo. Asimismo, el sistema que las universidades suelen otorgar para la reserva de espacios de estudio conlleva un proceso lento y poco eficiente en la mayoría de situaciones.
 
-La administración ineficaz de los espacios de estudio en las bibliotecas universitarias peruanas es el problema principal. Los alumnos experimentan incertidumbre con respecto a la disponibilidad de cubículos, se frustran cuando no encuentran espacios libres y deben esperar mucho tiempo. Asimismo, el sistema que las universidades suelen otorgar para la reserva de espacios de estudio conlleva un proceso lento y poco eficiente en la mayoría de situaciones.
+**Who (¿Quién está afectado?)**
+<br>Se indentifican entre los principales afectados a los estudiantes universitarios que experimentan dificultades para acceder a espacios de estudio cuando los necesitan, especialmente durante períodos altamente concurridos como en semanas de trabajos parciales y finales. En segundo lugar, tenemos al personal de bibliotecas universitarias que Enfrentan desafíos en la gestión manual de cubículos, control de ocupación y planificación de recursos.
 
-Who (¿Quién está afectado?)
+**Where (¿Dónde ocurre el problema?)**
+<br>El problema surge en las bibliotecas de instituciones universitarias peruanas. Para ello, nos centraremos principalmente en la sede San Miguel de la Universidad Peruana de Ciencias Aplicadas.
 
-Se indentifican entre los principales afectados a los estudiantes universitarios que experimentan dificultades para acceder a espacios de estudio cuando los necesitan, especialmente durante períodos altamente concurridos como en semanas de trabajos parciales y finales. En segundo lugar, tenemos al personal de bibliotecas universitarias que Enfrentan desafíos en la gestión manual de cubículos, control de ocupación y planificación de recursos.
+**When (¿Cuándo se intensifica el problema?)**
+<br>La problemática se agudiza en diferentes períodos como las semanas de entregas de trabajos parciales y finales, semanas de presentación y envío de avances académicos y en horarios con gran concurrencia de alumnos (mañana y tarde).
+
+**Why (¿Por qué existe este problema?)**
+<br>La raíz del problema surge del crecimiento exponencial de la matrícula universitaria, infraestructura insuficiente para atender la demanda real y procesos deficientes para la administración de reservas.
+
+
 
 ### 1.2.2. Lean UX Process
 

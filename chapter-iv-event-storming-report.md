@@ -39,12 +39,10 @@ Para analizar y diseñar sistemas de software, se usa el Modelado de Flujos de M
 #### 4.1.1.3 Bounded Context Canvases
 
 ### Booking Management
-<a href="https://ibb.co/ksNTRqh0"><img src="https://i.ibb.co/Ndcq8WLp/Bounded-Context-Canvases-Booking-Management.jpg" alt="Bounded-Context-Canvases-Booking-Management" border="0"></a>
-
+[![booking-management-canva.jpg](https://i.postimg.cc/2SDTDHPZ/booking-management-canva.jpg)](https://postimg.cc/nC3qK1VF)
 
 ### Cubicle Management
-<a href="https://ibb.co/W4LMXJrP"><img src="https://i.ibb.co/q3vc8QHW/Bounded-Context-Canvases-Table-Management.jpg" alt="Bounded-Context-Canvases-Table-Management" border="0"></a>
-
+[![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
 
 ### IoT Monitoring
 <a href="https://ibb.co/MxjxwgWw"><img src="https://i.ibb.co/Txnxjwpj/Bounded-Context-Canvases-Iot-Monitoring.jpg" alt="Bounded-Context-Canvases-Iot-Monitoring" border="0"></a><br>
