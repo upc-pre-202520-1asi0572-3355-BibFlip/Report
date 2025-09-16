@@ -78,6 +78,39 @@ Consolidarse como la principal solución digital en el Perú para la gestión de
 
 ## 1.3. Segmentos objetivo
 
-<!-- Contenido de Segmentos objetivo -->
+Para el desarrollo de nuestra propuesta, se han identificado dos segmentos objetivo principales que representan los stakeholders clave del sistema propuesto.
+
+---
+
+### Segmento 1: Personal de bibliotecas universitarias
+Este segmento está conformado por el personal administrativo y operativo de las bibliotecas universitarias, quienes son responsables de la gestión diaria de los espacios de estudio y servicios bibliotecarios. Además, para este segmento se tomará como caso de prueba al personal de la Universidad Peruana de Ciencias Aplicadas en la sede San Miguel. Esto debido a su alta demanda como una de las mejores instituciones privadas en el Perú. 
+
+#### Características Demográficas
+
+- Edad: Personal adulto, entre los 25 y 55 años
+- Educación: Técnica o universitaria
+- Experiencia laboral: Personal con experiencia en gestión de servicios bibliotecarios y atención al usuario
+
+#### Características Geográficas
+
+- Ubicación: Universidades de Lima
+- Alcance inicial: Lima Metropolitana, con potencial expansión a otros departamentos del Perú como Cusco, Piura e Ica.
+
+---
+
+### Segmento 2: Estudiantes universitarios
+Este segmento comprende a los usuarios finales del sistema, estudiantes de bachillerato o posgrado que utilicen regularmente los espacios de estudio de las bibliotecas universitarias. Cabe resaltar que, para validar los casos de prueba, se tomarán en cuenta a estudiantes de la Universidad Peruana de Ciencias Aplicadas como primera instancia.
+
+#### Características Demográficas
+
+- Edad: Principalmente entre los 17 y 35 años
+- Nivel educativo: Estudiantes de pregrado y posgrado de diversas carreras profesionales
+- Perfil tecnológico: Estudiantes con familiaridad en el uso de aplicaciones móviles y sistemas digitales
+- Hábitos de estudio: Usuarios frecuentes de cubículos estudiantiles, especialmente durante períodos de exámenes y revisión de proyectos.
+
+#### Características Geográficas
+
+- Procedencia: Estudiantes de Lima Metropolitana y sus provincias
+- Horarios: Flexibilidad horaria para los turnos de mañana, tarde y noche
 
 ---
