@@ -93,7 +93,26 @@ Buenas tardes, gracias por asistir a esta entrevista
 
 ### 2.2.2. Registro de entrevistas
 
-<!-- Contenido del registro de entrevistas -->
+
+**Entrevista para el Segmento Objetivo 1 - Estudiantes Universitarios:**
+
+---
+
+Entrevista N°1:
+
+**Entrevistado:** Nasthya del Carpio<br>
+**Sexo:** Femenino <br>
+**Edad:** 21 años<br>
+**Domicilio:** La Perla<br>
+**Inicio de la Entrevista:** 0:05<br>
+**Duración de la Entrevista:** 4:31<br>
+
+<a href="https://ibb.co/cc9QkCvm"><img src="https://i.ibb.co/C5yQmMtr/entrevista-na.png" alt="Entrevista con Nasthya" style="width: 600px; height: auto;"><br></a>
+
+
+**Resumen de la Entrevista:** <br>
+La entrevista con Nasthya del Carpio, estudiante de 21 años de Diseño de Interiores en la UPC, mostró que suele usar la biblioteca entre 2 y 4 veces por semana, pero enfrenta dificultades para verificar la disponibilidad de cubículos debido a la falta de información confiable. Destacó que una app debería ser rápida, sencilla y mostrar la ocupación en tiempo real, con funciones de reserva, cancelación y notificaciones personalizables. Compartió experiencias frustrantes al no encontrar espacios libres o al hallar ocupado un cubículo reservado, y resaltó la importancia de contar con un sistema de feedback y de garantizar la privacidad de los usuarios.
+
 
 ### 2.2.3. Análisis de entrevistas
 
