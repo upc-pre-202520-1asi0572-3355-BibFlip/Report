@@ -171,10 +171,36 @@ Estudiantes Universitarios
 
 ### 2.3.5. As-is Scenario Mapping
 
-<!-- Contenido de As-is Scenario Mapping -->
+Este mapeo "As-Is" presenta el escenario actual antes de la implementación de Bibflip, describiendo las experiencias problemáticas para nuestros dos segmentos. Para ello, se detallan acciones, pensamientos y emociones que reflejan las frustraciones y limitaciones del proceso actual.
+
+### ¿Qué hace el Personal de la Biblioteca?
+
+<!-- Falta esto tambien -->
+
+### ¿Qué hace el Estudiante?
+
+| **Phases** | **Descubrimiento del sistema** | **Proceso de reserva** | **Búsqueda física de cubículos** | **Uso del cubículo** |
+|------------|------------------------------|------------------------|----------------------------------|-------------------|
+| **Doing** | • Accede al sistema universitario complejo.<br>• Navega por múltiples interfaces. | • Completa formularios con muchos pasos.<br>• Escribe manualmente códigos de confirmación.<br>• Espera confirmaciones del sistema lento. | • Camina por toda la biblioteca buscando cubículos libres.<br>• Pregunta al personal sobre disponibilidad.<br>• Pierde tiempo verificando espacios ocupados. | • Llega y encuentra su cubículo ocupado por otros.<br>• Espera a que desocupen o busca alternativas.<br>• Negocia con otros estudiantes el uso del espacio. |
+| **Thinking** | "Este sistema es muy complicado para algo tan simple." <br> "¿Por qué tantos pasos para reservar un cubículo?" | "Espero no olvidarme de escribir el código de confirmación." <br> "El proceso es demasiado largo." | "Ojalá hubiera una forma de saber qué está disponible sin caminar tanto." <br> "Estoy perdiendo tiempo valioso buscando." | "¿Cómo es posible que mi cubículo reservado esté ocupado?" <br> "En época de exámenes esto puede afectarme mucho." |
+| **Feeling** | • Confusión <br> • Frustración | • Ansiedad <br> • Impaciencia | • Cansancio <br> • Desesperación | • Enojo <br> • Estrés |
 
 ## 2.4. Ubiquitous Language
 
-<!-- Contenido de Ubiquitous Language -->
+| Término | Definición |
+|---------|------------|
+| **Student** | Alumno de pregrado o posgrado que utiliza los servicios de la biblioteca universitaria para realizar actividades académicas y de estudio. |
+| **Booking** | Reservación de un cubículo realizada por un estudiante para garantizar el uso exclusivo del espacio durante un período de tiempo determinado. |
+| **Cubicle** | Cubículo Universitario (espacio académico compuesto por una mesa de trabajo, una computadora y 6 sillas como máximo) destinado al estudio individual o grupal dentro de las instalaciones de la biblioteca. |
+| **Administrator** | Personal de la Biblioteca encargado de la gestión operativa de los cubículos, incluyendo la supervisión de reservas, mantenimiento de espacios y atención a usuarios. |
+| **SuperAdmin** | Administrador de la Biblioteca con permisos completos del sistema, responsable de la configuración general, gestión de usuarios administrativos y supervisión de reportes estadísticos. |
+| **Branch** | Sede o campus universitario que cuenta con su propia biblioteca y sistema de cubículos independiente, permitiendo la gestión descentralizada de espacios de estudio. |
+| **Library** | Biblioteca Universitaria que alberga los cubículos y proporciona el entorno académico para el estudio. |
+| **Time Slot** | Franja horaria específica durante la cual un cubículo puede ser reservado y utilizado por un estudiante. |
+| **Availability** | Disponibilidad en tiempo real de los cubículos, indicando cuáles están libres, ocupados o reservados. |
+| **Session** | Sesión de uso efectivo de un cubículo por parte de un estudiante durante el tiempo reservado. |
+| **Notification** | Notificación automática enviada a los estudiantes sobre el estado de su reserva, recordatorios o cambios importantes. |
+| **Occupancy Status** | Estado de ocupación que indica si un cubículo está disponible, reservado, ocupado o fuera de servicio. |
+| **Reservation Period** | Período de tiempo durante el cual una reserva es válida y el cubículo permanece asignado al estudiante. |
 
 ---
