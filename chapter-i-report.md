@@ -116,16 +116,67 @@ Estudiantes:
 
 ##### **Business Assumptions:**
 
-
+1. Creemos que nuestros usuarios necesitan un sistema automatizado y en tiempo real que facilite la gestión de cubículos de estudio en bibliotecas universitarias.
+2. Creemos que estas necesidades se pueden satisfacer mediante la implementación de sensores IoT y el desarrollo de una plataforma digital accesible desde dispositivos móviles y computadoras.
+3. El valor más importante que un cliente quiere de nuestros servicios es la capacidad de optimizar la ocupación de cubículos en tiempo real, garantizando tanto la eficiencia operativa como la satisfacción estudiantil.
+4. El cliente también va obtener beneficios adicionales como la recopilación de datos para análisis de patrones de uso y planificación estratégica.
+5. Vamos a obtener la mayoría de nuestros clientes mediante estrategias de marketing directo a universidades, participación en ferias educativas y colaboraciones con asociaciones universitarias.
+6. Vamos a obtener ingresos mediante licencias institucionales y servicios de implementación de la solución IoT.
+7. Nuestra competencia principal son los sistemas tradicionales de control manual de espacios y soluciones básicas de reserva existentes.
+8. Vamos a tener ventaja frente a nuestra competencia debido a la optimización de sistemas, la integración IoT y la facilidad de uso, lo que mejora significativamente la experiencia académica.
+9. El mayor riesgo del servicio es la posible resistencia institucional a la adopción de nuevas tecnologías y los costos de implementación inicial.
+10. Lo resolveremos mediante demostraciones prácticas, pilotos gratuitos y estrategias de capacitación para asegurar una transición suave y adopción exitosa.
 
 ##### **User Assumptions:**
 
-<!-- Contenido de User Assumptions -->
+¿Quién es el usuario?<br>
+Los usuarios son personal administrativo de bibliotecas encargado de la gestión operativa diaria de espacios, y estudiantes universitarios activos que requieren cubículos de estudio de manera regular.
+
+¿Qué problemas tiene nuestro producto que resolver?<br>
+El principal problema es la falta de información en tiempo real sobre la disponibilidad de cubículos de estudio, lo que genera tiempos perdidos en búsqueda, frustración por espacios no disponibles y gestión ineficiente de recursos. Nuestra solución automatiza este proceso, eliminando la incertidumbre y optimizando la experiencia académica.
+
+¿Qué características son importantes?<br>
+- Monitoreo en tiempo real de la ocupación mediante sensores de peso.
+- Interfaz intuitiva y amigable en la aplicación móvil y web.
+- Sistema de reservas con confirmación automática y recordatorios.
+- Reportes históricos y analytics para análisis de patrones de uso.
+- Integración con sistemas académicos existentes de la universidad.
+
+¿Dónde encaja nuestro producto en su trabajo o vida?<br>
+La solución se integra en la operación continua de las bibliotecas para el personal administrativo y en la rutina de estudio diaria de los estudiantes, facilitando tanto la gestión administrativa como la experiencia académica.
+
+¿Cuándo y cómo es nuestro producto usado?<br>
+El producto es utilizado continuamente durante horarios académicos, especialmente durante períodos de exámenes y alta demanda, permitiendo a las bibliotecas gestionar espacios eficientemente y a los estudiantes planificar sus sesiones de estudio.
+
+¿Cómo debe verse nuestro producto y cómo debe comportarse?<br>
+La interfaz debe ser moderna, limpia e intuitiva, con visualizaciones claras del estado de cubículos y navegación simple. El sistema debe ser rápido, confiable y accesible desde múltiples dispositivos, garantizando una experiencia fluida tanto para administradores como para estudiantes.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-<!-- Contenido de Lean UX Hypothesis Statements -->
+Hypothesis Statement 1:
 
+Creemos que el personal administrativo de bibliotecas necesita una herramienta automatizada que les permita gestionar cubículos y generar reportes dinámicos en tiempo real.
+Sabremos que hemos tenido éxito cuando al menos el 75% del personal administrativo informe una mejora del 30% en la eficiencia operativa y una reducción del 40% en tareas manuales de gestión.
+
+Hypothesis Statement 2:
+
+Creemos que los estudiantes universitarios valorarán disponer de información actualizada sobre la disponibilidad de cubículos y la capacidad de realizar reservas mediante una aplicación móvil y web.
+Sabremos que hemos tenido éxito cuando el 80% de los estudiantes reporten una reducción significativa en el tiempo de búsqueda de espacios y una mejora del 25% en su satisfacción con el uso de bibliotecas.
+
+Hypothesis Statement 3:
+
+Creemos que la implementación de sensores IoT integrados en cubículos, que transmitan datos en tiempo real a una plataforma centralizada, facilitará la gestión automatizada de espacios y optimizará la experiencia de estudio.
+Sabremos que hemos tenido éxito cuando las bibliotecas vean un incremento del 30% en la utilización efectiva de cubículos y una recuperación de la inversión en menos de 18 meses.
+
+Hypothesis Statement 4:
+
+Creemos que una interfaz intuitiva y amigable en la aplicación digital fomentará la adopción tanto por parte del personal administrativo como de estudiantes, simplificando el proceso de gestión y reserva de espacios.
+Sabremos que hemos tenido éxito cuando el 85% de los usuarios completen tareas básicas en la aplicación sin necesidad de asistencia y mantengan un alto nivel de satisfacción en evaluaciones posteriores.
+
+Hypothesis Statement 5:
+
+Creemos que la funcionalidad de mapas interactivos y navegación dentro de bibliotecas mejorará significativamente la experiencia de localización de cubículos disponibles para los estudiantes.
+Sabremos que hemos tenido éxito cuando el 70% de los estudiantes utilicen activamente esta funcionalidad y reporten una reducción del 60% en el tiempo necesario para localizar y acceder a sus cubículos reservados.
 #### 1.2.2.4. Lean UX Canvas
 
 <!-- Contenido de Lean UX Canvas -->
