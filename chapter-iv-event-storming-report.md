@@ -51,12 +51,12 @@ Para dar inicio con el diseño de nuestro software, es imperativo el uso del Mod
 ### Cubicle Management
 [![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
 
-### IoT Monitoring
-<a href="https://ibb.co/MxjxwgWw"><img src="https://i.ibb.co/Txnxjwpj/Bounded-Context-Canvases-Iot-Monitoring.jpg" alt="Bounded-Context-Canvases-Iot-Monitoring" border="0"></a><br>
+### IoT Device Monitoring
+[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
 
+### Branching Management
+[![Captura-de-pantalla-2025-09-17-184920.png](https://i.postimg.cc/7hpLK2zk/Captura-de-pantalla-2025-09-17-184920.png)](https://postimg.cc/MfmxTXtP)
 
-### Headquarter Management
-<a href="https://ibb.co/HTX3nqcQ"><img src="https://i.ibb.co/ZzN7WxQC/Bounded-Context-Canvases-Headquarter-Management.jpg" alt="Bounded-Context-Canvases-Headquarter-Management" border="0"></a><br>
 
 ### 4.1.2. Context Mapping
 
