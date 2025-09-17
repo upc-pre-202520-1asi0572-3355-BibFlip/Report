@@ -107,13 +107,11 @@ Personal Bibliotecario
 
 [![user-persona-1.png](https://i.postimg.cc/gcwXNWjc/user-persona-1.png)](https://postimg.cc/Z0S55X6X)
 
-
 Estudiantes Universitarios
 
-
+[![user-persona-2.png](https://i.postimg.cc/SR5PhzzK/user-persona-2.png)](https://postimg.cc/y3mjhxjq)
 
 ### 2.3.2. User Task Matrix
-
 
 <!-- Contenido de User Task Matrix -->
 
