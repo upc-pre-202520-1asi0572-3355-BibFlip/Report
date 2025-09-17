@@ -45,7 +45,7 @@ Una estrategia clave es enfocarse específicamente en el área de bibliotecas un
 
 **Estrategia de experiencia estudiantil superior:**
 
-Bib Flip adopta una estrategia centrada en la experiencia del estudiante, ofreciendo una aplicación móvil intuitiva que no solo muestra disponibilidad sino que predice patrones de uso y sugiere mejores horarios. Como táctica, se implementan notificaciones inteligentes, reservas con recordatorios automáticos, y un sistema de puntuación que gamifica el uso eficiente de espacios bibliotecarios.
+Bib Flip adopta una estrategia centrada en la experiencia del estudiante, ofreciendo una aplicación móvil intuitiva que no solo muestra disponibilidad sino que predice patrones de uso y sugiere mejores horarios. Además, se implementan notificaciones inteligentes y reservas con recordatorios automáticos.
 
 ## 2.2. Entrevistas
 
@@ -103,9 +103,17 @@ Buenas tardes, gracias por asistir a esta entrevista
 
 ### 2.3.1. User Personas
 
-<!-- Contenido de User Personas -->
+Personal Bibliotecario
+
+[![user-persona-1.png](https://i.postimg.cc/gcwXNWjc/user-persona-1.png)](https://postimg.cc/Z0S55X6X)
+
+
+Estudiantes Universitarios
+
+
 
 ### 2.3.2. User Task Matrix
+
 
 <!-- Contenido de User Task Matrix -->
 
