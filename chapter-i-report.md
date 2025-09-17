@@ -64,33 +64,59 @@ Consolidarse como la principal solución digital en el Perú para la gestión de
 
 ### 1.2.2. Lean UX Process
 
-
-
 #### 1.2.2.1. Lean UX Problem Statements
 
-<!-- Contenido de Lean UX Problem Statements -->
+**Problem Statement 1 - Personal de Bibliotecas**:
+Los sistemas utilizados para la administración de cubículos en bibliotecas universitarias no aprovechan las tecnologías actuales con las que contamos y presentan deficiencias en su rendimiento. Por ello, nuestra propuesta abordará esta brecha mediante un panel de administración integral que proporcione una gestión óptima y análisis de datos en tiempo real; además, estará dirigido al personal de la sede San Miguel de la UPC.<br>
+
+**Problem Statement 2 - Estudiantes Universitarios:**
+El estado actual para la reservación de espacios de estudio en bibliotecas universitarias se compone principalmente de procesos poco eficientes. Los servicios existentes no permiten que los estudiantes puedan revisar la disponibilidad de los cubículos o realizar reservas de manera rápida y cómoda. Por ello, nuestra propuesta abordará esta brecha mediante una plataforma digital integrada con dispositivos IoT y nuestro enfoque estará dirigido a estudiantes universitarios de la sede San Miguel de la UPC<br>
 
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### **Business Outcomes:**
 
-<!-- Contenido de Business Outcomes -->
+- Aumento del 30% en la eficiencia de utilización de cubículos en las bibliotecas que adopten la solución.
+- Reducción del 80% en el tiempo promedio de búsqueda de espacios de estudio disponibles.
+- Incremento del 25% en la satisfacción de los estudiantes, medido a través de encuestas de experiencia.
+- Reducción del 40% en incidencias por ocupación indebida y problemas de asignación de cubículos.
+- Mejora del 35% en la planificación y distribución de recursos bibliotecarios.
 
 ##### **Users:**
 
-<!-- Contenido de Users -->
+Los usuarios se dividen en estos segmentos:
+
+- Personal de biblioteca: Administradores y operadores de 25 a 55 años responsables de la gestión diaria de cubículos.
+- Estudiantes universitarios: Jóvenes de 17 a 35 años que buscan espacios de estudio para optimizar su rendimiento académico y reunirse en equipo.
 
 ##### **User Outcomes & Benefits:**
 
-<!-- Contenido de User Outcomes & Benefits -->
+Personal de Biblioteca:
+
+- Control óptimo del uso y ocupación de cubículos en tiempo real.
+- Acceso a estadísticas e informes detallados que faciliten la toma de decisiones estratégicas.
+- Optimización en la distribución de recursos y planificación operativa.
+- Escalabilidad para el registro de nuevos cubículos en el sistema
+
+Estudiantes:
+
+- Información precisa y en tiempo real sobre la disponibilidad de cubículos de estudio.
+- Reducción significativa de tiempos de espera y búsqueda de espacios disponibles.
+- Mejora en la planificación de sesiones de estudio mediante reservas anticipadas.
+- Mayor certeza y tranquilidad al acceder a espacios de estudio cuando los necesitan.
 
 ##### **Feature Assumptions:**
 
-<!-- Contenido de Feature Assumptions -->
+- Visualización en tiempo real del estado de ocupación de cubículos individuales y grupales.
+- Funcionalidad de reservas digitales con confirmación automática y recordatorios.
+- Mapas interactivos de ubicación de cubículos disponibles por sede universitaria.
+- Panel de gestión integral para administradores con métricas de utilización.
+- Sistema de notificaciones push para estudiantes y personal administrativo.
+- Integración con dispositivos IoT para detección automática de ocupación.
 
 ##### **Business Assumptions:**
 
-<!-- Contenido de Business Assumptions -->
+
 
 ##### **User Assumptions:**
 
@@ -117,28 +143,26 @@ Este segmento está conformado por el personal administrativo y operativo de las
 
 - Edad: Personal adulto, entre los 25 y 55 años
 - Educación: Técnica o universitaria
-- Experiencia laboral: Personal con experiencia en gestión de servicios bibliotecarios y atención al usuario
+- Perfil: Personal con experiencia en gestión de servicios bibliotecarios y atención al usuario
 
 #### Características Geográficas
 
-- Ubicación: Universidades de Lima
-- Alcance inicial: Lima Metropolitana, con potencial expansión a otros departamentos del Perú como Cusco, Piura e Ica.
+- Ubicación: Lima, Perú
+
 
 ---
 
 ### Segmento 2: Estudiantes universitarios
-Este segmento comprende a los usuarios finales del sistema, estudiantes de bachillerato o posgrado que utilicen regularmente los espacios de estudio de las bibliotecas universitarias. Cabe resaltar que, para validar los casos de prueba, se tomarán en cuenta a estudiantes de la Universidad Peruana de Ciencias Aplicadas como primera instancia.
+Este segmento está compuesto por estudiantes que utilicen regularmente los espacios de estudio de las bibliotecas universitarias. Además, se tomará como caso de prueba a los estudiantes de la UPC. Esto debido a los casos recientes sobre el reporte de fallos con el nuevo sistema, 
 
 #### Características Demográficas
 
 - Edad: Principalmente entre los 17 y 35 años
-- Nivel educativo: Estudiantes de pregrado y posgrado de diversas carreras profesionales
-- Perfil tecnológico: Estudiantes con familiaridad en el uso de aplicaciones móviles y sistemas digitales
-- Hábitos de estudio: Usuarios frecuentes de cubículos estudiantiles, especialmente durante períodos de exámenes y revisión de proyectos.
+- Educación: Estudiantes de pregrado y posgrado de diversas carreras profesionales
+- Perfil: Estudiantes con familiaridad en el uso de aplicaciones móviles y sistemas digitales
 
 #### Características Geográficas
 
-- Procedencia: Estudiantes de Lima Metropolitana y sus provincias
-- Horarios: Flexibilidad horaria para los turnos de mañana, tarde y noche
+- Ubicación: Lima, Perú
 
 ---
