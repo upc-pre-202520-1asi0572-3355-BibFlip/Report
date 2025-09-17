@@ -113,7 +113,30 @@ Estudiantes Universitarios
 
 ### 2.3.2. User Task Matrix
 
-<!-- Contenido de User Task Matrix -->
+**Personal Bibliotecario (Javier)**
+
+| Tarea | Importancia | Frecuencia |
+|:------|:------|:----------|
+|Consultar el estado de ocupación de cubículos en tiempo real|Alta|Alta|
+|Agregar/modificar cubículos desde el panel administrativo|Media|Media|
+|Gestionar reservas y cancelaciones desde el panel|Alta|Alta|
+|Configurar parámetros del sistema (horarios, límites de tiempo, etc.)|Media|Baja|
+|Supervisar que el sistema de reservas funcione correctamente|Alta|Alta|
+|Generar reportes de uso y estadísticas para gestión operativa|Alta|Media|
+|Enviar notificaciones automáticas a estudiantes sobre sus reservas|Media|Media|
+
+**Estudiantes Universitarios (Miriam)**
+
+| Tarea | Importancia | Frecuencia |
+|:------|:------|:----------|
+|Consultar disponibilidad de cubículos en tiempo real|Alta|Alta|
+|Reservar cubículos de estudio individual rápidamente|Alta|Alta|
+|Acceder al sistema desde el celular de manera fácil|Alta|Alta|
+|Recibir recordatorios de su reserva y tiempo restante|Alta|Media|
+|Cancelar o modificar reservas existentes|Media|Media|
+|Liberar cubículo antes del tiempo límite si terminan antes|Media|Media|
+|Buscar cubículos disponibles por ubicación en la biblioteca|Media|Media|
+| Disminuir la cantidad de pasos requeridos para efectuar la reserva | Alta | Alta
 
 ### 2.3.3. User Journey Mapping
 
