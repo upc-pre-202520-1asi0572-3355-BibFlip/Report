@@ -2521,10 +2521,11 @@ El **IoT Monitoring Bounded Context** es responsable de gestionar la interacció
 
 <!-- Contenido de la bibliografía -->
 
+Diario UNO. (2025, abril 2). *Alumnos presentan molestia e inconformidad por la caída del sistema de matrícula de la Universidad Peruana de Ciencias Aplicadas (UPC)*. https://diariouno.pe/2025/04/02/alumnos-presentan-molestia-e-inconformidad-por-la-caida-del-sistema-de-matricula-de-la-universidad-peruana-de-ciencias-aplicadas-upc/
+
 Montoro, R. (2024). *Esta es la segunda biblioteca más grande del Perú y se encuentra en una prestigiosa universidad*. Infobae. https://www.infobae.com/peru/2024/12/10/esta-es-la-segunda-biblioteca-mas-grande-del-peru-y-se-encuentra-en-una-prestigiosa-universidad/
 
 SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*. https://repositorio.minedu.gob.pe/handle/20.500.12799/7913
-
 
 
 ---
