@@ -111,6 +111,17 @@ Entrevista N°1:
 **Resumen de la Entrevista:** <br>
 Durante la entrevista con Juan Carlos Villanueva, miembro del personal administrativo de la biblioteca, se nos comenta que para la reserva de cubículos en la biblioteca de la UPC se viene utilizando la misma plataforma web desde hace unos años. Por ello, él considera interesante la adición de tecnologías IoT para mejorar la gestión y reserva de cubículos. Sin embargo, menciona que debería hacerse un estudio previo para analizar si la relación entre el beneficio y el costo es realmente positiva.
 
+**Entrevista para el Segmento Objetivo 1 - Personal Bibliotecario:**
+
+**Entrevistado:** Alonso Rafael<br>
+**Sexo:** Masculino <br>
+**Edad:** 26 años<br>
+**Domicilio:** Lima<br>
+**Inicio de la Entrevista:** 0:04<br>
+**Duración de la Entrevista:** 3:00 <br>
+[![image.png](https://i.postimg.cc/SxFB322F/image.png)](https://postimg.cc/Tp0NWPJC)
+**Resumen de la Entrevista:** <br>
+Durante la entrevista con Alonso Rafael, de 26 años y miembro del personal administrativo de la biblioteca, se nos indicó que uno de los aspectos que más le interesaría mejorar es la visualización del aforo en cada cubículo en tiempo real. Alonso considera que una solución tecnológica que permita conocer la disponibilidad inmediata de los espacios sería muy útil, especialmente en épocas de alta demanda. Según comenta, esto ayudaría a reducir significativamente los tiempos de espera para los estudiantes y permitiría una mejor organización del uso de los espacios dentro de la biblioteca.
 
 
 **Entrevista para el Segmento Objetivo 2 - Estudiantes Universitarios:**
