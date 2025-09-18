@@ -57,6 +57,6 @@ En Azure, el sistema utiliza App Service para alojar la aplicación web frontend
 
 Los estudiantes acceden al sistema desde navegadores web o dispositivos Android. En cada sede, los cubículos cuentan con sensores IoT conectados a un Gateway local, que transmite la información al IoT Hub en Azure. Todas las comunicaciones se realizan mediante protocolos seguros como HTTPS, MQTT/TLS o conexiones MySQL.
 
-<img src="" alt="Deployment en C4"/><br>
 
+<img src="https://i.ibb.co/Y76Y7zrT/diagramde-deploy.png" alt="Diagrama de Deploy" border="0">
 
