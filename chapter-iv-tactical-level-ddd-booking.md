@@ -392,7 +392,7 @@ En esta sección se presenta el diagrama de componentes del **Booking Bounded Co
 
 El propósito de este diagrama es proporcionar una visión clara y estructurada de cómo se organizan los componentes dentro del contexto, facilitando la comprensión de su arquitectura y permitiendo identificar puntos de integración y responsabilidades.
 
-<img src="" alt="Booking BC Component Diagram"/><br>
+<img src="https://i.ibb.co/qYs1Jsgy/booking.png" alt="Booking BC Component Diagram" border="0">
 
 El **Booking Bounded Context** está compuesto por los siguientes módulos principales:
 
@@ -423,6 +423,7 @@ En este apartado se presentan los diagramas que ofrecen un mayor nivel de detall
 El diagrama de clases correspondiente a la **Domain Layer** del **Booking Bounded Context** incluye las clases principales, como agregados, entidades y objetos de valor, así como las interfaces y enumeraciones que definen el comportamiento del dominio. También se destacan las relaciones entre estos elementos, como asociaciones, composiciones y dependencias.
 
 <img src="" alt="Booking BC Domain Layer Class Diagram"/><br>
+
 
 **Elementos principales del diagrama:**
 

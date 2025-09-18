@@ -1,0 +1,138 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Component Diagram - IAM Bounded Context
+
+Person(estudiantes, "Estudiantes", "Se registran y autentican en el sistema")
+Person(adminCubiculos, "Administrador de Cubículos", "Se autentica para gestionar cubículos")
+Person(superAdmin, "Super Administrador", "Se autentica para administrar el sistema")
+
+System_Boundary(iamBC, "IAM Bounded Context") {
+    
+    Container_Boundary(interfaceLayer, "Interface Layer") {
+        Component(authenticationController, "AuthenticationController", "REST Controller", "Gestiona registro y autenticación via HTTP")
+        Component(usersController, "UsersController", "REST Controller", "Gestiona consultas de usuarios via HTTP")
+        Component(rolesController, "RolesController", "REST Controller", "Gestiona consultas de roles via HTTP")
+        
+        Component(authResources, "Authentication Resources", "DTOs", "SignUpResource, SignInResource, AuthenticatedUserResource")
+        Component(userResources, "User Resources", "DTOs", "UserResource")
+        Component(roleResources, "Role Resources", "DTOs", "RoleResource")
+        
+        Component(authTransformers, "Authentication Transformers", "Assemblers", "Convierte entre entidades y recursos de autenticación")
+        Component(userTransformers, "User Transformers", "Assemblers", "Convierte entre entidades de usuario y recursos")
+        Component(roleTransformers, "Role Transformers", "Assemblers", "Convierte entre entidades de rol y recursos")
+    }
+    
+    Container_Boundary(applicationLayer, "Application Layer") {
+        Component(userCommandService, "UserCommandServiceImpl", "Command Service", "Maneja comandos de usuarios (registro y autenticación)")
+        Component(roleCommandService, "RoleCommandServiceImpl", "Command Service", "Maneja comandos de roles (seed roles)")
+        
+        Component(userQueryService, "UserQueryServiceImpl", "Query Service", "Maneja consultas de usuarios")
+        Component(roleQueryService, "RoleQueryServiceImpl", "Query Service", "Maneja consultas de roles")
+        
+        Component(hashingService, "HashingService", "Security Service", "Codifica y verifica contraseñas")
+        Component(tokenService, "TokenService", "Security Service", "Genera y valida tokens JWT")
+    }
+    
+    Container_Boundary(domainLayer, "Domain Layer") {
+        Component(userAggregate, "User Aggregate", "Domain Model", "Gestiona lógica de usuarios y autenticación")
+        Component(roleEntity, "Role Entity", "Domain Model", "Gestiona roles del sistema")
+        
+        Component(valueObjects, "Value Objects", "Domain Model", "Roles (enum), Username, Password, Token")
+        
+        Component(commands, "Commands", "CQRS", "SignUpCommand, SignInCommand, SeedRolesCommand")
+        Component(queries, "Queries", "CQRS", "GetAllUsersQuery, GetUserByIdQuery, GetUserByUsernameQuery, GetAllRolesQuery, GetRoleByNameQuery")
+    }
+    
+    Container_Boundary(infrastructureLayer, "Infrastructure Layer") {
+        Component(userRepository, "UserRepository", "JPA Repository", "Persistencia de usuarios")
+        Component(roleRepository, "RoleRepository", "JPA Repository", "Persistencia de roles")
+        
+        Component(securityConfig, "SecurityConfiguration", "Spring Security", "Configuración de seguridad y JWT")
+    }
+}
+
+ContainerDb(database, "MySQL Database", "Relational Database", "Almacena usuarios, roles y relaciones")
+
+System_Ext(bookingBC, "Booking Bounded Context", "Valida existencia de usuarios para reservas")
+System_Ext(cubicleManagementBC, "Cubicle Management BC", "Consulta información de usuarios autenticados")
+System_Ext(branchingBC, "Branching Bounded Context", "Usa autenticación para acceso a sedes")
+
+' Relaciones Interface Layer
+Rel(estudiantes, authenticationController, "Se registra/autentica", "HTTPS/REST")
+Rel(adminCubiculos, authenticationController, "Se autentica", "HTTPS/REST")
+Rel(superAdmin, authenticationController, "Se autentica", "HTTPS/REST")
+
+Rel(adminCubiculos, usersController, "Consulta usuarios", "HTTPS/REST")
+Rel(superAdmin, usersController, "Gestiona usuarios", "HTTPS/REST")
+Rel(superAdmin, rolesController, "Consulta roles", "HTTPS/REST")
+
+Rel(authenticationController, userCommandService, "Ejecuta comandos")
+Rel(usersController, userQueryService, "Ejecuta consultas")
+Rel(rolesController, roleQueryService, "Ejecuta consultas")
+
+Rel(authenticationController, authTransformers, "Usa")
+Rel(usersController, userTransformers, "Usa")
+Rel(rolesController, roleTransformers, "Usa")
+
+Rel(authTransformers, authResources, "Transforma")
+Rel(userTransformers, userResources, "Transforma")
+Rel(roleTransformers, roleResources, "Transforma")
+
+' Relaciones Application Layer
+Rel(userCommandService, userAggregate, "Usa")
+Rel(roleCommandService, roleEntity, "Usa")
+Rel(userQueryService, userAggregate, "Consulta")
+Rel(roleQueryService, roleEntity, "Consulta")
+
+Rel(userCommandService, hashingService, "Codifica contraseñas")
+Rel(userCommandService, tokenService, "Genera tokens")
+
+Rel(userCommandService, userRepository, "Persiste")
+Rel(userCommandService, roleRepository, "Consulta roles")
+Rel(roleCommandService, roleRepository, "Persiste")
+Rel(userQueryService, userRepository, "Consulta")
+Rel(roleQueryService, roleRepository, "Consulta")
+
+' Relaciones Domain Layer
+Rel(userAggregate, roleEntity, "Tiene")
+Rel(userAggregate, valueObjects, "Usa")
+Rel(roleEntity, valueObjects, "Usa")
+
+Rel(commands, userAggregate, "Modifica")
+Rel(commands, roleEntity, "Modifica")
+Rel(queries, userAggregate, "Consulta")
+Rel(queries, roleEntity, "Consulta")
+
+' Relaciones Infrastructure Layer
+Rel(userRepository, database, "Lee/Escribe")
+Rel(roleRepository, database, "Lee/Escribe")
+Rel(securityConfig, tokenService, "Configura")
+Rel(securityConfig, hashingService, "Configura")
+
+' Relaciones externas
+Rel(bookingBC, userQueryService, "Valida usuarios", "Method calls")
+Rel(cubicleManagementBC, userQueryService, "Consulta usuarios", "Method calls")
+Rel(branchingBC, authenticationController, "Usa autenticación", "HTTP/REST")
+
+' Endpoints del Authentication Controller
+note right of authenticationController
+  **Endpoints:**
+  - POST /api/v1/authentication/sign-up
+  - POST /api/v1/authentication/sign-in
+end note
+
+' Endpoints del Users Controller
+note right of usersController
+  **Endpoints:**
+  - GET /api/v1/users
+  - GET /api/v1/users/{userId}
+end note
+
+' Endpoints del Roles Controller
+note right of rolesController
+  **Endpoints:**
+  - GET /api/v1/roles
+end note
+
+@enduml

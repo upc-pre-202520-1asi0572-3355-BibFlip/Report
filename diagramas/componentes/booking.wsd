@@ -1,0 +1,110 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Component Diagram - Booking Bounded Context
+
+Person(estudiantes, "Estudiantes", "Usuarios que realizan reservas de cubículos")
+Person(adminCubiculos, "Administrador de Cubículos", "Gestiona cubículos y supervisa reservas")
+
+System_Boundary(bookingBC, "Booking Bounded Context") {
+    
+    Container_Boundary(interfaceLayer, "Interface Layer") {
+        Component(bookingController, "BookingController", "REST Controller", "Gestiona operaciones de reservas via HTTP")
+        Component(cubicleController, "CubicleController", "REST Controller", "Gestiona operaciones de cubículos via HTTP")
+        
+        Component(bookingResource, "Booking Resources", "DTOs", "BookingResource, CreateBookingResource, BookingSlotResource")
+        Component(cubicleResource, "Cubicle Resources", "DTOs", "CubicleResource, CreateCubicleResource, AvailabilitySlotResource")
+        
+        Component(bookingTransformer, "Booking Transformers", "Assemblers", "Convierte entre entidades y recursos")
+        Component(cubicleTransformer, "Cubicle Transformers", "Assemblers", "Convierte entre entidades y recursos")
+    }
+    
+    Container_Boundary(applicationLayer, "Application Layer") {
+        Component(bookingCommandService, "BookingCommandServiceImpl", "Command Service", "Maneja comandos de reservas")
+        Component(cubicleCommandService, "CubicleCommandServiceImpl", "Command Service", "Maneja comandos de cubículos")
+        
+        Component(bookingQueryService, "BookingQueryServiceImpl", "Query Service", "Maneja consultas de reservas")
+        Component(cubicleQueryService, "CubicleQueryServiceImpl", "Query Service", "Maneja consultas de cubículos")
+        
+        Component(eventHandler, "SingleCubicleAvailabilitySlotsGeneratedEventHandler", "Event Handler", "Maneja eventos de generación de slots")
+        
+        Component(externalUserService, "ExternalUserService", "ACL", "Integración con IAM BC para validar usuarios")
+        Component(externalHeadquarterService, "ExternalHeadquarterService", "ACL", "Integración con Branching BC para info de sedes")
+    }
+    
+    Container_Boundary(domainLayer, "Domain Layer") {
+        Component(bookingAggregate, "Booking Aggregate", "Domain Model", "Gestiona lógica de reservas")
+        Component(cubicleAggregate, "Cubicle Aggregate", "Domain Model", "Gestiona lógica de cubículos")
+        
+        Component(entities, "Entities", "Domain Model", "AvailabilitySlot, BookingSlot")
+        Component(valueObjects, "Value Objects", "Domain Model", "UserId, HeadquarterId, CubicleDetails, TimeSlot, etc.")
+        
+        Component(commands, "Commands", "CQRS", "CreateBookingCommand, CreateCubicleCommand, etc.")
+        Component(queries, "Queries", "CQRS", "GetBookingByIdQuery, GetAllCubiclesQuery, etc.")
+        Component(events, "Events", "Domain Events", "SingleCubicleAvailabilitySlotsGeneratedEvent")
+    }
+    
+    Container_Boundary(infrastructureLayer, "Infrastructure Layer") {
+        Component(bookingRepository, "BookingRepository", "JPA Repository", "Persistencia de reservas")
+        Component(cubicleRepository, "CubicleRepository", "JPA Repository", "Persistencia de cubículos y slots")
+    }
+}
+
+ContainerDb(database, "MySQL Database", "Relational Database", "Almacena datos de reservas y cubículos")
+
+System_Ext(iamBC, "IAM Bounded Context", "Gestión de usuarios y autenticación")
+System_Ext(branchingBC, "Branching Bounded Context", "Gestión de sedes")
+
+' Relaciones Interface Layer
+Rel(estudiantes, bookingController, "Realiza reservas", "HTTPS/REST")
+Rel(adminCubiculos, cubicleController, "Gestiona cubículos", "HTTPS/REST")
+
+Rel(bookingController, bookingCommandService, "Ejecuta comandos")
+Rel(bookingController, bookingQueryService, "Ejecuta consultas")
+Rel(cubicleController, cubicleCommandService, "Ejecuta comandos")
+Rel(cubicleController, cubicleQueryService, "Ejecuta consultas")
+
+Rel(bookingController, bookingTransformer, "Usa")
+Rel(cubicleController, cubicleTransformer, "Usa")
+Rel(bookingTransformer, bookingResource, "Transforma")
+Rel(cubicleTransformer, cubicleResource, "Transforma")
+
+' Relaciones Application Layer
+Rel(bookingCommandService, bookingAggregate, "Usa")
+Rel(cubicleCommandService, cubicleAggregate, "Usa")
+Rel(bookingQueryService, bookingAggregate, "Consulta")
+Rel(cubicleQueryService, cubicleAggregate, "Consulta")
+
+Rel(bookingCommandService, externalUserService, "Valida usuarios")
+Rel(cubicleCommandService, externalHeadquarterService, "Obtiene info de sedes")
+
+Rel(eventHandler, cubicleCommandService, "Genera slots")
+
+Rel(bookingCommandService, bookingRepository, "Persiste")
+Rel(cubicleCommandService, cubicleRepository, "Persiste")
+Rel(bookingQueryService, bookingRepository, "Consulta")
+Rel(cubicleQueryService, cubicleRepository, "Consulta")
+
+' Relaciones Domain Layer
+Rel(bookingAggregate, entities, "Contiene")
+Rel(cubicleAggregate, entities, "Contiene")
+Rel(bookingAggregate, valueObjects, "Usa")
+Rel(cubicleAggregate, valueObjects, "Usa")
+
+Rel(commands, bookingAggregate, "Modifica")
+Rel(commands, cubicleAggregate, "Modifica")
+Rel(queries, bookingAggregate, "Consulta")
+Rel(queries, cubicleAggregate, "Consulta")
+
+Rel(cubicleAggregate, events, "Publica")
+Rel(events, eventHandler, "Dispara")
+
+' Relaciones Infrastructure Layer
+Rel(bookingRepository, database, "Lee/Escribe")
+Rel(cubicleRepository, database, "Lee/Escribe")
+
+' Relaciones externas
+Rel(externalUserService, iamBC, "Consulta usuarios", "REST/HTTP")
+Rel(externalHeadquarterService, branchingBC, "Consulta sedes", "REST/HTTP")
+
+@enduml
