@@ -1,36 +1,64 @@
-<div align="center">
-    <h3>Universidad Peruana de Ciencias Aplicadas</h3>
+
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>    
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software - 7mo Ciclo</strong><br><br>
+    <strong>Carrera de Ingeniería de Software - Ciclo VII</strong><br><br>
     <strong>Desarrollo de Soluciones IOT</strong><br>
-    1ASI0572
     <br><strong>NRC 3355</strong><br>
     <br><strong>Profesor: David Carlos Vera Olivera</strong><br>
-    <br><strong>Report</strong><br>
-    <br><strong>BibFlip Startup</strong><br>
-    <!--<strong>name startup</strong>-->
-    <br><h3> Integrantes: </h3>
+    <br><strong><b>INFORME DEL TRABAJO FINAL</strong></b><br>
+</p>
+
+<p align="center">
+    <strong>Startup del Proyecto: Bibflip</strong><br>
+    <strong>Producto: Bib Flip</strong><br>
+</p>
+
+<div>
+    <h3 align="center">Team Members:</h3>
 </div>
 
-<div align="center">
+<div>
+    <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Aranda Vallejos, Oscar Gabriel</td>
+            <td>U202218167</td>
+        </tr>
+        <tr>
+            <td>Bernaola Pérez, André Arturo</td>
+            <td>U202114192</td>
+        </tr>
+        <tr>
+            <td>Gutierrez Garcia, Jose Eduardo</td>
+            <td>U202221518</td>
+        </tr>
+        <tr>
+            <td>Oliveira Paucar, Mauricio</td>
+            <td>U201917831</td>
+        </tr>
+        <tr>
+            <td>Pedraza Maldonado, Joaquin</td>
+            <td>U202218514</td>
+        </tr>
+        <tr>
+            <td>Soriano Medrano, Diego</td>
+            <td>U202114793</td>
+        </tr>
+        <tr>
+            <td>Velarde Luyo, Piero Alberto</td>
+            <td>U20211A620</td>
+        </tr>
+    </table>
+    </div>
+</body>
 
-| Member                              |    Code    |
-| :---------------------------------- | :--------: |
-| Aranda Vallejos, Oscar Gabriel      | U202218167 |
-| Bernaola Pérez, André Arturo        | U202114192 |
-| Gutierrez Garcia, Jose Eduardo      | U202221518 |
-| Oliveira Paucar, Mauricio           | U201917831 |
-| Pedraza Maldonado, Joaquin          | U202218514 |
-| Soriano Medrano, Diego              | U202114793 |
-| Velarde Luyo, Piero Alberto         | U20211A620 |
-
-</div>
-
-<h3 align="center">Mayo, 2025</h3>
-
-<br><br>
-
-<div align="justify">
+<p align="center">
+<br><strong>2025-02</strong></p>
+<br>
 
 
 
