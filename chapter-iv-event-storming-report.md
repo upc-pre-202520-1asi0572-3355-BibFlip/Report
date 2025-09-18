@@ -1,0 +1,179 @@
+# Capítulo IV: Solution Software Design
+
+## 4.1. Strategic-Level Domain-Driven Design
+
+### 4.1.1. Event Storming
+
+Con el objetivo de comprender en profundidad el dominio del sistema, se llevó a cabo una sesión de Event Storming de aproximadamente 1 hora. Esto permitió que nosotros como equipo organizaramos nuestras ideas y pensamientos sobre sistema desde múltiples perspectivas: negocio, usuario final, administración y experiencia. A través de esta dinámica, identificamos eventos clave, comandos, usuarios y agregados que nos ayudaron a esbozar una primera visión integral del sistema.
+
+<br>
+
+**Se vieron los siguientes puntos en la reunión:**
+
+- Exploración del dominio general
+
+Se partió desde la experiencia del visitante en la landing page, avanzando por el flujo de registro e inicio de sesión como estudiante o administrador, hasta la reserva de cubiculos, visualización en tiempo real y gestión desde el panel administrativo.
+
+- Identificación de eventos y comandos clave
+
+Se colocaron notas naranjas para eventos, y se complementaron con comandos en azul. EL equipo seguío de las User Stories previamente realizadas, lo que aseguró la coherencia y el flujo de la solución.
+
+<br>
+
+- Asignación de roles y responsables
+
+Se diferenciaron los actores como: estudiante, administrador, superadmin, visitante, para asociar claramente qué parte del sistema controlan o en qué puntos interactúan. Al dividirlo de esta manera es más fácil detectar posibles conflictos o áreas de mejora en la experiencia.<br>
+
+[![Captura-de-pantalla-2025-09-17-164413.png](https://i.postimg.cc/h4VRmT50/Captura-de-pantalla-2025-09-17-164413.png)](https://postimg.cc/grc7FXdw)
+
+#### 4.1.1.1 Candidate Context Discovery
+
+Identificar contextos candidatos es un paso clave para gestionar la complejidad en el desarrollo de sistemas. Se trata de un análisis minucioso que busca entender los elementos centrales del sistema y sus interconexiones. A partir de ahí, se procede a agrupar estos elementos en 'contextos delimitados' lógicos y coherentes. Esta separación no solo facilita el diseño y la implementación, sino que también tiene como meta principal potenciar la escalabilidad, el desempeño y la mantenibilidad del sistema resultante.
+
+[![Captura-de-pantalla-2025-09-17-170232.png](https://i.postimg.cc/q7QXSbqG/Captura-de-pantalla-2025-09-17-170232.png)](https://postimg.cc/zLbgRknL)
+
+Para una mejor visualización del conjunto de diagramas, se proporciona el siguiente enlace: https://lucid.app/lucidchart/e553dbed-f6de-4913-994b-ed85dcd83d41/edit?viewport_loc=-3331%2C-1097%2C8294%2C3700%2CVluR_3p1AnhQ&invitationId=inv_a52a3e8b-f40f-4bae-ac7e-ddae54aa97c9
+
+#### 4.1.1.2 Domain Message Flows Modeling
+
+Para dar inicio con el diseño de nuestro software, es imperativo el uso del Modelado de Flujos de Mensajes de Dominio, un método que ilustra la transferencia de información entre componentes mediante mensajes. Este proceso se centra en especificar los mensajes enviados y recibidos por los diferentes actores del sistema y en descifrar sus relaciones. El uso de esta metodología aporta claridad para entender y representar las vías de información del sistema, permitiendo detectar problemas potenciales más fácilmente y optimizar la estructura del diseño. Por ello, a continuación se presenta el siguiente modelado:
+
+**Scenario: Registro de usuarios**
+
+**Actores:** 
+- Identificación de los usuarios dentro de nuestra solución teniendo dos actores 
+que se pueden identificar como `Personal de bibliotecas universitarias` o `Estudiantes universitarios`. 
+
+**Explicación del proceso y definición de los eventos:**
+
+1. El usuario llega a la página de inicio de sesión de la aplicación y a través de las opciones se realiza la gestión de roles para cada tipo de usuario.
+2. El usuario realiza el registro en el sistema como identificandose somo uno de los segmentos.  
+3. Registra sus datos (username, password) en los campos correspondientes para la creación de su cuenta. 
+4. Se realizan las validaciones correspondientes al registro de su contraseña.
+5. Se obtiene el registro del usuario en la aplicación.
+6. El usuario debe realizar la autenticación de sus datos la primera vez que ingresa a la aplicación.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/Kv8d3pYj/flowsmodeling1.jpg)
+
+<br>
+
+**Escenario: Autenticación y acceso a módulos**
+
+**Actores:**
+- Principal: Usuario (Estudiante o Personal Administrativo)
+- Principal: Personal de bibliotecas con permisos superiores
+
+**Explicación del proceso y definición de los eventos:**
+
+1. El usuario o administrador solicita acceso en la plataforma Bib Flip.
+2. El sistema IAM valida credenciales.
+3. Se determina el rol y se conceden permisos según perfil (usuario, administrador, superadmin).
+4. Se notifica al usuario sobre el resultado (acceso concedido o denegado).
+5. El usuario accede a las funcionalidades asignadas.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/MK3g70cD/flowsmodeling2.jpg)
+
+<br>
+
+**Escenario: Reserva de cubículos**
+
+**Actores:**
+- Principal: Usuario Estudiante universitario
+
+**Explicación del proceso y definición de los eventos:**
+
+1. Usuario inicia sesión y solicita ver disponibilidad en tiempo real.
+2. CUBICLE MANAGEMENT consulta y muestra disponibilidad.
+3. Usuario selecciona cubículo y crea solicitud de reserva.
+4. BOOKING MANAGEMENT valida y registra la reserva.
+5. CUBICLE MANAGEMENT actualiza el estado del cubículo.
+6. Usuario visualiza reserva activa confirmada.
+7. En caso de cancelación o finalización, la reserva se libera.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/8zq331mf/flowsmodeling3.jpg)
+
+<br>
+
+**Escenario: Gestión administrativa de bibliotecas y cubículos**
+
+**Actores:**
+- Principal: Administrador Personal de bibliotecas
+
+**Explicación del proceso y definición de los eventos:**
+
+1. Administrador inicia sesión y accede al panel administrativo.
+2. Solicita agregar, modificar o eliminar cubículos.
+3. CUBICLE MANAGEMENT procesa cambios y actualiza estado.
+4. ADMINISTRADOR visualiza biblioteca asignada.
+5. BRANCHING MANAGEMENT actualiza la gestión de sucursales o bibliotecas.
+6. Cambios se reflejan en la disponibilidad para usuarios.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/y8JtvJcz/flowsmodeling4.jpg)
+
+<br>
+
+
+
+#### 4.1.1.3 Bounded Context Canvases
+
+### IAM
+[![Captura-de-pantalla-2025-09-17-190220.png](https://i.postimg.cc/k4NQW7Rw/Captura-de-pantalla-2025-09-17-190220.png)](https://postimg.cc/Vr608QRb)
+
+### Cubicle Management
+[![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
+
+### Booking Management
+[![Captura-de-pantalla-2025-09-17-191031.png](https://i.postimg.cc/x1WpRTqS/Captura-de-pantalla-2025-09-17-191031.png)](https://postimg.cc/75nNP4gB)
+
+### Branching Management
+[![Captura-de-pantalla-2025-09-17-184920.png](https://i.postimg.cc/7hpLK2zk/Captura-de-pantalla-2025-09-17-184920.png)](https://postimg.cc/MfmxTXtP)
+
+### IoT Device Monitoring
+[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
+
+<br>
+
+### 4.1.2. Context Mapping
+
+En esta sección desarrollamos un conjunto de context maps para visualizar las relaciones entre los bounded contexts del sistema. A partir de la información recolectada, exploramos distintas alternativas de diseño, cuestionando cómo cambiaría la estructura si reubicamos, dividimos o agrupamos capabilities. Finalmente, evaluamos cada propuesta considerando patrones como Anti-corruption Layer, Conformist, Customer/Supplier y Shared Kernel, con el fin de definir la mejor aproximación para la arquitectura del dominio. A continucación presentaremos las opciones que contemplamos para el sistema y la estructura final.
+
+**Opción 1**
+
+Esta alternativa propone una arquitectura compuesta por cinco bounded contexts bien definidos, con relaciones claras entre ellos. La estructura busca equilibrar la separación de responsabilidades, para permitir que el sistema escale y se mantenga con facilidad. Además, facilita la instalación sin asistencia técnica y asegura tiempos de respuesta adecuados, lo que contribuye directamente a mejorar la experiencia de los estudiantes y administradores en el uso del sistema.
+
+<img src="https://i.postimg.cc/NfD6nYRG/Context-Mapping1.png">
+
+<br>
+
+**Opción 2**
+
+Esta alternativa propone unir los contextos de IoT Monitoring y Cubicle Management en un solo bounded context. Al hacerlo, se elimina la necesidad de sincronización externa entre ambos, manteniendo relaciones similares con los demás contextos del sistema. <br> Esta combinación presenta ventajas como la simplificación de la arquitectura al disminuir la cantidad de bounded contexts, una comunicación más directa entre la detección de ocupación de los cubículos y la gestión de reservas. <br> No obstante, una desventajas es la combinación de responsabilidades distintas, ya que una parte se enfoca en la infraestructura de sensores y la otra en procesos administrativos. Esto podría dificultar que el personal de la universidad realice la instalación del sistema en menos de una hora sin ayuda técnica, y además genera el riesgo de que un solo contexto asuma demasiadas funciones.
+
+<img src="https://i.postimg.cc/JzhNVgQN/Context-Mapping2.png">
+
+<br>
+
+**Opcion 3** 
+
+En esta estructura mantenemos los cinco bounded contexts separados con relaciones claramente definidas. Las ventajas de este tipo de contexto son por un lado la clara separación de responsabilidades y por otro lado, se especifica que cada contexto se enfoca en una funcionalidad específica. Una de las principales desventajas es que hay una mayor complejidad en la sincronización entre contextos.
+  
+<img src="https://i.postimg.cc/2SX4zwHP/Context-Mapping3.png">
+
+<br>
+
+**Elección** <br>
+Elegimos la opción 1, ya que proporciona el mejor equilibrio entre la separación de responsabilidades, la fácil de implementación y el cumplimiento de los requisitos del sistema, tomando en cuenta lo puntos detallados a continuación: <br>
+- Booking Management depende de IAM para autenticar y autorizar usuarios.
+- IAM Management y Branching Management comparten un núcleo común para datos de usuario y permisos administrativos.
+- Booking Management sigue las reglas y estado definidos por Cubicle Management sobre espacios.
+- IOT provee datos de sensores que Cubible Management adapta para no contaminar su modelo.
+- Branching Management y Cubicle Management colaboran para gestionar cubículos y asignaciones.
+- IAM Management y IOT Device Monitoring operan independientes sin dependencia directa.

@@ -1,0 +1,61 @@
+@startuml
+actor "Estudiantes" as estudiantes #lightblue
+actor "Administrador de Cubiculos" as adminCubiculos #darkblue
+actor "Super Administrador" as superAdmin #darkblue
+
+package "Frontend Interfaces" {
+  [Landing Page] <<Container>>
+  note right of [Landing Page] : Landing Page de BibFlip (HTML/CSS/JS)
+  [Mobile App BibFlip] <<Container>>
+  note right of [Mobile App BibFlip] : Aplicación móvil (Flutter)
+  [Web BibFlip] <<Container>>
+  note right of [Web BibFlip] : Aplicación web (Vue)
+}
+
+package "Backend Services" {
+  [API Gateway] <<Container>>
+  note right of [API Gateway] : Java Springboot
+
+  [Cloud API] <<Container>>
+  [Edge API] <<Container>>
+  note right of [Edge API] : API para sensores físicos(Python Flask)}
+}
+package "IoT Infrastructure" {
+  [Red de Sensores IOT] <<Software System>>
+  note right of [Red de Sensores IOT] : Sensores en cubículos con ubicación en tiempo real
+
+  [IOT App] <<Container>>
+  note right of [IOT App] : Gestión de IoT(Azure IoT)}
+}
+package "External Services" {
+  [Twilio] <<Software System>>
+  note right of [Twilio] : Servicio externo para envío de notificaciones
+}
+
+package "Databases" {
+  [BD Cloud] <<Database>>
+  note right of [BD Cloud] : MySQL
+
+  [BD Edge] <<Database>>
+  note right of [BD Edge] : SQLite
+}
+
+estudiantes--> [Landing Page] : redirige a
+estudiantes--> [Mobile App BibFlip] : usa
+estudiantes--> [Web BibFlip] : usa
+
+adminCubiculos--> [Web BibFlip] : usa
+superAdmin--> [Web BibFlip] : usa
+
+[Landing Page]--> [API Gateway] : envía request
+[Mobile App BibFlip]--> [API Gateway] : consume vía REST
+[Web BibFlip]--> [API Gateway] : consume vía REST
+[API Gateway]--> [Cloud API] : consume vía REST
+[Cloud API]--> [BD Cloud] : lee/escribe
+[Edge API]--> [BD Edge] : lee/escribe
+[Red de Sensores IOT]--> [Edge API] : envía datos
+[IOT App]--> [Edge API] : consume vía REST
+
+[Cloud API]--> [Twilio] : usa
+
+@enduml

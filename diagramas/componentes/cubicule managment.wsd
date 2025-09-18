@@ -1,0 +1,120 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Component Diagram - Cubicle Management Bounded Context
+
+Person(estudiantes, "Estudiantes", "Consultan estado de cubículos en tiempo real")
+Person(adminCubiculos, "Administrador de Cubículos", "Gestiona cubículos y supervisa estados")
+Person(superAdmin, "Super Administrador", "Administra configuración de cubículos")
+
+System_Boundary(cubicleManagementBC, "Cubicle Management Bounded Context") {
+    
+    Container_Boundary(interfaceLayer, "Interface Layer") {
+        Component(cubicleController, "CubicleController", "REST Controller", "Gestiona operaciones de cubículos via HTTP")
+        Component(cubicleContextFacade, "CubicleManagementContextFacade", "ACL", "Interfaz simplificada para otros contextos")
+        
+        Component(cubicleResource, "Cubicle Resources", "DTOs", "CubicleResource, CreateCubicleResource, UpdateCubicleStatusResource")
+        
+        Component(cubicleTransformer, "Cubicle Transformers", "Assemblers", "Convierte entre entidades y recursos")
+    }
+    
+    Container_Boundary(applicationLayer, "Application Layer") {
+        Component(cubicleCommandService, "CubicleCommandServiceImpl", "Command Service", "Maneja comandos de cubículos")
+        Component(cubicleQueryService, "CubicleQueryServiceImpl", "Query Service", "Maneja consultas de cubículos")
+        
+        Component(cubicleEventHandler, "CubicleStatusChangedEventHandler", "Event Handler", "Maneja eventos de cambio de estado")
+        
+        Component(externalHeadquarterService, "ExternalHeadquarterService", "ACL", "Integración con Branching BC")
+        Component(notificationService, "NotificationService", "External Service", "Envío de notificaciones")
+        Component(statisticsService, "StatisticsService", "External Service", "Recolección de estadísticas")
+    }
+    
+    Container_Boundary(domainLayer, "Domain Layer") {
+        Component(cubicleAggregate, "Cubicle Aggregate", "Domain Model", "Gestiona lógica de cubículos y estado")
+        Component(seatEntity, "Seat Entity", "Domain Model", "Gestiona estado de asientos individuales")
+        
+        Component(valueObjects, "Value Objects", "Domain Model", "CubicleNumber, HeadquarterId, Capacity, CubicleStatus, SeatStatus, Location")
+        
+        Component(commands, "Commands", "CQRS", "CreateCubicleCommand, UpdateCubicleStatusCommand, DeleteCubicleCommand")
+        Component(queries, "Queries", "CQRS", "GetCubicleByIdQuery, GetCubiclesByHeadquarterQuery, GetCubiclesByStatusQuery")
+        Component(events, "Events", "Domain Events", "CubicleCreatedEvent, CubicleStatusChangedEvent")
+    }
+    
+    Container_Boundary(infrastructureLayer, "Infrastructure Layer") {
+        Component(cubicleRepository, "CubicleRepository", "JPA Repository", "Persistencia de cubículos y asientos")
+    }
+}
+
+ContainerDb(database, "MySQL Database", "Relational Database", "Almacena datos de cubículos y asientos")
+
+System_Ext(branchingBC, "Branching Bounded Context", "Proporciona información de sedes")
+System_Ext(bookingBC, "Booking Bounded Context", "Consulta estado de cubículos para reservas")
+System_Ext(iotBC, "IoT Bounded Context", "Actualiza estado de ocupación en tiempo real")
+System_Ext(twilioService, "Twilio Service", "Servicio de notificaciones")
+
+' Relaciones Interface Layer
+Rel(estudiantes, cubicleController, "Consulta estado", "HTTPS/REST")
+Rel(adminCubiculos, cubicleController, "Gestiona cubículos", "HTTPS/REST")
+Rel(superAdmin, cubicleController, "Administra configuración", "HTTPS/REST")
+
+Rel(bookingBC, cubicleContextFacade, "Consulta estado de cubículos", "Method calls")
+Rel(iotBC, cubicleContextFacade, "Actualiza estado", "Method calls")
+
+Rel(cubicleController, cubicleCommandService, "Ejecuta comandos")
+Rel(cubicleController, cubicleQueryService, "Ejecuta consultas")
+Rel(cubicleContextFacade, cubicleQueryService, "Consulta datos")
+
+Rel(cubicleController, cubicleTransformer, "Usa")
+Rel(cubicleTransformer, cubicleResource, "Transforma")
+
+' Relaciones Application Layer
+Rel(cubicleCommandService, cubicleAggregate, "Usa")
+Rel(cubicleQueryService, cubicleAggregate, "Consulta")
+
+Rel(cubicleCommandService, externalHeadquarterService, "Valida sedes")
+Rel(cubicleEventHandler, notificationService, "Envía notificaciones")
+Rel(cubicleEventHandler, statisticsService, "Actualiza estadísticas")
+
+Rel(cubicleCommandService, cubicleRepository, "Persiste")
+Rel(cubicleQueryService, cubicleRepository, "Consulta")
+
+Rel(cubicleEventHandler, cubicleCommandService, "Procesa eventos")
+
+' Relaciones Domain Layer
+Rel(cubicleAggregate, seatEntity, "Contiene")
+Rel(cubicleAggregate, valueObjects, "Usa")
+Rel(seatEntity, valueObjects, "Usa")
+
+Rel(commands, cubicleAggregate, "Modifica")
+Rel(queries, cubicleAggregate, "Consulta")
+
+Rel(cubicleAggregate, events, "Publica")
+Rel(events, cubicleEventHandler, "Dispara")
+
+' Relaciones Infrastructure Layer
+Rel(cubicleRepository, database, "Lee/Escribe")
+
+' Relaciones externas
+Rel(externalHeadquarterService, branchingBC, "Consulta sedes", "REST/HTTP")
+Rel(notificationService, twilioService, "Envía notificaciones", "REST/HTTP")
+
+' Métodos específicos del ACL
+note right of cubicleContextFacade
+  **Métodos principales:**
+  - getCubicleStatus(Long cubicleId)
+  - getCubiclesByStatus(Long headquarterId, String status)
+  - existsCubicle(Long cubicleId)
+end note
+
+' Endpoints del Controller
+note right of cubicleController
+  **Endpoints:**
+  - POST /api/v1/cubicles
+  - GET /api/v1/cubicles/{cubicleId}
+  - GET /api/v1/cubicles
+  - GET /api/v1/headquarters/{headquarterId}/cubicles
+  - PUT /api/v1/cubicles/{cubicleId}/status
+  - DELETE /api/v1/cubicles/{cubicleId}
+end note
+
+@enduml

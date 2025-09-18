@@ -1,0 +1,102 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Component Diagram - Branching Bounded Context
+
+Person(adminCubiculos, "Administrador de Cubículos", "Gestiona información de sedes")
+Person(superAdmin, "Super Administrador", "Administra configuración del sistema")
+
+System_Boundary(branchingBC, "Branching Bounded Context") {
+    
+    Container_Boundary(interfaceLayer, "Interface Layer") {
+        Component(headquarterController, "HeadquarterController", "REST Controller", "Gestiona operaciones de sedes via HTTP")
+        Component(headquarterContextFacade, "HeadquarterContextFacade", "ACL", "Interfaz simplificada para otros contextos")
+        
+        Component(headquarterResource, "Headquarter Resources", "DTOs", "HeadquarterResource, CreateHeadquarterResource")
+        
+        Component(headquarterTransformer, "Headquarter Transformers", "Assemblers", "Convierte entre entidades y recursos")
+    }
+    
+    Container_Boundary(applicationLayer, "Application Layer") {
+        Component(headquarterCommandService, "HeadquarterCommandServiceImpl", "Command Service", "Maneja comandos de sedes")
+        Component(headquarterQueryService, "HeadquarterQueryServiceImpl", "Query Service", "Maneja consultas de sedes")
+        
+        Component(headquarterEventHandler, "HeadquarterEventHandler", "Event Handler", "Maneja eventos de sedes")
+    }
+    
+    Container_Boundary(domainLayer, "Domain Layer") {
+        Component(headquarterAggregate, "Headquarter Aggregate", "Domain Model", "Gestiona lógica de sedes")
+        Component(scheduleEntity, "Schedule Entity", "Domain Model", "Gestiona horarios de atención")
+        
+        Component(valueObjects, "Value Objects", "Domain Model", "NameHeadquarter, ContactNumbers, Coordinates, StreetAddress, BusinessHours")
+        
+        Component(commands, "Commands", "CQRS", "CreateHeadquarterCommand, UpdateHeadquarterCommand")
+        Component(queries, "Queries", "CQRS", "GetHeadquarterByIdQuery, GetAllHeadquartersQuery")
+        Component(events, "Events", "Domain Events", "HeadquarterCreatedEvent, HeadquarterUpdatedEvent")
+    }
+    
+    Container_Boundary(infrastructureLayer, "Infrastructure Layer") {
+        Component(headquarterRepository, "HeadquarterRepository", "JPA Repository", "Persistencia de sedes")
+    }
+}
+
+ContainerDb(database, "MySQL Database", "Relational Database", "Almacena datos de sedes y horarios")
+
+System_Ext(bookingBC, "Booking Bounded Context", "Consulta información de sedes para reservas")
+System_Ext(iotBC, "IoT Bounded Context", "Utiliza información de ubicación de sedes")
+
+' Relaciones Interface Layer
+Rel(adminCubiculos, headquarterController, "Gestiona sedes", "HTTPS/REST")
+Rel(superAdmin, headquarterController, "Configura sedes", "HTTPS/REST")
+
+Rel(bookingBC, headquarterContextFacade, "Consulta info de sedes", "Method calls")
+Rel(iotBC, headquarterContextFacade, "Obtiene ubicaciones", "Method calls")
+
+Rel(headquarterController, headquarterCommandService, "Ejecuta comandos")
+Rel(headquarterController, headquarterQueryService, "Ejecuta consultas")
+Rel(headquarterContextFacade, headquarterQueryService, "Consulta datos")
+
+Rel(headquarterController, headquarterTransformer, "Usa")
+Rel(headquarterTransformer, headquarterResource, "Transforma")
+
+' Relaciones Application Layer
+Rel(headquarterCommandService, headquarterAggregate, "Usa")
+Rel(headquarterQueryService, headquarterAggregate, "Consulta")
+
+Rel(headquarterCommandService, headquarterRepository, "Persiste")
+Rel(headquarterQueryService, headquarterRepository, "Consulta")
+
+Rel(headquarterEventHandler, headquarterCommandService, "Procesa eventos")
+
+' Relaciones Domain Layer
+Rel(headquarterAggregate, scheduleEntity, "Contiene")
+Rel(headquarterAggregate, valueObjects, "Usa")
+Rel(scheduleEntity, valueObjects, "Usa")
+
+Rel(commands, headquarterAggregate, "Modifica")
+Rel(queries, headquarterAggregate, "Consulta")
+
+Rel(headquarterAggregate, events, "Publica")
+Rel(events, headquarterEventHandler, "Dispara")
+
+' Relaciones Infrastructure Layer
+Rel(headquarterRepository, database, "Lee/Escribe")
+
+' Métodos específicos del ACL
+note right of headquarterContextFacade
+  **Métodos principales:**
+  - getOpeningTime(Long headquarterId)
+  - getClosingTime(Long headquarterId)
+  - getIntervalMinutes(Long headquarterId)
+  - existsHeadquarter(Long headquarterId)
+end note
+
+' Endpoints del Controller
+note right of headquarterController
+  **Endpoints:**
+  - POST /api/v1/headquarters
+  - GET /api/v1/headquarters/{id}
+  - GET /api/v1/headquarters
+end note
+
+@enduml
