@@ -2,7 +2,7 @@
 ## 3.1. To-Be Scenario Mapping
 Este mapeo “To-Be” presenta el escenario ideal posterior a la implementación de Bibflip, describiendo cómo cambiarán las experiencias del propietario del centro de estudio y del usuario gracias a la solución IoT propuesta. Se detallan acciones, pensamientos y emociones alineadas a los beneficios que aporta el sistema.
 
-### ¿Qué hace el Dueño del Centro de Estudio?
+### ¿Qué hace el  Administrador biblioteca universitarios?
 
 | **Phases**                     | **Doing**                                                                                          | **Thinking**                                           | **Feeling**               |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------|---------------------------|
