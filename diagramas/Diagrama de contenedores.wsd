@@ -19,14 +19,14 @@ package "Backend Services" {
   [Cloud API] <<Container>>
   [Edge API] <<Container>>
   note right of [Edge API] : API para sensores físicos(Python Flask)}
-
+}
 package "IoT Infrastructure" {
   [Red de Sensores IOT] <<Software System>>
   note right of [Red de Sensores IOT] : Sensores en cubículos con ubicación en tiempo real
 
   [IOT App] <<Container>>
   note right of [IOT App] : Gestión de IoT(Azure IoT)}
-
+}
 package "External Services" {
   [Twilio] <<Software System>>
   note right of [Twilio] : Servicio externo para envío de notificaciones
