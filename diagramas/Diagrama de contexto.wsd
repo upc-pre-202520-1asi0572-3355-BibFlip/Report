@@ -1,0 +1,27 @@
+@startuml
+actor "Estudiantes" as estudiantes #lightblue
+actor "Administrador de Cubiculos" as adminCubiculos #darkblue
+actor "Super Administrador" as superAdmin #darkblue
+
+package "BibFlip System" {
+  [BibFlip] <<Software System>>
+  note right of [BibFlip] : Sistema de reserva y Gestión de Cubículos
+}
+
+package "Twilio Service" {
+  [Twilio] <<Software System>>
+  note right of [Twilio] : Servicio externo para envío de notificaciones
+}
+
+package "IoT Infrastructure" {
+  [Red de Sensores IOT] <<Software System>>
+  note right of [Red de Sensores IOT] : Sensores instalados en los cubículos que detectan ubicación en tiempo real
+}
+
+estudiantes-down-> [BibFlip] : usa 
+adminCubiculos-down-> [BibFlip] : usa 
+superAdmin-down-> [BibFlip] : usa 
+
+[BibFlip]-down-> [Twilio] : usa 
+[Red de Sensores IOT]-right-> [BibFlip] : envía datos 
+@enduml
