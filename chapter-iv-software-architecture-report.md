@@ -4,9 +4,9 @@ En esta sección, se presenta y explica la representación de la arquitectura de
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-Este diagrama muestra que el sistema opera en un ecosistema compuesto por tres tipos de usuarios: Estudiantes, Administradores de Cubículos y Super Administradores. Los estudiantes utilizan el sistema para reservar cubículos y consultar su disponibilidad en tiempo real. Los Administradores de Cubículos gestionan la asignación de espacios y verifican que se cumpla la regla de ocupación mínima (no se pueden reservar cubículos con menos de 4 estudiantes). Por su parte, los Super Administradores (equipo de desarrollo) se encargan del mantenimiento y la actualización del sistema. El sistema también se conecta con un servicio externo, como Google Maps API, para mostrar la ubicación de los cubículos en las sedes universitarias.
+Este diagrama muestra que el sistema opera en un ecosistema compuesto por tres tipos de usuarios: Estudiantes, Administradores de Cubículos y Super Administradores. Los estudiantes utilizan el sistema para reservar cubículos y consultar su disponibilidad en tiempo real. Los Administradores de Cubículos gestionan la asignación de espacios y verifican que se cumpla la regla de ocupación mínima (no se pueden reservar cubículos con menos de 4 estudiantes). Por su parte, el Super Administrador se encargan de gestionar al personal bibliotecario. El sistema también se conecta con un servicio externo, como Twilio, para enviar notificaciones a los usuarios.
 
-<img src="" alt="Landscape en C4"/><br>
+<a href="https://ibb.co/qM3NP10P"><img src="https://i.ibb.co/6R7Hfsvf/Landscape-Diagram.png" alt="Landscape-Diagram" border="0"></a>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
