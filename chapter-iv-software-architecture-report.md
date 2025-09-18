@@ -4,9 +4,9 @@ En esta sección, se presenta y explica la representación de la arquitectura de
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-Este diagrama muestra que el sistema opera en un ecosistema compuesto por tres tipos de usuarios: Estudiantes, Administradores de Cubículos y Super Administradores. Los estudiantes utilizan el sistema para reservar cubículos y consultar su disponibilidad en tiempo real. Los Administradores de Cubículos gestionan la asignación de espacios y verifican que se cumpla la regla de ocupación mínima (no se pueden reservar cubículos con menos de 4 estudiantes). Por su parte, el Super Administrador se encargan de gestionar al personal bibliotecario. El sistema también se conecta con un servicio externo, como Twilio, para enviar notificaciones a los usuarios.
+Este diagrama muestra que el sistema opera en un ecosistema compuesto por tres tipos de usuarios: Estudiantes, Administradores de Cubículos y Super Administradores. Los estudiantes utilizan el sistema para reservar cubículos y consultar su disponibilidad en tiempo real. Los Administradores de Cubículos gestionan la asignación de espacios y verifican que se cumpla la regla de ocupación mínima (no se pueden reservar cubículos con menos de 4 estudiantes). Por su parte, el Super Administrador se encargan de manter y actualizar el sistema. El sistema también se conecta con un servicio externo, como Twilio, para enviar notificaciones a los usuarios.
 
-<a href="https://ibb.co/qM3NP10P"><img src="https://i.ibb.co/6R7Hfsvf/Landscape-Diagram.png" alt="Landscape-Diagram" border="0"></a>
+<a href="https://ibb.co/PSfcstY"><img src="https://i.ibb.co/FPj5knW/Landscape-Diagram.png" alt="Landscape-Diagram" border="0"></a>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
@@ -20,7 +20,7 @@ Este diagrama muestra que el sistema (representado como una única entidad) inte
 
 El sistema también se comunica con dos servicios externos:
 
-- Google Maps API, que permite mostrar las ubicaciones de las sedes UPC.
+- Twilio, que permite enviar notificaciones a los usuarios.
 
 - Sensores IoT, que proveen datos en tiempo real sobre la ocupación de cubículos.
 
