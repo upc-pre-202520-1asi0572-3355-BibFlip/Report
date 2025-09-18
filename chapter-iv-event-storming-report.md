@@ -124,18 +124,22 @@ que se pueden identificar como `Personal de bibliotecas universitarias` o `Estud
 
 #### 4.1.1.3 Bounded Context Canvases
 
-### Booking Management
-[![booking-management-canva.jpg](https://i.postimg.cc/2SDTDHPZ/booking-management-canva.jpg)](https://postimg.cc/nC3qK1VF)
+### IAM
+[![Captura-de-pantalla-2025-09-17-190220.png](https://i.postimg.cc/k4NQW7Rw/Captura-de-pantalla-2025-09-17-190220.png)](https://postimg.cc/Vr608QRb)
 
 ### Cubicle Management
 [![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
 
-### IoT Monitoring
-<a href="https://ibb.co/MxjxwgWw"><img src="https://i.ibb.co/Txnxjwpj/Bounded-Context-Canvases-Iot-Monitoring.jpg" alt="Bounded-Context-Canvases-Iot-Monitoring" border="0"></a><br>
+### Booking Management
+[![Captura-de-pantalla-2025-09-17-191031.png](https://i.postimg.cc/x1WpRTqS/Captura-de-pantalla-2025-09-17-191031.png)](https://postimg.cc/75nNP4gB)
 
+### Branching Management
+[![Captura-de-pantalla-2025-09-17-184920.png](https://i.postimg.cc/7hpLK2zk/Captura-de-pantalla-2025-09-17-184920.png)](https://postimg.cc/MfmxTXtP)
 
-### Headquarter Management
-<a href="https://ibb.co/HTX3nqcQ"><img src="https://i.ibb.co/ZzN7WxQC/Bounded-Context-Canvases-Headquarter-Management.jpg" alt="Bounded-Context-Canvases-Headquarter-Management" border="0"></a><br>
+### IoT Device Monitoring
+[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
+
+<br>
 
 ### 4.1.2. Context Mapping
 
@@ -143,9 +147,9 @@ En esta sección desarrollamos un conjunto de context maps para visualizar las r
 
 **Opción 1**
 
-En esta estructura mantenemos los cinco bounded contexts separados con relaciones claramente definidas. Las ventajas de este tipo de contexto son por un lado la clara separación de responsabilidades y por otro lado, se especifica que cada contexto se enfoca en una funcionalidad específica. Una de las principales desventajas es que hay una mayor complejidad en la sincronización entre contextos.
+Esta alternativa propone una arquitectura compuesta por cinco bounded contexts bien definidos, con relaciones claras entre ellos. La estructura busca equilibrar la separación de responsabilidades, para permitir que el sistema escale y se mantenga con facilidad. Además, facilita la instalación sin asistencia técnica y asegura tiempos de respuesta adecuados, lo que contribuye directamente a mejorar la experiencia de los estudiantes y administradores en el uso del sistema.
 
-<img src="images/context_diagrams/opcion1.png">
+<img src="https://i.postimg.cc/NfD6nYRG/Context-Mapping1.png">
 
 <br>
 
@@ -153,26 +157,23 @@ En esta estructura mantenemos los cinco bounded contexts separados con relacione
 
 Esta alternativa propone unir los contextos de IoT Monitoring y Cubicle Management en un solo bounded context. Al hacerlo, se elimina la necesidad de sincronización externa entre ambos, manteniendo relaciones similares con los demás contextos del sistema. <br> Esta combinación presenta ventajas como la simplificación de la arquitectura al disminuir la cantidad de bounded contexts, una comunicación más directa entre la detección de ocupación de los cubículos y la gestión de reservas. <br> No obstante, una desventajas es la combinación de responsabilidades distintas, ya que una parte se enfoca en la infraestructura de sensores y la otra en procesos administrativos. Esto podría dificultar que el personal de la universidad realice la instalación del sistema en menos de una hora sin ayuda técnica, y además genera el riesgo de que un solo contexto asuma demasiadas funciones.
 
-<img src="images/context_diagrams/opcion2.png"> <br>
+<img src="https://i.postimg.cc/JzhNVgQN/Context-Mapping2.png">
 
 <br>
 
 **Opcion 3** 
 
-Esta alternativa propone una arquitectura compuesta por cinco bounded contexts bien definidos, con relaciones claras entre ellos. La estructura busca equilibrar la separación de responsabilidades, para permitir que el sistema escale y se mantenga con facilidad. Además, facilita la instalación sin asistencia técnica y asegura tiempos de respuesta adecuados, lo que contribuye directamente a mejorar la experiencia de los estudiantes en el uso del sistema.
-
-* Headquarter Management se comunica con Student Management y Cubicle Management, proporcionando la información de las sedes. Student Management adapta su contenido según cada sede, y Cubicle Management utiliza la información organizativa que viene de Headquarter. En ambos casos, la relación es del tipo Customer/Supplier, donde Headquarter es el proveedor.
-
-* Cubicle Management y Booking Management comparten el modelo de “cubículo” y su disponibilidad. Por eso, tienen una relación de tipo Shared Kernel, lo que asegura que ambos usen los mismos conceptos para evitar errores o confusión, incluyendo la validación de que solo se permitan reservas con grupos completos de estudiantes (4 o 5 por cubículo).
-
-* Booking Management también se relaciona con Student Management, pero en este caso la relación es Conformist. Booking utiliza información de los estudiantes, pero se adapta a su estructura sin modificarla.
-
-* IoT Monitoring se conecta con Cubicle Management mediante una Anti-corruption Layer. Esta capa traduce los datos que vienen de los sensores a un formato que Cubicle Management pueda entender. Así, se protege el sistema de los detalles técnicos del IoT y se facilita la instalación del sistema sin ayuda especializada.
+En esta estructura mantenemos los cinco bounded contexts separados con relaciones claramente definidas. Las ventajas de este tipo de contexto son por un lado la clara separación de responsabilidades y por otro lado, se especifica que cada contexto se enfoca en una funcionalidad específica. Una de las principales desventajas es que hay una mayor complejidad en la sincronización entre contextos.
   
-<img src="images/context_diagrams/opcion3.png">
+<img src="https://i.postimg.cc/2SX4zwHP/Context-Mapping3.png">
 
 <br>
 
 **Elección** <br>
-Elegimos la opción 3, ya que proporciona el mejor equilibrio entre la separación de responsabilidades, la fácil de implementación y el cumplimiento de los requisitos del sistema. <br>
-Al definir cinco bounded contexts con relaciones claras, se facilita la evolución independiente de cada parte del sistema, lo que mejora su escalabilidad y mantenibilidad. Además, al separar gestiones, como la de gestión de IoT mediante una Anti-corruption Layer, se simplifica la instalación. Asimismo, esta estructura garantiza tiempos de respuesta rápidos y optimiza la gestión de cubículos, reservas y estudiantes, brindando una experiencia más fluida y eficiente para los usuarios y el personal.
+Elegimos la opción 1, ya que proporciona el mejor equilibrio entre la separación de responsabilidades, la fácil de implementación y el cumplimiento de los requisitos del sistema, tomando en cuenta lo puntos detallados a continuación: <br>
+- Booking Management depende de IAM para autenticar y autorizar usuarios.
+- IAM Management y Branching Management comparten un núcleo común para datos de usuario y permisos administrativos.
+- Booking Management sigue las reglas y estado definidos por Cubicle Management sobre espacios.
+- IOT provee datos de sensores que Cubible Management adapta para no contaminar su modelo.
+- Branching Management y Cubicle Management colaboran para gestionar cubículos y asignaciones.
+- IAM Management y IOT Device Monitoring operan independientes sin dependencia directa.
