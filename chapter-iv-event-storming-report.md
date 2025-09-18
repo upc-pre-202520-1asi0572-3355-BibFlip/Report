@@ -38,29 +38,104 @@ Para una mejor visualización del conjunto de diagramas, se proporciona el sigui
 
 Para dar inicio con el diseño de nuestro software, es imperativo el uso del Modelado de Flujos de Mensajes de Dominio, un método que ilustra la transferencia de información entre componentes mediante mensajes. Este proceso se centra en especificar los mensajes enviados y recibidos por los diferentes actores del sistema y en descifrar sus relaciones. El uso de esta metodología aporta claridad para entender y representar las vías de información del sistema, permitiendo detectar problemas potenciales más fácilmente y optimizar la estructura del diseño. Por ello, a continuación se presenta el siguiente modelado:
 
-[![Captura-de-pantalla-2025-09-16-222236.png](https://i.postimg.cc/qqQVdGnT/Captura-de-pantalla-2025-09-16-222236.png)](https://postimg.cc/sGB0Y7w6)
+**Scenario: Registro de usuarios**
 
+**Actores:** 
+- Identificación de los usuarios dentro de nuestra solución teniendo dos actores 
+que se pueden identificar como `Personal de bibliotecas universitarias` o `Estudiantes universitarios`. 
+
+**Explicación del proceso y definición de los eventos:**
+
+1. El usuario llega a la página de inicio de sesión de la aplicación y a través de las opciones se realiza la gestión de roles para cada tipo de usuario.
+2. El usuario realiza el registro en el sistema como identificandose somo uno de los segmentos.  
+3. Registra sus datos (username, password) en los campos correspondientes para la creación de su cuenta. 
+4. Se realizan las validaciones correspondientes al registro de su contraseña.
+5. Se obtiene el registro del usuario en la aplicación.
+6. El usuario debe realizar la autenticación de sus datos la primera vez que ingresa a la aplicación.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/Kv8d3pYj/flowsmodeling1.jpg)
+
+<br>
+
+**Escenario: Autenticación y acceso a módulos**
+
+**Actores:**
+- Principal: Usuario (Estudiante o Personal Administrativo)
+- Principal: Personal de bibliotecas con permisos superiores
+
+**Explicación del proceso y definición de los eventos:**
+
+1. El usuario o administrador solicita acceso en la plataforma Bib Flip.
+2. El sistema IAM valida credenciales.
+3. Se determina el rol y se conceden permisos según perfil (usuario, administrador, superadmin).
+4. Se notifica al usuario sobre el resultado (acceso concedido o denegado).
+5. El usuario accede a las funcionalidades asignadas.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/MK3g70cD/flowsmodeling2.jpg)
+
+<br>
+
+**Escenario: Reserva de cubículos**
+
+**Actores:**
+- Principal: Usuario Estudiante universitario
+
+**Explicación del proceso y definición de los eventos:**
+
+1. Usuario inicia sesión y solicita ver disponibilidad en tiempo real.
+2. CUBICLE MANAGEMENT consulta y muestra disponibilidad.
+3. Usuario selecciona cubículo y crea solicitud de reserva.
+4. BOOKING MANAGEMENT valida y registra la reserva.
+5. CUBICLE MANAGEMENT actualiza el estado del cubículo.
+6. Usuario visualiza reserva activa confirmada.
+7. En caso de cancelación o finalización, la reserva se libera.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/8zq331mf/flowsmodeling3.jpg)
+
+<br>
+
+**Escenario: Gestión administrativa de bibliotecas y cubículos**
+
+**Actores:**
+- Principal: Administrador Personal de bibliotecas
+
+**Explicación del proceso y definición de los eventos:**
+
+1. Administrador inicia sesión y accede al panel administrativo.
+2. Solicita agregar, modificar o eliminar cubículos.
+3. CUBICLE MANAGEMENT procesa cambios y actualiza estado.
+4. ADMINISTRADOR visualiza biblioteca asignada.
+5. BRANCHING MANAGEMENT actualiza la gestión de sucursales o bibliotecas.
+6. Cambios se reflejan en la disponibilidad para usuarios.
+
+**Visualización del flujo:**
+
+![](https://i.postimg.cc/y8JtvJcz/flowsmodeling4.jpg)
+
+<br>
 
 
 
 #### 4.1.1.3 Bounded Context Canvases
 
-### IAM
-[![Captura-de-pantalla-2025-09-17-190220.png](https://i.postimg.cc/k4NQW7Rw/Captura-de-pantalla-2025-09-17-190220.png)](https://postimg.cc/Vr608QRb)
+### Booking Management
+[![booking-management-canva.jpg](https://i.postimg.cc/2SDTDHPZ/booking-management-canva.jpg)](https://postimg.cc/nC3qK1VF)
 
 ### Cubicle Management
 [![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
 
-### Booking Management
-[![Captura-de-pantalla-2025-09-17-191031.png](https://i.postimg.cc/x1WpRTqS/Captura-de-pantalla-2025-09-17-191031.png)](https://postimg.cc/75nNP4gB)
-
-### Branching Management
-[![Captura-de-pantalla-2025-09-17-184920.png](https://i.postimg.cc/7hpLK2zk/Captura-de-pantalla-2025-09-17-184920.png)](https://postimg.cc/MfmxTXtP)
-
-### IoT Device Monitoring
-[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
+### IoT Monitoring
+<a href="https://ibb.co/MxjxwgWw"><img src="https://i.ibb.co/Txnxjwpj/Bounded-Context-Canvases-Iot-Monitoring.jpg" alt="Bounded-Context-Canvases-Iot-Monitoring" border="0"></a><br>
 
 
+### Headquarter Management
+<a href="https://ibb.co/HTX3nqcQ"><img src="https://i.ibb.co/ZzN7WxQC/Bounded-Context-Canvases-Headquarter-Management.jpg" alt="Bounded-Context-Canvases-Headquarter-Management" border="0"></a><br>
 
 ### 4.1.2. Context Mapping
 
