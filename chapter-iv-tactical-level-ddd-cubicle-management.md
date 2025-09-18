@@ -1,4 +1,4 @@
-### 4.2.2. Bounded Context: Table Management
+### 4.2.2. Bounded Context: Cubicle Management
 
 El **Cubicle Management Bounded Context** es responsable de gestionar la información y el estado de los cubículos en las sedes de la universidad. Este contexto se encarga de registrar, actualizar y consultar el estado de los cubículos, así como su capacidad, ubicación dentro de la sede y otros atributos relevantes. Es el núcleo central que permite la visualización en tiempo real del estado de ocupación de los cubículos para los usuarios.
 

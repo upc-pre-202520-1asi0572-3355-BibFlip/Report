@@ -45,17 +45,21 @@ Para dar inicio con el diseño de nuestro software, es imperativo el uso del Mod
 
 #### 4.1.1.3 Bounded Context Canvases
 
-### Booking Management
-[![booking-management-canva.jpg](https://i.postimg.cc/2SDTDHPZ/booking-management-canva.jpg)](https://postimg.cc/nC3qK1VF)
+### IAM
+[![Captura-de-pantalla-2025-09-17-190220.png](https://i.postimg.cc/k4NQW7Rw/Captura-de-pantalla-2025-09-17-190220.png)](https://postimg.cc/Vr608QRb)
 
 ### Cubicle Management
 [![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
 
-### IoT Device Monitoring
-[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
+### Booking Management
+[![Captura-de-pantalla-2025-09-17-191031.png](https://i.postimg.cc/x1WpRTqS/Captura-de-pantalla-2025-09-17-191031.png)](https://postimg.cc/75nNP4gB)
 
 ### Branching Management
 [![Captura-de-pantalla-2025-09-17-184920.png](https://i.postimg.cc/7hpLK2zk/Captura-de-pantalla-2025-09-17-184920.png)](https://postimg.cc/MfmxTXtP)
+
+### IoT Device Monitoring
+[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
+
 
 
 ### 4.1.2. Context Mapping
