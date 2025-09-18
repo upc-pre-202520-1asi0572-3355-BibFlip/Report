@@ -70,6 +70,11 @@ Este mapeo “To-Be” presenta el escenario ideal posterior a la implementació
 
 
 ## 3.3. Impact Mapping
+##Segmento Estudiantes 
+[![Impactmapestudiante.jpg](https://i.postimg.cc/HsTCS8fJ/Impactmapestudiante.jpg)](https://postimg.cc/147TXXRP)
+
+##Segmento administradores de biblioteca universitaria
+[![Impactmapadmin.jpg](https://i.postimg.cc/XJ29TCsV/Impactmapadmin.jpg)](https://postimg.cc/ft93dJ4F)
 
 <!-- Contenido de Impact Mapping -->
 
