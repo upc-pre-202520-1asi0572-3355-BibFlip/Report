@@ -95,6 +95,23 @@ Buenas tardes, gracias por asistir a esta entrevista
 
 **Entrevista para el Segmento Objetivo 1 - Personal Bibliotecario:**
 
+---
+
+Entrevista N°1:
+
+**Entrevistado:** Juan Carlos Villanueva<br>
+**Sexo:** Masculino <br>
+**Edad:** 39 años<br>
+**Domicilio:** Lima<br>
+**Inicio de la Entrevista:** 0:04<br>
+**Duración de la Entrevista:** 4:35<br>
+
+<a href="https://ibb.co/cc9QkCvm"><img src="https://i.postimg.cc/HW8V6RbH/Captura-de-pantalla-2025-09-17-211456.png" alt="Entrevista con Nasthya" style="width: 600px; height: auto;"><br></a>
+
+**Resumen de la Entrevista:** <br>
+Durante la entrevista con Juan Carlos Villanueva, miembro del personal administrativo de la biblioteca, se nos comenta que para la reserva de cubículos en la biblioteca de la UPC se viene utilizando la misma plataforma web desde hace unos años. Por ello, él considera interesante la adición de tecnologías IoT para mejorar la gestión y reserva de cubículos. Sin embargo, menciona que debería hacerse un estudio previo para analizar si la relación entre el beneficio y el costo es realmente positiva.
+
+
 
 **Entrevista para el Segmento Objetivo 2 - Estudiantes Universitarios:**
 
@@ -120,7 +137,45 @@ La entrevista con Nasthya del Carpio, estudiante de 21 años de Diseño de Inter
 
 ### 2.2.3. Análisis de entrevistas
 
-<!-- Contenido del análisis de entrevistas -->
+#### Segmento Objetivo 1: Personal Bibliotecario
+
+##### Insights principales:
+
+- Tecnología actual limitada: El personal bibliotecario utiliza la misma plataforma web desde hace años, lo que indica una oportunidad de modernización.
+- Apertura a la innovación: Juan Carlos muestra interés en la implementación de tecnologías IoT para mejorar la gestión de cubículos.
+- Enfoque en cost-benefit: El personal administrativo prioriza un análisis previo que demuestre que la relación beneficio-costo es positiva antes de implementar nuevas soluciones.
+- Experiencia operativa: Su conocimiento del sistema actual les permite identificar las limitaciones y oportunidades de mejora.
+
+##### Necesidades identificadas:
+
+- Sistema más eficiente para gestionar reservas
+- Herramientas de monitoreo en tiempo real
+- Justificación clara del retorno de inversión
+- Integración con procesos administrativos existentes
+
+---
+
+#### Segmento Objetivo 2: Estudiantes Universitarios
+
+##### Insights principales:
+
+- Uso frecuente: Nasthya utiliza la biblioteca 2-4 veces por semana, indicando una alta demanda de estos espacios.
+- Frustración con la disponibilidad: La falta de información confiable sobre ocupación genera experiencias negativas recurrentes.
+- Expectativas de inmediatez: Los estudiantes esperan información en tiempo real y procesos rápidos y sencillos.
+- Experiencias problemáticas: Situaciones donde encuentran cubículos ocupados a pesar de aparecer disponibles, o viceversa.
+
+##### Necesidades identificadas:
+
+Las necesidades fundamentales que se han detectado se enfocan en disponer de información real y actualizada sobre la disponibilidad de un cubículo, junto con un procedimiento de reserva eficaz y sencillo que permita la actualización del estado del cubículo.  Además, es necesario tener la opción de personalizar las notificaciones, contar con un sistema de retroalimentación que facilite el reporte de problemas e incidencias y disponer de garantías robustas en cuanto a la privacidad y seguridad del manejo de los datos del usuario.
+
+---
+
+#### Patrones comunes entre segmentos:
+
+Ambos reconocen las limitaciones del sistema actual
+Existe disposición para adoptar nuevas tecnologías
+Se valora la eficiencia y la confiabilidad del sistema
+Hay una necesidad compartida de información en tiempo real
 
 ## 2.3. Needfinding
 
@@ -185,7 +240,11 @@ Este mapeo "As-Is" presenta el escenario actual antes de la implementación de B
 
 ### ¿Qué hace el Personal de la Biblioteca?
 
-<!-- Falta esto tambien -->
+| **Phases** | **Gestión matutina** | **Supervisión de reservas** | **Atención al estudiante** | **Generación de reportes** |
+|------------|---------------------|--------------------------|---------------------------|---------------------------|
+| **Doing** | • Llega y revisa el estado de cubículos.<br>• Accede al sistema web convencional.<br>• Verifica reservas pendientes del día. | • Realiza rondas físicas por la biblioteca.<br>• Supervisa el uso adecuado de los cubículos.<br>• Contrasta información del sistema con la realidad. | • Recibe consultas sobre disponibilidad de cubículos.<br>• Media conflictos por dobles reservas.<br>• Proporciona información desactualizada. | • Compila estadísticas basándose en datos incompletos.<br>• Intenta generar reportes con información manual.<br>• Prepara informes para administración. |
+| **Thinking** | "Necesito verificar manualmente todo porque el sistema no es confiable." <br> "Este proceso consume mucho tiempo cada mañana." | "El sistema no refleja la ocupación real de los cubículos." <br> "Tengo que caminar constantemente para verificar el uso apropiado." | "No puedo dar información precisa a los estudiantes." <br> "Estos conflictos se repiten por fallas del sistema." | "Los datos que manejo no reflejan la realidad del uso." <br> "¿Cómo justificar mejoras sin datos precisos?" |
+| **Feeling** | • Resignación | • Cansancio | • Estrés | • Insatisfacción <br> • Preocupación |
 
 ### ¿Qué hace el Estudiante?
 
