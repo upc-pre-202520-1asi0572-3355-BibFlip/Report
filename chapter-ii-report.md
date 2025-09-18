@@ -173,7 +173,11 @@ Estudiantes Universitarios
 
 ### 2.3.4. Empathy Mapping
 
-<!-- Contenido de Empathy Mapping -->
+[![Empathy-map-Javier.png](https://i.postimg.cc/pTGMBcph/Empathy-map-Javier.png)](https://postimg.cc/CBq2hNCS)
+
+Estudiantes Universitarios
+
+[![Empathy-map-Miriam.png](https://i.postimg.cc/FRsQ3XsX/Empathy-map-Miriam.png)](https://postimg.cc/DWDD3DXx)
 
 ### 2.3.5. As-is Scenario Mapping
 
