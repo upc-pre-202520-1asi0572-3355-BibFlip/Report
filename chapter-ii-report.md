@@ -193,7 +193,7 @@ Este mapeo "As-Is" presenta el escenario actual antes de la implementación de B
 | **Booking** | Reservación de un cubículo realizada por un estudiante para garantizar el uso exclusivo del espacio durante un período de tiempo determinado. |
 | **Cubicle** | Cubículo Universitario (espacio académico compuesto por una mesa de trabajo, una computadora y 6 sillas como máximo) destinado al estudio individual o grupal dentro de las instalaciones de la biblioteca. |
 | **Administrator** | Personal de la Biblioteca encargado de la gestión operativa de los cubículos, incluyendo la supervisión de reservas, mantenimiento de espacios y atención a usuarios. |
-| **SuperAdmin** | Administrador de la Biblioteca con permisos completos del sistema, responsable de la configuración general, gestión de usuarios administrativos y supervisión de reportes estadísticos. |
+| **SuperAdmin** | Equipo de desarrollo encargado de pruebas y mantenimiento |
 | **Branch** | Sede o campus universitario que cuenta con su propia biblioteca y sistema de cubículos independiente, permitiendo la gestión descentralizada de espacios de estudio. |
 | **Library** | Biblioteca Universitaria que alberga los cubículos y proporciona el entorno académico para el estudio. |
 | **Time Slot** | Franja horaria específica durante la cual un cubículo puede ser reservado y utilizado por un estudiante. |
