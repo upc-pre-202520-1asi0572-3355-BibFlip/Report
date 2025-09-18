@@ -1413,8 +1413,7 @@ El **IAM Bounded Context** está compuesto por los siguientes módulos principal
    - Incluye repositorios para la persistencia de datos y componentes que conectan la lógica de negocio con los recursos externos, como bases de datos y servicios de seguridad.
    - Implementa servicios auxiliares como el hashing de contraseñas y la generación de tokens de autenticación.
 
-<img src="" alt="IAM BC Component Diagram"/><br>
-
+<img src="https://i.ibb.co/TMsPNKjt/iam.png" alt="IAM BC Component Diagram" border="0">
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1424,7 +1423,7 @@ En este apartado se presentan los diagramas que ofrecen un mayor nivel de detall
 
 El diagrama de clases correspondiente a la **Domain Layer** del **IAM Bounded Context** incluye las clases principales, como agregados, entidades y objetos de valor, así como las interfaces y enumeraciones que definen el comportamiento del dominio. También se destacan las relaciones entre estos elementos, como asociaciones, composiciones y dependencias.
 
-<img src="" alt="IAM BC Domain Layer Class Diagram"/><br>
+<img src="https://i.postimg.cc/0N4x32Xx/Captura-de-pantalla-2025-09-18-181543.png" alt="IAM BC Domain Layer Class Diagram" border="0">
 
 **Elementos principales del diagrama:**
 
@@ -1676,13 +1675,14 @@ La **Infrastructure Layer** del Cubicle Management Bounded Context proporciona i
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-<img src="" alt="Cubicle Management BC Component Diagram"/><br>
+<img src="https://i.ibb.co/35bgDmwJ/cubicule.png" alt="Cubicle Management BC Component Diagram" border="0">
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-<img src="" alt="Cubicle Management BC Domain Layer Class Diagram"/><br>
+<img src="https://i.ibb.co/JwN8RhhW/cubicule-clase.jpg" alt="Cubicle Management BC Domain Layer Class Diagram" border="0">
+
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
@@ -1884,7 +1884,8 @@ En esta sección se presenta el diagrama de componentes del **Branching Bounded 
 
 El propósito de este diagrama es proporcionar una visión clara y estructurada de cómo se organizan los componentes dentro del contexto, facilitando la comprensión de su arquitectura y permitiendo identificar puntos de integración y responsabilidades. 
 
-<img src="" alt="Branching BC Component Diagram"/><br>
+<img src="https://i.ibb.co/Xrc92kfY/branching.png" alt="Branching BC Component Diagram" border="0">
+
 
 El **Branching Bounded Context** está compuesto por los siguientes módulos principales:
 
@@ -1916,7 +1917,8 @@ El diagrama de clases correspondiente a la **Domain Layer** del **Branching Boun
 
 El objetivo de este diagrama es proporcionar una representación detallada de la lógica de negocio encapsulada en la capa del dominio, asegurando que las reglas del negocio estén claramente definidas y alineadas con los requisitos del sistema.
 
-<img src="" alt="Branching BC Domain Layer Class Diagram"/><br>
+<img src="https://i.postimg.cc/cH8ZNyP3/Captura-de-pantalla-2025-09-18-181621.png" alt="Branching BC Domain Layer Class Diagram" border="0">
+
 
 **Elementos principales del diagrama:**
 
@@ -2374,7 +2376,7 @@ En esta sección se presenta el diagrama de componentes del **Booking Bounded Co
 
 El propósito de este diagrama es proporcionar una visión clara y estructurada de cómo se organizan los componentes dentro del contexto, facilitando la comprensión de su arquitectura y permitiendo identificar puntos de integración y responsabilidades.
 
-<img src="" alt="Booking BC Component Diagram"/><br>
+<img src="https://i.ibb.co/qYs1Jsgy/booking.png" alt="Booking BC Component Diagram" border="0">
 
 El **Booking Bounded Context** está compuesto por los siguientes módulos principales:
 
@@ -2404,7 +2406,8 @@ En este apartado se presentan los diagramas que ofrecen un mayor nivel de detall
 
 El diagrama de clases correspondiente a la **Domain Layer** del **Booking Bounded Context** incluye las clases principales, como agregados, entidades y objetos de valor, así como las interfaces y enumeraciones que definen el comportamiento del dominio. También se destacan las relaciones entre estos elementos, como asociaciones, composiciones y dependencias.
 
-<img src="" alt="Booking BC Domain Layer Class Diagram"/><br>
+<img src="https://i.postimg.cc/VvQwfZcV/Captura-de-pantalla-2025-09-18-181709.png" alt="Booking BC Domain Layer Class Diagram"/><br>
+
 
 **Elementos principales del diagrama:**
 
@@ -2502,8 +2505,8 @@ SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*
 
 ### Entrevistas
 
-Needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k
+Needfinding:[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k)
 
 ### TB1
 
-Exposición: 
+Exposición:[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EaOh8E4kvcZBse_K6G2QpFQB2tMN6ft_1cgIcr2lp7fNyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cFtTEb`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EaOh8E4kvcZBse_K6G2QpFQB2tMN6ft_1cgIcr2lp7fNyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cFtTEb)
