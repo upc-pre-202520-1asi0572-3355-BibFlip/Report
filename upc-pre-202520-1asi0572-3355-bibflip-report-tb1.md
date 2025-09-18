@@ -604,11 +604,7 @@ Consolidarse como la principal solución digital en el Perú para la gestión de
 
 
 ### 4.2.5. Bounded Context: IoT Device Monitoring
-
-<!-- Breve Descripcion -->
-
-
-
+El Bounded Context de IoT Device Monitoring se encarga de manejar la interacción con los dispositivos IoT ubicados en las bibliotecas, como los sensores de peso en las sillas. Su función principal es recopilar, procesar y analizar los datos enviados por estos dispositivos para identificar en tiempo real el estado de ocupación de las mesas. Además, incluye herramientas para la configuración y supervisión de los dispositivos, garantizando su correcto funcionamiento y la precisión de los datos obtenidos.
 
 # Conclusiones
 

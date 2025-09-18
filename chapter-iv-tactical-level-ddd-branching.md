@@ -227,8 +227,7 @@ El objetivo de este diagrama es proporcionar una representación detallada de la
 
 El diseño de la base de datos para el **Branching Bounded Context** refleja la estructura del dominio, asegurando que las entidades y relaciones definidas en la **Domain Layer** se representen de manera eficiente en el modelo relacional. 
 
-<img src="./images/c4-model/bd/branching_bd.png" alt="Booking BC Data Base Diagram"/><br>
-
+[![BRANCHING-DB.jpg](https://i.postimg.cc/PqqLtqC6/BRANCHING-DB.jpg)](https://postimg.cc/0zL5nPdm)
 
 **Este diseño incluye las siguientes tablas principales:**
 

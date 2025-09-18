@@ -303,7 +303,7 @@ El diagrama de clases correspondiente a la **Domain Layer** del **IAM Bounded Co
 
 El diseño de la base de datos para el **IAM Bounded Context** refleja la estructura del dominio, asegurando que las entidades y relaciones definidas en la **Domain Layer** se representen de manera eficiente en el modelo relacional. 
 
-<img src="" alt="IAM BC Data Base Diagram"/><br>
+[![IAM-DB.jpg](https://i.postimg.cc/CMrqdkGj/IAM-DB.jpg)](https://postimg.cc/V5M6VSH6)
 
 **Este diseño incluye las siguientes tablas principales:**
 

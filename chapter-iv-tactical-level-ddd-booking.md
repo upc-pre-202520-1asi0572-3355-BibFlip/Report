@@ -452,7 +452,7 @@ El diagrama de clases correspondiente a la **Domain Layer** del **Booking Bounde
 
 El diseño de la base de datos para el **Booking Bounded Context** refleja la estructura del dominio, asegurando que las entidades y relaciones definidas en la **Domain Layer** se representen de manera eficiente en el modelo relacional.
 
-<img src="./images/c4-model/bc-component-diagram/booking_bd.png" alt="Booking BC Data Base Diagram"/><br>
+[![IAM-DB.jpg](https://i.postimg.cc/CMrqdkGj/IAM-DB.jpg)](https://postimg.cc/V5M6VSH6)
 
 **Este diseño incluye las siguientes tablas principales:**
 
