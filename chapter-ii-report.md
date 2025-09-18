@@ -163,7 +163,13 @@ Estudiantes Universitarios
 
 ### 2.3.3. User Journey Mapping
 
-<!-- Contenido de User Journey Mapping -->
+Personal Bibliotecario
+
+[![User-journey-map-Javier.png.png](https://i.postimg.cc/J0Swfy3R/User-journey-map-Javier.png)](https://postimg.cc/CnC6Dx62)
+
+Estudiantes Universitarios
+
+[![User-journey-map-Miriam.png.png](https://i.postimg.cc/L5JKQk1y/User-journey-map-Miriam.png)](https://postimg.cc/4HRSm9wt)
 
 ### 2.3.4. Empathy Mapping
 
