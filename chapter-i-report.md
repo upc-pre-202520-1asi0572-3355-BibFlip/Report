@@ -178,24 +178,7 @@ Creemos que la funcionalidad de mapas interactivos y navegación dentro de bibli
 Sabremos que hemos tenido éxito cuando el 70% de los estudiantes utilicen activamente esta funcionalidad y reporten una reducción del 60% en el tiempo necesario para localizar y acceder a sus cubículos reservados.
 #### 1.2.2.4. Lean UX Canvas
 
-### 1.2.2.4. Lean UX Canvas
-
-**Project Name:** Bib Flip
-
-| **Business Problem** | **Solution Ideas** | **Business Outcomes** |
-|---------------------|-------------------|----------------------|
-| **¿Qué problema tiene el negocio que estás tratando de resolver?** | **¿Qué podemos hacer para resolver nuestro problema de negocio y satisfacer las necesidades de nuestros clientes al mismo tiempo? Lista las ideas de producto, características o mejoras aquí.** | **¿Cómo sabrás que resolviste el problema del negocio? ¿Qué vas a medir?** |
-| **Problema central:** Falta de un sistema en tiempo real que permita conocer la disponibilidad y ocupación de cubículos de estudio en bibliotecas universitarias.<br><br>Se presentan las siguientes consecuencias:<br>• Ineficiencia en la gestión de espacios<br>• Largos tiempos de búsqueda para los estudiantes<br>• Impacto negativo en la experiencia académica | **Implementación de sensores IoT** en cada cubículo para detectar ocupación en tiempo real<br><br>**Visualización de disponibilidad** de cubículos para estudiantes<br><br>**Panel de gestión** para administradores de bibliotecas | Aumento del **30%** en la eficiencia de utilización de cubículos en las bibliotecas que adopten la solución.<br><br>Incremento del **25%** en la satisfacción de los estudiantes (medido por encuestas).<br><br>Reducción del **80%** en el tiempo promedio de búsqueda de espacios disponibles.<br><br>Reducción del **40%** en incidencias por ocupación indebida y problemas de asignación.<br><br>Mejora del **35%** en la planificación y distribución de recursos bibliotecarios. |
-
-| **Users** | **User Outcomes & Benefits** |
-|-----------|------------------------------|
-| **¿Qué tipos (es decir, personas) de usuarios y clientes debes enfocar primero?** | **¿Por qué tus usuarios buscarían tu producto o servicio? ¿Qué beneficio obtendrían al usarlo? ¿Qué cambio de comportamiento podemos observar que nos diga que han logrado su objetivo?** |
-| **Personal de bibliotecas universitarias**<br><br>**Estudiantes universitarios** | **Personal de Bibliotecas:**<br>• Control automatizado del uso y ocupación de cubículos en tiempo real<br>• Reducción de errores manuales en la gestión<br>• Acceso a estadísticas que faciliten la toma de decisiones<br><br>**Estudiantes:**<br>• Información precisa y actualizada sobre la disponibilidad de cubículos<br>• Reducción de tiempos de espera y búsqueda<br>• Mejora en la planificación de sesiones de estudio<br>• Experiencia más cómoda y segura al visitar la biblioteca |
-
-| **Hypotheses** | **What's the most important thing we need to learn first** | **What's the least amount of work we need to do to learn the next most important thing?** |
-|----------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| **Combina los supuestos de 2, 3, 4 y 5 en las siguientes declaraciones de hipótesis:** | **Para cada hipótesis del punto 6, identifica su suposición más riesgosa. Luego determina cuál es la correcta ahora. Esta es la suposición que hará que toda la idea falle si es incorrecta.** | **Diseña experimentos para aprender tan rápido como puedas si tu suposición más riesgosa es verdadera o falsa.** |
-| Creemos que el personal administrativo y estudiantes universitarios necesitan una herramienta en tiempo real que les permita gestionar y conocer la ocupación de cubículos de forma automatizada.<br><br>Sabremos que hemos tenido éxito cuando al menos el **75%** de estos usuarios reporten una mejora en la eficiencia operativa y un **30%** menos incidencias por sobreocupación. | ¿Las universidades están dispuestas a invertir en tecnología IoT?<br><br>¿Los estudiantes y administradores valoran suficientemente la automatización del control de espacios para invertir en sensores y plataformas digitales? | **Producto Mínimo Viable:** Crear un prototipo con un sensor de peso conectado a una plataforma básica que muestre en tiempo real la ocupación de un cubículo piloto. También, desarrollar una versión inicial de la app/web para que los estudiantes puedan visualizar la disponibilidad de ese cubículo. |
+[![lean-ux-canvas.jpg](https://i.postimg.cc/BngMMX5R/lean-ux-canvas.jpg)](https://postimg.cc/4YY634S1)
 
 ## 1.3. Segmentos objetivo
 
@@ -220,7 +203,7 @@ Este segmento está conformado por el personal administrativo y operativo de las
 ---
 
 ### Segmento 2: Estudiantes universitarios
-Este segmento está compuesto por estudiantes que utilicen regularmente los espacios de estudio de las bibliotecas universitarias. Además, se tomará como caso de prueba a los estudiantes de la UPC. Esto debido a los casos recientes sobre el reporte de fallos con el nuevo sistema, 
+Este segmento está compuesto por estudiantes que utilicen regularmente los espacios de estudio de las bibliotecas universitarias. Además, se tomará como caso de prueba a los estudiantes de la UPC. Esto debido a los casos recientes sobre el reporte de fallos con el nuevo sistema. 
 
 #### Características Demográficas
 
