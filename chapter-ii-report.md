@@ -93,63 +93,84 @@ Buenas tardes, gracias por asistir a esta entrevista
 
 ### 2.2.2. Registro de entrevistas
 
-**Entrevista para el Segmento Objetivo 1 - Personal Bibliotecario:**
+Se realizaron tres entrevistas para cada segmento objetivo y estas se encuentran registradas en el siguiente enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k
+
+### Entrevistas para el Segmento Objetivo 1 - Personal Bibliotecario
 
 ---
 
-Entrevista N°1:
+#### Entrevista N°1:
 
-**Entrevistado:** Juan Carlos Villanueva<br>
-**Sexo:** Masculino <br>
-**Edad:** 39 años<br>
-**Domicilio:** Lima<br>
-**Inicio de la Entrevista:** 0:04<br>
-**Duración de la Entrevista:** 4:35<br>
+*Entrevistado:* Juan Carlos Villanueva<br>
+*Sexo:* Masculino <br>
+*Edad:* 39 años<br>
+*Domicilio:* Lima<br>
+*Inicio de la Entrevista:* 0:12<br>
+*Fin de la Entrevista:* 4:44<br>
 
 <a href="https://ibb.co/cc9QkCvm"><img src="https://i.postimg.cc/HW8V6RbH/Captura-de-pantalla-2025-09-17-211456.png" alt="Entrevista con Nasthya" style="width: 600px; height: auto;"><br></a>
 
-**Resumen de la Entrevista:** <br>
+*Resumen de la Entrevista:* <br>
 Durante la entrevista con Juan Carlos Villanueva, miembro del personal administrativo de la biblioteca, se nos comenta que para la reserva de cubículos en la biblioteca de la UPC se viene utilizando la misma plataforma web desde hace unos años. Por ello, él considera interesante la adición de tecnologías IoT para mejorar la gestión y reserva de cubículos. Sin embargo, menciona que debería hacerse un estudio previo para analizar si la relación entre el beneficio y el costo es realmente positiva.
 
-**Entrevista para el Segmento Objetivo 1 - Personal Bibliotecario:**
 
-**Entrevistado:** Alonso Rafael<br>
-**Sexo:** Masculino <br>
-**Edad:** 26 años<br>
-**Domicilio:** Lima<br>
-**Inicio de la Entrevista:** 0:04<br>
-**Duración de la Entrevista:** 3:00 <br>
+#### Entrevista N°2:
+
+*Entrevistado:* Alonso Rafael<br>
+*Sexo:* Masculino <br>
+*Edad:* 26 años<br>
+*Domicilio:* Lima<br>
+*Inicio de la Entrevista:* 4:45<br>
+*Fin de la Entrevista:* 7:50 <br>
+
 [![image.png](https://i.postimg.cc/SxFB322F/image.png)](https://postimg.cc/Tp0NWPJC)
-**Resumen de la Entrevista:** <br>
+
+*Resumen de la Entrevista:* <br>
 Durante la entrevista con Alonso Rafael, de 26 años y miembro del personal administrativo de la biblioteca, se nos indicó que uno de los aspectos que más le interesaría mejorar es la visualización del aforo en cada cubículo en tiempo real. Alonso considera que una solución tecnológica que permita conocer la disponibilidad inmediata de los espacios sería muy útil, especialmente en épocas de alta demanda. Según comenta, esto ayudaría a reducir significativamente los tiempos de espera para los estudiantes y permitiría una mejor organización del uso de los espacios dentro de la biblioteca.
 
 
-**Entrevista para el Segmento Objetivo 2 - Estudiantes Universitarios:**
+#### Entrevista N°3:
+
+*Entrevistado:* Jorge Luis Céspedes<br>
+*Sexo:* Masculino <br>
+*Edad:* 46 años<br>
+*Domicilio:* Lima<br>
+*Inicio de la Entrevista:* 7:51<br>
+*Fin de la Entrevista:* 10:57<br>
+
+[![Captura-de-pantalla-2025-09-18-150756.png](https://i.postimg.cc/DyN3Yskp/Captura-de-pantalla-2025-09-18-150756.png)](https://postimg.cc/SJcPnnKc)
+
+*Resumen de la Entrevista:* <br>
+Durante la entrevista con Jorge Luis Céspedes, de 46 años y parte del equipo de atención a estudiantes de la biblioteca, se destacó la necesidad de contar con un sistema más ágil y confiable para la gestión de espacios. Jorge, quien trabaja en la biblioteca desde hace 3 años, señaló que los principales problemas durante épocas de alta demanda incluyen la lentitud del sistema actual, reservaciones no utilizadas y reclamos de estudiantes que no logran acceder a espacios reservados. Considera muy importante que una solución IoT sea fácil de instalar y mantener, y destaca la necesidad de obtener métricas detalladas como horarios de mayor demanda, porcentaje de ocupación real y tiempo promedio de permanencia para optimizar la gestión de los espacios de estudio.
+
+
+
+### Entrevista para el Segmento Objetivo 2 - Estudiantes Universitarios
 
 ---
 
-Entrevista N°1:
+#### Entrevista N°1:
 
-**Entrevistado:** Nasthya del Carpio<br>
-**Sexo:** Femenino <br>
-**Edad:** 21 años<br>
-**Domicilio:** La Perla<br>
-**Inicio de la Entrevista:** 0:05<br>
-**Duración de la Entrevista:** 4:31<br>
+*Entrevistado:* Nasthya del Carpio<br>
+*Sexo:* Femenino <br>
+*Edad:* 21 años<br>
+*Domicilio:* La Perla<br>
+*Inicio de la Entrevista:* 10:58<br>
+*Fin de la Entrevista:* 15:32<br>
 
 <a href="https://ibb.co/cc9QkCvm"><img src="https://i.ibb.co/C5yQmMtr/entrevista-na.png" alt="Entrevista con Nasthya" style="width: 600px; height: auto;"><br></a>
 
 
-**Resumen de la Entrevista:** <br>
+*Resumen de la Entrevista:* <br>
 La entrevista con Nasthya del Carpio, estudiante de 21 años de Diseño de Interiores en la UPC, mostró que suele usar la biblioteca entre 2 y 4 veces por semana, pero enfrenta dificultades para verificar la disponibilidad de cubículos debido a la falta de información confiable. Destacó que una app debería ser rápida, sencilla y mostrar la ocupación en tiempo real, con funciones de reserva, cancelación y notificaciones personalizables. Compartió experiencias frustrantes al no encontrar espacios libres o al hallar ocupado un cubículo reservado, y resaltó la importancia de contar con un sistema de feedback y de garantizar la privacidad de los usuarios.
 
-## Entrevista N°2:
+#### Entrevista N°2:
 *Entrevistado:* David Rivas  
 *Sexo:* Masculino  
 *Edad:* 22 años  
 *Domicilio:* San Miguel  
-*Inicio de la Entrevista:* 0:12  
-*Duración de la Entrevista:* 3:47  
+*Inicio de la Entrevista:* 15:37  
+*Fin de la Entrevista:* 19:28  
 
 [![Captura-de-pantalla-2025-09-18-114414.png](https://i.postimg.cc/pXpNDdVk/Captura-de-pantalla-2025-09-18-114414.png)](https://postimg.cc/XpSDW4Cy)
 
@@ -157,13 +178,13 @@ La entrevista con Nasthya del Carpio, estudiante de 21 años de Diseño de Inter
 David Rivas, estudiante de 22 años de Ingeniería de Sistemas, utiliza la biblioteca principalmente durante épocas de exámenes y proyectos finales, visitándola aproximadamente 3 veces por semana. Su principal problema es la pérdida de tiempo al buscar cubículos disponibles, especialmente en horas pico. Considera esencial que una aplicación permita visualizar mapas de la biblioteca con disponibilidad en tiempo real y la posibilidad de reservar espacios por períodos específicos. Mencionó la importancia de tener filtros por tipo de espacio (silencioso, colaborativo, individual) y sugirió implementar un sistema de penalización para usuarios que no cancelen sus reservas. También valoró la integración con el calendario académico para anticipar períodos de alta demanda.
 
 
-## Entrevista N°3:
+#### Entrevista N°3:
 *Entrevistado:* Renzo Silva  
 *Sexo:* Masculino  
 *Edad:* 20 años  
 *Domicilio:* Pueblo Libre  
-*Inicio de la Entrevista:* 0:08  
-*Duración de la Entrevista:* 5:12  
+*Inicio de la Entrevista:* 19:30  
+*Fin de la Entrevista:* 22:27 
 
 [![Captura-de-pantalla-2025-09-18-114011.png](https://i.postimg.cc/y8cF5FYd/Captura-de-pantalla-2025-09-18-114011.png)](https://postimg.cc/zyDbHHhZ)
 

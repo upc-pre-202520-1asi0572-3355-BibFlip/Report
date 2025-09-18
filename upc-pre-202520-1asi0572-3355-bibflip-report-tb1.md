@@ -742,4 +742,10 @@ SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*
 
 # Anexos
 
-<!-- Contenido de los anexos -->
+### Entrevistas
+
+Needfinding: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k
+
+### TB1
+
+Exposición: 
