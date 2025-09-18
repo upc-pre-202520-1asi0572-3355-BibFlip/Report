@@ -143,8 +143,32 @@ Entrevista N°1:
 **Resumen de la Entrevista:** <br>
 La entrevista con Nasthya del Carpio, estudiante de 21 años de Diseño de Interiores en la UPC, mostró que suele usar la biblioteca entre 2 y 4 veces por semana, pero enfrenta dificultades para verificar la disponibilidad de cubículos debido a la falta de información confiable. Destacó que una app debería ser rápida, sencilla y mostrar la ocupación en tiempo real, con funciones de reserva, cancelación y notificaciones personalizables. Compartió experiencias frustrantes al no encontrar espacios libres o al hallar ocupado un cubículo reservado, y resaltó la importancia de contar con un sistema de feedback y de garantizar la privacidad de los usuarios.
 
+## Entrevista N°2:
+*Entrevistado:* David Rivas  
+*Sexo:* Masculino  
+*Edad:* 22 años  
+*Domicilio:* San Miguel  
+*Inicio de la Entrevista:* 0:12  
+*Duración de la Entrevista:* 3:47  
+
+[![Captura-de-pantalla-2025-09-18-114414.png](https://i.postimg.cc/pXpNDdVk/Captura-de-pantalla-2025-09-18-114414.png)](https://postimg.cc/XpSDW4Cy)
+
+*Resumen de la Entrevista:*  
+David Rivas, estudiante de 22 años de Ingeniería de Sistemas, utiliza la biblioteca principalmente durante épocas de exámenes y proyectos finales, visitándola aproximadamente 3 veces por semana. Su principal problema es la pérdida de tiempo al buscar cubículos disponibles, especialmente en horas pico. Considera esencial que una aplicación permita visualizar mapas de la biblioteca con disponibilidad en tiempo real y la posibilidad de reservar espacios por períodos específicos. Mencionó la importancia de tener filtros por tipo de espacio (silencioso, colaborativo, individual) y sugirió implementar un sistema de penalización para usuarios que no cancelen sus reservas. También valoró la integración con el calendario académico para anticipar períodos de alta demanda.
 
 
+## Entrevista N°3:
+*Entrevistado:* Renzo Silva  
+*Sexo:* Masculino  
+*Edad:* 20 años  
+*Domicilio:* Pueblo Libre  
+*Inicio de la Entrevista:* 0:08  
+*Duración de la Entrevista:* 5:12  
+
+[![Captura-de-pantalla-2025-09-18-114011.png](https://i.postimg.cc/y8cF5FYd/Captura-de-pantalla-2025-09-18-114011.png)](https://postimg.cc/zyDbHHhZ)
+
+*Resumen de la Entrevista:*  
+Renzo Silva, estudiante de 20 años de Ing. de Software, frecuenta la biblioteca diariamente para estudios grupales e individuales. Su mayor frustración es encontrar cubículos reservados pero vacíos, lo que considera una pérdida de recursos. Propuso que la aplicación incluya verificación de ocupación mediante sensores o check-in manual, y un sistema de liberación automática si el usuario no confirma su llegada en un tiempo determinado. Destacó la necesidad de poder extender reservas desde la app y recibir recordatorios antes del vencimiento. También sugirió funciones sociales como compartir mesa con compañeros conocidos y un sistema de reputación para usuarios responsables. Consideró importante que la app funcione offline para mostrar reservas activas.
 
 ### 2.2.3. Análisis de entrevistas
 
