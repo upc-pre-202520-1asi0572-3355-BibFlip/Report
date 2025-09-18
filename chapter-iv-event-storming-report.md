@@ -24,11 +24,15 @@ Se colocaron notas naranjas para eventos, y se complementaron con comandos en az
 
 Se diferenciaron los actores como: estudiante, administrador, superadmin, visitante, para asociar claramente qué parte del sistema controlan o en qué puntos interactúan. Al dividirlo de esta manera es más fácil detectar posibles conflictos o áreas de mejora en la experiencia.<br>
 
+[![Captura-de-pantalla-2025-09-17-164413.png](https://i.postimg.cc/h4VRmT50/Captura-de-pantalla-2025-09-17-164413.png)](https://postimg.cc/grc7FXdw)
+
 #### 4.1.1.1 Candidate Context Discovery
 
 Identificar contextos candidatos es un paso clave para gestionar la complejidad en el desarrollo de sistemas. Se trata de un análisis minucioso que busca entender los elementos centrales del sistema y sus interconexiones. A partir de ahí, se procede a agrupar estos elementos en 'contextos delimitados' lógicos y coherentes. Esta separación no solo facilita el diseño y la implementación, sino que también tiene como meta principal potenciar la escalabilidad, el desempeño y la mantenibilidad del sistema resultante.
 
-<img src="images/Candidate-Context-Discovery/Candidate Context Discovery.png">
+[![Captura-de-pantalla-2025-09-17-170232.png](https://i.postimg.cc/q7QXSbqG/Captura-de-pantalla-2025-09-17-170232.png)](https://postimg.cc/zLbgRknL)
+
+Para una mejor visualización del conjunto de diagramas, se proporciona el siguiente enlace: https://lucid.app/lucidchart/e553dbed-f6de-4913-994b-ed85dcd83d41/edit?viewport_loc=-3331%2C-1097%2C8294%2C3700%2CVluR_3p1AnhQ&invitationId=inv_a52a3e8b-f40f-4bae-ac7e-ddae54aa97c9
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
@@ -47,12 +51,12 @@ Para dar inicio con el diseño de nuestro software, es imperativo el uso del Mod
 ### Cubicle Management
 [![cubicle-management-canva.png](https://i.postimg.cc/3Jp9zMbh/cubicle-management-canva.png)](https://postimg.cc/1fmpNdQ7)
 
-### IoT Monitoring
-<a href="https://ibb.co/MxjxwgWw"><img src="https://i.ibb.co/Txnxjwpj/Bounded-Context-Canvases-Iot-Monitoring.jpg" alt="Bounded-Context-Canvases-Iot-Monitoring" border="0"></a><br>
+### IoT Device Monitoring
+[![Captura-de-pantalla-2025-09-17-182516.png](https://i.postimg.cc/zXPppX3G/Captura-de-pantalla-2025-09-17-182516.png)](https://postimg.cc/ppzDLvDw)
 
+### Branching Management
+[![Captura-de-pantalla-2025-09-17-184920.png](https://i.postimg.cc/7hpLK2zk/Captura-de-pantalla-2025-09-17-184920.png)](https://postimg.cc/MfmxTXtP)
 
-### Headquarter Management
-<a href="https://ibb.co/HTX3nqcQ"><img src="https://i.ibb.co/ZzN7WxQC/Bounded-Context-Canvases-Headquarter-Management.jpg" alt="Bounded-Context-Canvases-Headquarter-Management" border="0"></a><br>
 
 ### 4.1.2. Context Mapping
 
