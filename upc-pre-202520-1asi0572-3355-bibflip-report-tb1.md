@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <td>Oliveira Paucar, Mauricio</td>
-            <td>U201917831</td>
+            <td>U201719831</td>
         </tr>
         <tr>
             <td>Pedraza Maldonado, Joaquin</td>
