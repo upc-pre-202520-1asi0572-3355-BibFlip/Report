@@ -191,6 +191,69 @@ Este sistema de búsqueda está diseñado para ser intuitivo y proporcionar resu
 
 ### 5.2.5. Navigation Systems
 
+El sistema de navegación de la plataforma Bibflip guiará a los usuarios a través de las distintas secciones y pantallas, proporcionándoles acceso intuitivo a todas las funcionalidades. A continuación, se detallan los elementos que facilitan la navegación de los usuarios:
+
+### Navegación global
+
+| Nombre | Descripción |
+|--------|-------------|
+| Inicio | Página principal que muestra un resumen de la información relevante según el tipo de usuario |
+| Perfil | Permite al usuario gestionar su información personal y preferencias |
+| Notificaciones | Alertas sobre reservas, actualizaciones de disponibilidad o mensajes del sistema |
+
+### Navegación para estudiantes
+
+| Nombre | Descripción |
+|--------|-------------|
+| Explorar sedes | Muestra todas las bibliotecas disponibles con información sobre ubicación y disponibilidad en tiempo real |
+| Mi reserva | Permite al usuario ver su reserva activa con detalles de horario, sede y número de cubículo |
+| Sedes | Visualización de todas las sedes del centro de estudio con opción de ver en mapa |
+| Ver servicios | Acceso al reglamento y servicios del centro de estudio (cubículos, salas grupales, etc.) |
+| Mapa | Visualización geográfica de las sedes en un mapa interactivo |
+
+### Navegación para administradores
+
+| Nombre | Descripción |
+|--------|-------------|
+| Dashboard | Panel principal con indicadores clave sobre la operación de la sede asignada |
+| Gestión de cubículos | Interfaz para agregar, eliminar o modificar cubículos en la sede asignada |
+| Visualizar reservas | Visualización y gestión de las reservas actuales y futuras con filtros por estudiante o cubículo |
+| Mi sede | Información detallada de la sede asignada al administrador |
+
+### Navegación para superadministradores
+
+| Nombre | Descripción |
+|--------|-------------|
+| Panel completo | Acceso a todas las funcionalidades del sistema |
+| Administradores | Módulo para registrar y gestionar administradores con asignación de sedes |
+| Gestión de sedes | Crear, editar y visualizar todas las sedes del sistema |
+| Usuarios | Visualización completa de estudiantes, administradores y sus actividades |
+
+### Elementos de navegación
+
+- **Menú principal**: Barra de navegación fija en la parte superior que contiene los enlaces principales según el rol del usuario.
+- **Menú lateral desplegable**: Para acceso a funciones secundarias, configuraciones y cierre de sesión.
+- **Botones de acción flotantes**: Para acciones principales como "Realizar reserva" o "Agregar cubículo".
+- **Breadcrumbs**: Indicadores de ubicación dentro de la jerarquía de navegación.
+- **Gestos táctiles**: En la versión móvil, se implementan gestos como deslizar para ver más opciones o pellizcar para ampliar el mapa.
+
+### Patrones de navegación
+
+- **Hub and spoke**: La pantalla principal actúa como centro desde donde se accede a las diferentes funcionalidades específicas del rol.
+- **Navegación por pestañas**: Para alternar entre diferentes vistas de una misma categoría (ej: cubículos disponibles vs. ocupados).
+- **Navegación jerárquica**: Para profundizar en detalles (sede → cubículos → reservas → detalles de estudiante).
+- **Desplazamiento infinito**: En listados de sedes o cubículos para cargar más resultados al desplazarse.
+- **Navegación contextual**: Botones y acciones que aparecen según el estado del sistema (ej: "Reservar" solo si hay disponibilidad).
+
+### Características de accesibilidad
+
+- **Indicadores visuales claros**: Uso de colores y etiquetas para mostrar estados de disponibilidad.
+- **Actualización automática**: Los indicadores de disponibilidad se actualizan en menos de 5 segundos según datos de sensores.
+- **Prevención de errores**: El sistema impide reservar si ya existe una reserva activa del estudiante.
+- **Confirmaciones**: Mensajes de confirmación para acciones críticas como eliminar cubículos o cancelar reservas.
+
+Este sistema de navegación está diseñado para ser consistente, intuitivo y adaptable a diferentes dispositivos, asegurando que los usuarios puedan encontrar rápidamente la información o funcionalidad que necesitan sin esfuerzo excesivo. La estructura se adapta dinámicamente según el rol del usuario (estudiante, administrador o superadministrador), mostrando únicamente las opciones relevantes para cada perfil.
+
 
 ## 5.3. Landing Page UI Design
 
