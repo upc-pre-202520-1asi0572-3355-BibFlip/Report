@@ -106,9 +106,9 @@ Este sistema de etiquetas proporciona contexto visual inmediato y mejora la comp
 La implementación adecuada de etiquetas SEO es crucial para mejorar la visibilidad de Bibflip en los motores de búsqueda.
 ### Título
 Indica el tema de la página, debe ser corto y descriptivo, manteniéndose entre 55-60 caracteres.
-
+```html
 <title>Bibflip - Sistema de Gestión de Cubículos para Bibliotecas Universitarias</title>
-
+```
 ### Descripción
 Breve descripción del propósito de la plataforma.<br>
 ```html
@@ -119,18 +119,18 @@ Indican a los motores de búsqueda qué hacer con la página.
 ```html
 <meta name="robots" content="index, follow">
 ```
-Tipo de contenido
+### Tipo de contenido
 Útil para que los motores de búsqueda identifiquen el idioma de la página.
 ```html
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Language" content="es">
 ```
-Viewport Meta Tag
+### Viewport Meta Tag
 Crucial para asegurar que el contenido se vea bien en dispositivos móviles.
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-Open Graph Tags
+### Open Graph Tags
 Para mejorar la apariencia cuando se comparte en redes sociales.
 ```html
 <meta property="og:title" content="Bibflip - Gestión Inteligente para Bibliotecas Universitarias">
@@ -139,7 +139,7 @@ Para mejorar la apariencia cuando se comparte en redes sociales.
 <meta property="og:url" content="https://bibflip.com">
 <meta property="og:type" content="website">
 ```
-Keywords
+### Keywords
 Aunque tienen menor importancia actualmente, aún pueden ser útiles.
 ```html
 <meta name="keywords" content="reservas bibliotecas, cubículos disponibles, IoT bibliotecas, gestión centros estudio, sistema reservas tiempo real, ocupación cubículos, bibliotecas universitarias, espacios estudio">
