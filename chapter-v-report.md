@@ -148,8 +148,49 @@ Aunque tienen menor importancia actualmente, aún pueden ser útiles.
 
 
 ### 5.2.4. Searching Systems
+El sistema de búsqueda propuesto para Bibflip permitirá a los usuarios encontrar fácilmente información relevante según sus necesidades específicas.
+
+### Sistema de búsqueda para estudiantes
+ Nombre del filtro | Descripción |
+|-------------------|-------------|
+| Ubicación | El usuario podrá filtrar bibliotecas por distrito o zona de la ciudad |
+| Disponibilidad inmediata | Muestra sólo las bibliotecas con cubículos disponibles en el momento actual |
+| Capacidad | Permite filtrar por tipo de espacio (individual, grupal, con computadora) |
+| Horario de atención | Filtra por bibliotecas abiertas en un rango horario específico |
+| Distancia | Ordena los resultados desde la ubicación actual del usuario |
+| Nivel de ocupación | Filtra sedes por porcentaje de disponibilidad (alta, media, baja) |
+
+### Sistema de búsqueda para administradores
+
+| Nombre del filtro | Descripción |
+|-------------------|-------------|
+| Búsqueda por número de cubículo | Permite encontrar rápidamente información de un cubículo específico |
+| Búsqueda por nombre de estudiante | Localiza reservas realizadas por un estudiante específico |
+| Filtro por fecha | Busca reservas en un rango de fechas específico |
+| Estado de cubículo | Filtra por estado: disponible, ocupado, reservado |
+| Historial de reservas | Busca en el histórico de reservas completadas |
+
+### Sistema de búsqueda para superadministradores
+
+| Nombre del filtro | Descripción |
+|-------------------|-------------|
+| Búsqueda de administradores | Localiza administradores por nombre o sede asignada |
+| Búsqueda de sedes | Encuentra sedes específicas en el sistema |
+| Visualización global | Accede a estadísticas consolidadas de todas las sedes |
+
+### Características adicionales del sistema de búsqueda
+
+- **Búsqueda en tiempo real**: Los resultados se actualizan automáticamente cada 5 segundos mediante datos de sensores IoT.
+- **Historial de búsquedas**: Mantiene un registro de búsquedas recientes del usuario.
+- **Sugerencias automáticas**: Ofrece resultados mientras el usuario escribe.
+- **Filtros combinados**: Permite aplicar múltiples filtros simultáneamente.
+
+Este sistema de búsqueda está diseñado para ser intuitivo y proporcionar resultados precisos, mejorando así la experiencia del usuario y la eficiencia operativa de la plataforma Bibflip.
+
+
 
 ### 5.2.5. Navigation Systems
+
 
 ## 5.3. Landing Page UI Design
 
