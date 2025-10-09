@@ -262,26 +262,16 @@ Este sistema de navegación está diseñado para ser consistente, intuitivo y ad
 En esta sección se presenta el wireframe de la landing page de Bibflip, una representación estructural inicial que organiza los principales bloques de contenido del sitio sin incluir aún detalles gráficos. Su propósito es definir la jerarquía informativa y el flujo de navegación que guiará al usuario durante su experiencia en la página. Este esquema permite visualizar la distribución de secciones como el encabezado, la introducción al proyecto, las características principales, los beneficios y la sección de contacto. El diseño se centra en la claridad y coherencia de la información, garantizando que el visitante pueda comprender rápidamente el objetivo de Bibflip: ofrecer una plataforma que optimiza la reserva de cubículos mediante tecnología IoT dentro de la Universidad Peruana de Ciencias Aplicadas (UPC).
 
 El wireframe fue elaborado en Figma y define la estructura inicial de la landing page.  
+
 [Ver Wireframe en Figma](https://www.figma.com/design/MFD4yVEhDz2ChR78iE3x6B/Bibflip---Landing-page---Wirefame?node-id=0-1&t=3enJg2TmsN7kH5Jd-1)
-
-![](https://i.ibb.co/M5VrKPHH/landing-wf-1.png)
-
-![](https://i.ibb.co/VcRhv7CL/landing-wf-2.png)
-
-![](https://i.ibb.co/7dbsks7S/landing-wf-3.png)
 
 ### 5.3.2. Landing Page Mock-up
 
 El mockup de la landing page de Bibflip muestra una versión visual refinada y cercana al diseño final. En esta etapa se aplico una tipografía legible y una composición equilibrada. Este diseño busca comunicar el propósito central del proyecto: mejorar la experiencia de los estudiantes en la gestión de espacios de estudio mediante una interfaz moderna, intuitiva y atractiva. Las secciones del mockup incluyen una presentación clara de la solución propuesta, los beneficios de Bibflip y un llamado a la acción enfocado en conocer más sobre la aplicación. Este prototipo refleja una propuesta visual profesional y funcional, alineada con los valores de innovación y comunidad universitaria.
 
-El mockup fue elaborado en Figma y presenta la propuesta visual final antes de la implementación.  
+El mockup fue elaborado en Figma y presenta la propuesta visual final antes de la implementación. 
+ 
 [Ver Mock-up en Figma](https://www.figma.com/design/lFAHFEcpJcJSknycAs0GBe/Bibflip---Landing-page---Mockup?node-id=0-1&t=GOQTIyM7Krw6Y7tg-1)
-
-![](https://i.ibb.co/994HY76z/landing-mu-1.png)
-
-![](https://i.ibb.co/vC7XRY4Z/landing-mu-2.png)
-
-![](https://i.ibb.co/LhSx22gx/landing-mu-3.png)
 
 ## 5.4. Applications UX/UI Design
 
