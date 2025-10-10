@@ -423,7 +423,7 @@ En esta pantalla el administrador podrá ver al supervisor por sede asignado. <b
 
 Este el menú inicial que verá el supervisor tras iniciar sesión en la aplicación web.<br>
 
-[![Gesti-n-de-Reservas-Supervisor.png](https://i.postimg.cc/C17qgGFm/Gesti-n-de-Reservas-Supervisor.png)](https://postimg.cc/KkKz7g3M)
+[![Gesti-n-de-Reservas-Supervisor.png](https://i.postimg.cc/3N1wwcBr/Gesti-n-de-Reservas-Supervisor.png)](https://postimg.cc/PvLH3K90)
 
 En este apartado el supervisor podrá visualizar las reservas por estudiante.<br>
 
@@ -431,7 +431,7 @@ En este apartado el supervisor podrá visualizar las reservas por estudiante.<br
 
 En este apartado el supervisor podrá visualizar las reservas por cubículo.<br>
 
-[![Gesti-n-de-Cub-culos-Supervisor.png](https://i.postimg.cc/JnxkLN1K/Gesti-n-de-Cub-culos-Supervisor.png)](https://postimg.cc/vg1B76x6)
+[![Gesti-n-de-Cub-culos-Supervisor.png](https://i.postimg.cc/bJM79HwH/Gesti-n-de-Cub-culos-Supervisor.png)](https://postimg.cc/vgr2Qn9c)
 
 En esta pantalla podrá gestionar los cubiculos, es decir agregarlos, editarlos o eliminarlos.<br>
 
@@ -455,7 +455,7 @@ Al seleccionar el botón del navbar que dice "Reservar", el estudiante verá est
 
 Este apartado muestra el mapa de la sede para que nuevos estudiantes puedan ubicarse mejor. <br>
 
-[![Cub-culos-Estudiante.png](https://i.postimg.cc/tg2BrVK9/Cub-culos-Estudiante.png)](https://postimg.cc/d7ZR3DQf)
+[![Cub-culos-Estudiante.png](https://i.postimg.cc/0jnpqZKd/Cub-culos-Estudiante.png)](https://postimg.cc/2LqqQQwV)
 
 Este apartado muestra los cubículos disponibles para reservar. <br>
 
