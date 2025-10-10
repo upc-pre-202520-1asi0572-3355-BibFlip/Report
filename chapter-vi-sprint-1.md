@@ -73,27 +73,213 @@ Este sprint se orientó a entregar la primera versión navegable de la **Landing
 
 #### 6.2.1.3. Sprint Backlog 1
 
+Durante este sprint inicial, nos enfocamos en desarrollar las user stories que definen las características clave de nuestro software. Esto nos permitió, por un lado, asegurar que los usuarios tengan acceso a información relevante y explicativa sobre los productos y, por otro lado, completar la primera fase de desarrollo de nuestra aplicación web y los servicios centrales de nuestro dominio.
+
+[![image.png](https://i.postimg.cc/90KDGc1Q/image.png)](https://postimg.cc/PvbfHsBg)
+
+**URL publico de trello:** <https://trello.com/b/htxHDgrX/bibflip>
+
 <table>
-  <thead>
-    <tr>
-      <th>ID</th><th>Título</th><th>Epic</th><th>Tipo</th><th>SP</th><th>Estado</th><th>Notas</th>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td colspan="7" >Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2" > User Story</td>
+            <td colspan="6" > Work-Item / Task </td>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Id </td>
+        <td> Title </td>
+        <td> Id </td>
+        <td> Title </td>
+        <td> Description </td>
+        <td> Estimation (Hours) </td>
+        <td> Assigned To </td>
+        <td> Status (To-do / In-Process / To-Review / Done) </td>
+      </tr>
+      <tr>
+        <td>US001</td>
+        <td>Ver sección “¿Qué es BibFlip?”</td>
+        <td>TA1</td>
+        <td>Diseñar contenido explicativo</td>
+        <td>Definir texto e imágenes que describan la funcionalidad principal de BibFlip</td>
+        <td>02</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar sección en Landing Page</td>
+        <td>Codificar la sección dentro de la landing principal utilizando componentes reutilizables</td>
+        <td>02</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
     </tr>
-  </thead>
-  <tbody>
-    <!-- Landing -->
-    <tr><td>US001</td><td>Ver sección “¿Qué es Bibflip?”</td><td>EPIC-LANDING-001</td><td>Feature</td><td><em>—</em></td><td>Hecho</td><td>Landing</td></tr>
-    <tr><td>US002</td><td>Ver “Características clave”</td><td>EPIC-LANDING-001</td><td>Feature</td><td><em>—</em></td><td>Hecho</td><td>Landing</td></tr>
-    <tr><td>US003</td><td>Ver galería virtual</td><td>EPIC-LANDING-001</td><td>Feature</td><td><em>—</em></td><td>Hecho</td><td>Landing</td></tr>
-    <tr><td>US004</td><td>Formulario de contacto</td><td>EPIC-LANDING-001</td><td>Feature</td><td><em>—</em></td><td>Hecho</td><td>Validaciones básicas</td></tr>
-    <!-- Frontend Web -->
-    <tr><td>US007</td><td>Disponibilidad de cubículos en tiempo real</td><td>EPIC-CLIENT-002</td><td>Feature</td><td><em>—</em></td><td>UI (mock)</td><td>PrimeVue; sin backend</td></tr>
-    <tr><td>US009</td><td>Ver sedes en un mapa</td><td>EPIC-CLIENT-002</td><td>Feature</td><td><em>—</em></td><td>UI (mock)</td><td>Pop-up / placeholder</td></tr>
-    <tr><td>US005</td><td>Ver servicios de una sede</td><td>EPIC-CLIENT-002</td><td>Feature</td><td><em>—</em></td><td>UI (mock)</td><td>Listado y filtros</td></tr>
-    <!-- Mobile -->
-    <tr><td>US006</td><td>Visualizar reserva activa</td><td>EPIC-CLIENT-002</td><td>Feature</td><td><em>—</em></td><td>UI (mock)</td><td>Home muestra estado</td></tr>
-    <tr><td>US008</td><td>Reservar un cubículo</td><td>EPIC-CLIENT-002</td><td>Feature</td><td><em>—</em></td><td>UI (mock)</td><td>Flujo base sin backend</td></tr>
-  </tbody>
+    <tr>
+        <td>US002</td>
+        <td>Ver “Características clave”</td>
+        <td>TA1</td>
+        <td>Diseño visual de características</td>
+        <td>Diseñar una sección que resuma las principales características de la aplicación</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar tarjetas informativas</td>
+        <td>Codificar las tarjetas con íconos, texto y animaciones simples</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US003</td>
+        <td>Ver galería virtual</td>
+        <td>TA1</td>
+        <td>Diseño de la galería</td>
+        <td>Definir estructura visual de la galería (grilla de imágenes o carrusel)</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar galería en Landing</td>
+        <td>Programar la sección interactiva con transición o desplazamiento</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US004</td>
+        <td>Formulario de contacto</td>
+        <td>TA1</td>
+        <td>Diseñar formulario de contacto</td>
+        <td>Definir campos y validaciones visuales básicas del formulario</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar validaciones y estilo</td>
+        <td>Codificar el formulario con validaciones de campos requeridos y formato de correo</td>
+        <td>03</td>
+        <td> Piero Velarde </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US005</td>
+        <td>Ver servicios de una sede</td>
+        <td>TA1</td>
+        <td>Diseñar lista de servicios</td>
+        <td>Crear diseño del listado de servicios ofrecidos por cada sede</td>
+        <td>03</td>
+        <td> Oscar Aranda Vallejos </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Filtrado y visualización</td>
+        <td>Implementar filtros básicos (por tipo de servicio, horario o disponibilidad)</td>
+        <td>03</td>
+        <td> Oscar Aranda Vallejos </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US006</td>
+        <td>Visualizar reserva activa</td>
+        <td>TA1</td>
+        <td>Diseño interfaz de reserva activa</td>
+        <td>Diseñar vista principal donde se muestre información de la reserva actual</td>
+        <td>03</td>
+        <td> Oscar Aranda Vallejos </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Integrar datos de reserva activa</td>
+        <td>Simular datos desde UI (sin backend) y mostrarlos dinámicamente</td>
+        <td>03</td>
+        <td> Jose Garcia</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US007</td>
+        <td>Disponibilidad de cubículos en tiempo real</td>
+        <td>TA1</td>
+        <td>Diseñar vista de disponibilidad</td>
+        <td>Crear prototipo de interfaz para visualizar cubículos disponibles (sin integración)</td>
+        <td>04</td>
+        <td> Jose Garcia </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Simular actualización de disponibilidad</td>
+        <td>Implementar actualización de estado visual con datos simulados en frontend</td>
+        <td>04</td>
+        <td> Jose Garcia </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US008</td>
+        <td>Reservar un cubículo</td>
+        <td>TA1</td>
+        <td>Diseñar flujo de reserva</td>
+        <td>Diseñar las pantallas para seleccionar cubículo y confirmar reserva</td>
+        <td>04</td>
+        <td> Jose Garcia </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar formulario de reserva</td>
+        <td>Programar formulario con validaciones básicas (mock sin backend)</td>
+        <td>04</td>
+        <td> André Bernaola </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US009</td>
+        <td>Ver sedes en un mapa</td>
+        <td>TA1</td>
+        <td>Diseñar componente de mapa</td>
+        <td>Definir estructura visual con marcador de sedes en mock de mapa</td>
+        <td>03</td>
+        <td> Joaquin Pedraza </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar popup de información</td>
+        <td>Agregar pop-up informativo al seleccionar una sede</td>
+        <td>03</td>
+        <td> Diego Soriano </td>
+        <td>In Process</td>
+    </tr>
+    </tbody>
 </table>
+
+<br>
+
+
+
+
 
 <blockquote>
 <strong>Nota:</strong> SP (Story Points) y Velocity del Sprint pendientes de estimación formal del equipo.
