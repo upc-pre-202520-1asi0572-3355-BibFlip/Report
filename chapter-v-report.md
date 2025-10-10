@@ -625,11 +625,120 @@ Esta pantalla se utilizará para reservar cubículos en un horario disponible. <
 
 
 ### 5.4.4. Applications User Flow Diagrams
-En esta sección se documentan los diagramas de flujo de usuario (user flows) para los principales procesos dentro de la aplicación, como la reserva de cubículos, la gestión de sedes y la administración de usuarios. Los user flows muestran los pasos que sigue un usuario desde el inicio hasta la finalización de una tarea específica, identificando puntos clave de decisión, validaciones y retroalimentación del sistema. Estos diagramas ayudan a optimizar la experiencia y asegurar que los procesos sean intuitivos y eficientes.
+En esta sección se documentan los diagramas de flujo de usuario (user flows) para los principales procesos dentro de la aplicación, como la reserva de cubículos, la gestión de sedes y la administración de usuarios. Los user flows muestran los pasos que sigue un usuario desde el inicio hasta la finalización de una tarea específica, identificando puntos clave de decisión, validaciones y retroalimentación del sistema. Estos diagramas ayudan a optimizar la experiencia y asegurar que los procesos sean intuitivos y eficientes. Estos flows se encuentran en el siguiente enlace: [Enlace-User-Flows](https://lucid.app/lucidchart/e553dbed-f6de-4913-994b-ed85dcd83d41/edit?viewport_loc=-11961%2C-6209%2C2594%2C1241%2CJlkXbBG3jm9C&invitationId=inv_a52a3e8b-f40f-4bae-ac7e-ddae54aa97c9)
 
+**Estudiantes**
 
+#### User Goal 1: Acceder rápidamente para ver la disponibilidad
 
-[![Captura-de-pantalla-2025-10-10-010357.png](https://i.postimg.cc/wjMmLfXj/Captura-de-pantalla-2025-10-10-010357.png)](https://postimg.cc/fV4yhvqG)
+**Descripción:** El usuario necesita ingresar a la plataforma de forma ágil para consultar inmediatamente la disponibilidad de cubículos de estudio en la sede elegida.
+
+**Happy Path**
+- El usuario llega a la pantalla de bienvenida y visualiza el formulario de "Iniciar Sesión"
+- Ingresa sus credenciales (usuario y contraseña) correctamente
+- El sistema valida la información y lo redirige al dashboard principal
+- Se muestra la lista de sedes disponibles (ej: San Miguel)
+- El usuario selecciona una sede y accede inmediatamente al listado de cubículos
+- Puede visualizar detalles: capacidad, horario de funcionamiento y realizar una reserva en menos de 30 segundos
+- La experiencia es fluida, sin interrupciones ni errores de validación
+
+**Unhappy Path**
+- El usuario ingresa credenciales incorrectas y el sistema muestra un mensaje de error
+- Puede intentar nuevamente o usar la opción "¿No tienes cuenta? Regístrate"
+- Si selecciona un cubículo sin horarios disponibles, puede visualizarlo claramente
+- Si la conexión falla durante la consulta de disponibilidad, se muestra un estado de carga o error amigable
+- El usuario puede reintentar sin perder el progreso
+
+**Condiciones Especificadas**
+- El tiempo de carga debe ser menor a 5 segundos desde la autenticación
+- La disponibilidad debe actualizarse en tiempo real
+- El diseño debe permitir acceso rápido sin pasos innecesarios
+- Debe ser intuitivo para usuarios nuevos y recurrentes
+
+<br>
+
+[![Captura-de-pantalla-2025-10-10-013837.png](https://i.postimg.cc/4NRx58p6/Captura-de-pantalla-2025-10-10-013837.png)](https://postimg.cc/PNKHfQ3J)
+
+<br>
+
+#### User Goal 2: Realizar una reserva de cubículo
+
+**Descripción:** El usuario desea reservar un cubículo específico para estudiar en un horario determinado, completando el proceso de forma sencilla y recibiendo confirmación inmediata.
+
+**Happy Path**
+- El usuario visualiza los cubículos y horarios disponibles con sus características (capacidad, ubicación)
+- Selecciona un cubículo que se adapta a sus necesidades
+- El sistema le muestra opciones de horario disponibles para ese día
+- Confirma la reserva y puede verla en la sección "Reservas Activas" del perfil
+
+**Unhappy Path**
+- El horario seleccionado fue reservado justo antes de completar el proceso
+- El estudiante tiene que reservar en otro horario
+- Si tiene reservas conflictivas o límite de reservas activas, el sistema lo notifica
+- El usuario puede cancelar la reserva actual o ajustar horarios
+
+### Condiciones Especificadas
+- El proceso de reserva no debe exceder 5 pasos
+- Confirmación instantánea por completar la acción
+- Opción de cancelación sin penalización con antelación de hasta 5 minutos máximo.
+- Sincronización en tiempo real del inventario de cubículos
+
+<br>
+
+[![Captura-de-pantalla-2025-10-10-014719.png](https://i.postimg.cc/05nkq73C/Captura-de-pantalla-2025-10-10-014719.png)](https://postimg.cc/s1BdYG3B)
+
+---
+
+**Persona Bibliotecario de la Universidad**
+
+#### User Goal 3: Gestionar cubículos con facilidad
+
+**Descripción:** El supervisor/administrador necesita gestionar de forma rápida y eficiente todos los cubículos disponibles en una sede, incluyendo agregar nuevos cubículos, eliminar existentes y actualizar información de ocupación y disponibilidad.
+
+**Happy Path**
+- El supervisor accede al Panel de Supervisor desde su cuenta autenticada
+- Visualiza "Mi Sede Asignada" (ej: San Miguel) con toda la información: ubicación, teléfono, horario
+- Navega a "Acciones Rápidas" y selecciona "Gestionar Cubículos"
+- El sistema carga la vista de gestión mostrando todos los cubículos existentes en la sede con sus detalles:
+  - Número de cubículo
+  - Capacidad (cantidad de personas)
+  - Pabellón/Ubicación principal
+  - Botón de acción "Eliminar"
+- El supervisor puede agregar un nuevo cubículo haciendo clic en "+ Agregar cubículo"
+- Se abre un modal con campos para:
+  - Nombre del cubículo
+  - Capacidad (número de personas)
+  - Zona/Pabellón de ubicación
+- Completa los datos y confirma la acción
+- El nuevo cubículo se agrega inmediatamente a la lista y el sistema actualiza la disponibilidad
+- El proceso es rápido, intuitivo y sin pasos innecesarios
+
+**Unhappy Path**
+- El supervisor intenta agregar un cubículo con capacidad inválida o campos vacíos
+- El sistema valida los datos y muestra un mensaje de error indicando los campos requeridos
+- El supervisor corrige los datos y reintenta
+- Si intenta eliminar un cubículo con reservas activas, el sistema lo advierte y sugiere esperar a que se libere
+- Si la conexión falla durante la operación, se muestra un mensaje de error y la acción se guarda en cola para reintentarse
+- El supervisor puede reintentar sin perder los datos ingresados
+- Si selecciona accidentalmente eliminar, aparece un diálogo de confirmación antes de ejecutar la acción
+
+**Condiciones Especificadas**
+- El panel debe cargar en menos de 2 segundos
+- Agregar cubículo no debe tomar más de 5 campos de entrada
+- Confirmación visual inmediata al agregar o eliminar cubículos
+- Los cambios se reflejan en tiempo real para todos los usuarios
+- No se permite eliminar cubículos con reservas activas sin confirmación
+- Validación de capacidad (mínimo 1 persona, máximo 10 personas)
+- El supervisor debe pertenecer a la sede para gestionar sus cubículos
+- Historial de cambios (auditoría) opcional para usuarios administrativos
+
+<br>
+
+[![Captura-de-pantalla-2025-10-10-022410.png](https://i.postimg.cc/BnFh9B6z/Captura-de-pantalla-2025-10-10-022410.png)](https://postimg.cc/K1Z7tLt7)
+
+[![Captura-de-pantalla-2025-10-10-022442.png](https://i.postimg.cc/yYgjcyF6/Captura-de-pantalla-2025-10-10-022442.png)](https://postimg.cc/4mGpTtLj)
+
+---
 
 ## 5.5. Applications Prototyping
 En esta sección se describen los prototipos desarrollados para Bibflip. Estos permiten simular la navegación y las principales funcionalidades tanto en la versión web como móvil.
