@@ -485,7 +485,7 @@ En esta sección se presentan los wireflows de la aplicación, que combinan wire
 <!-- En Proceso -->
 
 
-### 5.4.2. Applications Mock-ups
+### 5.4.3. Applications Mock-ups
 Aquí se muestran los mockups de alta fidelidad de la aplicación Bibflip, tanto para la versión web como móvil. Los mockups representan el diseño visual final, incluyendo tipografía, colores, iconografía y disposición precisa de los elementos.
 
 #### Web App Mock-ups
@@ -605,7 +605,7 @@ Esta pantalla se utilizará para visualizar el mapa de la sede San Miguel. <br>
 Esta pantalla se utilizará para reservar cubículos en un horario disponible. <br>
 
 
-### 5.4.3. Applications User Flow Diagrams
+### 5.4.4. Applications User Flow Diagrams
 En esta sección se documentan los diagramas de flujo de usuario (user flows) para los principales procesos dentro de la aplicación, como la reserva de cubículos, la gestión de sedes y la administración de usuarios. Los user flows muestran los pasos que sigue un usuario desde el inicio hasta la finalización de una tarea específica, identificando puntos clave de decisión, validaciones y retroalimentación del sistema. Estos diagramas ayudan a optimizar la experiencia y asegurar que los procesos sean intuitivos y eficientes.
 
 <!-- En Proceso -->
