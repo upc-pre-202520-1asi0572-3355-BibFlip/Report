@@ -6,6 +6,25 @@ En este apartado se establecen los principios de interacción y visuales que reg
 
 ### 5.1.1. General Style Guidelines
 
+#### Branding
+
+Para representar nuestro producto Bibflip, se desarrolló un logo que fusiona elementos clave de nuestra propuesta de valor: un libro abierto que simboliza el conocimiento y los espacios académicos, junto con una estrella de cuatro puntas en su interior. Esta combinación visual transmite de forma inmediata la naturaleza del producto como una plataforma de gestión de reservas de cubículos estudiantiles con un enfoque innovador y accesible.
+
+El libro, elemento universal asociado al estudio, la biblioteca y el aprendizaje, se convierte en un símbolo dinámico gracias a la estrella que lo corona. Esta estrella comunica la idea de excelencia, destacar y facilitar la experiencia del usuario. Juntos, estos elementos representan a Bibflip como la solución que ilumina el camino hacia espacios de estudio organizados y fácilmente reservables.
+
+[![Group-1.png](https://i.postimg.cc/9fMHWTHY/Group-1.png)](https://postimg.cc/dhzx6h1h)
+
+##### Variantes del Logo
+
+- **Versión Light**: Fondo gris claro (#D3D3D3) con icono en negro, transmitiendo claridad y accesibilidad
+- **Versión Primary**: Fondo en tonalidad naranja/marrón cálido (#D4844A), reflejando calidez académica y profesionalismo
+- **Versión Dark**: Fondo oscuro (#2A2A2A) con icono en blanco cremoso (#F5F5DC), para contextos digitales premium
+
+##### Aplicación
+
+El logo de Bibflip representa la modernidad aplicada a la gestión educativa: simplificando la reserva de espacios de estudio y permitiendo que los estudiantes se enfoquen en lo que realmente importa: su aprendizaje.
+
+
 #### Tipografía
 
 - Fuente: Inter
@@ -608,8 +627,9 @@ Esta pantalla se utilizará para reservar cubículos en un horario disponible. <
 ### 5.4.4. Applications User Flow Diagrams
 En esta sección se documentan los diagramas de flujo de usuario (user flows) para los principales procesos dentro de la aplicación, como la reserva de cubículos, la gestión de sedes y la administración de usuarios. Los user flows muestran los pasos que sigue un usuario desde el inicio hasta la finalización de una tarea específica, identificando puntos clave de decisión, validaciones y retroalimentación del sistema. Estos diagramas ayudan a optimizar la experiencia y asegurar que los procesos sean intuitivos y eficientes.
 
-<!-- En Proceso -->
 
+
+[![Captura-de-pantalla-2025-10-10-010357.png](https://i.postimg.cc/wjMmLfXj/Captura-de-pantalla-2025-10-10-010357.png)](https://postimg.cc/fV4yhvqG)
 
 ## 5.5. Applications Prototyping
 En esta sección se describen los prototipos desarrollados para Bibflip. Estos permiten simular la navegación y las principales funcionalidades tanto en la versión web como móvil.
