@@ -501,7 +501,40 @@ Esta pantalla se utilizará para reservar cubículos en un horario disponible. <
 ### 5.4.2. Applications Wireflow Diagrams
 En esta sección se presentan los wireflows de la aplicación, que combinan wireframes con diagramas de flujo para ilustrar cómo los usuarios navegan entre las diferentes pantallas y funcionalidades. Los wireflows permiten visualizar los posibles caminos de interacción, las decisiones del usuario y las respuestas del sistema, facilitando la identificación de mejoras en la experiencia de usuario y la detección de posibles bloqueos o redundancias en la navegación.
 
-<!-- En Proceso -->
+[![Captura-de-pantalla-2025-10-10-030654.png](https://i.postimg.cc/05J8zrVC/Captura-de-pantalla-2025-10-10-030654.png)](https://postimg.cc/V5myTsQS)
+<br>
+El enlace de los web application wireflow diagrams es el siguiente: [https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=38-393](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=38-393)
+
+#### User Persona: Estudiante
+
+**User Goal 1: Acceder rápidamente para ver la disponibilidad**
+
+[![Captura-de-pantalla-2025-10-10-030835.png](https://i.postimg.cc/k5tjQrLm/Captura-de-pantalla-2025-10-10-030835.png)](https://postimg.cc/gwmqp7YS)
+
+Este flujo representa el objetivo principal del estudiante: consultar de manera inmediata la disponibilidad de cubículos en la sede de su preferencia. El usuario inicia sesión y, tras la autenticación, accede directamente al panel principal donde se muestran todas las sedes disponibles. Al seleccionar una sede, puede visualizar en tiempo real el estado de los cubículos (disponibles, ocupados o reservados), junto con detalles como capacidad y horarios. El diseño prioriza la rapidez de acceso, la actualización automática de la información y la claridad visual, permitiendo que el estudiante tome decisiones informadas en menos de 30 segundos desde el ingreso a la plataforma. Además, se contemplan mensajes claros ante errores de autenticación o problemas de conexión, asegurando una experiencia fluida y sin frustraciones.
+
+
+**User Goal 2: Realizar una reserva de cubículo**
+
+[![Captura-de-pantalla-2025-10-10-031510.png](https://i.postimg.cc/pTHgyXyR/Captura-de-pantalla-2025-10-10-031510.png)](https://postimg.cc/DWxCMhqM)
+
+[![Captura-de-pantalla-2025-10-10-031955.png](https://i.postimg.cc/Vk5SHzfJ/Captura-de-pantalla-2025-10-10-031955.png)](https://postimg.cc/Mn2Kn2jw)
+
+Este flujo ilustra el proceso que sigue un estudiante para reservar un cubículo de estudio en la plataforma. Tras iniciar sesión y visualizar la disponibilidad, el usuario selecciona la sede y el cubículo que mejor se adapta a sus necesidades. A continuación, el sistema muestra los horarios disponibles para ese cubículo en tiempo real. El estudiante elige el horario deseado y confirma la reserva. El sistema valida que no existan conflictos de horario ni reservas activas previas, y muestra una confirmación inmediata de la reserva exitosa. Si ocurre algún inconveniente, como la ocupación repentina del horario seleccionado o el límite de reservas alcanzado, el sistema notifica al usuario y le permite seleccionar otra opción. El diseño prioriza la simplicidad, la retroalimentación clara y la actualización instantánea del estado de los cubículos, asegurando que el proceso de reserva sea rápido, intuitivo y sin pasos innecesarios.
+
+#### User Persona: Personal Bibliotecario
+
+##### User Goal 3: Gestionar cubículos con facilidad
+
+[![Captura-de-pantalla-2025-10-10-034022.png](https://i.postimg.cc/vmPw2xzZ/Captura-de-pantalla-2025-10-10-034022.png)](https://postimg.cc/8FrYj592)
+
+[![Captura-de-pantalla-2025-10-10-034128.png](https://i.postimg.cc/G3GSHsy3/Captura-de-pantalla-2025-10-10-034128.png)](https://postimg.cc/Z0YLQnHX)
+
+[![Captura-de-pantalla-2025-10-10-034157.png](https://i.postimg.cc/ZRkxSVj7/Captura-de-pantalla-2025-10-10-034157.png)](https://postimg.cc/Jyqk33fZ)
+
+Este flujo está orientado a la experiencia del supervisor o administrador encargado de la gestión de cubículos en una sede. El proceso inicia con el acceso al panel de gestión, donde se visualiza el listado completo de cubículos existentes, junto con información relevante como número, capacidad y ubicación. El supervisor puede agregar nuevos cubículos mediante un formulario sencillo, editar los datos de los existentes o eliminarlos si es necesario. El sistema valida los datos ingresados y previene acciones que puedan afectar reservas activas, mostrando advertencias y confirmaciones cuando corresponde. Todas las operaciones se reflejan en tiempo real, permitiendo una administración eficiente y transparente. El diseño prioriza la facilidad de uso, la retroalimentación inmediata y la reducción de errores, asegurando que la gestión de cubículos sea ágil, segura y centralizada en una sola interfaz.
+
+---
 
 
 ### 5.4.3. Applications Mock-ups
@@ -743,4 +776,4 @@ En esta sección se documentan los diagramas de flujo de usuario (user flows) pa
 ## 5.5. Applications Prototyping
 En esta sección se describen los prototipos desarrollados para Bibflip. Estos permiten simular la navegación y las principales funcionalidades tanto en la versión web como móvil.
 
-<!-- En Proceso -->
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EY73O0cRc6dLsHxQofhu7e8BDWhNknpIkdJtQr4BNVXQfA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OfAHMM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EY73O0cRc6dLsHxQofhu7e8BDWhNknpIkdJtQr4BNVXQfA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OfAHMM)
