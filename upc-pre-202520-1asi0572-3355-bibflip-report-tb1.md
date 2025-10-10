@@ -986,7 +986,33 @@ Este mapeo “To-Be” presenta el escenario ideal posterior a la implementació
 
 Con el objetivo de comprender en profundidad el dominio del sistema, se llevó a cabo una sesión de Event Storming de aproximadamente 1 hora. Esto permitió que nosotros como equipo organizaramos nuestras ideas y pensamientos sobre sistema desde múltiples perspectivas: negocio, usuario final, administración y experiencia. A través de esta dinámica, identificamos eventos clave, comandos, usuarios y agregados que nos ayudaron a esbozar una primera visión integral del sistema.
 
-<br>
+#### Pasos del Event Storming
+
+#### Paso 1: Collect domain events
+En el primer paso se identifican los eventos principales que ocurren en el sistema, plasmándolos de manera aislada y ordenada.  
+Esta fase ayuda a comprender la diversidad de acciones e hitos, sin preocuparse aún por su secuencia o agrupación, lo que permite descubrir todo el vocabulario de dominio relevante.
+
+[![Bib-Flip-DDD-Estrat-gico-Event-Storming-Step-1.png](https://i.postimg.cc/dDMqs6qM/Bib-Flip-DDD-Estrat-gico-Event-Storming-Step-1.png)](https://postimg.cc/5Q3cpwYp)
+
+#### Paso 2: Refine domain events
+El segundo paso consiste en clasificar los eventos detectados y organizarlos en bloques según el tipo de actividad o área funcional.  
+Este agrupamiento facilita visualizar patrones, dependencias y la relación entre procesos, preparando el terreno para explorar el flujo narrativo y el impacto en el negocio.
+
+[![Bib-Flip-DDD-Estrat-gico-Event-Storming-STEP-2.png](https://i.postimg.cc/sXkXxscn/Bib-Flip-DDD-Estrat-gico-Event-Storming-STEP-2.png)](https://postimg.cc/nj1Zw8N7)
+
+#### Paso 3: Track causes
+Durante el tercer paso se introducen los actores, comandos y decisiones que intervienen en los flujos narrados.  
+Aquí se conectan los eventos a través de relaciones y se representan secuencias lógicas, dando claridad a los caminos que recorren los datos y las acciones desde el inicio hasta su resultado final.
+
+[![Bib-Flip-DDD-Estrat-gico-Event-Storming-STEP-3.png](https://i.postimg.cc/L5VpSp0q/Bib-Flip-DDD-Estrat-gico-Event-Storming-STEP-3.png)](https://postimg.cc/2L3JdPYm)
+
+
+#### Paso 4: Find aggregates & re-sort them
+Finalmente, en el cuarto paso se delimitan los subdominios y contextos dentro del sistema, agrupando elementos relacionados bajo áreas temáticas o módulos funcionales.  
+Este mapeo ayuda a definir límites claros, responsabilidades y dependencias estructurales para guiar el diseño estratégico y la futura arquitectura del sistema.
+
+[![Bib-Flip-DDD-Estrat-gico-Event-Storming-STEP-4.png](https://i.postimg.cc/1R0PwGRC/Bib-Flip-DDD-Estrat-gico-Event-Storming-STEP-4.png)](https://postimg.cc/pydgtnFz)
+
 
 **Se vieron los siguientes puntos en la reunión:**
 
