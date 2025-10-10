@@ -2,9 +2,78 @@
 
 ## 5.1. Style Guidelines
 
+En este apartado se establecen los principios de interacción y visuales que regulan la experiencia completa en la plataforma Bib Flip, garantizando así una coherencia entre las distintas plataformas. Utilizando la tipografía, los colores, el espaciado, la iconografía y un tono de comunicación unificado, establecemos una identidad visual definida.
+
 ### 5.1.1. General Style Guidelines
 
+#### Tipografía
+
+- Fuente: Inter
+- Tamaños: Seleccionar entre los tamaños disponibles para asegurar una legibilidad adecuada en diferentes dispositivos y tamaños de pantalla.
+- Espaciado entre letras y líneas: Ajustar según sea necesario para mejorar la legibilidad, especialmente en textos largos.
+
+[![tipografia.png](https://i.postimg.cc/T3g5Pqk3/tipografia.png)](https://postimg.cc/tsR4SPQK)
+
+#### Paleta de colores
+
+[![section-colors.png](https://i.postimg.cc/d359tM92/section-colors.png)](https://postimg.cc/vx6n3NkT)
+
+#### Colores Principales
+
+| Nombre | Código Hex | Uso | Opacidad |
+|--------|-----------|-----|---------|
+| Dark Charcoal | #2A2A2A | Textos principales, encabezados | 100% |
+| Brown Primary | #634729 | Botones principales, elementos interactivos | 100% |
+| Mauve | #755D60 | Acentos secundarios, bordes | 100% |
+| Brown Secondary | #805E48 | Hover states, variaciones de botones | 100% |
+| Warm Tan | #916749 | Estados activos, elementos destacados | 100% |
+| Light Tan | #916953 | Fondos claros, backgrounds secundarios | 100% |
+
+#### Colores Neutros
+
+| Nombre | Código Hex | Uso | Opacidad |
+|--------|-----------|-----|---------|
+| Dark Gray | #96959B | Textos secundarios, placeholders | 100% |
+| Blanco | #AABBB6 | Fondos alternativos, spaces | 100% |
+| Light Gray | #ACABBB3 | Bordes, divisores | 100% |
+| Very Light Gray | #ADAAB3 | Fondos muy claros | 100% |
+| Off-White | #F7F9F4 | Fondos principales, espacios limpios | 100% |
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+#### Estados y Componentes
+
+**Botones y Acciones:**
+- Color base: #634729 (Brown Primary)
+- Hover: #805E48 (Brown Secondary)
+- Activo: #916749 (Warm Tan)
+
+**Tags/Badges (Disponible):**
+- Background: #916953 (Light Tan)
+- Texto: Blanco (#FFFFFF)
+
+**Fondos y Containers:**
+- Fondo principal: #F7F9F4 (Off-White)
+- Cards/Containers: Blanco (#FFFFFF)
+- Bordes: #96959B (Dark Gray)
+
+#### Significado y Uso
+
+La paleta de **tonos tierra y marrón** transmite calidez, confianza y profesionalismo, perfecta para la temática de biblioteca y espacios compartidos. Los tonos neutros proporcionan equilibrio visual y facilitan la legibilidad. Los acentos en colores tierra crean jerarquía visual sin ser intrusivos.
+
+#### Ejemplo de Interfaz
+
+**Bibflip - San Miguel Cubículos:**
+- Navbarra: Blanco (#FFFFFF)
+- Headers: Dark Charcoal (#2A2A2A)
+- Botones "Reservar": #634729 (Brown Primary)
+- Tags "Disponible": #916953 (Light Tan) con texto blanco
+- Fondos de página: #F7F9F4 (Off-White)
+- Cards de cubículos: Blanco (#FFFFFF) con bordes sutiles
+
+[![Cubiculos-Estudiante.png](https://i.postimg.cc/fb3W8YFt/Cubiculos-Estudiante.png)](https://postimg.cc/JyLWnHRM)
+
+[![Cubiculos.png](https://i.postimg.cc/GpZMD1G9/Cubiculos.png)](https://postimg.cc/FfVgt8PQ)
 
 # 5.2. Information Architecture
 
@@ -267,20 +336,177 @@ El wireframe fue elaborado en Figma y define la estructura inicial de la landing
 
 ### 5.3.2. Landing Page Mock-up
 
-El mockup de la landing page de Bibflip muestra una versión visual refinada y cercana al diseño final. En esta etapa se aplico una tipografía legible y una composición equilibrada. Este diseño busca comunicar el propósito central del proyecto: mejorar la experiencia de los estudiantes en la gestión de espacios de estudio mediante una interfaz moderna, intuitiva y atractiva. Las secciones del mockup incluyen una presentación clara de la solución propuesta, los beneficios de Bibflip y un llamado a la acción enfocado en conocer más sobre la aplicación. Este prototipo refleja una propuesta visual profesional y funcional, alineada con los valores de innovación y comunidad universitaria.
+El mockup de la landing page de Bibflip muestra una versión visual refinada y cercana al diseño final. En esta etapa se aplico una tipografía legible y una composición equilibrada. Este diseño busca comunicar el propósito central del proyecto: mejorar la experiencia de los estudiantes en la gestión de espacios de estudio mediante una interfaz moderna, intuitiva y atractiva. Las secciones del mockup incluyen una presentación clara de la solución propuesta, los beneficios de Bibflip y un llamado a la acción enfocado en conocer más sobre la aplicación. Con ello se refleja una propuesta visual profesional y funcional, alineada con los valores de innovación y comunidad universitaria.
+
+[![Captura-de-pantalla-2025-10-09-233857.png](https://i.postimg.cc/L8G7tfFc/Captura-de-pantalla-2025-10-09-233857.png)](https://postimg.cc/VJBD1J6g)
+
+[![Captura-de-pantalla-2025-10-09-234009.png](https://i.postimg.cc/rp6n0k5v/Captura-de-pantalla-2025-10-09-234009.png)](https://postimg.cc/Wdn6CxWn)
+
+[![Captura-de-pantalla-2025-10-09-234035.png](https://i.postimg.cc/rspQXFLt/Captura-de-pantalla-2025-10-09-234035.png)](https://postimg.cc/N9W1RtFg)
+
+[![Captura-de-pantalla-2025-10-09-234108.png](https://i.postimg.cc/0ySZqBLv/Captura-de-pantalla-2025-10-09-234108.png)](https://postimg.cc/Js1jNPrY)
+
+[![Captura-de-pantalla-2025-10-09-234149.png](https://i.postimg.cc/7YGngRPq/Captura-de-pantalla-2025-10-09-234149.png)](https://postimg.cc/TpxbxCWs)
+
+[![Captura-de-pantalla-2025-10-09-234233.png](https://i.postimg.cc/G2gvDFZB/Captura-de-pantalla-2025-10-09-234233.png)](https://postimg.cc/BLD89KZs)
 
 El mockup fue elaborado en Figma y presenta la propuesta visual final antes de la implementación. 
- 
+
 [Ver Mock-up en Figma](https://www.figma.com/design/lFAHFEcpJcJSknycAs0GBe/Bibflip---Landing-page---Mockup?node-id=0-1&t=GOQTIyM7Krw6Y7tg-1)
+
+
 
 ## 5.4. Applications UX/UI Design
 
+En esta sección se documenta el diseño de la aplicación de Bib Flip, la cual cuenta con su versión web y móvil. La versión web contará con interfaces y páginas personalizadas para cada tipo de usuario (Administrador, Supervisor y Estudiante); sin embargo, la aplicación móvil solo contará con pantallas para los estudiantes. Además, la adición de esta versión de la aplicación para dispositivos móviles es necesaria porque permite cumplir con los objetivos del proyecto y con las historias de usuario de los sprints correspondientes.
+
 ### 5.4.1. Applications Wireframes
+En esta sección se presentan los wireframes de la aplicación Bibflip, tanto para la versión web como para la versión móvil. Los wireframes son esquemas visuales de baja fidelidad que muestran la estructura básica de las pantallas, la disposición de los elementos y la jerarquía de la información, sin incluir detalles gráficos finales. Su objetivo es definir la organización de los contenidos y la navegación entre las diferentes secciones, permitiendo validar la lógica de interacción antes de avanzar a etapas de diseño visual más detalladas. 
+
+#### Web Application Wireframes
+Los wireframes de la aplicación web contemplan las vistas principales para cada tipo de usuario: Administrador, Supervisor y Estudiante. Incluyen pantallas como el panel principal (dashboard), gestión de cubículos, visualización de reservas, perfil de usuario y navegación entre sedes. Cada wireframe muestra la ubicación de menús, botones de acción, tablas de información y formularios, asegurando una experiencia de usuario clara y eficiente para cada rol sin entrar demasiado en detalle. Para poder visualizar el conjunto de wireframes se proporciona el siguiente enlace: [Enlace-Web-Application-Wireframes-Figma](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=0-1)
+
+
+##### Pantallas Generales
+
+[![Inicio-de-Sesi-n.png](https://i.postimg.cc/8ckzBxgm/Inicio-de-Sesi-n.png)](https://postimg.cc/FdqvhWRY)
+
+Los 3 tipos de usuario podrán iniciar sesión ingresando su usuario y contraseña previamente registrados.<br>
+
+[![Registro.png](https://i.postimg.cc/nrVhYNf1/Registro.png)](https://postimg.cc/R68mvsF3)
+
+Al ser esta una pantalla totalmente pública y accedida por cualquier usuario de internet, los administradores y supervisores no podrán registrarse de esta manera por razones de seguridad. De esta manera se evita que cualquier agente externo pueda crearse una cuenta de administrador y sabotear el sistema. Por lo tanto, esta pantalla de registro tendrá la funcionalidad de registrar nuevos estudiantes.<br>
+
+---
+
+##### Pantallas para Administrador
+
+[![Home-Administrador.png](https://i.postimg.cc/RFB79CwM/Home-Administrador.png)](https://postimg.cc/B8mLB0hy)
+
+Este es el menú inicial del administrador que observa tras iniciar sesión.<br>
+
+[![Dashboard-Sedes-Admin.png](https://i.postimg.cc/j5bHKqyx/Dashboard-Sedes-Admin.png)](https://postimg.cc/sBTQ4rnq)
+
+Al presionar el botón "Gestionar Sedes", el administrador es dirigido a esta pantalla donde podrá agregar una sede nueva.<br>
+
+[![Dashboard-Sedes-Admin-1.png](https://i.postimg.cc/0QsYx575/Dashboard-Sedes-Admin-1.png)](https://postimg.cc/WD5Fwv9x)
+
+Al presionar el botón de supervisores, el administrador podrá crearle una cuenta al supervisor y asignarle una sede.<br>
+
+[![Dashboard-Sedes-Admin-2.png](https://i.postimg.cc/FR4ymF0h/Dashboard-Sedes-Admin-2.png)](https://postimg.cc/FfTdV4P6)
+
+---
+
+##### Pantallas para Supervisor
+
+[![Home-Supervisor.png](https://i.postimg.cc/ZRHdS8Tf/Home-Supervisor.png)](https://postimg.cc/G8B2PsTY)
+
+Este el menú inicial que verá el supervisor tras iniciar sesión en la aplicación web.<br>
+
+[![Gesti-n-de-Reservas-Supervisor.png](https://i.postimg.cc/C17qgGFm/Gesti-n-de-Reservas-Supervisor.png)](https://postimg.cc/KkKz7g3M)
+
+En este apartado el supervisor podrá visualizar las reservas por estudiante.<br>
+
+[![Gesti-n-de-Reservas-Supervisor-1.png](https://i.postimg.cc/fLC9Ncw8/Gesti-n-de-Reservas-Supervisor-1.png)](https://postimg.cc/KkKz7g3T)
+
+En este apartado el supervisor podrá visualizar las reservas por cubículo.<br>
+
+[![Gesti-n-de-Cub-culos-Supervisor.png](https://i.postimg.cc/JnxkLN1K/Gesti-n-de-Cub-culos-Supervisor.png)](https://postimg.cc/vg1B76x6)
+
+En esta pantalla podrá gestionar los cubiculos, es decir agregarlos, editarlos o eliminarlos.<br>
+
+---
+
+##### Pantallas para estudiante
+
+[![Home-Estudiante.png](https://i.postimg.cc/xdt6sbw1/Home-Estudiante.png)](https://postimg.cc/v1x7TD8J)
+
+Este será el menú inicial que verá el estudiante tras iniciar sesión. En este apartado podrá ver sus reservas más recientes y cancelarlas. <br>
+
+[![Formulario-para-ver-Detalles-de-Reserva-Estudiante.png](https://i.postimg.cc/XvQs2yTR/Formulario-para-ver-Detalles-de-Reserva-Estudiante.png)](https://postimg.cc/rdRGszyj)
+
+Al seleccionar la opción de ver una reserva, el estudiante podrá ver estos detalles. <br>
+
+[![Reservaci-n-Estudiante.png](https://i.postimg.cc/JhPpTBfr/Reservaci-n-Estudiante.png)](https://postimg.cc/674VqT6g)
+
+Al seleccionar en la opción del navbar que dice "Reservar", el estudiante verá este apartado. En esta página podrá ver el mapa de la sede o continuar a la reserva de cubículos. <br>
+
+[![Mapa-Estudiante.png](https://i.postimg.cc/d045WTbq/Mapa-Estudiante.png)](https://postimg.cc/v1x7TD8j)
+
+Este apartado muestra el mapa de la sede para que nuevos estudiantes puedan ubicarse mejor. <br>
+
+[![Cub-culos-Estudiante.png](https://i.postimg.cc/tg2BrVK9/Cub-culos-Estudiante.png)](https://postimg.cc/d7ZR3DQf)
+
+Este apartado muestra los cubículos disponibles para reservar. <br>
+
+[![Formulario-para-Reservar-Cub-culo-Estudiante.png](https://i.postimg.cc/tg2BrVKH/Formulario-para-Reservar-Cub-culo-Estudiante.png)](https://postimg.cc/v1x7TD8P)
+
+Al querer reservar un cubículo, el estudiante podrá ver los horarios disponibles y efectuar la reserva. <br>
+
+
+#### Mobile Application Wireframes
+
+Los wireframes de la aplicación móvil están enfocados en la experiencia del estudiante. Incluyen pantallas como inicio de sesión, panel principal, exploración de sedes, visualización de cubículos disponibles, detalles de reserva, historial de reservas y perfil. El diseño prioriza la simplicidad y la facilidad de uso en dispositivos móviles, con menús accesibles, botones grandes y navegación intuitiva adaptada a pantallas táctiles. Para poder visualizar el conjunto de wireframes se proporciona el siguiente enlace: [Enlace-Mobile-Application-Wireframes-Figma](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-2)
+
+[![Inicio-de-sesi-n.png](https://i.postimg.cc/GtWRHfKK/Inicio-de-sesi-n.png)](https://postimg.cc/ctB2zXVt)
+
+En este apartado el inicio de sesión es exclusivo para estudiantes. <br>
+
+[![Registro.png](https://i.postimg.cc/9062rkb1/Registro.png)](https://postimg.cc/SYf3PDwz)
+
+Esta imagen expresa la pantalla de registro para la aplicación móvil con los mismos parámetros que la aplicación web. El registro por este medio seguirá siendo igualmente solo para estudiantes. <br>
+
+[![Home.png](https://i.postimg.cc/7hF4fR9M/Home.png)](https://postimg.cc/JH5vFP9G)
+
+Esta será la pantalla inicial que verá el estudiante tras iniciar sesión. En ella podrá darle click a la sede San Miguel para acceder a los cubículos. Además, podrá seleccionar la tarjeta de reservas activas para ver todas sus reservas.
+
+[![Home-1.png](https://i.postimg.cc/br7Ps5g9/Home-1.png)](https://postimg.cc/rRN3HQvD)
+
+Este será un apartado secundario para acceder a los cubículos de la sede San Miguel.
+
+[![Ver-cubiculos.png](https://i.postimg.cc/J0f8GFxQ/Ver-cubiculos.png)](https://postimg.cc/sG4qLwtB)
+
+Este apartado se utilizará para todos los cubículos disponibles en la sede San Miguel. <br>
+
+[![Mapbox.png](https://i.postimg.cc/zvsNVQ7j/Mapbox.png)](https://postimg.cc/RJLyYXj6)
+
+Esta pantalla se utilizará para visualizar el mapa de la sede San Miguel. <br>
+
+[![Reservacion-de-cubiculos.png](https://i.postimg.cc/prhxVvf6/Reservacion-de-cubiculos.png)](https://postimg.cc/m1sKV06Y)
+
+Esta pantalla se utilizará para reservar cubículos en un horario disponible. <br>
+
 
 ### 5.4.2. Applications Wireflow Diagrams
+En esta sección se presentan los wireflows de la aplicación, que combinan wireframes con diagramas de flujo para ilustrar cómo los usuarios navegan entre las diferentes pantallas y funcionalidades. Los wireflows permiten visualizar los posibles caminos de interacción, las decisiones del usuario y las respuestas del sistema, facilitando la identificación de mejoras en la experiencia de usuario y la detección de posibles bloqueos o redundancias en la navegación.
+
+<!-- En Proceso -->
+
 
 ### 5.4.2. Applications Mock-ups
+Aquí se muestran los mockups de alta fidelidad de la aplicación Bibflip, tanto para la versión web como móvil. Los mockups representan el diseño visual final, incluyendo tipografía, colores, iconografía y disposición precisa de los elementos. Estos prototipos permiten evaluar la apariencia estética, la coherencia visual y la alineación con la identidad de la marca antes de la implementación. Además, sirven como referencia para el desarrollo y validación con usuarios.
+
+#### Web App Mock-ups
+
+En el siguiente enlace se desarrollaron los mock-ups:
+[Enlace-Vista-Web-App-Mockups](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-3)
+
+
+
+
+#### Mobile App Mock-ups
+
+En el siguiente enlace se desarrollaron los mock-ups:
+[Enlace-Vista-Mobile-App-Mockups](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-4)
+
 
 ### 5.4.3. Applications User Flow Diagrams
+En esta sección se documentan los diagramas de flujo de usuario (user flows) para los principales procesos dentro de la aplicación, como la reserva de cubículos, la gestión de sedes y la administración de usuarios. Los user flows muestran los pasos que sigue un usuario desde el inicio hasta la finalización de una tarea específica, identificando puntos clave de decisión, validaciones y retroalimentación del sistema. Estos diagramas ayudan a optimizar la experiencia y asegurar que los procesos sean intuitivos y eficientes.
+
+<!-- En Proceso -->
+
 
 ## 5.5. Applications Prototyping
+En esta sección se describen los prototipos desarrollados para Bibflip. Estos permiten simular la navegación y las principales funcionalidades tanto en la versión web como móvil.
+
+<!-- En Proceso -->
