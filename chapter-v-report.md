@@ -366,7 +366,6 @@ En esta sección se presentan los wireframes de la aplicación Bibflip, tanto pa
 #### Web Application Wireframes
 Los wireframes de la aplicación web contemplan las vistas principales para cada tipo de usuario: Administrador, Supervisor y Estudiante. Incluyen pantallas como el panel principal (dashboard), gestión de cubículos, visualización de reservas, perfil de usuario y navegación entre sedes. Cada wireframe muestra la ubicación de menús, botones de acción, tablas de información y formularios, asegurando una experiencia de usuario clara y eficiente para cada rol sin entrar demasiado en detalle. Para poder visualizar el conjunto de wireframes se proporciona el siguiente enlace: [Enlace-Web-Application-Wireframes-Figma](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=0-1)
 
-
 ##### Pantallas Generales
 
 [![Inicio-de-Sesi-n.png](https://i.postimg.cc/8ckzBxgm/Inicio-de-Sesi-n.png)](https://postimg.cc/FdqvhWRY)
@@ -394,6 +393,8 @@ Al presionar el botón "Gestionar Sedes", el administrador es dirigido a esta pa
 Al presionar el botón de supervisores, el administrador podrá crearle una cuenta al supervisor y asignarle una sede.<br>
 
 [![Dashboard-Sedes-Admin-2.png](https://i.postimg.cc/FR4ymF0h/Dashboard-Sedes-Admin-2.png)](https://postimg.cc/FfTdV4P6)
+
+En esta pantalla el administrador podrá ver al supervisor por sede asignado. <br>
 
 ---
 
@@ -429,7 +430,7 @@ Al seleccionar la opción de ver una reserva, el estudiante podrá ver estos det
 
 [![Reservaci-n-Estudiante.png](https://i.postimg.cc/JhPpTBfr/Reservaci-n-Estudiante.png)](https://postimg.cc/674VqT6g)
 
-Al seleccionar en la opción del navbar que dice "Reservar", el estudiante verá este apartado. En esta página podrá ver el mapa de la sede o continuar a la reserva de cubículos. <br>
+Al seleccionar el botón del navbar que dice "Reservar", el estudiante verá este apartado. En esta página tendrá la opción de dirigirse a ver el mapa de la sede o continuar a la reserva de cubículos. <br>
 
 [![Mapa-Estudiante.png](https://i.postimg.cc/d045WTbq/Mapa-Estudiante.png)](https://postimg.cc/v1x7TD8j)
 
@@ -443,6 +444,7 @@ Este apartado muestra los cubículos disponibles para reservar. <br>
 
 Al querer reservar un cubículo, el estudiante podrá ver los horarios disponibles y efectuar la reserva. <br>
 
+---
 
 #### Mobile Application Wireframes
 
@@ -484,20 +486,123 @@ En esta sección se presentan los wireflows de la aplicación, que combinan wire
 
 
 ### 5.4.2. Applications Mock-ups
-Aquí se muestran los mockups de alta fidelidad de la aplicación Bibflip, tanto para la versión web como móvil. Los mockups representan el diseño visual final, incluyendo tipografía, colores, iconografía y disposición precisa de los elementos. Estos prototipos permiten evaluar la apariencia estética, la coherencia visual y la alineación con la identidad de la marca antes de la implementación. Además, sirven como referencia para el desarrollo y validación con usuarios.
+Aquí se muestran los mockups de alta fidelidad de la aplicación Bibflip, tanto para la versión web como móvil. Los mockups representan el diseño visual final, incluyendo tipografía, colores, iconografía y disposición precisa de los elementos.
 
 #### Web App Mock-ups
 
 En el siguiente enlace se desarrollaron los mock-ups:
 [Enlace-Vista-Web-App-Mockups](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-3)
 
+##### Pantallas Generales
 
+[![Inicio-de-sesi-n.png](https://i.postimg.cc/sxvHG9gQ/Inicio-de-sesi-n.png)](https://postimg.cc/hQR1Hmxc)
 
+Los 3 tipos de usuario podrán iniciar sesión ingresando su usuario y contraseña previamente registrados.<br>
 
-#### Mobile App Mock-ups
+[![Registro.png](https://i.postimg.cc/Fz7CkgHY/Registro.png)](https://postimg.cc/fSQf6dXs)
+
+Al ser esta una pantalla totalmente pública y accedida por cualquier usuario de internet, los administradores y supervisores no podrán registrarse de esta manera por razones de seguridad. De esta manera se evita que cualquier agente externo pueda crearse una cuenta de administrador y sabotear el sistema. Por lo tanto, esta pantalla de registro tendrá la funcionalidad de registrar nuevos estudiantes.<br>
+
+---
+
+##### Pantallas para Administrador
+
+[![Home-Administrativo.png](https://i.postimg.cc/7PGp6wGc/Home-Administrativo.png)](https://postimg.cc/5jJPKcmq)
+
+Este es el menú inicial del administrador que observa tras iniciar sesión.<br>
+
+[![Dashboard-Sedes-Admin.png](https://i.postimg.cc/8kJq5NJY/Dashboard-Sedes-Admin.png)](https://postimg.cc/xqQsprPG)
+
+Al presionar el botón de supervisores, el administrador podrá crearle una cuenta al supervisor y asignarle una sede.<br>
+
+[![Asignaci-n-de-supervisor-a-una-sede.png](https://i.postimg.cc/kM6k4q6N/Asignaci-n-de-supervisor-a-una-sede.png)](https://postimg.cc/nMxdS81M)
+
+En esta pantalla el administrador puede gestionar y visualizar al supervisor que fue asignado a una sede.
+
+---
+
+##### Pantallas para Supervisor
+
+[![Home-Panel-de-Supervisor.png](https://i.postimg.cc/jj6SByK2/Home-Panel-de-Supervisor.png)](https://postimg.cc/94M27RDH)
+
+Este el menú inicial que verá el supervisor tras iniciar sesión en la aplicación web.<br>
+
+[![Reservas-de-la-sede-por-Estudiante.png](https://i.postimg.cc/tgd48Fys/Reservas-de-la-sede-por-Estudiante.png)](https://postimg.cc/mcD4HzP4)
+
+En este apartado el supervisor podrá visualizar las reservas por estudiante.<br>
+
+[![Reservas-de-la-sede-por-cub-culo.png](https://i.postimg.cc/1z03bDPf/Reservas-de-la-sede-por-cub-culo.png)](https://postimg.cc/KKzbMk12)
+
+En este apartado el supervisor podrá visualizar las reservas por cubículo.<br>
+
+[![Gesti-n-de-Cub-culos-1.png](https://i.postimg.cc/Lsk8GjRY/Gesti-n-de-Cub-culos-1.png)](https://postimg.cc/06QvwMzP)
+
+[![Gesti-n-de-cubiculos-2.png](https://i.postimg.cc/8CdzxLDz/Gesti-n-de-cubiculos-2.png)](https://postimg.cc/4KdG97mD)
+
+En esta pantalla el supervisor podrá gestionar los cubiculos, es decir agregarlos, editarlos o eliminarlos.<br>
+
+---
+
+##### Pantallas para estudiante
+
+[![Home-Reservas-Estudiante.png](https://i.postimg.cc/y8jVPsTW/Home-Reservas-Estudiante.png)](https://postimg.cc/fV3nW4ph)
+
+Este será el menú inicial que verá el estudiante tras iniciar sesión. En este apartado podrá ver sus reservas más recientes y cancelarlas. <br>
+
+[![Detalles-de-la-Reserva-Estudiante.png](https://i.postimg.cc/RZ4SKNwt/Detalles-de-la-Reserva-Estudiante.png)](https://postimg.cc/fJqQhW2W)
+
+Al seleccionar la opción de ver una reserva, el estudiante podrá ver estos detalles. <br>
+
+[![Menu-antes-de-reservar-Estudiante.png](https://i.postimg.cc/zG8zKVTK/Menu-antes-de-reservar-Estudiante.png)](https://postimg.cc/TpNvX273)
+
+Al seleccionar en la opción del navbar que dice "Reservar", el estudiante verá este apartado. En esta página podrá seleccionar la opción de ver el mapa de la sede o continuar a la reserva de cubículos. <br>
+
+[![Mapa-de-la-sede-Estudiante.png](https://i.postimg.cc/XY4jdp9f/Mapa-de-la-sede-Estudiante.png)](https://postimg.cc/F7CXQFWz)
+
+Este apartado muestra el mapa de la sede para que nuevos estudiantes puedan ubicarse mejor. <br>
+
+[![Cubiculos-Ver-Estudiante.png](https://i.postimg.cc/Bn4SHX2D/Cubiculos-Ver-Estudiante.png)](https://postimg.cc/gntbPcSk)
+
+Este apartado muestra los cubículos disponibles para reservar. <br>
+
+[![Horarios-disponibles-Estudiante.png](https://i.postimg.cc/Qdh81Hc9/Horarios-disponibles-Estudiante.png)](https://postimg.cc/D8p3Kfjn)
+
+Al querer reservar un cubículo, el estudiante podrá ver los horarios disponibles y efectuar la reserva. <br>
+
+---
+
+#### Mobile Application Mock-ups
 
 En el siguiente enlace se desarrollaron los mock-ups:
 [Enlace-Vista-Mobile-App-Mockups](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-4)
+
+[![Inicio-de-sesi-n.png](https://i.postimg.cc/g2WVhqM2/Inicio-de-sesi-n.png)](https://postimg.cc/VdK0QMQx)
+
+En este apartado el inicio de sesión es exclusivo para estudiantes. <br>
+
+[![Registro.png](https://i.postimg.cc/Sxh697ZK/Registro.png)](https://postimg.cc/JGpHVJCw)
+
+Esta imagen expresa la pantalla de registro para la aplicación móvil con los mismos parámetros que la aplicación web. El registro por este medio seguirá siendo igualmente solo para estudiantes. <br>
+
+[![Home.png](https://i.postimg.cc/vZsrnLP8/Home.png)](https://postimg.cc/VdK0QMQ2)
+
+Esta será la pantalla inicial que verá el estudiante tras iniciar sesión. En ella podrá darle click a la sede San Miguel para acceder a los cubículos. Además, podrá seleccionar la tarjeta de reservas activas para ver todas sus reservas.
+
+[![Sedes.png](https://i.postimg.cc/jSbHfQ8s/Sedes.png)](https://postimg.cc/dL5ZPdPX)
+
+Este será un apartado secundario para acceder a los cubículos de la sede San Miguel.
+
+[![Cubiculos.png](https://i.postimg.cc/GpZMD1G9/Cubiculos.png)](https://postimg.cc/FfVgt8PQ)
+
+Este apartado se utilizará para todos los cubículos disponibles en la sede San Miguel. <br>
+
+[![Mapbox.png](https://i.postimg.cc/nhJ4mYdz/Mapbox.png)](https://postimg.cc/7fKJ87r8)
+
+Esta pantalla se utilizará para visualizar el mapa de la sede San Miguel. <br>
+
+[![Reservacion-de-cubiculos.png](https://i.postimg.cc/vZsrnLPb/Reservacion-de-cubiculos.png)](https://postimg.cc/1fvVh6hj)
+
+Esta pantalla se utilizará para reservar cubículos en un horario disponible. <br>
 
 
 ### 5.4.3. Applications User Flow Diagrams
