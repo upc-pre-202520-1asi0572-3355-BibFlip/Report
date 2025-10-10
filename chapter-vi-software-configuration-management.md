@@ -2,9 +2,9 @@
 
 ## 6.1. Software Configuration Management
 
-En esta sección se establece el proceso de implementación, comprobación, despliegue y validación de nuestra solución compuesta por los productos digitales que forman parte del alcance nuestra solución. Este capítulo abarca secciones para la organización del proceso de trabajo en Sprints, la descripción de las prácticas asociadas, evidencias de implementación y la colaboración por Sprint.
+En esta sección se establece el proceso de implementación, comprobación, despliegue y validación de la solución compuesta por los productos digitales de nuestro alcance. Este capítulo, alineado al enunciado y rúbrica del curso, cubre: configuración del entorno de desarrollo, control de código fuente, guías de estilo y la configuración de despliegue de **Landing Page**, **Web Applications**, **Web Services** y **Mobile Applications**.
 
-<br>
+<br/>
 
 ### 6.1.1. Software Development Environment Configuration
 
@@ -156,4 +156,66 @@ Para el desarrollo de nuestra propuesta de solución, el equipo utilizará las c
 
 ### 6.1.4. Software Deployment Configuration
 
-<!--Despliegue de landing-->
+Se especifican pasos reproducibles para desplegar cada producto desde los repositorios. Se incluye además un **Deployment Diagram (C4)** como evidencia (captura/imagen en `docs/diagrams/deployment.png`).
+
+**Entornos**
+<table>
+  <thead><tr><th>Producto</th><th>Entorno</th><th>Dominio/URL</th><th>Notas</th></tr></thead>
+  <tbody>
+    <tr><td>Landing</td><td>Prod</td><td><em>https://usuario.github.io/bibflip</em></td><td>GitHub Pages</td></tr>
+    <tr><td>Web (Vue)</td><td>Prod</td><td><em>https://bibflip-web.web.app</em></td><td>Firebase Hosting</td></tr>
+    <tr><td>Mobile</td><td>QA/Interno</td><td><em>Firebase App Distribution</em></td><td>APK/AAB para testers</td></tr>
+    <tr><td>Web Services</td><td>QA/Prod</td><td><em>Azure App Service</em></td><td>Pendiente primer release</td></tr>
+  </tbody>
+</table>
+
+**Variables y secretos (estándar)**
+- `VITE_API_BASE_URL` (web), `API_BASE_URL` (mobile).
+- Claves/IDs de Firebase (hosting/app distribution).
+- Nunca en el repo: se configuran en **GitHub Secrets** / **Firebase CLI**.
+
+**1) Landing Page (GitHub Pages)**
+```bash
+# Requisitos
+npm i
+# Build (si aplica) o commit directo para sitio estático
+git checkout main
+git add .
+git commit -m "feat(landing): v1 sections & assets"
+git push origin main
+
+# GitHub → Settings → Pages → Deploy from branch: main / root
+# Verificar URL pública
+```
+
+**2) Frontend Web (Firebase Hosting)**
+```bash
+# Requisitos
+npm i -g firebase-tools
+firebase login
+firebase init hosting  # seleccionar proyecto; setea build dir: dist
+
+# Build y Deploy
+npm ci
+npm run build
+firebase deploy
+
+```
+
+**3) Mobile (Flutter/Dart)**
+```bash
+flutter clean
+flutter pub get
+flutter build apk --release
+# Distribuir con Firebase App Distribution
+firebase appdistribution:distribute build/app/outputs/flutter-apk/app-release.apk --app <APP_ID> --groups testers
+
+```
+
+**4) Web Services (Azure) — plan de despliegue**
+
+Contenedor / App Service con pipeline de GitHub Actions.
+
+Branch main → deploy prod; develop → slot staging.
+
+Documentación OpenAPI expuesta en /swagger.
