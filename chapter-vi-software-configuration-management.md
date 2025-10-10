@@ -156,7 +156,8 @@ Para el desarrollo de nuestra propuesta de solución, el equipo utilizará las c
 
 ### 6.1.4. Software Deployment Configuration
 
-Se especifican pasos reproducibles para desplegar cada producto desde los repositorios. Se incluye además un **Deployment Diagram (C4)** como evidencia (captura/imagen en `docs/diagrams/deployment.png`).
+Se describe el proceso de configuración y despliegue de los productos digitales que conforman la solución **BibFlip**, incluyendo la **Landing Page** y los **Backend Services**.  
+El objetivo es detallar los pasos necesarios para lograr la publicación satisfactoria de ambos componentes a partir de sus respectivos repositorios en GitHub.
 
 **Entornos**
 <table>
@@ -174,21 +175,44 @@ Se especifican pasos reproducibles para desplegar cada producto desde los reposi
 - Claves/IDs de Firebase (hosting/app distribution).
 - Nunca en el repo: se configuran en **GitHub Secrets** / **Firebase CLI**.
 
-**1) Landing Page (GitHub Pages)**
-```bash
-# Requisitos
-npm i
-# Build (si aplica) o commit directo para sitio estático
-git checkout main
-git add .
-git commit -m "feat(landing): v1 sections & assets"
-git push origin main
+**1. Landing Page (GitHub Pages)**
 
-# GitHub → Settings → Pages → Deploy from branch: main / root
-# Verificar URL pública
-```
+**Repositorio**
+- **URL del repositorio:** <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage>
+- **Tecnologías utilizadas:**  
+  - HTML  
+  - CSS  
+  - JavaScript
 
-**2) Frontend Web (Firebase Hosting)**
+**Pasos de despliegue**
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage.git
+   cd LandingPage
+   ```
+2. **Verificar la estructura del proyecto:**
+
+    - Asegurarse de que el archivo principal index.html se encuentre en la raíz del repositorio, junto con las carpetas /css y /js.
+
+3. **Configurar GitHub Pages:**
+    - Acceder a la sección Settings del repositorio.
+    - Ir a la pestaña Pages.
+    - En el apartado Source, seleccionar la rama main y la carpeta / (root).
+    - Guardar los cambios.
+
+4. **Esperar la publicación:**
+    - GitHub Pages realizará automáticamente el build del sitio y lo publicará en la URL generada.
+
+**Resultado:**
+
+La Landing Page quedó publicada y accesible en el siguiente enlace:
+
+<https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/>
+
+
+**2. Frontend Web (Firebase Hosting)**
+
 ```bash
 # Requisitos
 npm i -g firebase-tools
@@ -202,7 +226,8 @@ firebase deploy
 
 ```
 
-**3) Mobile (Flutter/Dart)**
+**3. Mobile (Flutter/Dart)**
+
 ```bash
 flutter clean
 flutter pub get
@@ -212,10 +237,50 @@ firebase appdistribution:distribute build/app/outputs/flutter-apk/app-release.ap
 
 ```
 
-**4) Web Services (Azure) — plan de despliegue**
+**4. Web Services (Azure) — plan de despliegue**
 
-Contenedor / App Service con pipeline de GitHub Actions.
+El despliegue de los servicios Backend de **BibFlip** se realizó a partir del código fuente alojado en el repositorio oficial de la organización en GitHub.  
+Este proceso permitió publicar la API REST desarrollada en **Spring Boot** dentro de la plataforma **Microsoft Azure**, garantizando su disponibilidad pública.
 
-Branch main → deploy prod; develop → slot staging.
+**Repositorio:**
+- **Nombre:** `Backend`  
+- **Plataforma:** GitHub  
+- **URL:** <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
 
-Documentación OpenAPI expuesta en /swagger.
+**Pasos para el despliegue**
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend.git
+   cd Backend
+   ```
+
+2. **Compilar y empaquetar la aplicación**
+   ```bash
+   git clone https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend.git
+   cd Backend
+   ```
+3. **Configurar el servicio en Azure**
+    - Ingresar al portal de Microsoft Azure .
+    - Crear un App Service con las siguientes configuraciones:
+        - Runtime Stack: Java 17
+        - Web Server: Java SE
+        - Sistema Operativo: Linux
+    - Asignar un nombre único para el servicio `bibflip-api-platform`.
+
+4. **Conectar el repositorio con Azure**
+    - En el App Service, acceder al apartado Deployment Center.
+    - Seleccionar GitHub como fuente de despliegue.
+    - Autorizar la cuenta de GitHub y elegir:
+        - Organización: `upc-pre-202520-1asi0572-3355-BibFlip`
+        - Repositorio: `Backend`
+        - Rama: `main`
+
+5. **Verificar el despliegue**
+    - Azure ejecutará automáticamente el build y desplegará la aplicación.
+    - Una vez completado, acceder al enlace generado por Azure para comprobar el funcionamiento de la API.
+    - URL de despliegue: <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**Diagrama de despliegue de nuestras soluciones:**
+
+<img src="https://i.ibb.co/Y76Y7zrT/diagramde-deploy.png" alt="Diagrama de Deploy" border="0">
