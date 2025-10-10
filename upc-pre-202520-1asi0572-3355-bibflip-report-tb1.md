@@ -66,86 +66,38 @@
 
 En esta sección se resumen los avances y modificaciones realizadas durante el ciclo de vida de desarrollo del proyecto equivalente a un semestre.
 
-<table>
-  <thead>
-    <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción de modificación</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1.0</td>
-      <td>09/09/2025</td>
-      <td>Aranda Vallejos, Oscar Gabriel</td>
-      <td>Creación y estructuración del informe</td>
-    </tr>
-    <tr>
-      <td>1.1</td>
-      <td>11/09/2025</td>
-      <td>Aranda Vallejos, Oscar Gabriel</td>
-      <td>Desarrollo del capítulo I</td>
-    </tr>
-    <tr>
-      <td>1.2</td>
-      <td>14/09/2025</td>
-      <td>Aranda Vallejos, Oscar Gabriel</td>
-      <td>Desarrollo del event storming y bounded context canvas</td>
-    </tr>
-    <tr>
-      <td>1.3</td>
-      <td>15/09/2025</td>
-      <td>Bernaola Pérez, André Arturo</td>
-      <td>Desarrollo del diagrama de clases y de base de datos</td>
-    </tr>
-    <tr>
-      <td>1.4</td>
-      <td>15/09/2025</td>
-      <td>Aranda Vallejos, Oscar Gabriel</td>
-      <td>Cierre del capítulo I y Competidores</td>
-    </tr>
-    <tr>
-      <td>1.5</td>
-      <td>15/09/2025</td>
-      <td>Soriano Medrano, Diego</td>
-      <td>Desarrollo de los Domain Message Flows Modeling y del Context Mapping</td>
-    </tr>
-    <tr>
-      <td>1.6</td>
-      <td>16/09/2025</td>
-      <td>Pedraza Maldonado, Joaquin</td>
-      <td>Desarrollo y cierre del capítulo III</td>
-    </tr>
-    <tr>
-      <td>1.7</td>
-      <td>16/09/2025</td>
-      <td>Gutierrez Garcia, Jose Eduardo</td>
-      <td>Desarrollo de Software Architecture</td>
-    </tr>
-    <tr>
-      <td>1.8</td>
-      <td>16/09/2025</td>
-      <td>Oliveira Paucar, Mauricio</td>
-      <td>Desarrollo de Tactical-Level Domain-Driven Design</td>
-    </tr>
-    <tr>
-      <td>1.9</td>
-      <td>17/09/2025</td>
-      <td>Velarde Luyo, Piero Alberto  </td>
-      <td>Desarrollo del Needfinding</td>
-    </tr>
-    <tr>
-      <td>2.0</td>
-      <td>18/09/2025</td>
-      <td>Aranda Vallejos, Oscar Gabriel</td>
-      <td>Cierre de los capítulos II y IV</td>
-    </tr>
-  </tbody>
-</table>
-<br>
-
+| Versión | Fecha      | Autor                          | Descripción de modificación                                                 |
+| ------- | ---------- | ------------------------------ | --------------------------------------------------------------------------- |
+| 1.0     | 09/09/2025 | Aranda Vallejos, Oscar Gabriel | Creación y estructuración del informe                                       |
+| 1.1     | 11/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del capítulo I                                                   |
+| 1.2     | 14/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del event storming y bounded context canvas                      |
+| 1.3     | 15/09/2025 | Bernaola Pérez, André Arturo   | Desarrollo del diagrama de clases y de base de datos                        |
+| 1.4     | 15/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre del capítulo I y Competidores                                        |
+| 1.5     | 15/09/2025 | Soriano Medrano, Diego         | Desarrollo de los Domain Message Flows Modeling y del Context Mapping       |
+| 1.6     | 16/09/2025 | Pedraza Maldonado, Joaquín     | Desarrollo y cierre del capítulo III                                        |
+| 1.7     | 16/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo de Software Architecture                                         |
+| 1.8     | 16/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo de Tactical-Level Domain-Driven Design                           |
+| 1.9     | 17/09/2025 | Velarde Luyo, Piero Alberto    | Desarrollo del Needfinding                                                  |
+| 2.0     | 18/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos II y IV                                             |
+| 2.1     | 20/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo del Capítulo V: Solution UI/UX Design                            |
+| 2.2     | 21/09/2025 | Velarde Luyo, Piero Alberto    | Diseño de wireframes y prototipos de alta fidelidad                         |
+| 2.3     | 22/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment |
+| 2.4     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo de la sección 6.1: Software Configuration Management             |
+| 2.5     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | 6.1.1. Software Development Environment Configuration                       |
+| 2.6     | 24/09/2025 | Bernaola Pérez, André Arturo   | 6.1.2. Source Code Management                                               |
+| 2.7     | 24/09/2025 | Soriano Medrano, Diego         | 6.1.3. Source Code Style Guide & Conventions                                |
+| 2.8     | 25/09/2025 | Pedraza Maldonado, Joaquín     | 6.1.4. Software Deployment Configuration                                    |
+| 2.9     | 26/09/2025 | Velarde Luyo, Piero Alberto    | 6.2. Landing Page, Services & Applications Implementation                   |
+| 3.0     | 27/09/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1. Sprint 1 - Sprint Planning 1                                         |
+| 3.1     | 28/09/2025 | Soriano Medrano, Diego         | 6.2.1.2. Aspect Leaders and Collaborators                                   |
+| 3.2     | 28/09/2025 | Oliveira Paucar, Mauricio      | 6.2.1.3. Sprint Backlog 1                                                   |
+| 3.3     | 29/09/2025 | Pedraza Maldonado, Joaquín     | 6.2.1.4. Development Evidence for Sprint Review                             |
+| 3.4     | 30/09/2025 | Bernaola Pérez, André Arturo   | 6.2.1.5. Testing Suite Evidence for Sprint Review                           |
+| 3.5     | 01/10/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.1.6. Execution Evidence for Sprint Review                               |
+| 3.6     | 02/10/2025 | Velarde Luyo, Piero Alberto    | 6.2.1.7. Services Documentation Evidence for Sprint Review                  |
+| 3.7     | 03/10/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1.8. Software Deployment Evidence for Sprint Review                     |
+| 3.8     | 04/10/2025 | Soriano Medrano, Diego         | 6.2.1.9. Team Collaboration Insights during Sprint                          |
+| 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
 
 # Project Report Collaboration Insights
 
