@@ -2523,8 +2523,12 @@ El **IoT Monitoring Bounded Context** es responsable de gestionar la interacció
 **TB1**
 - Es importante realizar un análisis real de los costos para la instalación y mantenimiento de los dispositivos IOT para cada cubículo. Además, se debe considerar la cantidad general de los cubículos, y el gasto en el uso de tecnologías CLOUD
 - El diseño de la arquitectura de software y el DDD, tanto a nivel táctico como estratégico, nos permite expresar la estructura del software de manera gráfica y con mayor profundidad. Esto permite que todos los integrantes pueden comprender la funcionalidad de cada bounded context y del sistema en general.
+
+
 **TP**
-  Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.<br>
+
+Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+
 ---
 
 # Bibliografía
