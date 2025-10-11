@@ -260,6 +260,206 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 
 ---
 
+## Registro de Versiones del Informe
+
+En esta sección se resumen los avances y modificaciones realizadas durante el ciclo de vida de desarrollo del proyecto equivalente a un semestre.
+
+| Versión | Fecha      | Autor                          | Descripción de modificación                                                 |
+| ------- | ---------- | ------------------------------ | --------------------------------------------------------------------------- |
+| 1.0     | 09/09/2025 | Aranda Vallejos, Oscar Gabriel | Creación y estructuración del informe                                       |
+| 1.1     | 11/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del capítulo I                                                   |
+| 1.2     | 14/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del event storming y bounded context canvas                      |
+| 1.3     | 15/09/2025 | Bernaola Pérez, André Arturo   | Desarrollo del diagrama de clases y de base de datos                        |
+| 1.4     | 15/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre del capítulo I y Competidores                                        |
+| 1.5     | 15/09/2025 | Soriano Medrano, Diego         | Desarrollo de los Domain Message Flows Modeling y del Context Mapping       |
+| 1.6     | 16/09/2025 | Pedraza Maldonado, Joaquín     | Desarrollo y cierre del capítulo III                                        |
+| 1.7     | 16/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo de Software Architecture                                         |
+| 1.8     | 16/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo de Tactical-Level Domain-Driven Design                           |
+| 1.9     | 17/09/2025 | Velarde Luyo, Piero Alberto    | Desarrollo del Needfinding                                                  |
+| 2.0     | 18/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos II y IV                                             |
+| 2.1     | 20/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo del Capítulo V: Solution UI/UX Design                            |
+| 2.2     | 21/09/2025 | Velarde Luyo, Piero Alberto    | Diseño de wireframes y prototipos de alta fidelidad                         |
+| 2.3     | 22/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment |
+| 2.4     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo de la sección 6.1: Software Configuration Management             |
+| 2.5     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | 6.1.1. Software Development Environment Configuration                       |
+| 2.6     | 24/09/2025 | Bernaola Pérez, André Arturo   | 6.1.2. Source Code Management                                               |
+| 2.7     | 24/09/2025 | Soriano Medrano, Diego         | 6.1.3. Source Code Style Guide & Conventions                                |
+| 2.8     | 25/09/2025 | Pedraza Maldonado, Joaquín     | 6.1.4. Software Deployment Configuration                                    |
+| 2.9     | 26/09/2025 | Velarde Luyo, Piero Alberto    | 6.2. Landing Page, Services & Applications Implementation                   |
+| 3.0     | 27/09/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1. Sprint 1 - Sprint Planning 1                                         |
+| 3.1     | 28/09/2025 | Soriano Medrano, Diego         | 6.2.1.2. Aspect Leaders and Collaborators                                   |
+| 3.2     | 28/09/2025 | Oliveira Paucar, Mauricio      | 6.2.1.3. Sprint Backlog 1                                                   |
+| 3.3     | 29/09/2025 | Pedraza Maldonado, Joaquín     | 6.2.1.4. Development Evidence for Sprint Review                             |
+| 3.4     | 30/09/2025 | Bernaola Pérez, André Arturo   | 6.2.1.5. Testing Suite Evidence for Sprint Review                           |
+| 3.5     | 01/10/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.1.6. Execution Evidence for Sprint Review                               |
+| 3.6     | 02/10/2025 | Velarde Luyo, Piero Alberto    | 6.2.1.7. Services Documentation Evidence for Sprint Review                  |
+| 3.7     | 03/10/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1.8. Software Deployment Evidence for Sprint Review                     |
+| 3.8     | 04/10/2025 | Soriano Medrano, Diego         | 6.2.1.9. Team Collaboration Insights during Sprint                          |
+| 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
+
+
+
+# Project Report Collaboration Insights
+
+<br>Se utilizaron Git y Github como herramientas fundamentales para el versionamiento y gestión del proyecto, lo cual permite una mejor colaboración y visualización de cambios en tiempo real. A continuación, se proporcionan los siguientes enlaces del proyecto:
+
+| **Descripción**            | **Enlace**                                                                 |
+| :-------------------------: | :------------------------------------------------------------------------: |
+| Repositorio de la documentación    | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip/Report         |
+| Organización del proyecto     | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip                    |
+
+<!--LO COMPLETARE DESPUES -->
+
+<br>
+
+# Contenido
+
+## Tabla de Contenidos
+
+### [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+
+### [Project Report Collaboration Insights](#project-report-collaboration-insights)
+
+### [Contenido](#contenido)
+
+### [Student Outcomes](#student-outcome)
+
+### [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+          - [**Business Outcomes:**](#business-outcomes)
+          - [**Users:**](#users)
+          - [**User Outcomes \& Benefits:**](#user-outcomes--benefits)
+          - [**Feature Assumptions:**](#feature-assumptions)
+          - [**Business Assumptions:**](#business-assumptions)
+          - [**User Assumptions:**](#user-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+
+### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
+
+### [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+  - [4.1.1. Event Storming](#411-event-storming)
+    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
+  - [4.1.2. Context Mapping](#412-context-mapping)
+  - [4.1.3. Software Architecture](#413-software-architecture)
+    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+    - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+- [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+  - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)
+    - [4.2.1.3. Application Layer](#4213-application-layer)
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+    - [4.2.1.6. Bounded Context Software Architecture Component Level Diagrams](#4216-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.1.7. Bounded Context Software Architecture Code Level Diagrams](#4217-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.1.7.1. Bounded Context Domain Layer Class Diagrams](#42171-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.7.2. Bounded Context Database Design Diagram](#42172-bounded-context-database-design-diagram)
+  - [4.2.2. Bounded Context: Table Management](#422-bounded-context-table-management)
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [4.2.2.6. Bounded Context Software Architecture Component Level Diagrams](#4226-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.2.7. Bounded Context Software Architecture Code Level Diagrams](#4227-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.2.7.1. Bounded Context Domain Layer Class Diagrams](#42271-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.7.2. Bounded Context Database Design Diagram](#42272-bounded-context-database-design-diagram)
+  - [4.2.3. Bounded Context: Branching](#423-bounded-context-branching)
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+    - [4.2.3.6. Bounded Context Software Architecture Component Level Diagrams](#4236-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.3.7. Bounded Context Software Architecture Code Level Diagrams](#4237-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.3.7.1. Bounded Context Domain Layer Class Diagrams](#42371-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.7.2. Bounded Context Database Design Diagram](#42372-bounded-context-database-design-diagram)
+  - [4.2.4. Bounded Context: Booking](#424-bounded-context-booking)
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)
+    - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [4.2.4.6. Bounded Context Software Architecture Component Level Diagrams](#4246-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.4.7. Bounded Context Software Architecture Code Level Diagrams](#4247-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.4.7.1. Bounded Context Domain Layer Class Diagrams](#42471-bounded-context-domain-layer-class-diagrams)
+      - [4.2.4.7.2. Bounded Context Database Design Diagram](#42472-bounded-context-database-design-diagram)
+  - [4.2.5. Bounded Context: IoT Device Monitoring](#425-bounded-context-iot-device-monitoring)
+  <!-- Breve Descripción nada más -->
+
+### [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+- [5.1. Style Guidelines](#51-style-guidelines)
+  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+- [5.2. Information Architecture](#52-information-architecture)
+  - [5.2.1. Organization Systems](#521-organization-systems)
+  - [5.2.2. Labeling Systems](#522-labeling-systems)
+  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+  - [5.2.4. Searching Systems](#524-searching-systems)
+  - [5.2.5. Navigation Systems](#525-navigation-systems)
+- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+  - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+  - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
+  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+- [5.5. Applications Prototyping](#55-applications-prototyping)
+
+### [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
+- [6.1. Software Configuration Management](#61-software-configuration-management)
+  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+  - [6.1.2. Source Code Management](#612-source-code-management)
+  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
+  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
+  - [6.2.1. Sprint 1](#621-sprint-1)
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+
+### [Conclusiones](#conclusiones)
+### [Bibliografía](#bibliografía)
+### [Anexos](#anexos)
+
+---
+
 # Student Outcome
 
 En Ingeniería de Software, el logro contribuye a alcanzar el ABET – EAC - Student Outcome 5: La capacidad de funcionar efectivamente en un 
@@ -267,10 +467,10 @@ equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de
 colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
 
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|-------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Lideré la iniciativa de creación y estructuración del informe, estableciendo las bases para el trabajo colaborativo del equipo. Además, dirigí el desarrollo del event storming y el Domain Driven Design, facilitando la comprensión compartida del dominio entre todos los miembros<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Lideré el diseño de la base de datos y del diagrama de clases, proporcionando la base arquitectónica del software<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Asumí el liderazgo en el desarrollo de los Domain Message Flows Modeling, facilitando la comprensión de las comunicaciones del sistema. Además, dirigí el desarrollo del Context Mapping, proporcionando claridad sobre las relaciones entre contextos<br><br>**Pedraza Maldonado, Joaquin**<br>*TB1*<br>Tomé la responsabilidad de liderar el desarrollo del capítulo III, coordinando con el equipo para mantener la consistencia técnica<br><br>**Gutierrez Garcia, Jose Eduardo**<br>*TB1*<br>Lideré el desarrollo de los modelos C4 y comuniqué el diseño arquitectónico para el equipo<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Asumí el liderazgo en Tactical-Level Domain-Driven Design, guiando al equipo en la documentación de la estructura de cada bounded context<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Lideré el proceso de Needfinding, dirigiendo la investigación de usuarios y estableciendo las bases para las decisiones del equipo | La distribución efectiva del liderazgo técnico, donde cada miembro asume responsabilidades específicas según sus fortalezas, es fundamental para trabajar de manera más rápida y efectiva. Además, las revisiones periódicas del avance de cada integrante y la comunicación fluida permite garantizar una buena organización del proyecto.  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Establecí un ambiente colaborativo coordinando la gestión general del proyecto al definir objetivos claros y plazos específicos para cada entrega.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Contribuí al entorno colaborativo considerando las necesidades de otros componentes del sistema y planificando el modelado de relaciones del sistema.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Promoví la colaboración analizando los bounded context que conectan el trabajo de todos los miembros del equipo. Además, logré facilitar la comprensión compartida al mapear las comunicaciones entre estos.<br><br>**Pedraza Maldonado, Joaquin**<br>*TB1*<br>Logré definir las historias de usuario que forman parte de los requisitos que necesitamos cumplir y, en compañia del equipo, establecí los tiempos requeridos para implementar cada historia en el product backlog.<br><br>**Gutierrez Garcia, Jose Eduardo**<br>*TB1*<br>Establecí un entorno colaborativo diseñando los diagramas de componentes que integran el trabajo de todos los bounded context.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Planifiqué y cumplí objetivos específicos en el nivel táctico del DDD, guiando el trabajo colaborativo y sincronizando otras secciones dependientes de los bounded context.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Creé un ambiente inclusivo investigando necesidades de usuarios y compartiendo insights que orientan las decisiones del equipo. | Establecer un entorno colaborativo mediante la división estratégica de tareas es vital para integrar cohesivamente todos los features en el producto final. |
+| Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Lideré la iniciativa de creación y estructuración del informe, estableciendo las bases para el trabajo colaborativo del equipo. Además, dirigí el desarrollo del event storming y el Domain Driven Design, facilitando la comprensión compartida del dominio entre todos los miembros.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Lideré el diseño de la base de datos y del diagrama de clases, proporcionando la base arquitectónica del software.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Asumí el liderazgo en el desarrollo de los Domain Message Flows Modeling, facilitando la comprensión de las comunicaciones del sistema. Además, dirigí el desarrollo del Context Mapping, proporcionando claridad sobre las relaciones entre contextos.<br><br>**Pedraza Maldonado, Joaquín**<br>*TB1*<br>Tomé la responsabilidad de liderar el desarrollo del capítulo III, coordinando con el equipo para mantener la consistencia técnica.<br><br>**Gutiérrez García, José Eduardo**<br>*TB1*<br>Lideré el desarrollo de los modelos C4 y comuniqué el diseño arquitectónico para el equipo.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Asumí el liderazgo en Tactical-Level Domain-Driven Design, guiando al equipo en la documentación de la estructura de cada bounded context.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Lideré el proceso de Needfinding, dirigiendo la investigación de usuarios y estableciendo las bases para las decisiones del equipo.<br><br>**TP**<br>**Oscar Aranda**<br>Durante el desarrollo del **Capítulo V: Solution UI/UX Design**, trabajé de manera conjunta con mi equipo para diseñar las interfaces y la experiencia del usuario de forma coherente, moderna y funcional. Lideré reuniones de diseño en las que cada integrante aportó ideas visuales y estructurales, y juntos tomamos decisiones sobre la organización de las vistas, la accesibilidad y los colores institucionales. Este proceso me permitió fortalecer mi capacidad para liderar desde la colaboración, escuchando las opiniones del grupo y guiando el diseño hacia un resultado unificado y centrado en el usuario.<br><br>**José Gutiérrez**<br>En la sección **6.1: Software Configuration Management**, participé activamente en la configuración del entorno de desarrollo y la gestión del código fuente. Coordiné con mis compañeros la instalación de dependencias, la definición del flujo de trabajo en Git y la organización de ramas para evitar conflictos. Ejercí liderazgo técnico al guiar la integración continua y asegurar que todos los miembros del equipo pudieran ejecutar el proyecto sin inconvenientes. Este trabajo en conjunto me ayudó a comprender la importancia de la comunicación constante y la planificación compartida en entornos de desarrollo colaborativos.<br><br>**André Bernaola**<br>Durante la implementación de la sección **6.1.3: Source Code Style Guide & Conventions**, propuse un conjunto de reglas de codificación comunes para todo el equipo, lo que facilitó la lectura, el mantenimiento y la escalabilidad del proyecto. Lideré las revisiones de código y promoví el uso de convenciones uniformes en nombres de clases, métodos y estructuras. Esta experiencia me permitió desarrollar liderazgo técnico participativo, motivando al equipo a mantener la calidad del código y a trabajar de forma organizada y alineada con las buenas prácticas.<br><br>**Joaquín Pedraza**<br>En el desarrollo del **Sprint 1**, especialmente en los puntos **6.2.1.4 al 6.2.1.8**, asumí un rol de coordinación durante las reuniones de revisión de sprint. Junto con mis compañeros, organizamos las evidencias de desarrollo, pruebas y despliegue, asegurando que el producto cumpliera los criterios de aceptación definidos. Participé activamente en las sesiones de testing y en la documentación de los resultados. Este proceso me ayudó a ejercer liderazgo en la validación del producto, fomentando la responsabilidad compartida y la mejora continua en cada iteración.<br><br>**Mauricio Oliveira**<br>Contribuí en los apartados **6.2.1.7 a 6.2.1.9**, enfocándome en la documentación de los servicios, el despliegue y la recopilación de los aprendizajes del equipo durante el sprint. Coordiné la redacción de reportes técnicos y participé en la reflexión conjunta sobre los aciertos y desafíos del desarrollo. Este trabajo fortaleció mi capacidad para liderar la comunicación técnica del grupo, promoviendo la transparencia, la colaboración y el aprendizaje colectivo como pilares del trabajo en equipo.<br><br>**Piero Velarde**<br>Durante la etapa **6.2.1.1: Sprint Planning 1**, participé activamente en la planificación inicial del sprint junto con mis compañeros, asumiendo un rol de liderazgo colaborativo para definir las prioridades y distribuir las tareas de forma equitativa. Propuse la organización del backlog en función de las capacidades y fortalezas de cada integrante, lo que nos permitió optimizar el tiempo y trabajar de manera más coordinada. Esta experiencia me enseñó la importancia de liderar desde la organización y la empatía, garantizando que todos los miembros del equipo comprendieran los objetivos del sprint y se sintieran parte del proceso de construcción del producto.<br><br>**Diego Soriano**<br>En la fase de **6.1.4: Software Deployment Configuration**, trabajé con el equipo en la integración y despliegue del producto en un entorno controlado. Mi responsabilidad fue supervisar la correcta configuración del entorno de despliegue y apoyar la resolución de incidencias durante la ejecución. Mediante la comunicación constante con mis compañeros, logramos desplegar el software de manera estable y funcional. Este proceso fortaleció mis habilidades de liderazgo técnico compartido, ya que aprendí a guiar el trabajo colaborativo bajo presión y a valorar la importancia de la coordinación grupal en las etapas críticas del proyecto. | La distribución efectiva del liderazgo técnico, donde cada miembro asume responsabilidades específicas según sus fortalezas, es fundamental para trabajar de manera más rápida y efectiva. Además, las revisiones periódicas del avance de cada integrante y la comunicación fluida permite garantizar una buena organización del proyecto.<br><br>**TP** Como equipo, demostramos la capacidad de trabajar de manera colaborativa para liderar y ejecutar todas las etapas del desarrollo del producto, desde el diseño UI/UX hasta la validación y el despliegue final. A través de una comunicación efectiva, una planificación conjunta y la distribución equitativa de responsabilidades, ejercimos un liderazgo compartido orientado a resultados, garantizando la calidad técnica del proyecto y el cumplimiento de los objetivos establecidos. Esta experiencia fortaleció nuestras competencias colectivas en organización, resolución de problemas y toma de decisiones dentro de un entorno ágil y multidisciplinario. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Establecí un ambiente colaborativo coordinando la gestión general del proyecto al definir objetivos claros y plazos específicos para cada entrega.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Contribuí al entorno colaborativo considerando las necesidades de otros componentes del sistema y planificando el modelado de relaciones del sistema.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Promoví la colaboración analizando los bounded context que conectan el trabajo de todos los miembros del equipo. Además, logré facilitar la comprensión compartida al mapear las comunicaciones entre estos.<br><br>**Pedraza Maldonado, Joaquín**<br>*TB1*<br>Logré definir las historias de usuario que forman parte de los requisitos que necesitamos cumplir y, en compañía del equipo, establecí los tiempos requeridos para implementar cada historia en el product backlog.<br><br>**Gutiérrez García, José Eduardo**<br>*TB1*<br>Establecí un entorno colaborativo diseñando los diagramas de componentes que integran el trabajo de todos los bounded context.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Planifiqué y cumplí objetivos específicos en el nivel táctico del DDD, guiando el trabajo colaborativo y sincronizando otras secciones dependientes de los bounded context.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Creé un ambiente inclusivo investigando necesidades de usuarios y compartiendo insights que orientan las decisiones del equipo.<br><br>**TP**<br>**Oscar Aranda**<br>Durante la implementación del **Capítulo VI**, asumí la responsabilidad de coordinar los avances del equipo, estableciendo metas semanales claras y asegurando que cada integrante comprendiera sus objetivos. Promoví un entorno de apoyo mutuo y comunicación abierta, lo que permitió cumplir con las entregas planificadas y mantener la cohesión del grupo.<br><br>**José Gutiérrez**<br>En la sección **6.1.2: Source Code Management**, organicé el flujo de trabajo colaborativo en Git, estableciendo ramas y políticas de integración que facilitaron el cumplimiento de los objetivos del sprint. Gracias a la planificación compartida, logramos mantener un entorno ordenado y productivo para todo el equipo.<br><br>**André Bernaola**<br>Durante la fase de **6.1.3: Source Code Style Guide & Conventions**, fomenté un entorno inclusivo al proponer estándares de codificación consensuados. Planifiqué junto a mis compañeros revisiones de código semanales que garantizaron el cumplimiento de los objetivos técnicos y la mejora continua del producto.<br><br>**Joaquín Pedraza**<br>En el desarrollo de la **Landing Page y los Servicios (6.2)**, participé en la planificación del sprint y la distribución de tareas, asegurando que todos los integrantes pudieran aportar según sus fortalezas. Contribuí a mantener un entorno colaborativo donde la comunicación y la organización fueron claves para cumplir los objetivos de cada entrega.<br><br>**Mauricio Oliveira**<br>Durante el desarrollo de los apartados **6.2.1.7 a 6.2.1.9**, coordiné la documentación técnica en conjunto con el equipo, promoviendo un ambiente inclusivo y participativo. Establecimos metas claras para la entrega de documentación y pruebas, asegurando la calidad y coherencia del producto final.<br><br>**Piero Velarde**<br>En la sección **6.2.1.1: Sprint Planning 1**, participé activamente en la planificación del sprint, fomentando la inclusión de las ideas de todos los integrantes. Contribuí en la definición de tareas y prioridades, lo que permitió un trabajo equilibrado y enfocado en los objetivos del proyecto.<br><br>**Diego Soriano**<br>Durante la configuración del entorno de despliegue (**6.1.4**), mantuve una comunicación constante con mis compañeros, coordinando los tiempos y pasos del proceso. Esta planificación conjunta permitió cumplir los objetivos técnicos y garantizar un entorno colaborativo, ordenado y eficiente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Establecer un entorno colaborativo mediante la división estratégica de tareas es vital para integrar cohesivamente todos los features en el producto final. Mantener la comunicación abierta y la planificación compartida fortalece la ejecución del proyecto.<br><br>**TP** Como equipo, demostramos la capacidad de **crear un entorno inclusivo y colaborativo**, en el que la comunicación constante, la planificación compartida y el cumplimiento de metas comunes nos permitieron avanzar de forma organizada y eficiente. Cada integrante asumió responsabilidades claras, aportando desde sus fortalezas, lo que favoreció un ambiente de trabajo equilibrado, participativo y orientado al logro de los objetivos del proyecto.                                                                                                                                                                                                     
 
 
 # Capítulo I: Introducción
@@ -2518,6 +2718,1462 @@ El diseño de la base de datos para el **Booking Bounded Context** refleja la es
 
 El **IoT Monitoring Bounded Context** es responsable de gestionar la interacción con los dispositivos IoT instalados en los cubículos de estudio, como los sensores de peso en los asientos. Este contexto se encarga de recopilar, procesar e interpretar los datos enviados por estos dispositivos para determinar el estado de disponibilidad de los cubículos en tiempo real. Además, proporciona mecanismos para la configuración y monitoreo de los dispositivos, asegurando su correcto funcionamiento y la precisión de los datos recopilados.
 
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1. Style Guidelines
+
+En este apartado se establecen los principios de interacción y visuales que regulan la experiencia completa en la plataforma Bib Flip, garantizando así una coherencia entre las distintas plataformas. Utilizando la tipografía, los colores, el espaciado, la iconografía y un tono de comunicación unificado, establecemos una identidad visual definida.
+
+### 5.1.1. General Style Guidelines
+
+#### Branding
+
+Para representar nuestro producto Bibflip, se desarrolló un logo que fusiona elementos clave de nuestra propuesta de valor: un libro abierto que simboliza el conocimiento y los espacios académicos, junto con una estrella de cuatro puntas en su interior. Esta combinación visual transmite de forma inmediata la naturaleza del producto como una plataforma de gestión de reservas de cubículos estudiantiles con un enfoque innovador y accesible.
+
+El libro, elemento universal asociado al estudio, la biblioteca y el aprendizaje, se convierte en un símbolo dinámico gracias a la estrella que lo corona. Esta estrella comunica la idea de excelencia, destacar y facilitar la experiencia del usuario. Juntos, estos elementos representan a Bibflip como la solución que ilumina el camino hacia espacios de estudio organizados y fácilmente reservables.
+
+[![Group-1.png](https://i.postimg.cc/9fMHWTHY/Group-1.png)](https://postimg.cc/dhzx6h1h)
+
+##### Variantes del Logo
+
+- **Versión Light**: Fondo gris claro (#D3D3D3) con icono en negro, transmitiendo claridad y accesibilidad
+- **Versión Primary**: Fondo en tonalidad naranja/marrón cálido (#D4844A), reflejando calidez académica y profesionalismo
+- **Versión Dark**: Fondo oscuro (#2A2A2A) con icono en blanco cremoso (#F5F5DC), para contextos digitales premium
+
+##### Aplicación
+
+El logo de Bibflip representa la modernidad aplicada a la gestión educativa: simplificando la reserva de espacios de estudio y permitiendo que los estudiantes se enfoquen en lo que realmente importa: su aprendizaje.
+
+
+#### Tipografía
+
+- Fuente: Inter
+- Tamaños: Seleccionar entre los tamaños disponibles para asegurar una legibilidad adecuada en diferentes dispositivos y tamaños de pantalla.
+- Espaciado entre letras y líneas: Ajustar según sea necesario para mejorar la legibilidad, especialmente en textos largos.
+
+[![tipografia.png](https://i.postimg.cc/T3g5Pqk3/tipografia.png)](https://postimg.cc/tsR4SPQK)
+
+#### Paleta de colores
+
+[![section-colors.png](https://i.postimg.cc/d359tM92/section-colors.png)](https://postimg.cc/vx6n3NkT)
+
+#### Colores Principales
+
+| Nombre | Código Hex | Uso | Opacidad |
+|--------|-----------|-----|---------|
+| Dark Charcoal | #2A2A2A | Textos principales, encabezados | 100% |
+| Brown Primary | #634729 | Botones principales, elementos interactivos | 100% |
+| Mauve | #755D60 | Acentos secundarios, bordes | 100% |
+| Brown Secondary | #805E48 | Hover states, variaciones de botones | 100% |
+| Warm Tan | #916749 | Estados activos, elementos destacados | 100% |
+| Light Tan | #916953 | Fondos claros, backgrounds secundarios | 100% |
+
+#### Colores Neutros
+
+| Nombre | Código Hex | Uso | Opacidad |
+|--------|-----------|-----|---------|
+| Dark Gray | #96959B | Textos secundarios, placeholders | 100% |
+| Blanco | #AABBB6 | Fondos alternativos, spaces | 100% |
+| Light Gray | #ACABBB3 | Bordes, divisores | 100% |
+| Very Light Gray | #ADAAB3 | Fondos muy claros | 100% |
+| Off-White | #F7F9F4 | Fondos principales, espacios limpios | 100% |
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+#### Estados y Componentes
+
+**Botones y Acciones:**
+- Color base: #634729 (Brown Primary)
+- Hover: #805E48 (Brown Secondary)
+- Activo: #916749 (Warm Tan)
+
+**Tags/Badges (Disponible):**
+- Background: #916953 (Light Tan)
+- Texto: Blanco (#FFFFFF)
+
+**Fondos y Containers:**
+- Fondo principal: #F7F9F4 (Off-White)
+- Cards/Containers: Blanco (#FFFFFF)
+- Bordes: #96959B (Dark Gray)
+
+#### Significado y Uso
+
+La paleta de **tonos tierra y marrón** transmite calidez, confianza y profesionalismo, perfecta para la temática de biblioteca y espacios compartidos. Los tonos neutros proporcionan equilibrio visual y facilitan la legibilidad. Los acentos en colores tierra crean jerarquía visual sin ser intrusivos.
+
+#### Ejemplo de Interfaz
+
+**Bibflip - San Miguel Cubículos:**
+- Navbarra: Blanco (#FFFFFF)
+- Headers: Dark Charcoal (#2A2A2A)
+- Botones "Reservar": #634729 (Brown Primary)
+- Tags "Disponible": #916953 (Light Tan) con texto blanco
+- Fondos de página: #F7F9F4 (Off-White)
+- Cards de cubículos: Blanco (#FFFFFF) con bordes sutiles
+
+[![Cubiculos-Estudiante.png](https://i.postimg.cc/fb3W8YFt/Cubiculos-Estudiante.png)](https://postimg.cc/JyLWnHRM)
+
+[![Cubiculos.png](https://i.postimg.cc/GpZMD1G9/Cubiculos.png)](https://postimg.cc/FfVgt8PQ)
+
+# 5.2. Information Architecture
+
+## 5.2.1. Organization Systems
+
+Para Bibflip, hemos implementado sistemas de organización que facilitan la navegación y acceso a la información tanto para estudiantes como para administradores. Estos sistemas están diseñados para proporcionar una experiencia de usuario intuitiva y eficiente.
+
+### Sistema jerárquico
+
+Organizamos la información en Bibflip siguiendo una estructura jerárquica clara:
+
+**Para estudiantes:**
+
+El proceso comienza en la Landing Page, donde los usuarios son redirigidos a la aplicación web o móvil según su preferencia. Una vez allí, los estudiantes pueden registrarse o iniciar sesión con sus credenciales, accediendo a un panel principal que les muestra información relevante como reservas activas, sedes disponibles y servicios de la biblioteca, incluyendo información sobre cubículos y salas grupales. Para realizar una reserva, los estudiantes seleccionan una sede, visualizan los cubículos disponibles en tiempo real y completan un formulario con los detalles de su reserva, como fecha, hora aproximada de estadía y cubículo específico. Además, pueden ubicar la sede en un mapa integrado para mayor comodidad.
+
+**Para administradores:**
+
+Por otro lado, los administradores acceden a un panel de gestión después de iniciar sesión. Desde allí, pueden administrar los cubículos de las sedes, agregando nuevos o eliminando los existentes mediante un formulario sencillo. También tienen acceso a información detallada de las sedes y pueden visualizar las reservas de diferentes maneras: por cubículo, por estudiante o en una lista completa. Esto les permite mantener un control eficiente sobre las operaciones del centro de estudio.
+
+**Para superadministradores:**
+
+Los superadministradores tienen acceso completo al sistema. Pueden registrar nuevos administradores asignándoles sedes específicas, crear nuevas sedes en el sistema, y visualizar toda la información consolidada de usuarios, sedes y reservas para realizar pruebas y monitoreo general del sistema.
+
+### Sistema secuencial
+
+También implementamos una organización secuencial para procesos específicos:
+
+**Proceso de reserva:**
+1. Selección de sede
+2. Visualización de cubículos disponibles en tiempo real
+3. Selección de cubículo
+4. Selección de hora aproximada de estadía
+5. Confirmación de reserva
+
+**Proceso de gestión de cubículos:**
+1. Visualización del inventario actual de cubículos
+2. Selección de acción (agregar/eliminar)
+3. Introducción de datos del cubículo (identificador, capacidad)
+4. Confirmación de la operación
+
+**Proceso de registro de administrador:**
+1. Acceso del superadmin al módulo de administradores
+2. Selección de "Agregar administrador"
+3. Ingreso de credenciales del nuevo administrador
+4. Asignación de sede específica
+5. Confirmación del registro
+
+## 5.2.2. Labeling Systems
+
+Antes de implementar las etiquetas en nuestra plataforma, determinamos qué requisitos necesitamos cumplir. Las etiquetas nos permiten agregar información contextual a diferentes elementos de la plataforma Bibflip. A continuación, se detalla el sistema de etiquetado implementado:
+
+### Etiquetas para cubículos
+
+| Etiqueta | Descripción |
+|----------|-------------|
+| [DISPONIBLE] | Cubículo que puede ser reservado en este momento |
+| [OCUPADO] | Cubículo actualmente en uso por estudiantes |
+| [RESERVADO] | Cubículo con reserva activa pendiente de ocupación |
+
+### Etiquetas para reservas
+
+| Etiqueta | Descripción |
+|----------|-------------|
+| [ACTIVA] | Reserva en curso (dentro del rango horario seleccionado) |
+| [EXPIRADA] | Reserva que ya ha finalizado su período de vigencia |
+| [PENDIENTE] | Reserva programada para uso futuro |
+
+### Etiquetas para servicios de biblioteca
+
+| Etiqueta | Descripción |
+|----------|-------------|
+| [CUBÍCULOS] | Espacios individuales de estudio |
+| [SALAS GRUPALES] | Espacios para trabajo colaborativo |
+| [COMPUTADORAS] | Equipos de cómputo disponibles |
+
+### Etiquetas para nivel de ocupación
+
+| Etiqueta | Descripción |
+|----------|-------------|
+| [ALTA DISPONIBILIDAD] | Más del 50% de cubículos disponibles |
+| [DISPONIBILIDAD MEDIA] | Entre 20% y 50% de cubículos disponibles |
+| [BAJA DISPONIBILIDAD] | Menos del 20% de cubículos disponibles |
+| [COMPLETO] | Sin cubículos disponibles |
+
+### Etiquetas para notificaciones de sistema
+
+| Etiqueta | Descripción |
+|----------|-------------|
+| [ÉXITO] | Confirmación de operación completada exitosamente |
+| [ERROR] | Problema durante una operación |
+| [ADVERTENCIA] | Mensaje de precaución o limitación del sistema |
+| [ACTUALIZACIÓN] | Cambio en disponibilidad detectado por sensores |
+
+Este sistema de etiquetas proporciona contexto visual inmediato y mejora la comprensión de la información presentada tanto para estudiantes como para administradores.
+
+
+### 5.2.3. SEO Tags and Meta Tags
+
+La implementación adecuada de etiquetas SEO es crucial para mejorar la visibilidad de Bibflip en los motores de búsqueda.
+### Título
+Indica el tema de la página, debe ser corto y descriptivo, manteniéndose entre 55-60 caracteres.
+```html
+<title>Bibflip - Sistema de Gestión de Cubículos para Bibliotecas Universitarias</title>
+```
+### Descripción
+Breve descripción del propósito de la plataforma.<br>
+```html
+<meta name="description" content="Bibflip optimiza la gestión de espacios en bibliotecas universitarias con tecnología IoT, visualización en tiempo real de cubículos disponibles y reservas digitales. ¡Mejora la experiencia de estudio!"/>
+```
+### Robots
+Indican a los motores de búsqueda qué hacer con la página.
+```html
+<meta name="robots" content="index, follow">
+```
+### Tipo de contenido
+Útil para que los motores de búsqueda identifiquen el idioma de la página.
+```html
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="es">
+```
+### Viewport Meta Tag
+Crucial para asegurar que el contenido se vea bien en dispositivos móviles.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+### Open Graph Tags
+Para mejorar la apariencia cuando se comparte en redes sociales.
+```html
+<meta property="og:title" content="Bibflip - Gestión Inteligente para Bibliotecas Universitarias">
+<meta property="og:description" content="Sistema IoT para optimizar la ocupación de cubículos en centros de estudio">
+<meta property="og:image" content="https://bibflip.com/images/bibflip-preview.jpg">
+<meta property="og:url" content="https://bibflip.com">
+<meta property="og:type" content="website">
+```
+### Keywords
+Aunque tienen menor importancia actualmente, aún pueden ser útiles.
+```html
+<meta name="keywords" content="reservas bibliotecas, cubículos disponibles, IoT bibliotecas, gestión centros estudio, sistema reservas tiempo real, ocupación cubículos, bibliotecas universitarias, espacios estudio">
+
+```
+
+
+### 5.2.4. Searching Systems
+El sistema de búsqueda propuesto para Bibflip permitirá a los usuarios encontrar fácilmente información relevante según sus necesidades específicas.
+
+### Sistema de búsqueda para estudiantes
+ Nombre del filtro | Descripción |
+|-------------------|-------------|
+| Ubicación | El usuario podrá filtrar bibliotecas por distrito o zona de la ciudad |
+| Disponibilidad inmediata | Muestra sólo las bibliotecas con cubículos disponibles en el momento actual |
+| Capacidad | Permite filtrar por tipo de espacio (individual, grupal, con computadora) |
+| Horario de atención | Filtra por bibliotecas abiertas en un rango horario específico |
+| Distancia | Ordena los resultados desde la ubicación actual del usuario |
+| Nivel de ocupación | Filtra sedes por porcentaje de disponibilidad (alta, media, baja) |
+
+### Sistema de búsqueda para administradores
+
+| Nombre del filtro | Descripción |
+|-------------------|-------------|
+| Búsqueda por número de cubículo | Permite encontrar rápidamente información de un cubículo específico |
+| Búsqueda por nombre de estudiante | Localiza reservas realizadas por un estudiante específico |
+| Filtro por fecha | Busca reservas en un rango de fechas específico |
+| Estado de cubículo | Filtra por estado: disponible, ocupado, reservado |
+| Historial de reservas | Busca en el histórico de reservas completadas |
+
+### Sistema de búsqueda para superadministradores
+
+| Nombre del filtro | Descripción |
+|-------------------|-------------|
+| Búsqueda de administradores | Localiza administradores por nombre o sede asignada |
+| Búsqueda de sedes | Encuentra sedes específicas en el sistema |
+| Visualización global | Accede a estadísticas consolidadas de todas las sedes |
+
+### Características adicionales del sistema de búsqueda
+
+- **Búsqueda en tiempo real**: Los resultados se actualizan automáticamente cada 5 segundos mediante datos de sensores IoT.
+- **Historial de búsquedas**: Mantiene un registro de búsquedas recientes del usuario.
+- **Sugerencias automáticas**: Ofrece resultados mientras el usuario escribe.
+- **Filtros combinados**: Permite aplicar múltiples filtros simultáneamente.
+
+Este sistema de búsqueda está diseñado para ser intuitivo y proporcionar resultados precisos, mejorando así la experiencia del usuario y la eficiencia operativa de la plataforma Bibflip.
+
+
+
+### 5.2.5. Navigation Systems
+
+El sistema de navegación de la plataforma Bibflip guiará a los usuarios a través de las distintas secciones y pantallas, proporcionándoles acceso intuitivo a todas las funcionalidades. A continuación, se detallan los elementos que facilitan la navegación de los usuarios:
+
+### Navegación global
+
+| Nombre | Descripción |
+|--------|-------------|
+| Inicio | Página principal que muestra un resumen de la información relevante según el tipo de usuario |
+| Perfil | Permite al usuario gestionar su información personal y preferencias |
+| Notificaciones | Alertas sobre reservas, actualizaciones de disponibilidad o mensajes del sistema |
+
+### Navegación para estudiantes
+
+| Nombre | Descripción |
+|--------|-------------|
+| Explorar sedes | Muestra todas las bibliotecas disponibles con información sobre ubicación y disponibilidad en tiempo real |
+| Mi reserva | Permite al usuario ver su reserva activa con detalles de horario, sede y número de cubículo |
+| Sedes | Visualización de todas las sedes del centro de estudio con opción de ver en mapa |
+| Ver servicios | Acceso al reglamento y servicios del centro de estudio (cubículos, salas grupales, etc.) |
+| Mapa | Visualización geográfica de las sedes en un mapa interactivo |
+
+### Navegación para administradores
+
+| Nombre | Descripción |
+|--------|-------------|
+| Dashboard | Panel principal con indicadores clave sobre la operación de la sede asignada |
+| Gestión de cubículos | Interfaz para agregar, eliminar o modificar cubículos en la sede asignada |
+| Visualizar reservas | Visualización y gestión de las reservas actuales y futuras con filtros por estudiante o cubículo |
+| Mi sede | Información detallada de la sede asignada al administrador |
+
+### Navegación para superadministradores
+
+| Nombre | Descripción |
+|--------|-------------|
+| Panel completo | Acceso a todas las funcionalidades del sistema |
+| Administradores | Módulo para registrar y gestionar administradores con asignación de sedes |
+| Gestión de sedes | Crear, editar y visualizar todas las sedes del sistema |
+| Usuarios | Visualización completa de estudiantes, administradores y sus actividades |
+
+### Elementos de navegación
+
+- **Menú principal**: Barra de navegación fija en la parte superior que contiene los enlaces principales según el rol del usuario.
+- **Menú lateral desplegable**: Para acceso a funciones secundarias, configuraciones y cierre de sesión.
+- **Botones de acción flotantes**: Para acciones principales como "Realizar reserva" o "Agregar cubículo".
+- **Breadcrumbs**: Indicadores de ubicación dentro de la jerarquía de navegación.
+- **Gestos táctiles**: En la versión móvil, se implementan gestos como deslizar para ver más opciones o pellizcar para ampliar el mapa.
+
+### Patrones de navegación
+
+- **Hub and spoke**: La pantalla principal actúa como centro desde donde se accede a las diferentes funcionalidades específicas del rol.
+- **Navegación por pestañas**: Para alternar entre diferentes vistas de una misma categoría (ej: cubículos disponibles vs. ocupados).
+- **Navegación jerárquica**: Para profundizar en detalles (sede → cubículos → reservas → detalles de estudiante).
+- **Desplazamiento infinito**: En listados de sedes o cubículos para cargar más resultados al desplazarse.
+- **Navegación contextual**: Botones y acciones que aparecen según el estado del sistema (ej: "Reservar" solo si hay disponibilidad).
+
+### Características de accesibilidad
+
+- **Indicadores visuales claros**: Uso de colores y etiquetas para mostrar estados de disponibilidad.
+- **Actualización automática**: Los indicadores de disponibilidad se actualizan en menos de 5 segundos según datos de sensores.
+- **Prevención de errores**: El sistema impide reservar si ya existe una reserva activa del estudiante.
+- **Confirmaciones**: Mensajes de confirmación para acciones críticas como eliminar cubículos o cancelar reservas.
+
+Este sistema de navegación está diseñado para ser consistente, intuitivo y adaptable a diferentes dispositivos, asegurando que los usuarios puedan encontrar rápidamente la información o funcionalidad que necesitan sin esfuerzo excesivo. La estructura se adapta dinámicamente según el rol del usuario (estudiante, administrador o superadministrador), mostrando únicamente las opciones relevantes para cada perfil.
+
+
+## 5.3. Landing Page UI Design
+
+### 5.3.1. Landing Page Wireframe
+
+En esta sección se presenta el wireframe de la landing page de Bibflip, una representación estructural inicial que organiza los principales bloques de contenido del sitio sin incluir aún detalles gráficos. Su propósito es definir la jerarquía informativa y el flujo de navegación que guiará al usuario durante su experiencia en la página. Este esquema permite visualizar la distribución de secciones como el encabezado, la introducción al proyecto, las características principales, los beneficios y la sección de contacto. El diseño se centra en la claridad y coherencia de la información, garantizando que el visitante pueda comprender rápidamente el objetivo de Bibflip: ofrecer una plataforma que optimiza la reserva de cubículos mediante tecnología IoT dentro de la Universidad Peruana de Ciencias Aplicadas (UPC).
+
+El wireframe fue elaborado en Figma y define la estructura inicial de la landing page.  
+
+[Ver Wireframe en Figma](https://www.figma.com/design/MFD4yVEhDz2ChR78iE3x6B/Bibflip---Landing-page---Wirefame?node-id=0-1&t=3enJg2TmsN7kH5Jd-1)
+
+### 5.3.2. Landing Page Mock-up
+
+El mockup de la landing page de Bibflip muestra una versión visual refinada y cercana al diseño final. En esta etapa se aplico una tipografía legible y una composición equilibrada. Este diseño busca comunicar el propósito central del proyecto: mejorar la experiencia de los estudiantes en la gestión de espacios de estudio mediante una interfaz moderna, intuitiva y atractiva. Las secciones del mockup incluyen una presentación clara de la solución propuesta, los beneficios de Bibflip y un llamado a la acción enfocado en conocer más sobre la aplicación. Con ello se refleja una propuesta visual profesional y funcional, alineada con los valores de innovación y comunidad universitaria.
+
+[![Captura-de-pantalla-2025-10-09-233857.png](https://i.postimg.cc/L8G7tfFc/Captura-de-pantalla-2025-10-09-233857.png)](https://postimg.cc/VJBD1J6g)
+
+[![Captura-de-pantalla-2025-10-09-234009.png](https://i.postimg.cc/rp6n0k5v/Captura-de-pantalla-2025-10-09-234009.png)](https://postimg.cc/Wdn6CxWn)
+
+[![Captura-de-pantalla-2025-10-09-234035.png](https://i.postimg.cc/rspQXFLt/Captura-de-pantalla-2025-10-09-234035.png)](https://postimg.cc/N9W1RtFg)
+
+[![Captura-de-pantalla-2025-10-09-234108.png](https://i.postimg.cc/0ySZqBLv/Captura-de-pantalla-2025-10-09-234108.png)](https://postimg.cc/Js1jNPrY)
+
+[![Captura-de-pantalla-2025-10-09-234149.png](https://i.postimg.cc/7YGngRPq/Captura-de-pantalla-2025-10-09-234149.png)](https://postimg.cc/TpxbxCWs)
+
+[![Captura-de-pantalla-2025-10-09-234233.png](https://i.postimg.cc/G2gvDFZB/Captura-de-pantalla-2025-10-09-234233.png)](https://postimg.cc/BLD89KZs)
+
+El mockup fue elaborado en Figma y presenta la propuesta visual final antes de la implementación. 
+
+[Ver Mock-up en Figma](https://www.figma.com/design/lFAHFEcpJcJSknycAs0GBe/Bibflip---Landing-page---Mockup?node-id=0-1&t=GOQTIyM7Krw6Y7tg-1)
+
+
+
+## 5.4. Applications UX/UI Design
+
+En esta sección se documenta el diseño de la aplicación de Bib Flip, la cual cuenta con su versión web y móvil. La versión web contará con interfaces y páginas personalizadas para cada tipo de usuario (Administrador, Supervisor y Estudiante); sin embargo, la aplicación móvil solo contará con pantallas para los estudiantes. Además, la adición de esta versión de la aplicación para dispositivos móviles es necesaria porque permite cumplir con los objetivos del proyecto y con las historias de usuario de los sprints correspondientes.
+
+### 5.4.1. Applications Wireframes
+En esta sección se presentan los wireframes de la aplicación Bibflip, tanto para la versión web como para la versión móvil. Los wireframes son esquemas visuales de baja fidelidad que muestran la estructura básica de las pantallas, la disposición de los elementos y la jerarquía de la información, sin incluir detalles gráficos finales. Su objetivo es definir la organización de los contenidos y la navegación entre las diferentes secciones, permitiendo validar la lógica de interacción antes de avanzar a etapas de diseño visual más detalladas. 
+
+#### Web Application Wireframes
+Los wireframes de la aplicación web contemplan las vistas principales para cada tipo de usuario: Administrador, Supervisor y Estudiante. Incluyen pantallas como el panel principal (dashboard), gestión de cubículos, visualización de reservas, perfil de usuario y navegación entre sedes. Cada wireframe muestra la ubicación de menús, botones de acción, tablas de información y formularios, asegurando una experiencia de usuario clara y eficiente para cada rol sin entrar demasiado en detalle. Para poder visualizar el conjunto de wireframes se proporciona el siguiente enlace: [Enlace-Web-Application-Wireframes-Figma](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=0-1)
+
+##### Pantallas Generales
+
+[![Inicio-de-Sesi-n.png](https://i.postimg.cc/8ckzBxgm/Inicio-de-Sesi-n.png)](https://postimg.cc/FdqvhWRY)
+
+Los 3 tipos de usuario podrán iniciar sesión ingresando su usuario y contraseña previamente registrados.<br>
+
+[![Registro.png](https://i.postimg.cc/nrVhYNf1/Registro.png)](https://postimg.cc/R68mvsF3)
+
+Al ser esta una pantalla totalmente pública y accedida por cualquier usuario de internet, los administradores y supervisores no podrán registrarse de esta manera por razones de seguridad. De esta manera se evita que cualquier agente externo pueda crearse una cuenta de administrador y sabotear el sistema. Por lo tanto, esta pantalla de registro tendrá la funcionalidad de registrar nuevos estudiantes.<br>
+
+---
+
+##### Pantallas para Administrador
+
+[![Home-Administrador.png](https://i.postimg.cc/RFB79CwM/Home-Administrador.png)](https://postimg.cc/B8mLB0hy)
+
+Este es el menú inicial del administrador que observa tras iniciar sesión.<br>
+
+[![Dashboard-Sedes-Admin.png](https://i.postimg.cc/j5bHKqyx/Dashboard-Sedes-Admin.png)](https://postimg.cc/sBTQ4rnq)
+
+Al presionar el botón "Gestionar Sedes", el administrador es dirigido a esta pantalla donde podrá agregar una sede nueva.<br>
+
+[![Dashboard-Sedes-Admin-1.png](https://i.postimg.cc/0QsYx575/Dashboard-Sedes-Admin-1.png)](https://postimg.cc/WD5Fwv9x)
+
+Al presionar el botón de supervisores, el administrador podrá crearle una cuenta al supervisor y asignarle una sede.<br>
+
+[![Dashboard-Sedes-Admin-2.png](https://i.postimg.cc/FR4ymF0h/Dashboard-Sedes-Admin-2.png)](https://postimg.cc/FfTdV4P6)
+
+En esta pantalla el administrador podrá ver al supervisor por sede asignado. <br>
+
+---
+
+##### Pantallas para Supervisor
+
+[![Home-Supervisor.png](https://i.postimg.cc/ZRHdS8Tf/Home-Supervisor.png)](https://postimg.cc/G8B2PsTY)
+
+Este el menú inicial que verá el supervisor tras iniciar sesión en la aplicación web.<br>
+
+[![Gesti-n-de-Reservas-Supervisor.png](https://i.postimg.cc/3N1wwcBr/Gesti-n-de-Reservas-Supervisor.png)](https://postimg.cc/PvLH3K90)
+
+En este apartado el supervisor podrá visualizar las reservas por estudiante.<br>
+
+[![Gesti-n-de-Reservas-Supervisor-1.png](https://i.postimg.cc/fLC9Ncw8/Gesti-n-de-Reservas-Supervisor-1.png)](https://postimg.cc/KkKz7g3T)
+
+En este apartado el supervisor podrá visualizar las reservas por cubículo.<br>
+
+[![Gesti-n-de-Cub-culos-Supervisor.png](https://i.postimg.cc/bJM79HwH/Gesti-n-de-Cub-culos-Supervisor.png)](https://postimg.cc/vgr2Qn9c)
+
+En esta pantalla podrá gestionar los cubiculos, es decir agregarlos, editarlos o eliminarlos.<br>
+
+---
+
+##### Pantallas para estudiante
+
+[![Home-Estudiante.png](https://i.postimg.cc/xdt6sbw1/Home-Estudiante.png)](https://postimg.cc/v1x7TD8J)
+
+Este será el menú inicial que verá el estudiante tras iniciar sesión. En este apartado podrá ver sus reservas más recientes y cancelarlas. <br>
+
+[![Formulario-para-ver-Detalles-de-Reserva-Estudiante.png](https://i.postimg.cc/XvQs2yTR/Formulario-para-ver-Detalles-de-Reserva-Estudiante.png)](https://postimg.cc/rdRGszyj)
+
+Al seleccionar la opción de ver una reserva, el estudiante podrá ver estos detalles. <br>
+
+[![Reservaci-n-Estudiante.png](https://i.postimg.cc/JhPpTBfr/Reservaci-n-Estudiante.png)](https://postimg.cc/674VqT6g)
+
+Al seleccionar el botón del navbar que dice "Reservar", el estudiante verá este apartado. En esta página tendrá la opción de dirigirse a ver el mapa de la sede o continuar a la reserva de cubículos. <br>
+
+[![Mapa-Estudiante.png](https://i.postimg.cc/d045WTbq/Mapa-Estudiante.png)](https://postimg.cc/v1x7TD8j)
+
+Este apartado muestra el mapa de la sede para que nuevos estudiantes puedan ubicarse mejor. <br>
+
+[![Cub-culos-Estudiante.png](https://i.postimg.cc/0jnpqZKd/Cub-culos-Estudiante.png)](https://postimg.cc/2LqqQQwV)
+
+Este apartado muestra los cubículos disponibles para reservar. <br>
+
+[![Formulario-para-Reservar-Cub-culo-Estudiante.png](https://i.postimg.cc/tg2BrVKH/Formulario-para-Reservar-Cub-culo-Estudiante.png)](https://postimg.cc/v1x7TD8P)
+
+Al querer reservar un cubículo, el estudiante podrá ver los horarios disponibles y efectuar la reserva. <br>
+
+---
+
+#### Mobile Application Wireframes
+
+Los wireframes de la aplicación móvil están enfocados en la experiencia del estudiante. Incluyen pantallas como inicio de sesión, panel principal, exploración de sedes, visualización de cubículos disponibles, detalles de reserva, historial de reservas y perfil. El diseño prioriza la simplicidad y la facilidad de uso en dispositivos móviles, con menús accesibles, botones grandes y navegación intuitiva adaptada a pantallas táctiles. Para poder visualizar el conjunto de wireframes se proporciona el siguiente enlace: [Enlace-Mobile-Application-Wireframes-Figma](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-2)
+
+[![Inicio-de-sesi-n.png](https://i.postimg.cc/GtWRHfKK/Inicio-de-sesi-n.png)](https://postimg.cc/ctB2zXVt)
+
+En este apartado el inicio de sesión es exclusivo para estudiantes. <br>
+
+[![Registro.png](https://i.postimg.cc/9062rkb1/Registro.png)](https://postimg.cc/SYf3PDwz)
+
+Esta imagen expresa la pantalla de registro para la aplicación móvil con los mismos parámetros que la aplicación web. El registro por este medio seguirá siendo igualmente solo para estudiantes. <br>
+
+[![Home.png](https://i.postimg.cc/7hF4fR9M/Home.png)](https://postimg.cc/JH5vFP9G)
+
+Esta será la pantalla inicial que verá el estudiante tras iniciar sesión. En ella podrá darle click a la sede San Miguel para acceder a los cubículos. Además, podrá seleccionar la tarjeta de reservas activas para ver todas sus reservas.
+
+[![Home-1.png](https://i.postimg.cc/br7Ps5g9/Home-1.png)](https://postimg.cc/rRN3HQvD)
+
+Este será un apartado secundario para acceder a los cubículos de la sede San Miguel.
+
+[![Ver-cubiculos.png](https://i.postimg.cc/J0f8GFxQ/Ver-cubiculos.png)](https://postimg.cc/sG4qLwtB)
+
+Este apartado se utilizará para todos los cubículos disponibles en la sede San Miguel. <br>
+
+[![Mapbox.png](https://i.postimg.cc/zvsNVQ7j/Mapbox.png)](https://postimg.cc/RJLyYXj6)
+
+Esta pantalla se utilizará para visualizar el mapa de la sede San Miguel. <br>
+
+[![Reservacion-de-cubiculos.png](https://i.postimg.cc/prhxVvf6/Reservacion-de-cubiculos.png)](https://postimg.cc/m1sKV06Y)
+
+Esta pantalla se utilizará para reservar cubículos en un horario disponible. <br>
+
+
+### 5.4.2. Applications Wireflow Diagrams
+En esta sección se presentan los wireflows de la aplicación, que combinan wireframes con diagramas de flujo para ilustrar cómo los usuarios navegan entre las diferentes pantallas y funcionalidades. Los wireflows permiten visualizar los posibles caminos de interacción, las decisiones del usuario y las respuestas del sistema, facilitando la identificación de mejoras en la experiencia de usuario y la detección de posibles bloqueos o redundancias en la navegación.
+
+[![Captura-de-pantalla-2025-10-10-030654.png](https://i.postimg.cc/05J8zrVC/Captura-de-pantalla-2025-10-10-030654.png)](https://postimg.cc/V5myTsQS)
+<br>
+El enlace de los web application wireflow diagrams es el siguiente: [https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=38-393](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=38-393)
+
+#### User Persona: Estudiante
+
+**User Goal 1: Acceder rápidamente para ver la disponibilidad**
+
+[![Captura-de-pantalla-2025-10-10-030835.png](https://i.postimg.cc/k5tjQrLm/Captura-de-pantalla-2025-10-10-030835.png)](https://postimg.cc/gwmqp7YS)
+
+Este flujo representa el objetivo principal del estudiante: consultar de manera inmediata la disponibilidad de cubículos en la sede de su preferencia. El usuario inicia sesión y, tras la autenticación, accede directamente al panel principal donde se muestran todas las sedes disponibles. Al seleccionar una sede, puede visualizar en tiempo real el estado de los cubículos (disponibles, ocupados o reservados), junto con detalles como capacidad y horarios. El diseño prioriza la rapidez de acceso, la actualización automática de la información y la claridad visual, permitiendo que el estudiante tome decisiones informadas en menos de 30 segundos desde el ingreso a la plataforma. Además, se contemplan mensajes claros ante errores de autenticación o problemas de conexión, asegurando una experiencia fluida y sin frustraciones.
+
+
+**User Goal 2: Realizar una reserva de cubículo**
+
+[![Captura-de-pantalla-2025-10-10-031510.png](https://i.postimg.cc/pTHgyXyR/Captura-de-pantalla-2025-10-10-031510.png)](https://postimg.cc/DWxCMhqM)
+
+[![Captura-de-pantalla-2025-10-10-031955.png](https://i.postimg.cc/Vk5SHzfJ/Captura-de-pantalla-2025-10-10-031955.png)](https://postimg.cc/Mn2Kn2jw)
+
+Este flujo ilustra el proceso que sigue un estudiante para reservar un cubículo de estudio en la plataforma. Tras iniciar sesión y visualizar la disponibilidad, el usuario selecciona la sede y el cubículo que mejor se adapta a sus necesidades. A continuación, el sistema muestra los horarios disponibles para ese cubículo en tiempo real. El estudiante elige el horario deseado y confirma la reserva. El sistema valida que no existan conflictos de horario ni reservas activas previas, y muestra una confirmación inmediata de la reserva exitosa. Si ocurre algún inconveniente, como la ocupación repentina del horario seleccionado o el límite de reservas alcanzado, el sistema notifica al usuario y le permite seleccionar otra opción. El diseño prioriza la simplicidad, la retroalimentación clara y la actualización instantánea del estado de los cubículos, asegurando que el proceso de reserva sea rápido, intuitivo y sin pasos innecesarios.
+
+#### User Persona: Personal Bibliotecario
+
+##### User Goal 3: Gestionar cubículos con facilidad
+
+[![Captura-de-pantalla-2025-10-10-034022.png](https://i.postimg.cc/vmPw2xzZ/Captura-de-pantalla-2025-10-10-034022.png)](https://postimg.cc/8FrYj592)
+
+[![Captura-de-pantalla-2025-10-10-034128.png](https://i.postimg.cc/G3GSHsy3/Captura-de-pantalla-2025-10-10-034128.png)](https://postimg.cc/Z0YLQnHX)
+
+[![Captura-de-pantalla-2025-10-10-034157.png](https://i.postimg.cc/ZRkxSVj7/Captura-de-pantalla-2025-10-10-034157.png)](https://postimg.cc/Jyqk33fZ)
+
+Este flujo está orientado a la experiencia del supervisor o administrador encargado de la gestión de cubículos en una sede. El proceso inicia con el acceso al panel de gestión, donde se visualiza el listado completo de cubículos existentes, junto con información relevante como número, capacidad y ubicación. El supervisor puede agregar nuevos cubículos mediante un formulario sencillo, editar los datos de los existentes o eliminarlos si es necesario. El sistema valida los datos ingresados y previene acciones que puedan afectar reservas activas, mostrando advertencias y confirmaciones cuando corresponde. Todas las operaciones se reflejan en tiempo real, permitiendo una administración eficiente y transparente. El diseño prioriza la facilidad de uso, la retroalimentación inmediata y la reducción de errores, asegurando que la gestión de cubículos sea ágil, segura y centralizada en una sola interfaz.
+
+---
+
+
+### 5.4.3. Applications Mock-ups
+Aquí se muestran los mockups de alta fidelidad de la aplicación Bibflip, tanto para la versión web como móvil. Los mockups representan el diseño visual final, incluyendo tipografía, colores, iconografía y disposición precisa de los elementos.
+
+#### Web App Mock-ups
+
+En el siguiente enlace se desarrollaron los mock-ups:
+[Enlace-Vista-Web-App-Mockups](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-3)
+
+##### Pantallas Generales
+
+[![Inicio-de-sesi-n.png](https://i.postimg.cc/sxvHG9gQ/Inicio-de-sesi-n.png)](https://postimg.cc/hQR1Hmxc)
+
+Los 3 tipos de usuario podrán iniciar sesión ingresando su usuario y contraseña previamente registrados.<br>
+
+[![Registro.png](https://i.postimg.cc/Fz7CkgHY/Registro.png)](https://postimg.cc/fSQf6dXs)
+
+Al ser esta una pantalla totalmente pública y accedida por cualquier usuario de internet, los administradores y supervisores no podrán registrarse de esta manera por razones de seguridad. De esta manera se evita que cualquier agente externo pueda crearse una cuenta de administrador y sabotear el sistema. Por lo tanto, esta pantalla de registro tendrá la funcionalidad de registrar nuevos estudiantes.<br>
+
+---
+
+##### Pantallas para Administrador
+
+[![Home-Administrativo.png](https://i.postimg.cc/7PGp6wGc/Home-Administrativo.png)](https://postimg.cc/5jJPKcmq)
+
+Este es el menú inicial del administrador que observa tras iniciar sesión.<br>
+
+[![Dashboard-Sedes-Admin.png](https://i.postimg.cc/8kJq5NJY/Dashboard-Sedes-Admin.png)](https://postimg.cc/xqQsprPG)
+
+Al presionar el botón de supervisores, el administrador podrá crearle una cuenta al supervisor y asignarle una sede.<br>
+
+[![Asignaci-n-de-supervisor-a-una-sede.png](https://i.postimg.cc/kM6k4q6N/Asignaci-n-de-supervisor-a-una-sede.png)](https://postimg.cc/nMxdS81M)
+
+En esta pantalla el administrador puede gestionar y visualizar al supervisor que fue asignado a una sede.
+
+---
+
+##### Pantallas para Supervisor
+
+[![Home-Panel-de-Supervisor.png](https://i.postimg.cc/jj6SByK2/Home-Panel-de-Supervisor.png)](https://postimg.cc/94M27RDH)
+
+Este el menú inicial que verá el supervisor tras iniciar sesión en la aplicación web.<br>
+
+[![Reservas-de-la-sede-por-Estudiante.png](https://i.postimg.cc/tgd48Fys/Reservas-de-la-sede-por-Estudiante.png)](https://postimg.cc/mcD4HzP4)
+
+En este apartado el supervisor podrá visualizar las reservas por estudiante.<br>
+
+[![Reservas-de-la-sede-por-cub-culo.png](https://i.postimg.cc/1z03bDPf/Reservas-de-la-sede-por-cub-culo.png)](https://postimg.cc/KKzbMk12)
+
+En este apartado el supervisor podrá visualizar las reservas por cubículo.<br>
+
+[![Gesti-n-de-Cub-culos-1.png](https://i.postimg.cc/Lsk8GjRY/Gesti-n-de-Cub-culos-1.png)](https://postimg.cc/06QvwMzP)
+
+[![Gesti-n-de-cubiculos-2.png](https://i.postimg.cc/8CdzxLDz/Gesti-n-de-cubiculos-2.png)](https://postimg.cc/4KdG97mD)
+
+En esta pantalla el supervisor podrá gestionar los cubiculos, es decir agregarlos, editarlos o eliminarlos.<br>
+
+---
+
+##### Pantallas para estudiante
+
+[![Home-Reservas-Estudiante.png](https://i.postimg.cc/y8jVPsTW/Home-Reservas-Estudiante.png)](https://postimg.cc/fV3nW4ph)
+
+Este será el menú inicial que verá el estudiante tras iniciar sesión. En este apartado podrá ver sus reservas más recientes y cancelarlas. <br>
+
+[![Detalles-de-la-Reserva-Estudiante.png](https://i.postimg.cc/RZ4SKNwt/Detalles-de-la-Reserva-Estudiante.png)](https://postimg.cc/fJqQhW2W)
+
+Al seleccionar la opción de ver una reserva, el estudiante podrá ver estos detalles. <br>
+
+[![Menu-antes-de-reservar-Estudiante.png](https://i.postimg.cc/zG8zKVTK/Menu-antes-de-reservar-Estudiante.png)](https://postimg.cc/TpNvX273)
+
+Al seleccionar en la opción del navbar que dice "Reservar", el estudiante verá este apartado. En esta página podrá seleccionar la opción de ver el mapa de la sede o continuar a la reserva de cubículos. <br>
+
+[![Mapa-de-la-sede-Estudiante.png](https://i.postimg.cc/XY4jdp9f/Mapa-de-la-sede-Estudiante.png)](https://postimg.cc/F7CXQFWz)
+
+Este apartado muestra el mapa de la sede para que nuevos estudiantes puedan ubicarse mejor. <br>
+
+[![Cubiculos-Ver-Estudiante.png](https://i.postimg.cc/Bn4SHX2D/Cubiculos-Ver-Estudiante.png)](https://postimg.cc/gntbPcSk)
+
+Este apartado muestra los cubículos disponibles para reservar. <br>
+
+[![Horarios-disponibles-Estudiante.png](https://i.postimg.cc/Qdh81Hc9/Horarios-disponibles-Estudiante.png)](https://postimg.cc/D8p3Kfjn)
+
+Al querer reservar un cubículo, el estudiante podrá ver los horarios disponibles y efectuar la reserva. <br>
+
+---
+
+#### Mobile Application Mock-ups
+
+En el siguiente enlace se desarrollaron los mock-ups:
+[Enlace-Vista-Mobile-App-Mockups](https://www.figma.com/design/36XnbJB9ljpI3viqruRiML/Bib-Flip?node-id=1-4)
+
+[![Inicio-de-sesi-n.png](https://i.postimg.cc/g2WVhqM2/Inicio-de-sesi-n.png)](https://postimg.cc/VdK0QMQx)
+
+En este apartado el inicio de sesión es exclusivo para estudiantes. <br>
+
+[![Registro.png](https://i.postimg.cc/Sxh697ZK/Registro.png)](https://postimg.cc/JGpHVJCw)
+
+Esta imagen expresa la pantalla de registro para la aplicación móvil con los mismos parámetros que la aplicación web. El registro por este medio seguirá siendo igualmente solo para estudiantes. <br>
+
+[![Home.png](https://i.postimg.cc/vZsrnLP8/Home.png)](https://postimg.cc/VdK0QMQ2)
+
+Esta será la pantalla inicial que verá el estudiante tras iniciar sesión. En ella podrá darle click a la sede San Miguel para acceder a los cubículos. Además, podrá seleccionar la tarjeta de reservas activas para ver todas sus reservas.
+
+[![Sedes.png](https://i.postimg.cc/jSbHfQ8s/Sedes.png)](https://postimg.cc/dL5ZPdPX)
+
+Este será un apartado secundario para acceder a los cubículos de la sede San Miguel.
+
+[![Cubiculos.png](https://i.postimg.cc/GpZMD1G9/Cubiculos.png)](https://postimg.cc/FfVgt8PQ)
+
+Este apartado se utilizará para todos los cubículos disponibles en la sede San Miguel. <br>
+
+[![Mapbox.png](https://i.postimg.cc/nhJ4mYdz/Mapbox.png)](https://postimg.cc/7fKJ87r8)
+
+Esta pantalla se utilizará para visualizar el mapa de la sede San Miguel. <br>
+
+[![Reservacion-de-cubiculos.png](https://i.postimg.cc/vZsrnLPb/Reservacion-de-cubiculos.png)](https://postimg.cc/1fvVh6hj)
+
+Esta pantalla se utilizará para reservar cubículos en un horario disponible. <br>
+
+
+### 5.4.4. Applications User Flow Diagrams
+En esta sección se documentan los diagramas de flujo de usuario (user flows) para los principales procesos dentro de la aplicación, como la reserva de cubículos, la gestión de sedes y la administración de usuarios. Los user flows muestran los pasos que sigue un usuario desde el inicio hasta la finalización de una tarea específica, identificando puntos clave de decisión, validaciones y retroalimentación del sistema. Estos diagramas ayudan a optimizar la experiencia y asegurar que los procesos sean intuitivos y eficientes. Estos flows se encuentran en el siguiente enlace: [Enlace-User-Flows](https://lucid.app/lucidchart/e553dbed-f6de-4913-994b-ed85dcd83d41/edit?viewport_loc=-11961%2C-6209%2C2594%2C1241%2CJlkXbBG3jm9C&invitationId=inv_a52a3e8b-f40f-4bae-ac7e-ddae54aa97c9)
+
+**Estudiantes**
+
+#### User Goal 1: Acceder rápidamente para ver la disponibilidad
+
+**Descripción:** El usuario necesita ingresar a la plataforma de forma ágil para consultar inmediatamente la disponibilidad de cubículos de estudio en la sede elegida.
+
+**Happy Path**
+- El usuario llega a la pantalla de bienvenida y visualiza el formulario de "Iniciar Sesión"
+- Ingresa sus credenciales (usuario y contraseña) correctamente
+- El sistema valida la información y lo redirige al dashboard principal
+- Se muestra la lista de sedes disponibles (ej: San Miguel)
+- El usuario selecciona una sede y accede inmediatamente al listado de cubículos
+- Puede visualizar detalles: capacidad, horario de funcionamiento y realizar una reserva en menos de 30 segundos
+- La experiencia es fluida, sin interrupciones ni errores de validación
+
+**Unhappy Path**
+- El usuario ingresa credenciales incorrectas y el sistema muestra un mensaje de error
+- Puede intentar nuevamente o usar la opción "¿No tienes cuenta? Regístrate"
+- Si selecciona un cubículo sin horarios disponibles, puede visualizarlo claramente
+- Si la conexión falla durante la consulta de disponibilidad, se muestra un estado de carga o error amigable
+- El usuario puede reintentar sin perder el progreso
+
+**Condiciones Especificadas**
+- El tiempo de carga debe ser menor a 5 segundos desde la autenticación
+- La disponibilidad debe actualizarse en tiempo real
+- El diseño debe permitir acceso rápido sin pasos innecesarios
+- Debe ser intuitivo para usuarios nuevos y recurrentes
+
+<br>
+
+[![Captura-de-pantalla-2025-10-10-013837.png](https://i.postimg.cc/4NRx58p6/Captura-de-pantalla-2025-10-10-013837.png)](https://postimg.cc/PNKHfQ3J)
+
+<br>
+
+#### User Goal 2: Realizar una reserva de cubículo
+
+**Descripción:** El usuario desea reservar un cubículo específico para estudiar en un horario determinado, completando el proceso de forma sencilla y recibiendo confirmación inmediata.
+
+**Happy Path**
+- El usuario visualiza los cubículos y horarios disponibles con sus características (capacidad, ubicación)
+- Selecciona un cubículo que se adapta a sus necesidades
+- El sistema le muestra opciones de horario disponibles para ese día
+- Confirma la reserva y puede verla en la sección "Reservas Activas" del perfil
+
+**Unhappy Path**
+- El horario seleccionado fue reservado justo antes de completar el proceso
+- El estudiante tiene que reservar en otro horario
+- Si tiene reservas conflictivas o límite de reservas activas, el sistema lo notifica
+- El usuario puede cancelar la reserva actual o ajustar horarios
+
+### Condiciones Especificadas
+- El proceso de reserva no debe exceder 5 pasos
+- Confirmación instantánea por completar la acción
+- Opción de cancelación sin penalización con antelación de hasta 5 minutos máximo.
+- Sincronización en tiempo real del inventario de cubículos
+
+<br>
+
+[![Captura-de-pantalla-2025-10-10-014719.png](https://i.postimg.cc/05nkq73C/Captura-de-pantalla-2025-10-10-014719.png)](https://postimg.cc/s1BdYG3B)
+
+---
+
+**Persona Bibliotecario de la Universidad**
+
+#### User Goal 3: Gestionar cubículos con facilidad
+
+**Descripción:** El supervisor/administrador necesita gestionar de forma rápida y eficiente todos los cubículos disponibles en una sede, incluyendo agregar nuevos cubículos, eliminar existentes y actualizar información de ocupación y disponibilidad.
+
+**Happy Path**
+- El supervisor accede al Panel de Supervisor desde su cuenta autenticada
+- Visualiza "Mi Sede Asignada" (ej: San Miguel) con toda la información: ubicación, teléfono, horario
+- Navega a "Acciones Rápidas" y selecciona "Gestionar Cubículos"
+- El sistema carga la vista de gestión mostrando todos los cubículos existentes en la sede con sus detalles:
+  - Número de cubículo
+  - Capacidad (cantidad de personas)
+  - Pabellón/Ubicación principal
+  - Botón de acción "Eliminar"
+- El supervisor puede agregar un nuevo cubículo haciendo clic en "+ Agregar cubículo"
+- Se abre un modal con campos para:
+  - Nombre del cubículo
+  - Capacidad (número de personas)
+  - Zona/Pabellón de ubicación
+- Completa los datos y confirma la acción
+- El nuevo cubículo se agrega inmediatamente a la lista y el sistema actualiza la disponibilidad
+- El proceso es rápido, intuitivo y sin pasos innecesarios
+
+**Unhappy Path**
+- El supervisor intenta agregar un cubículo con capacidad inválida o campos vacíos
+- El sistema valida los datos y muestra un mensaje de error indicando los campos requeridos
+- El supervisor corrige los datos y reintenta
+- Si intenta eliminar un cubículo con reservas activas, el sistema lo advierte y sugiere esperar a que se libere
+- Si la conexión falla durante la operación, se muestra un mensaje de error y la acción se guarda en cola para reintentarse
+- El supervisor puede reintentar sin perder los datos ingresados
+- Si selecciona accidentalmente eliminar, aparece un diálogo de confirmación antes de ejecutar la acción
+
+**Condiciones Especificadas**
+- El panel debe cargar en menos de 2 segundos
+- Agregar cubículo no debe tomar más de 5 campos de entrada
+- Confirmación visual inmediata al agregar o eliminar cubículos
+- Los cambios se reflejan en tiempo real para todos los usuarios
+- No se permite eliminar cubículos con reservas activas sin confirmación
+- Validación de capacidad (mínimo 1 persona, máximo 10 personas)
+- El supervisor debe pertenecer a la sede para gestionar sus cubículos
+- Historial de cambios (auditoría) opcional para usuarios administrativos
+
+<br>
+
+[![Captura-de-pantalla-2025-10-10-022410.png](https://i.postimg.cc/BnFh9B6z/Captura-de-pantalla-2025-10-10-022410.png)](https://postimg.cc/K1Z7tLt7)
+
+[![Captura-de-pantalla-2025-10-10-022442.png](https://i.postimg.cc/yYgjcyF6/Captura-de-pantalla-2025-10-10-022442.png)](https://postimg.cc/4mGpTtLj)
+
+---
+
+## 5.5. Applications Prototyping
+En esta sección se describen los prototipos desarrollados para Bibflip. Estos permiten simular la navegación y las principales funcionalidades tanto en la versión web como móvil.
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EY73O0cRc6dLsHxQofhu7e8BDWhNknpIkdJtQr4BNVXQfA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OfAHMM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EY73O0cRc6dLsHxQofhu7e8BDWhNknpIkdJtQr4BNVXQfA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OfAHMM)
+
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+En esta sección se establece el proceso de implementación, comprobación, despliegue y validación de la solución compuesta por los productos digitales de nuestro alcance. Este capítulo, alineado al enunciado y rúbrica del curso, cubre: configuración del entorno de desarrollo, control de código fuente, guías de estilo y la configuración de despliegue de **Landing Page**, **Web Applications**, **Web Services** y **Mobile Applications**.
+
+<br/>
+
+### 6.1.1. Software Development Environment Configuration
+
+A continuación se especifica cada uno de los productos de software, que utilizamos para olaborar en el ciclo de vida y desarrollo de los productos para nuestra solución, considerando todas las herramientas utilizadas en la documentación, especificación de nuestra solución y desarrollo de software, respetando las restricciones indicadas sobre los productos de software y herramientas que debemos utilizar.
+
+**Project Management**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| Trello | Para el control del proyecto, asignación de tareas y actividades de cada integrante del equipo en base a nuestras User Stories. | https://www.trello.com/ |
+| Google Meet | Plataforma virtual para realizar reuniones del grupo para coordinar y asignar actividades. | https://meet.google.com |
+| Discord | Plataforma virtual para realizar reuniones del grupo para coordinar y asignar actividades. | https://discord.com/ |
+
+<br>
+
+**Requirements Management**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| UXPressia | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps. | https://uxpressia.com/ |
+| Miro | Elaboración de As-Is y To-Be Scenario Maps | https://miro.com/ |
+| Microsoft Stream | Publicación del video que contiene todas las entrevistas realizadas | https://www.microsoft.com/es-es/microsoft-365/microsoft-stream |
+
+<br>
+
+**Product UX/UI Design**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| Figma | Elaboración de Wireframes, Mock-ups y Prototypes. | https://www.figma.com |
+
+<br>
+
+**Software Development**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| IntelliJ | Idea Entorno de Desarrollo Integrado (IDE) para codificación y desarrollo del lado Backend de nuestra solución. | https://www.jetbrains.com/idea/ |
+| Visual Studio Code | Editor de código fuente para codificación y desarrollo de nuestra aplicación móvil. | https://code.visualstudio.com/ |
+| GIT | Almacenamiento y control de versiones de código. | https://git-scm.com |
+| GitHub | Gestionar GIT en un repositorio común. | https://github.com |
+
+<br>
+
+**Software Testing**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| Gherkin | Lenguaje de especificación de pruebas utilizado para escribir nuestros Test en formato más legible. | https://cucumber.io/docs/gherkin/ |
+
+<br>
+
+**Software Deployment**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| GitHub Pages | Despliegue de nuestra Landing Page. | https://pages.github.com/ |
+| Firebase | Despliegue de nuestra aplicación web. | https://firebase.google.com/ |
+| Microsoft Azure | Despliegue de servicios web. | https://azure.microsoft.com/ |
+
+<br>
+
+**Software Documentation**
+
+| Producto de Software | Descripción | Ruta de referencia o de descarga |
+|:--------------------:|:------------|:---------------------------------|
+| Swagger | Documentación de Web Services usando OpenAPI Specification. | https://swagger.io |
+
+<br>
+
+### 6.1.2. Source Code Management
+
+Para el seguimiento de modificaciones en el desarrollo de nuestra solución, utilizamos la plataforma GitHub para alojar tanto la documentación como el código de nuestros productos de software. Esta plataforma nos permite realizar seguimiento de las modificaciones en cada parte de los productos desarrollados y también la utilizaremos como sistema de control de versiones. Para asegurar que todo el equipo pueda acceder a la plataforma y que los repositorios que alojarán diferentes partes de nuestra solución sean accesibles por una misma ruta, por lo cual hemos creado una organización en GitHub con el nombre de nuestro producto.
+
+| Organización | URL |
+|:------------:|:----|
+| upc-pre-202520-1asi0572-3355-BibFlip | https://github.com/upc-pre-202520-1asi0572-3355-BibFlip |
+
+Dentro de nuestra organización en GitHub, se encuentran los repositorios correspondientes a cada uno de los productos a desarrollar.
+
+| Producto | URL del Repositorio |
+|:--------:|:--------------------|
+| Landing Page | https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage |
+| Web Service | https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend |
+| Web Application | https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend |
+| Mobile Application | https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend |
+
+**Implementación de GitFlow**
+
+Para el desarrollo de nuestro proyecto, implementaremos GitFlow propuesto por Vincent Driessen en "A successful Git branching model". Utilizaremos este flujo de trabajo en todos los repositorios que integran nuestra solución.
+
+Para implementar GitFlow crearemos las siguientes ramas de trabajo en cada repositorio:
+
+| Rama | Descripción |
+|:----:|:------------|
+| main | La rama principal del repositorio contiene el código inicial y estable, y solo se actualizará con versiones estables del software. Cada cambio en esta rama deberá ser revisado por todos los integrantes del equipo. |
+| develop | Esta rama contendrá el código más reciente desarrollado y servirá como base para futuras versiones. Se fusionará con ramas de características "feature" y principal "main" cuando sea necesario. Los miembros del equipo podrán realizar fusiones a esta rama si lo consideran conveniente. |
+| feature | Ramas que pueden crear los integrantes del equipo para el desarrollo de nuevas funciones o características. Estas ramas existen mientras la funcionalidad esté en desarrollo, pero eventualmente se deben fusionar con la rama "develop" para añadir definitivamente la nueva funcionalidad a próximas versiones. La convención de nomenclatura para esta rama puede ser cualquier nombre excepto master, develop, release o hotfix. |
+| release | Esta rama se utilizará para preparar el código que incluye varias características nuevas para una nueva versión. Podrá fusionarse con las ramas "develop" y "main" después de una revisión parcial por parte del equipo. La convención de nomenclatura para esta rama debe ser release-<número>, donde <número> debe ser una secuencia de dígitos y puntos. |
+| hotfixes | Esta rama nos permitirá corregir errores en el código de la rama "main". Una vez realizadas las correcciones, éstas se fusionarán tanto en la rama "main" como en la rama "develop". La convención de nomenclatura para esta rama debe ser hotfix-<número>, donde <número> debe ser una secuencia de dígitos y puntos. |
+
+<br>
+
+<p align="center">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*X8WN29vxbiyc3XFFfWanTA.png" width="60%" alt="Ejemplo flujo de Gitflow"/>
+</p>
+
+<br>
+
+**Implementación de Conventional Commits**
+
+Conventional Commits es una convención basada en los mensajes de commit en git. En nuestro contexto nos proporciona un conjunto de reglas para crear un historial de commits, ya que describe las características, correcciones y cambios importantes realizados en los mensajes de commit.
+
+Aplicaremos Conventional Commits para los textos de mensajes de cada commit en todas las ramas de nuestros repositorio.
+
+Los mensajes de commit deben tener la siguiente estructura:
+
+```
+<Tipo>[ámbito opcional]: <Descripción>
+[Cuerpo opcional]
+[pie de página opcional]
+```
+
+Durante el desarrollo de los productos asociados a nuestra solución establecemos que cada commit debe contener los siguientes elementos.
+
+`fix`: Indica una corrección en el código base.<br>
+`feat`: Introduce una nueva característica en el código base.<br>
+Otros tipos basados en la convención Angular como `build:` , `chore:` , `ci:` , `docs:` , `style:` , `refactor:`, `perf:` , `test:` y otros.
+
+Establecemos estas convenciones con el propósito de comunicar de manera clara y precisa la intención de todo lo realizado durante el desarrollo de nuestra solución, tanto a los consumidores de los repositorios como a los miembros del equipo.
+
+<br>
+
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+Para el desarrollo de nuestra propuesta de solución, el equipo utilizará las convenciones estándar para cada lenguaje durante todo el ciclo de vida del proyecto y en todos los repositorios de trabajo. A continuación, se presentan las referencias para la nomenclatura de los elementos en cada lenguaje, procurando utilizar nomenclatura en inglés y seguir buenas prácticas de programación.
+
+| Lenguaje | Referencias y Convenciones |
+|:--------:|:---------------------------|
+| HTML | - Utilizar la estructura de documento propia de HTML, especificando el "DOCTYPE html". <br> - Cerrar siempre las etiquetas de autocierre con />. <br> - Utilizar minúsculas "lowercase" para los nombres de las etiquetas y atributos. <br> - Incluir atributos ALT en las imágenes para describir su contenido. <br> - Mantener una indentación consistente en el código. |
+| CSS | - Utilizar unidades relativas para definir el tamaño de las imágenes. <br> - Separar las palabras con guiones en lugar de espacios o subrayados. <br> - Preferir el uso de propiedades abreviadas cuando sea posible. <br> - Emplear nombres descriptivos para las clases y los identificadores. |
+| JavaScript | - Documentar el código de manera descriptiva. <br> - Utilizar nombres descriptivos para variables y funciones. <br> - Organizar el código en módulos y componentes. |
+| Java | - Las clases e interfaces deben nombrarse con sustantivos en CamelCase. <br> - Organizar el código en módulos y componentes. <br> - Limitar la longitud de los métodos para que realicen una única función clara. <br> - Manejar adecuadamente las excepciones con mensajes o acciones concretas. |
+| Dart | - Los nombres de variables, métodos y funciones deben comenzar con una letra minúscula y seguir la convención lowerCamelCase. <br> - Los nombres de clases, enumeraciones y tipos deben usar UpperCamelCase. <br> - Evitar crear objetos o instancias innecesarias; preferir constantes `const` cuando sea posible. <br> - Usar `late` o inicialización diferida solo cuando sea realmente necesario para optimizar recursos. <br> - Los nombres de archivos, bibliotecas y paquetes deben escribirse en minúsculas, usando guiones bajos `snake_case` para separar palabras. |
+| Gherkin | Se usará la estructura "Given","When","Then","And" para escribir casos de prueba. <br> - Uso de archivos .feature para cada caso de prueba. <br> - Utilizar un Feature por funcionalidad del sistema. <br> - Describir escenarios de un uso único, lo más independiente posible de otras funcionalidades. |
+
+<br>
+
+### 6.1.4. Software Deployment Configuration
+
+Se describe el proceso de configuración y despliegue de los productos digitales que conforman la solución **BibFlip**, incluyendo la **Landing Page** y los **Backend Services**.  
+El objetivo es detallar los pasos necesarios para lograr la publicación satisfactoria de ambos componentes a partir de sus respectivos repositorios en GitHub.
+
+**Entornos**
+<table>
+  <thead><tr><th>Producto</th><th>Entorno</th><th>Dominio/URL</th><th>Notas</th></tr></thead>
+  <tbody>
+    <tr><td>Landing</td><td>Prod</td><td><em>https://usuario.github.io/bibflip</em></td><td>GitHub Pages</td></tr>
+    <tr><td>Web (Vue)</td><td>Prod</td><td><em>https://bibflip-web.web.app</em></td><td>Firebase Hosting</td></tr>
+    <tr><td>Mobile</td><td>QA/Interno</td><td><em>Firebase App Distribution</em></td><td>APK/AAB para testers</td></tr>
+    <tr><td>Web Services</td><td>QA/Prod</td><td><em>Azure App Service</em></td><td>Pendiente primer release</td></tr>
+  </tbody>
+</table>
+
+**Variables y secretos (estándar)**
+- `VITE_API_BASE_URL` (web), `API_BASE_URL` (mobile).
+- Claves/IDs de Firebase (hosting/app distribution).
+- Nunca en el repo: se configuran en **GitHub Secrets** / **Firebase CLI**.
+
+**1. Landing Page (GitHub Pages)**
+
+**Repositorio**
+- **URL del repositorio:** <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage>
+- **Tecnologías utilizadas:**  
+  - HTML  
+  - CSS  
+  - JavaScript
+
+**Pasos de despliegue**
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage.git
+   cd LandingPage
+   ```
+2. **Verificar la estructura del proyecto:**
+
+    - Asegurarse de que el archivo principal index.html se encuentre en la raíz del repositorio, junto con las carpetas /css y /js.
+
+3. **Configurar GitHub Pages:**
+    - Acceder a la sección Settings del repositorio.
+    - Ir a la pestaña Pages.
+    - En el apartado Source, seleccionar la rama main y la carpeta / (root).
+    - Guardar los cambios.
+
+4. **Esperar la publicación:**
+    - GitHub Pages realizará automáticamente el build del sitio y lo publicará en la URL generada.
+
+**Resultado:**
+
+La Landing Page quedó publicada y accesible en el siguiente enlace:
+
+<https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/>
+
+
+**2. Frontend Web (Firebase Hosting)**
+
+```bash
+# Requisitos
+npm i -g firebase-tools
+firebase login
+firebase init hosting  # seleccionar proyecto; setea build dir: dist
+
+# Build y Deploy
+npm ci
+npm run build
+firebase deploy
+
+```
+
+**3. Mobile (Flutter/Dart)**
+
+```bash
+flutter clean
+flutter pub get
+flutter build apk --release
+# Distribuir con Firebase App Distribution
+firebase appdistribution:distribute build/app/outputs/flutter-apk/app-release.apk --app <APP_ID> --groups testers
+
+```
+
+**4. Web Services (Azure) — plan de despliegue**
+
+El despliegue de los servicios Backend de **BibFlip** se realizó a partir del código fuente alojado en el repositorio oficial de la organización en GitHub.  
+Este proceso permitió publicar la API REST desarrollada en **Spring Boot** dentro de la plataforma **Microsoft Azure**, garantizando su disponibilidad pública.
+
+**Repositorio:**
+- **Nombre:** `Backend`  
+- **Plataforma:** GitHub  
+- **URL:** <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
+
+**Pasos para el despliegue**
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend.git
+   cd Backend
+   ```
+
+2. **Compilar y empaquetar la aplicación**
+   ```bash
+   git clone https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend.git
+   cd Backend
+   ```
+3. **Configurar el servicio en Azure**
+    - Ingresar al portal de Microsoft Azure .
+    - Crear un App Service con las siguientes configuraciones:
+        - Runtime Stack: Java 17
+        - Web Server: Java SE
+        - Sistema Operativo: Linux
+    - Asignar un nombre único para el servicio `bibflip-api-platform`.
+
+4. **Conectar el repositorio con Azure**
+    - En el App Service, acceder al apartado Deployment Center.
+    - Seleccionar GitHub como fuente de despliegue.
+    - Autorizar la cuenta de GitHub y elegir:
+        - Organización: `upc-pre-202520-1asi0572-3355-BibFlip`
+        - Repositorio: `Backend`
+        - Rama: `main`
+
+5. **Verificar el despliegue**
+    - Azure ejecutará automáticamente el build y desplegará la aplicación.
+    - Una vez completado, acceder al enlace generado por Azure para comprobar el funcionamiento de la API.
+    - URL de despliegue: <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**Diagrama de despliegue de nuestras soluciones:**
+
+<img src="https://i.ibb.co/Y76Y7zrT/diagramde-deploy.png" alt="Diagrama de Deploy" border="0">
+
+
+## 6.2. Landing Page, Services & Applications Implementation
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+**Introducción**  
+Este sprint se orientó a entregar la primera versión navegable de la **Landing Page (HTML/CSS/JS)**, el **Frontend Web (Vue 3 + PrimeVue)** y la **App Mobile (Flutter/Dart)**, cumpliendo con los entregables solicitados para TP1.
+
+<!-- Sprint Planning Background (formato de la rúbrica) -->
+<table>
+  <thead>
+    <tr><th colspan="2">Sprint #</th><th>Sprint 1</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2"><strong>Sprint Planning Background</strong></td><td></td></tr>
+    <tr><td>Date</td><td>YYYY-MM-DD</td><td>2025-10-05</td></tr>
+    <tr><td>Time</td><td>HH:MM</td><td>20:30</td></tr>
+    <tr><td>Location</td><td>(física/virtual)</td><td>Virtual</td></tr>
+    <tr>
+      <td>Prepared By</td><td>(Responsable del acta)</td>
+      <td>Aranda Vallejos, Oscar Gabriel</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>(Equipo)</td>
+      <td>
+        Aranda Vallejos, Oscar Gabriel / Bernaola Pérez, André Arturo / Gutierrez Garcia, Jose Eduardo /
+        Oliveira Paucar, Mauricio / Pedraza Maldonado, Joaquin / Soriano Medrano, Diego / Velarde Luyo, Piero Alberto
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 1 – 1 Review Summary</strong><br/><em>No aplica (proyecto inicia en Sprint 1).</em></td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 1 – 1 Retrospective Summary</strong><br/><em>No aplica (proyecto inicia en Sprint 1).</em></td>
+    </tr>
+    <tr><td colspan="3"><strong>Sprint Goal &amp; User Stories</strong></td></tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>(SMART)</td>
+      <td>
+        Entregar la <strong>v1 navegable</strong> de: 
+        (1) Landing Page (GitHub Pages), 
+        (2) Frontend Web (Vue 3 + PrimeVue) en Firebase Hosting, 
+        (3) App Mobile (Flutter) con navegación base y pantallas Home/Reservas; 
+        evidenciar navegación y despliegues.
+      </td>
+    </tr>
+    <tr><td>Sprint 1 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>(stories incluidos)</td>
+      <td><strong>30 SP</strong> (US001=2, US002=2, US003=2, US004=3, US005=3, US006=5, US007=8, US009=5)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 6.2.1.2. Aspect Leaders and Collaborators
+
+
+| Miembro                                      | GitHub Username     | Landing | Frontend Web (Vue + PrimeVue) | Mobile (Flutter/Dart) |
+|---------------------------------------------|------------|:------:|:-----------------------------:|:---------------------:|
+| **Aranda Vallejos, Oscar Gabriel**          | OscarGAV | **L**  | C                             | C                     |
+| **Bernaola Pérez, André Arturo**            | Andorla0 | C      | **L**                         | C                     |
+| **Gutierrez Garcia, Jose Eduardo**          | Elcrackje | C      | C                             | **L**                 |
+| **Oliveira Paucar, Mauricio**               | Mauricio-nn | C      | C                             | C                     |
+| **Pedraza Maldonado, Joaquin**              | JoaquinPedraza1 | C      | C                             | C                     |
+| **Soriano Medrano, Diego**                  | diego5m | C      | **L**                         | C                     |
+| **Velarde Luyo, Piero Alberto**             | P1er0VL | C      | C                             | C                     |
+
+
+#### 6.2.1.3. Sprint Backlog 1
+
+Durante este sprint inicial, nos enfocamos en desarrollar las user stories que definen las características clave de nuestro software. Esto nos permitió, por un lado, asegurar que los usuarios tengan acceso a información relevante y explicativa sobre los productos y, por otro lado, completar la primera fase de desarrollo de nuestra aplicación web y los servicios centrales de nuestro dominio.
+
+[![image.png](https://i.postimg.cc/90KDGc1Q/image.png)](https://postimg.cc/PvbfHsBg)
+
+**URL publico de trello:** <https://trello.com/b/htxHDgrX/bibflip>
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td colspan="7" >Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2" > User Story</td>
+            <td colspan="6" > Work-Item / Task </td>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Id </td>
+        <td> Title </td>
+        <td> Id </td>
+        <td> Title </td>
+        <td> Description </td>
+        <td> Estimation (Hours) </td>
+        <td> Assigned To </td>
+        <td> Status (To-do / In-Process / To-Review / Done) </td>
+      </tr>
+      <tr>
+        <td>US001</td>
+        <td>Ver sección “¿Qué es BibFlip?”</td>
+        <td>TA1</td>
+        <td>Diseñar contenido explicativo</td>
+        <td>Definir texto e imágenes que describan la funcionalidad principal de BibFlip</td>
+        <td>02</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar sección en Landing Page</td>
+        <td>Codificar la sección dentro de la landing principal utilizando componentes reutilizables</td>
+        <td>02</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US002</td>
+        <td>Ver “Características clave”</td>
+        <td>TA1</td>
+        <td>Diseño visual de características</td>
+        <td>Diseñar una sección que resuma las principales características de la aplicación</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar tarjetas informativas</td>
+        <td>Codificar las tarjetas con íconos, texto y animaciones simples</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US003</td>
+        <td>Ver galería virtual</td>
+        <td>TA1</td>
+        <td>Diseño de la galería</td>
+        <td>Definir estructura visual de la galería (grilla de imágenes o carrusel)</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar galería en Landing</td>
+        <td>Programar la sección interactiva con transición o desplazamiento</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US004</td>
+        <td>Formulario de contacto</td>
+        <td>TA1</td>
+        <td>Diseñar formulario de contacto</td>
+        <td>Definir campos y validaciones visuales básicas del formulario</td>
+        <td>03</td>
+        <td> Mauricio Oliveira </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar validaciones y estilo</td>
+        <td>Codificar el formulario con validaciones de campos requeridos y formato de correo</td>
+        <td>03</td>
+        <td> Piero Velarde </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US005</td>
+        <td>Ver servicios de una sede</td>
+        <td>TA1</td>
+        <td>Diseñar lista de servicios</td>
+        <td>Crear diseño del listado de servicios ofrecidos por cada sede</td>
+        <td>03</td>
+        <td> Oscar Aranda Vallejos </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Filtrado y visualización</td>
+        <td>Implementar filtros básicos (por tipo de servicio, horario o disponibilidad)</td>
+        <td>03</td>
+        <td> Oscar Aranda Vallejos </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US006</td>
+        <td>Visualizar reserva activa</td>
+        <td>TA1</td>
+        <td>Diseño interfaz de reserva activa</td>
+        <td>Diseñar vista principal donde se muestre información de la reserva actual</td>
+        <td>03</td>
+        <td> Oscar Aranda Vallejos </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Integrar datos de reserva activa</td>
+        <td>Simular datos desde UI (sin backend) y mostrarlos dinámicamente</td>
+        <td>03</td>
+        <td> Jose Garcia</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US007</td>
+        <td>Disponibilidad de cubículos en tiempo real</td>
+        <td>TA1</td>
+        <td>Diseñar vista de disponibilidad</td>
+        <td>Crear prototipo de interfaz para visualizar cubículos disponibles (sin integración)</td>
+        <td>04</td>
+        <td> Jose Garcia </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Simular actualización de disponibilidad</td>
+        <td>Implementar actualización de estado visual con datos simulados en frontend</td>
+        <td>04</td>
+        <td> Jose Garcia </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US008</td>
+        <td>Reservar un cubículo</td>
+        <td>TA1</td>
+        <td>Diseñar flujo de reserva</td>
+        <td>Diseñar las pantallas para seleccionar cubículo y confirmar reserva</td>
+        <td>04</td>
+        <td> Jose Garcia </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar formulario de reserva</td>
+        <td>Programar formulario con validaciones básicas (mock sin backend)</td>
+        <td>04</td>
+        <td> André Bernaola </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US009</td>
+        <td>Ver sedes en un mapa</td>
+        <td>TA1</td>
+        <td>Diseñar componente de mapa</td>
+        <td>Definir estructura visual con marcador de sedes en mock de mapa</td>
+        <td>03</td>
+        <td> Joaquin Pedraza </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td></td><td></td>
+        <td>TA2</td>
+        <td>Implementar popup de información</td>
+        <td>Agregar pop-up informativo al seleccionar una sede</td>
+        <td>03</td>
+        <td> Diego Soriano </td>
+        <td>In Process</td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+
+
+
+
+
+<blockquote>
+<strong>Nota:</strong> SP (Story Points) y Velocity del Sprint pendientes de estimación formal del equipo.
+</blockquote>
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip`]()
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th><th>Branch</th><th>Commit Id</th><th>Commit Message</th><th>Commit Message Body</th><th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LandingPage</td><td>main</td><td><em>e65b846</em></td>
+      <td>edit: footer(style)</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Web-Frontend</td><td>production</td><td><em>af43059</em></td>
+      <td>hotfix: update .env production</td>
+      <td>-</td>
+      <td><em>6/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Mobile-Frontend</td><td>production</td><td><em>
+        8f3b6f6</em></td>
+      <td>feat: update google maps integration</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+<p><em>Para Sprint 1 no se incluyen Web Services; se planifica test unitario/UI para front y widget tests en Flutter en el Sprint 2.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Repo (Testing)</th><th>Tipo</th><th>Relación con historias</th><th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>org/web-bibflip</td><td>UI/Component tests</td><td>US005, US007, US009</td><td>Planificado</td></tr>
+    <tr><td>org/mobile-bibflip</td><td>Flutter widget tests</td><td>US006, US008</td><td>Planificado</td></tr>
+  </tbody>
+</table>
+
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+**Screenshots (avances reales):**
+
+- **Web (Frontend):**  
+  ![web-1](https://i.postimg.cc/hGhngYkJ/Captura-de-pantalla-2025-10-10-015726.png)  
+  ![web-2](https://i.postimg.cc/yxyt0XqY/Captura-de-pantalla-2025-10-10-015821.png)  
+  ![web-3](https://i.postimg.cc/FFVBWZqH/Captura-de-pantalla-2025-10-10-015917.png)
+
+- **Landing:**  
+  ![landing-1](https://i.postimg.cc/KzF5tXmT/Captura-de-pantalla-2025-10-10-020020.png)  
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Mobile (Flutter):**  
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+<p><em>Sin Web Services en Sprint 1. Se documentarán endpoints con OpenAPI a partir de Sprint 2 (TS001–TS003).</em></p>
+
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Endpoint</th><th>Método</th><th>Descripción</th><th>OpenAPI URL</th><th>Estado</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="6" style="text-align:center;">— No aplica en Sprint 1 —</td></tr>
+  </tbody>
+</table>
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+- **Landing**: GitHub Pages — URL: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+- **Frontend Web**: Firebase Hosting — URL: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+- **Mobile**: Build APK de pruebas internas.
+
+<p><em>Adjuntar capturas de consola y/o logs de despliegue (GitHub Actions / Firebase CLI).</em></p>
+
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+- **Gestión en Trello**: tablero con columnas backlog → to-do → in-process → review → done.  
+  - URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
+- **Git/Colaboración**: GitFlow (feature → develop → release → main); PRs con revisión cruzada; Conventional Commits y SemVer.
+- **Observaciones**:  
+  - Picos de actividad: 08–10 oct (Landing/Web), 08–09 oct (Mobile).  
+  - Próximo Sprint: integrar API (TS001–TS003, TS006) y pruebas e2e con datos reales.
+
+
 # Conclusiones
 
 **TB1**
@@ -2553,3 +4209,6 @@ Needfinding:[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_e
 ### TB1
 
 Exposición:[`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EaOh8E4kvcZBse_K6G2QpFQB2tMN6ft_1cgIcr2lp7fNyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cFtTEb`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EaOh8E4kvcZBse_K6G2QpFQB2tMN6ft_1cgIcr2lp7fNyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cFtTEb)
+
+### TP1
+Exposición:[``]()
