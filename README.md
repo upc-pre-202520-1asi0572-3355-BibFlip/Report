@@ -98,6 +98,16 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 | 3.7     | 03/10/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1.8. Software Deployment Evidence for Sprint Review                     |
 | 3.8     | 04/10/2025 | Soriano Medrano, Diego         | 6.2.1.9. Team Collaboration Insights during Sprint                          |
 | 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
+| 4.0     | 01/11/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.2.1. Sprint Planning 2
+| 4.1     | 02/11/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.2.2. Aspect Leader and Collaborators
+| 4.2     | 03/11/2025 | Velarde Luyo, Piero Alberto | 6.2.2.3. Sprint Backlog 2
+| 4.3     | 04/11/2025 | Pedraza Maldonado, Joaquín | 6.2.2.4. Development Evidence for Sprint Review
+| 4.4     | 05/11/2025 | Bernaola Pérez, André Arturo | 6.2.2.5. Testing Suite Evidence for Sprint Review
+| 4.5     | 06/11/2025 | Soriano Medrano, Diego | 6.2.2.6. Execution Evidence for Sprint Review
+| 4.6     | 07/11/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.2.7. Services Documentation Evidence for Sprint Review
+| 4.7     | 08/11/2025 | Oliveira Paucar, Mauricio | 6.2.2.8. Software Deployment Evidence for Sprint Review
+| 4.8     | 09/11/2025 | Soriano Medrano, Diego | 6.2.2.9. Team Collaboration Insights during Sprint
+| 4.9     | 10/11/2025 | Todo el equipo de Bibflip | Validation Interviews y Video About-the-Product.
 
 # Project Report Collaboration Insights
 
@@ -107,6 +117,8 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 | :-------------------------: | :------------------------------------------------------------------------: |
 | Repositorio de la documentación    | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip/Report         |
 | Organización del proyecto     | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip                    |
+
+[![Insights-Bib-Flip-Report.png](https://i.postimg.cc/Y26ft2tz/Insights-Bib-Flip-Report.png)](https://postimg.cc/0rNJfsMz)
 
 <!--LO COMPLETARE DESPUES -->
 
@@ -253,6 +265,21 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Video About-the-Product](#64-video-about-the-product)
 
 ### [Conclusiones](#conclusiones)
 ### [Bibliografía](#bibliografía)
@@ -4172,6 +4199,50 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 - **Observaciones**:  
   - Picos de actividad: 08–10 oct (Landing/Web), 08–09 oct (Mobile).  
   - Próximo Sprint: integrar API (TS001–TS003, TS006) y pruebas e2e con datos reales.
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+
+#### 6.2.2.3. Sprint Backlog 2
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+
+
+## 6.3.  Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+
+### 6.3.2. Registro de Entrevistas
+
+
+### 6.3.3. Evaluaciones según heurísticas
+
+
+
+## 6.4.  Video About-the-Product
 
 
 # Conclusiones
