@@ -4219,6 +4219,53 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
+En esta sección se presenta el conjunto de **Acceptance Tests automatizados** para los **Web Services** relacionados con los **User Stories** especificados en el **Sprint 1**.  
+Bajo el enfoque **BDD (Behavior-Driven Development)**, se elaboraron los archivos `.feature` utilizando el lenguaje **Gherkin** y los archivos **Steps** en **Java** para la automatización de los escenarios de prueba.
+
+#### Para cada User Story trabajado en este Sprint, se incluye:
+
+- **Archivos `.feature`:** Contienen los escenarios de aceptación escritos en formato *Gherkin (Given-When-Then)*, describiendo el comportamiento esperado del sistema desde la perspectiva del usuario.
+- **Archivos `Steps.java`:** Implementan la lógica de automatización que mapea cada paso del archivo `.feature` a código ejecutable, utilizando **Cucumber** como framework de testing BDD.
+
+Los tests de aceptación cubren las funcionalidades principales del sistema **Bib Flip**, incluyendo:
+- Gestión de usuarios (registro e inicio de sesión).
+- Administración de cubículos.
+- Visualización y creación de reservas.
+- Funcionalidades administrativas.
+
+Cada archivo de prueba está vinculado a su **User Story** correspondiente y ha sido versionado en el **repositorio de control de versiones**, asegurando la trazabilidad completa del desarrollo.
+
+#### Tabla de Commits - Acceptance Tests
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|-------------|---------|------------|----------------|---------------------|
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fa67fc | test: add US001 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 9ad3d2b | test: implement US001 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | bc22955 | test: add US004 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 1a5c39d | test: implement US004 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 8fdcb20 | test: add US006 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | f87d2dd | test: implement US006 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | b0c2381 | test: add US008 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 36b4da5 | test: implement US008 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 010363a | test: add US010 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | a3e5836 | test: implement US010 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 59ac32a | test: add US011 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 9fe14c0 | test: implement US011 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | c056515 | test: add US012 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 0fa4270 | test: implement US012 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 469eafe | test: add US013 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | cbed64f | test: implement US013 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 3500e16 | test: add US014 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 4a4f03f | test: implement US014 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 642fbfb | test: add US015 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6bc36f2 | test: implement US015 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | a09bcd0 | test: add US016 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | cb58299 | test: implement US016 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fbd3ae | test: add US017 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 945257b | test: implement US017 step definitions | 05/11/2025 |
+
+
+
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
