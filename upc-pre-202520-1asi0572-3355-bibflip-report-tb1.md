@@ -4219,7 +4219,7 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
-En esta sección se presenta el conjunto de **Acceptance Tests automatizados** para los **Web Services** relacionados con los **User Stories** especificados en el **Sprint 1**.  
+En esta sección se presenta el conjunto de **Acceptance Tests automatizados** para los **Web Services** relacionados con los **User Stories** especificados en el **Sprint 2**.  
 Bajo el enfoque **BDD (Behavior-Driven Development)**, se elaboraron los archivos `.feature` utilizando el lenguaje **Gherkin** y los archivos **Steps** en **Java** para la automatización de los escenarios de prueba.
 
 #### Para cada User Story trabajado en este Sprint, se incluye:
@@ -4264,7 +4264,16 @@ Cada archivo de prueba está vinculado a su **User Story** correspondiente y ha 
 | upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fbd3ae | test: add US017 acceptance test feature | 05/11/2025 |
 | upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 945257b | test: implement US017 step definitions | 05/11/2025 |
 
+A su vez hemos realizado una serie de **Unit Tests** automatizados para los **Web Services** que están relacionado también con los **User Stories** especificados en el **Sprint 2**
 
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 72f2a32 | test: add unit tests for CubicleQueryServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 9df10de | test: add unit tests for CubicleCommandServiceImpl create functionality | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 45afde0 | test: add unit tests for CubicleCommandServiceImpl delete functionality | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 308f3e2 | test: add unit tests for BookingQueryServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 162934c | test: add unit tests for BookingCommandServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 9bd2b36 | test: add unit tests for booking deletion functionality | 12/11/2025 |
 
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
