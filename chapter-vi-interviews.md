@@ -68,7 +68,7 @@ Buenas tardes, gracias por asistir a esta entrevista
 *Domicilio:* Lima<br>
 *Inicio de la Entrevista:* 0:00<br>
 *Fin de la Entrevista:* 5:13<br>
-Link : https://youtu.be/FwhhGJ64cNg
+Link : [Link de la entrevista](https://youtu.be/FwhhGJ64cNg)
 
 <a href="https://postimg.cc/t7jcNkxT"><img src="https://i.postimg.cc/7PGyDQPg/966b54cf-d7d3-4f93-b686-b5a49ee429bd.jpg)" alt="Entrevista" style="width: 600px; height: auto;"><br></a>
 
@@ -87,6 +87,7 @@ El entrevistado, John Gálvez, supervisor de cubículos de 30 años, comentó qu
 *Domicilio:* La Perla<br>
 *Inicio de la Entrevista:* 0:14<br>
 *Fin de la Entrevista:* 0:00<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/IQBfx9oMRqeeSZDsCJgQYLRZAfOOPh6mrWeG03YbS7g2w2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8VNl0O)
 
 <a href="https://ibb.co/1YVtz2bM"><img src="https://i.ibb.co/TDXxWhr1/bibnas.png" alt="Entrevista con Nasthya" style="width: 600px; height: auto;"><br></a>
 
