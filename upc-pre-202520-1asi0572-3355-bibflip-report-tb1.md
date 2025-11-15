@@ -4680,6 +4680,105 @@ En esta sección se presenta los principales endpoints de la API del sistema, de
 
 
 ### 6.3.3. Evaluaciones según heurísticas
+## 6.3.3. Evaluación según Heurísticas 
+
+A continuación se presenta la evaluación de la Landing Page y la Aplicación Web del proyecto **BibFlip** utilizando las 10 heurísticas de usabilidad de Jakob Nielsen. Esta evaluación permite identificar fortalezas, problemas y oportunidades de mejora en la experiencia de usuario.
+
+---
+
+### **Tabla General de Evaluación**
+
+| Heurística  | Evaluación en BibFlip | Puntuación (1–5) | Oportunidades de Mejora |
+|-----------------------|------------------------|------------------|--------------------------|
+| **1. Visibilidad del estado del sistema** | El sistema informa algunos cambios, pero acciones como reservación o actualización no muestran feedback inmediato. | 3 | Agregar loaders, mensajes de éxito/error y animaciones de carga. |
+| **2. Correspondencia con el mundo real** | Usa lenguaje familiar para estudiantes y bibliotecarios. Iconografía adecuada. | 4 | Mejorar descripciones en mapa y etiquetas más naturales. |
+| **3. Control y libertad del usuario** | La navegación es clara, pero algunas acciones no permiten deshacer. | 3 | Añadir confirmaciones, opción de cancelar acciones y botón “volver”. |
+| **4. Consistencia y estándares** | Se mantienen estilos, colores e íconos coherentes. | 4 | Unificar formularios y estandarizar todos los componentes UI. |
+| **5. Prevención de errores** | Validaciones básicas, pero no completas. | 3 | Añadir validación en tiempo real y evitar entradas inválidas. |
+| **6. Reconocer antes que recordar** | Los menús son visibles y los estados entendibles. | 4 | Usar más íconos o colores para reforzar el estado de cubículos. |
+| **7. Flexibilidad y eficiencia** | Adecuado para usuarios nuevos; pocas funciones avanzadas. | 3 | Filtros, búsqueda de cubículos y atajos para administradores. |
+| **8. Estética y diseño minimalista** | Interfaz limpia y moderna. | 4 | Mejorar espaciado y reducir texto extenso en la Landing Page. |
+| **9. Ayuda en recuperación de errores** | Mensajes básicos de error. | 3 | Incluir mensajes explicativos y recomendaciones de solución. |
+| **10. Ayuda y documentación** | No incluye tutoriales o sección de ayuda. | 2 | Crear guía rápida, FAQ y tutoriales para administradores. |
+
+---
+
+### **Análisis Detallado**
+
+#### **1. Visibilidad del estado del sistema**
+El sistema muestra algunos cambios, pero varias acciones no presentan retroalimentación clara, lo que puede generar incertidumbre en el usuario.
+
+**Mejoras sugeridas:** loaders, notificaciones, mensajes claros.
+
+---
+
+#### **2. Correspondencia con el mundo real**
+El uso de términos como “cubículo”, “reserva” y “dashboard” coincide con el lenguaje del usuario y facilita la comprensión del sistema.
+
+**Mejoras sugeridas:** etiquetas más descriptivas, mayor claridad en mapas.
+
+---
+
+#### **3. Control y libertad del usuario**
+Aunque la navegación es fluida, algunas acciones no permiten deshacer o cancelar, lo cual afecta el control del usuario.
+
+**Mejoras sugeridas:** agregar confirmaciones, opciones de cancelar y deshacer.
+
+---
+
+#### **4. Consistencia y estándares**
+El estilo visual es coherente, los elementos UI son uniformes y se mantiene una estética institucional clara.
+
+**Mejoras sugeridas:** estandarizar formularios y componentes.
+
+---
+
+#### **5. Prevención de errores**
+Existen validaciones básicas pero no suficientes para evitar errores comunes o entradas inválidas.
+
+**Mejoras sugeridas:** validaciones mejoradas en tiempo real.
+
+---
+
+#### **6. Reconocer antes que recordar**
+Las acciones están visibles y los usuarios no deben memorizar rutas o estados.
+
+**Mejoras sugeridas:** reforzar iconografía de estados del cubículo.
+
+---
+
+#### **7. Flexibilidad y eficiencia de uso**
+Presenta facilidad para nuevos usuarios, pero es poco eficiente para usuarios expertos o administradores con tareas repetitivas.
+
+**Mejoras sugeridas:** filtros, búsqueda, accesos rápidos.
+
+---
+
+#### **8. Estética y diseño minimalista**
+La interfaz es limpia, moderna y simple, lo cual facilita la comprensión visual.
+
+**Mejoras sugeridas:** mejorar espaciado, evitar saturación visual.
+
+---
+
+#### **9. Ayuda al usuario a recuperarse de errores**
+Los mensajes actuales son básicos y no explican claramente qué ocurrió o cómo solucionarlo.
+
+**Mejoras sugeridas:** mensajes con diagnóstico y pasos de solución.
+
+---
+
+#### **10. Ayuda y documentación**
+El sistema aún no incluye secciones de ayuda, tutoriales ni documentación accesible desde la interfaz.
+
+**Mejoras sugeridas:** añadir FAQ, guía rápida y tutorial interactivo.
+
+---
+
+### **Conclusión General**
+
+La evaluación heurística revela que **BibFlip** presenta una interfaz consistente, moderna y clara, con buena comprensión del entorno bibliotecario. Sin embargo, deben reforzarse elementos clave como la retroalimentación visual, la prevención de errores y la documentación disponible para el usuario. Implementar estas mejoras permitirá una experiencia más segura, intuitiva y eficiente tanto para estudiantes como para el personal bibliotecario.
+
 
 
 
