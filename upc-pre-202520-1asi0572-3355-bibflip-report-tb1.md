@@ -4416,7 +4416,11 @@ La evaluación heurística revela que **BibFlip** presenta una interfaz consiste
 
 **TP**
 
-Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+- Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+
+**TB2**
+
+- Para este sprint utilizamos Wokwi como principal herramienta de simulación del sistema IoT del ESP32 conectado a sensores de peso. Esto fue fundamental para mapear su conexión con el Edge Api y su integración con el backend que utiliza la aplicación tanto web como móvil.
 
 ---
 
