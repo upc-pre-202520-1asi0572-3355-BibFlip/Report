@@ -4426,6 +4426,22 @@ La evaluación heurística revela que **BibFlip** presenta una interfaz consiste
 
 ## 6.4.  Video About-the-Product
 
+**Introducción**
+
+El Video About-the-Product de BibFlip presenta nuestra solución innovadora para la gestión inteligente de espacios de estudio en bibliotecas universitarias. Este contenido audiovisual comunica de manera efectiva el valor de nuestra plataforma tanto a visitantes del Landing Page que desean comprender nuestro modelo de negocio, como a usuarios actuales y potenciales que buscan conocer las funcionalidades clave del sistema.
+
+
+
+**Duración:**: 10:00
+
+**URL Microsoft Stream:** <a href="aa">`aa`</a>
+
+**URL YouTube:** <a href="aa">`aa`</a>
+
+**Resumen del Contenido**
+
+El video muestra cómo BibFlip transforma la experiencia de reserva de cubículos mediante tecnología IoT con sensores de peso que permiten consultar disponibilidad en tiempo real desde cualquier dispositivo. Presentamos el flujo intuitivo de reserva para estudiantes y las herramientas de gestión administrativas que facilitan al personal bibliotecario la supervisión de ocupación y generación de reportes estadísticos. Además, incorporamos el testimonio de un estudiante participante en nuestras entrevistas de validación, quien destaca: "BibFlip cambió completamente mi rutina de estudio. Ahora puedo planificar mis sesiones con certeza y llegar sabiendo que tendré un espacio disponible". El contenido mantiene coherencia con la identidad de BibFlip, empleando un tono profesional pero accesible, combinando elementos visuales modernos con una narrativa enfocada en beneficios tangibles para estudiantes, administradores y stakeholders educativos.
+
 # Conclusiones
 
 **TB1**
@@ -4490,3 +4506,16 @@ Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022181
 ### TP1
 
 Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbaC_7b6-cpOr9fC8eRi2SIBC0CdyTv6xPXbdar4eIvDGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v7hTif">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbaC_7b6-cpOr9fC8eRi2SIBC0CdyTv6xPXbdar4eIvDGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v7hTif`</a>
+
+### TB2
+
+Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQBBWmbs1qG7RreZ6vZTNO2ZARtiyZ6fi3mCC09zbDIXXTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CLGhpd">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQBBWmbs1qG7RreZ6vZTNO2ZARtiyZ6fi3mCC09zbDIXXTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CLGhpd`</a>
+
+### Video About The Product
+
+About The Product: <a href="">``</a>
+
+
+### Video About The Team
+
+About The Team: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq`</a>
