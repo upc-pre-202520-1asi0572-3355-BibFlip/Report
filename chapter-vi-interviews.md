@@ -94,3 +94,18 @@ Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal
 
 *Resumen de la Entrevista:* <br>
 La entrevista post-demo con Nasthya del Carpio, estudiante de 21 años de Diseño de Interiores en la UPC, permitió validar la solución de reserva de cubículos tras mostrarle la landing page, la aplicación web y la app móvil. Nasthya percibió la landing como clara y accesible, aunque sugirió mejorar la diferenciación entre secciones y añadir más ejemplos visuales y un botón principal más destacado. La aplicación web le pareció intuitiva, especialmente el dashboard con estados de cubículos y gestión de reservas, proponiendo como mejora un resumen antes de confirmar la hora y funciones como favoritos, integración con calendario y notificaciones. La app móvil la consideró muy útil para el uso diario, con una interfaz simple, pero recomendó explicar mejor el uso del QR y añadir modo oscuro, mapa de cubículos y notificaciones personalizables. En general, considera que la solución responde a sus frustraciones previas al buscar espacios de estudio y que, bien implementada, sería usada por muchos estudiantes.
+
+
+#### Entrevista N°2:
+
+*Entrevistado:* Sebastián Pacheco <br>
+*Sexo:* Masculino <br>
+*Edad:* 22 años<br>
+*Domicilio:* [No especificado]<br>
+*Inicio de la Entrevista:* 0:00<br>
+*Fin de la Entrevista:* [Duración del video]<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114192_upc_edu_pe/IQDX7CPyICouTLNFGLlO5zneAS4ZVNFT6XbObsYE3JcFEHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bSG61J)
+
+<a href="https://postimg.cc/18F7kRfm"><img src="https://i.postimg.cc/fRq40Js9/Whats-App-Image-2025-11-15-at-6-04-20-PM.jpg" alt="Entrevista con Sebastián Pacheco" style="width: 600px; height: auto;"><br></a>
+*Resumen de la Entrevista:* <br>
+La entrevista post-demo con Sebastián Pacheco, estudiante de 22 años de la carrera de Ingeniería de Software, permitió validar la solución de reserva de cubículos tras mostrarle la landing page, la aplicación web y la app móvil. Sebastián percibió la landing page como accesible y ordenada, destacando como parte más útil la sección que describe las funciones mediante tres secciones claras, además de apreciar la inclusión de reseñas y características; no encontró aspectos confusos ni oportunidades de mejora significativas. Respecto a la aplicación web, señaló que cumple exactamente con el objetivo principal de reservar cubículos y visualizar horarios disponibles; consideró que el dashboard y la gestión de reservas son sencillos y no resulta complicado hacer clic en los horarios disponibles, aunque identificó una oportunidad de mejora al sugerir implementar funcionalidad para validar y confirmar cuántos alumnos van a estar presentes en cada cubículo, así como una visualización más dinámica de horarios disponibles por día. La aplicación móvil le pareció más completa que la web, siendo honesto al afirmar que el flujo es más comprensible en móvil; no detectó flujos confusos y consideró que visualmente se ve bien y bonita, sin necesidad de características adicionales más allá de la validación de asistentes mencionada anteriormente.
