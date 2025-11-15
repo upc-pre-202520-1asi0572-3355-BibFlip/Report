@@ -1143,7 +1143,7 @@ Este mapeo “To-Be” presenta el escenario ideal posterior a la implementació
 | 9  | US005    | Ver catálogo digital de la biblioteca     | Como usuario, quiero visualizar el catálogo de la biblioteca para conocer los recursos disponibles antes de asistir.                                       | 3            |
 | 10 | US004    | Usar el formulario de contacto            | Como visitante interesado, quiero tener acceso a un formulario o medio de contacto en la landing para comunicarme con el equipo de Bib Flip.                 | 3            |
 | 11 | US014    | Ver la biblioteca asignada                | Como administrador, quiero confirmar qué biblioteca tengo asignada para asegurarme de gestionar la correcta.                                               | 3            |
-| 12 | US015    | Eliminar cubículos                        | Como administrador, quiero poder eliminar cubículos que ya no están en uso en mi biblioteca, para mantener el sistema actualizado y evitar asignaciones incorrectas. | 3    |
+  | 12 | US015    | Eliminar cubículos                        | Como administrador, quiero poder eliminar cubículos que ya no están en uso en mi biblioteca, para mantener el sistema actualizado y evitar asignaciones incorrectas. | 3    |
 | 13 | US010    | Registro de cuenta de usuario             | Como visitante, quiero poder registrarme como usuario en el sistema Bib Flip para poder acceder a las funcionalidades de reserva y visualización de cubículos. | 3    |
 | 14 | US011    | Inicio de sesión de usuario               | Como usuario registrado, quiero poder iniciar sesión en el sistema para acceder a mis reservas y funcionalidades personalizadas.                          | 3            |
 | 15 | US016    | Inicio de sesión de administrador         | Como administrador, quiero poder iniciar sesión en el sistema con mis credenciales específicas para acceder al panel de administración de mi biblioteca.   | 3            |
@@ -4176,14 +4176,11 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 <p><em>Sin Web Services en Sprint 1. Se documentarán endpoints con OpenAPI a partir de Sprint 2 (TS001–TS003).</em></p>
 
-<table>
-  <thead>
-    <tr><th>Servicio</th><th>Endpoint</th><th>Método</th><th>Descripción</th><th>OpenAPI URL</th><th>Estado</th></tr>
-  </thead>
-  <tbody>
-    <tr><td colspan="6" style="text-align:center;">— No aplica en Sprint 1 —</td></tr>
-  </tbody>
-</table>
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+|  |  |	 |	 |  |	 |
+
+<br>
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
@@ -4196,7 +4193,7 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
-- **Gestión en Trello**: tablero con columnas backlog → to-do → in-process → review → done.  
+- **Gestión en Trello**: tablero con columnas por cada Sprint.  
   - URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
 - **Git/Colaboración**: GitFlow (feature → develop → release → main); PRs con revisión cruzada; Conventional Commits y SemVer.
 - **Observaciones**:  
@@ -4207,11 +4204,197 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.2.1. Sprint Planning 2
 
+**Introducción**  
+Este sprint se orientó a entregar la primera versión navegable de la **Landing Page (HTML/CSS/JS)**, el **Frontend Web (Vue 3 + PrimeVue)** y la **App Mobile (Flutter/Dart)**, cumpliendo con los entregables solicitados para TP1.
+
+<!-- Sprint Planning Background (formato de la rúbrica) -->
+<table>
+  <thead>
+    <tr><th colspan="2">Sprint #</th><th>Sprint 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2"><strong>Sprint Planning Background</strong></td><td></td></tr>
+    <tr><td>Date</td><td>YYYY-MM-DD</td><td>2025-10-31</td></tr>
+    <tr><td>Time</td><td>HH:MM</td><td>20:30</td></tr>
+    <tr><td>Location</td><td>(física/virtual)</td><td>Virtual</td></tr>
+    <tr>
+      <td>Prepared By</td><td>(Responsable del acta)</td>
+      <td>Aranda Vallejos, Oscar Gabriel</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>(Equipo)</td>
+      <td>
+        Aranda Vallejos, Oscar Gabriel / Bernaola Pérez, André Arturo / Gutierrez Garcia, Jose Eduardo /
+        Oliveira Paucar, Mauricio / Pedraza Maldonado, Joaquin / Soriano Medrano, Diego / Velarde Luyo, Piero Alberto
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 1 – 1 Review Summary</strong><br/><em>El equipo completó la creación de la interfaz pública de la aplicación. Este trabajo de base establece una sólida presencia visual para los usuarios. Simultáneamente, se hizo un progreso significativo en las funcionalidades internas del usuario, incluyendo el diseño de las vistas para listar los servicios de las sedes, mostrar la reserva activa actual, y presentar la disponibilidad de los espacios de trabajo en tiempo real. Aunque la mayoría de las tareas de la página inicial fueron finalizadas, la implementación de estas funcionalidades más complejas, que requieren simulación de datos, se encuentra en fase de desarrollo avanzado y revisión.</em></td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 1 – 1 Retrospective Summary</strong><br/><em>El equipo logró alcanzar los objetivos relacionados con los elementos visibles de presentación. Sin embargo, se identificó una concentración de las tareas de mayor complejidad funcional las que gestionan la información dinámica y las interacciones del usuario cerca del final del ciclo de trabajo. Esta acumulación resultó en que varios entregables cruciales para la experiencia de reserva y visualización de servicios quedaron en proceso de desarrollo o pendientes de la verificación final de calidad. La lección aprendida es la necesidad de mejorar la planificación y distribución del esfuerzo para las integraciones simuladas y las revisiones de los productos desplegados.</em></td>
+    </tr>
+    <tr><td colspan="3"><strong>Sprint Goal &amp; User Stories</strong></td></tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>(SMART)</td>
+      <td>
+        El objetivo del sprint es implementar, en un periodo no mayor a una semana, un conjunto funcional de herramientas que permitan a usuarios y administradores gestionar eficazmente los cubículos de la biblioteca: los usuarios podrán visualizar su reserva activa y realizar nuevas reservas de manera clara y confiable, mientras que los administradores podrán consultar las reservas realizadas, agregar nuevos cubículos y eliminar aquellos que ya no estén en uso. Con esto, se busca mejorar la organización, disponibilidad y precisión del sistema, asegurando una experiencia más eficiente y ordenada para todos los involucrados.
+      </td>
+    </tr>
+    <tr><td>Sprint 1 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>(stories incluidos)</td>
+      <td><strong>30 SP</strong> </td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
 
 #### 6.2.2.3. Sprint Backlog 2
+
+Durante este sprint, se desarrollarán capacidades clave como la visualización de reservas activas, la realización de nuevas reservas y la consulta de reservas existentes, además de herramientas administrativas para agregar y eliminar cubículos. Estas historias de usuario permiten estructurar un ciclo de desarrollo orientado a mejorar la eficiencia, claridad y control en la operación diaria de la biblioteca.
+
+[![image.png](https://i.postimg.cc/8c2KHD70/image.png)](https://postimg.cc/2Lx7ksFQ)
+
+**URL publico de trello:** <https://trello.com/b/htxHDgrX/bibflip>
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td colspan="7">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2"> User Story</td>
+            <td colspan="6"> Work-Item / Task </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Id </td>
+            <td> Title </td>
+            <td> Id </td>
+            <td> Title </td>
+            <td> Description </td>
+            <td> Estimation (Hours) </td>
+            <td> Assigned To </td>
+            <td> Status (To-do / In-Process / To-Review / Done) </td>
+        </tr>
+        <!-- US006 -->
+        <tr>
+            <td>US006</td>
+            <td>Visualizar reserva activa</td>
+            <td>TA1</td>
+            <td>Implementar consulta de reserva activa</td>
+            <td>Desarrollar la función que obtiene la reserva activa del usuario desde la base de datos.</td>
+            <td>02</td>
+            <td>Piero Velarde, Oscar Aranda</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TA2</td>
+            <td>Diseñar interfaz de visualización</td>
+            <td>Crear la pantalla donde se mostrarán los detalles de la reserva activa del usuario.</td>
+            <td>02</td>
+            <td>Piero Velarde, Oscar Aranda</td>
+            <td>Done</td>
+        </tr>
+        <!-- US008 -->
+        <tr>
+            <td>US008</td>
+            <td>Reservar un cubículo</td>
+            <td>TA1</td>
+            <td>Crear formulario de reserva</td>
+            <td>Diseñar la interfaz donde el usuario podrá seleccionar el cubículo y horario de su reserva.</td>
+            <td>07</td>
+            <td>Jose Gutierrez, Mauricio Oliveira</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TA2</td>
+            <td>Implementar lógica de registro de reserva</td>
+            <td>Programar la funcionalidad que valida disponibilidad y guarda la reserva en el sistema.</td>
+            <td>06</td>
+            <td>Jose Gutierrez, Mauricio Oliveira</td>
+            <td>To-do</td>
+        </tr>
+        <!-- US013 -->
+        <tr>
+            <td>US013</td>
+            <td>Visualizar reservas realizadas</td>
+            <td>TA1</td>
+            <td>Implementar consulta de reservas</td>
+            <td>Crear la función que obtiene las reservas registradas en la biblioteca del administrador.</td>
+            <td>03</td>
+            <td>André Bernaola, Joaquin Pedraza</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TA2</td>
+            <td>Diseñar interfaz de listado de reservas</td>
+            <td>Construir la vista donde el administrador podrá consultar las reservas realizadas.</td>
+            <td>02</td>
+            <td>André Bernaola, Joaquin Pedraza</td>
+            <td>To-do</td>
+        </tr>
+        <!-- US012 -->
+        <tr>
+            <td>US012</td>
+            <td>Agregar nuevos cubículos</td>
+            <td>TA1</td>
+            <td>Crear formulario de registro de cubículos</td>
+            <td>Desarrollar la interfaz para registrar nuevos cubículos en la biblioteca.</td>
+            <td>03</td>
+            <td>Jose Gutierrez, Diego Soriano</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TA2</td>
+            <td>Implementar lógica de guardado</td>
+            <td>Programar la funcionalidad que valida y almacena nuevos cubículos en el sistema.</td>
+            <td>02</td>
+            <td>Jose Gutierrez, Diego Soriano</td>
+            <td>To-do</td>
+        </tr>
+        <!-- US015 -->
+        <tr>
+            <td>US015</td>
+            <td>Eliminar cubículos</td>
+            <td>TA1</td>
+            <td>Implementar función de eliminación</td>
+            <td>Crear la lógica que permite al administrador eliminar cubículos inactivos del sistema.</td>
+            <td>02</td>
+            <td>André Bernaola, Oscar Aranda</td>
+            <td>To-do</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>TA2</td>
+            <td>Actualizar interfaz de gestión</td>
+            <td>Modificar la vista para permitir seleccionar y eliminar cubículos registrados.</td>
+            <td>01</td>
+            <td>André Bernaola, Oscar Aranda</td>
+            <td>To-do</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
 
 
 #### 6.2.2.4. Development Evidence for Sprint Review
@@ -4278,16 +4461,215 @@ A su vez hemos realizado una serie de **Unit Tests** automatizados para los **We
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+Durante este sprint se lograron implementar las funcionalidades esenciales para optimizar la gestión de cubículos dentro del sistema. Los usuarios ahora pueden visualizar sus reservas activas y realizar nuevas reservas de manera clara y eficiente, garantizando un proceso más organizado al llegar a la biblioteca. Asimismo, los administradores cuentan con herramientas para consultar las reservas registradas, agregar nuevos cubículos y eliminar aquellos que ya no están en uso, manteniendo así la plataforma actualizada y alineada con las necesidades operativas. Estos avances fortalecen la usabilidad y la organización general del sistema, consolidando una base sólida para futuros incrementos.
+
+- **Landing Page:**
+
+  ![landing-1](https://i.postimg.cc/KzF5tXmT/Captura-de-pantalla-2025-10-10-020020.png)  
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+ 
+  [![image.png](https://i.postimg.cc/SNKCZH67/image.png)](https://postimg.cc/14L8XCYf)
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+  [![image.png](https://i.postimg.cc/R0nZqLcT/image.png)](https://postimg.cc/R34BDfp3)
+  [![image.png](https://i.postimg.cc/RhPBgW7M/image.png)](https://postimg.cc/kRtz4XYZ)
+  [![image.png](https://i.postimg.cc/5N6dxN5p/image.png)](https://postimg.cc/SJFtd4vz)
+  [![image.png](https://i.postimg.cc/wv0ZpS7P/image.png)](https://postimg.cc/1nVJ070c)
+  [![image.png](https://i.postimg.cc/mgCnDcPp/image.png)](https://postimg.cc/G43KgmJv)
+
+- **Web Services:**
+
+  [![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+
+- **Mobile (Flutter):**
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Link video de visualización y navegación logrado en este Sprint:**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQBQVqiIknnEQJsNC2lEwg3qAc-pBdSmVQ8qelqnrxa_ty0?e=HGXPdd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+<br>
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
+En esta sección se presenta los principales endpoints de la API del sistema, desarrollados para este Sprint, organizados por bounded context como autenticación, recuperación de contraseña, reservas, cubículos, sedes, usuarios y la gestión de supervisores. Su documentación busca ofrecer una referencia clara para comprender las acciones disponibles, los parámetros requeridos y las respuestas esperadas en cada operación, facilitando así el desarrollo, la integración y el mantenimiento de nuestra solución.
+
+**Sedes y Supervisores**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Asignar supervisor | POST | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | POST /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Remover supervisor | DELETE | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | DELETE /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Obtener supervisores | GET | /api/v1/headquarters/{headquarterId}/supervisors | Path: headquarterId | GET /api/v1/headquarters/1/supervisors | Lista de supervisores |
+| Obtener sede por supervisor | GET | /api/v1/headquarters/supervisors/{supervisorId} | Path: supervisorId | GET /api/v1/headquarters/supervisors/5 | Datos de la sede asignada |
+
+**Autenticación**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Registro | POST | /api/v1/authentication/sign-up | Body: { name, email, password } | POST /api/v1/authentication/sign-up con JSON en el cuerpo | Usuario creado con token de autenticación |
+| Inicio de sesión | POST | /api/v1/authentication/sign-in | Body: { email, password } | POST /api/v1/authentication/sign-in | Devuelve token y datos del usuario |
+
+**Recuperación de Contraseña**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Solicitar recuperación | POST | /api/v1/password-recovery/request | Body: { email } | POST /api/v1/password-recovery/request | Mensaje de confirmación de envío de correo |
+| Confirmar recuperación | POST | /api/v1/password-recovery/confirm | Body: { token, newPassword } | POST /api/v1/password-recovery/confirm | Mensaje de éxito o error |
+
+**Reservas**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar reservas | GET | /api/v1/bookings | Ninguno | GET /api/v1/bookings | Lista de reservas |
+| Crear reserva | POST | /api/v1/bookings | Body: { clientId, cubicleId, date, time } | POST /api/v1/bookings | Reserva creada |
+| Obtener reserva | GET | /api/v1/bookings/{id} | Path: id | GET /api/v1/bookings/10 | Detalles de la reserva |
+| Eliminar reserva | DELETE | /api/v1/bookings/{id} | Path: id | DELETE /api/v1/bookings/10 | Mensaje de éxito |
+| Reservas por cliente | GET | /api/v1/bookings/client/{clientId} | Path: clientId | GET /api/v1/bookings/client/3 | Lista de reservas del cliente |
+
+**Cubículos**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar cubículos | GET |	/api/v1/cubicles | Ninguno	| GET /api/v1/cubicles |	Lista de cubículos |
+| Crear cubículo	| POST	| /api/v1/cubicles	| Body: { name, headquarterId, availability }	| POST /api/v1/cubicles	| Cubículo creado |
+| Actualizar estado |	PATCH |	/api/v1/cubicles/{cubicleId}/status	| Body: { status } | PATCH /api/v1/cubicles/4/status | Estado actualizado |
+| Actualizar disponibilidad |	PATCH |	/api/v1/cubicles/{cubicleId}/availability-slot/status	| Body: { slotId, status } | PATCH /api/v1/cubicles/4/availability-slot/status | Slot actualizado |
+| Obtener cubículo	| GET	| /api/v1/cubicles/{cubicleId} |	Path: cubicleId	| GET /api/v1/cubicles/4 | Detalles del cubículo |
+| Eliminar cubículo |	DELETE |	/api/v1/cubicles/{cubicleId} |	Path: cubicleId	| DELETE /api/v1/cubicles/4 |	Mensaje de éxito |
+| Horario del cubículo |	GET |	/api/v1/cubicles/{cubicleId}/schedule |	Path: cubicleId	| GET /api/v1/cubicles/4/schedule |	Lista de horarios |
+| Cubículos por sede |	GET |	/api/v1/cubicles/headquarter/{headquarterId} | Path: headquarterId |	GET /api/v1/cubicles/headquarter/1 |	Lista de cubículos en la sede |
+
+**Sedes**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar sedes |	GET |	/api/v1/headquarters	| Ninguno	| GET /api/v1/headquarters |	Lista de sedes |
+| Crear sede |	POST |	/api/v1/headquarters |	Body: { name, address, openingTime, closingTime } |	POST /api/v1/headquarters |	Sede creada |
+| Obtener sede |	GET |	/api/v1/headquarters/{headquarterId} |	Path: headquarterId	| GET /api/v1/headquarters/1 | Detalles de la sede |
+
+**Roles y Usuarios**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar roles |	GET |	/api/v1/roles |	Ninguno	| GET /api/v1/roles |	Lista de roles |
+| Listar usuarios |	GET |	/api/v1/users |	Ninguno	| GET /api/v1/users |	Lista de usuarios |
+| Obtener usuario |	GET |	/api/v1/users/{userId} |	Path: userId |	GET /api/v1/users/7 |	Detalles del usuario |
+
+**IoT Edge**
+
+| Acción | Verbo HTTP | Endpoint | Parámetros | Ejemplo | Response |
+|--------|------------|----------|------------|---------|----------|
+| Registrar dispositivo | POST | /api/v1/devices/register | Body: { "device_id": "string", "location": "string", "type": "string" } | POST /api/v1/devices/register Body: { "device_id": "chair-001", "location": "Sala A", "type": "sensor" } | Device registered successfully |
+| Actualizar lectura | POST | /api/v1/devices/{device_id}/readings | Path: device_id Body: { "temperature": number, "humidity": number, "occupied": boolean } | POST /api/v1/devices/chair-001/readings Body: { "temperature": 22.5, "humidity": 45, "occupied": true } | Reading updated |
+| Obtener dispositivos disponibles | GET | /api/v1/devices/status/available | Ninguno | GET /api/v1/devices/status/available | Available |
+| Obtener dispositivos ocupados | GET | /api/v1/devices/status/occupied | Ninguno | GET /api/v1/devices/status/occupied | Sala C, Occupied |
+| Verificar salud del backend | GET | /api/v1/devices/health/backend | Ninguno | GET /api/v1/devices/health/backend | Status: ok, Timestamp: 2025-11-14T18:00:00Z |
+| Verificar dispositivos offline | POST | /api/v1/devices/maintenance/check-offline | Ninguno | POST /api/v1/devices/maintenance/check-offline | Status: "offline" |
+| Obtener dispositivo por ID | GET | /api/v1/devices/{device_id} | Path: device_id | GET /api/v1/devices/chair-001 | device_id: "chair-001" |
+| Eliminar dispositivo | DELETE | /api/v1/devices/{device_id} | Path: device_id | DELETE /api/v1/devices/chair-001 | Device deleted |
+| Obtener todos los dispositivos | GET | /api/v1/devices/ | Ninguno | GET /api/v1/devices/ | device_id: "chair-001", ... |
+| Verificar salud general | GET | /health | Ninguno | GET /health | status: "ok" |
+
+<br>
+
+**Imagen de documentación con OpenAPI:**  
+[![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+[![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+**URL de documentación desplegada de Web Services:**  
+  <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**URL de documentación desplegada de IoT Edge:**  
+  <https://bibflip-edge-api-platform.azurewebsites.net/api/docs>
+
+**URL del repositorio de Web Services:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
+
+**URL del repositorio de IoT Edge:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform>
+
+<br>
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
+- **Landing Page:**
+
+  GitHub Pages — URL: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+
+  Firebase Hosting — URL: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+  
+  [![image.png](https://i.postimg.cc/mknq5JD4/image.png)](https://postimg.cc/CnjmZvkr)
+  
+  1. Construir aplicación Vue  
+    Genera la carpeta dist lista para producción:
+    ```bash
+    npm run build
+    ```
+  2. Inicializar Firebase en el proyecto  
+    Dentro de la carpeta del proyecto ejecuta:
+    ```bash
+    firebase init
+    ```
+  3. Desplegar la aplicación
+    ```bash
+    Desplegar la aplicación
+    ```
+  
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+
+- **Mobile Application:**
+
+  Build APK de pruebas internas.
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Web Services y IoT Edge:**
+
+  Web Services — URL: [`https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html`](https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html)
+
+  IoT Edge — URL: [`https://bibflip-edge-api-platform.azurewebsites.net/api/docs`](https://bibflip-edge-api-platform.azurewebsites.net/api/docs)
+
+  [![azure.jpg](https://i.postimg.cc/NFQf0y7Y/azure.jpg)](https://postimg.cc/xJFSx14F)
+  [![image.png](https://i.postimg.cc/CLmdz4Q2/image.png)](https://postimg.cc/HV8TNbH0)
+  [![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+<br>
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
+- **Gestión en Trello**: Tablero con columnas por cada Sprint.  
+  URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
 
+  [![image.png](https://i.postimg.cc/8c2KHD70/image.png)](https://postimg.cc/2Lx7ksFQ)
+
+- **Capturas de los analíticos de colaboración y commits en GitHub:**
+
+  - **Landing Page:**
+
+  [![image.png](https://i.postimg.cc/c4HTKFJ6/image.png)](https://postimg.cc/SjBc37Cp)
+
+  - **Web Application:**
+
+  [![image.png](https://i.postimg.cc/RF7pRqrn/image.png)](https://postimg.cc/jwjhqxSs)
+
+  - **Mobile Application:**
+
+  [![image.png](https://i.postimg.cc/pXpYVy0J/image.png)](https://postimg.cc/ZCzyVYzW)
+
+  - **Web Services & IoT Edge:**
+
+  [![image.png](https://i.postimg.cc/W35gTPgy/image.png)](https://postimg.cc/gX6nHQMy)
+  [![image.png](https://i.postimg.cc/W4nJwPWt/image.png)](https://postimg.cc/Z9WRJXhh)
+
+<br>
 
 ## 6.3.  Validation Interviews
 
