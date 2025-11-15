@@ -4422,21 +4422,19 @@ El sistema aún no incluye secciones de ayuda, tutoriales ni documentación acce
 La evaluación heurística revela que **BibFlip** presenta una interfaz consistente, moderna y clara, con buena comprensión del entorno bibliotecario. Sin embargo, deben reforzarse elementos clave como la retroalimentación visual, la prevención de errores y la documentación disponible para el usuario. Implementar estas mejoras permitirá una experiencia más segura, intuitiva y eficiente tanto para estudiantes como para el personal bibliotecario.
 
 
-
-
 ## 6.4.  Video About-the-Product
 
 **Introducción**
 
 El Video About-the-Product de BibFlip presenta nuestra solución innovadora para la gestión inteligente de espacios de estudio en bibliotecas universitarias. Este contenido audiovisual comunica de manera efectiva el valor de nuestra plataforma tanto a visitantes del Landing Page que desean comprender nuestro modelo de negocio, como a usuarios actuales y potenciales que buscan conocer las funcionalidades clave del sistema.
 
+<a href="https://ibb.co/TB0DWdM3"><img src="https://i.ibb.co/d0psmx4Y/aaaaaaa.png" alt="aaaaaaa" border="0"></a>
 
+**Duración:**: 6:31
 
-**Duración:**: 10:00
+**URL Microsoft Stream:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O`</a>
 
-**URL Microsoft Stream:** <a href="aa">`aa`</a>
-
-**URL YouTube:** <a href="aa">`aa`</a>
+**URL YouTube:** <a href="https://youtu.be/EhF8cJ7II6Q">`https://youtu.be/EhF8cJ7II6Q`</a>
 
 **Resumen del Contenido**
 
@@ -4513,7 +4511,7 @@ Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022181
 
 ### Video About The Product
 
-About The Product: <a href="">``</a>
+About The Product: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O`</a>
 
 
 ### Video About The Team
