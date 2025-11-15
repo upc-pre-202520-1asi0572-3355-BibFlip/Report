@@ -4029,7 +4029,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Integrar datos de reserva activa</td>
         <td>Simular datos desde UI (sin backend) y mostrarlos dinámicamente</td>
         <td>03</td>
-        <td> Jose Garcia</td>
+        <td> Jose Gutierrez</td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -4039,7 +4039,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Diseñar vista de disponibilidad</td>
         <td>Crear prototipo de interfaz para visualizar cubículos disponibles (sin integración)</td>
         <td>04</td>
-        <td> Jose Garcia </td>
+        <td> Jose Gutierrez </td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -4048,7 +4048,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Simular actualización de disponibilidad</td>
         <td>Implementar actualización de estado visual con datos simulados en frontend</td>
         <td>04</td>
-        <td> Jose Garcia </td>
+        <td> Jose Gutierrez </td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -4058,7 +4058,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Diseñar flujo de reserva</td>
         <td>Diseñar las pantallas para seleccionar cubículo y confirmar reserva</td>
         <td>04</td>
-        <td> Jose Garcia </td>
+        <td> Jose Gutierrez </td>
         <td>In Process</td>
     </tr>
     <tr>
