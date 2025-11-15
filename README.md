@@ -109,383 +109,9 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 | 4.8     | 09/11/2025 | Soriano Medrano, Diego | 6.2.2.9. Team Collaboration Insights during Sprint
 | 4.9     | 10/11/2025 | Todo el equipo de Bibflip | Validation Interviews y Video About-the-Product.
 
-# Project Report Collaboration Insights
-
-<br>Se utilizaron Git y Github como herramientas fundamentales para el versionamiento y gestión del proyecto, lo cual permite una mejor colaboración y visualización de cambios en tiempo real. A continuación, se proporcionan los siguientes enlaces del proyecto:
-
-| **Descripción**            | **Enlace**                                                                 |
-| :-------------------------: | :------------------------------------------------------------------------: |
-| Repositorio de la documentación    | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip/Report         |
-| Organización del proyecto     | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip                    |
-
-[![Insights-Bib-Flip-Report.png](https://i.postimg.cc/Y26ft2tz/Insights-Bib-Flip-Report.png)](https://postimg.cc/0rNJfsMz)
-
-<!--LO COMPLETARE DESPUES -->
 
 <br>
 
-# Contenido
-
-## Tabla de Contenidos
-
-### [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-
-### [Project Report Collaboration Insights](#project-report-collaboration-insights)
-
-### [Contenido](#contenido)
-
-### [Student Outcomes](#student-outcome)
-
-### [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-          - [**Business Outcomes:**](#business-outcomes)
-          - [**Users:**](#users)
-          - [**User Outcomes \& Benefits:**](#user-outcomes--benefits)
-          - [**Feature Assumptions:**](#feature-assumptions)
-          - [**Business Assumptions:**](#business-assumptions)
-          - [**User Assumptions:**](#user-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
-
-### [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. Event Storming](#411-event-storming)
-    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
-    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [4.1.2. Context Mapping](#412-context-mapping)
-  - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-- [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
-    - [4.2.1.1. Domain Layer](#4211-domain-layer)
-    - [4.2.1.2. Interface Layer](#4212-interface-layer)
-    - [4.2.1.3. Application Layer](#4213-application-layer)
-    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-    - [4.2.1.6. Bounded Context Software Architecture Component Level Diagrams](#4216-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.1.7. Bounded Context Software Architecture Code Level Diagrams](#4217-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.1.7.1. Bounded Context Domain Layer Class Diagrams](#42171-bounded-context-domain-layer-class-diagrams)
-      - [4.2.1.7.2. Bounded Context Database Design Diagram](#42172-bounded-context-database-design-diagram)
-  - [4.2.2. Bounded Context: Table Management](#422-bounded-context-table-management)
-    - [4.2.2.1. Domain Layer](#4221-domain-layer)
-    - [4.2.2.2. Interface Layer](#4222-interface-layer)
-    - [4.2.2.3. Application Layer](#4223-application-layer)
-    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
-    - [4.2.2.6. Bounded Context Software Architecture Component Level Diagrams](#4226-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.2.7. Bounded Context Software Architecture Code Level Diagrams](#4227-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.2.7.1. Bounded Context Domain Layer Class Diagrams](#42271-bounded-context-domain-layer-class-diagrams)
-      - [4.2.2.7.2. Bounded Context Database Design Diagram](#42272-bounded-context-database-design-diagram)
-  - [4.2.3. Bounded Context: Branching](#423-bounded-context-branching)
-    - [4.2.3.1. Domain Layer](#4231-domain-layer)
-    - [4.2.3.2. Interface Layer](#4232-interface-layer)
-    - [4.2.3.3. Application Layer](#4233-application-layer)
-    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
-    - [4.2.3.6. Bounded Context Software Architecture Component Level Diagrams](#4236-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.3.7. Bounded Context Software Architecture Code Level Diagrams](#4237-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.3.7.1. Bounded Context Domain Layer Class Diagrams](#42371-bounded-context-domain-layer-class-diagrams)
-      - [4.2.3.7.2. Bounded Context Database Design Diagram](#42372-bounded-context-database-design-diagram)
-  - [4.2.4. Bounded Context: Booking](#424-bounded-context-booking)
-    - [4.2.4.1. Domain Layer](#4241-domain-layer)
-    - [4.2.4.2. Interface Layer](#4242-interface-layer)
-    - [4.2.4.3. Application Layer](#4243-application-layer)
-    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
-    - [4.2.4.6. Bounded Context Software Architecture Component Level Diagrams](#4246-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.4.7. Bounded Context Software Architecture Code Level Diagrams](#4247-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.4.7.1. Bounded Context Domain Layer Class Diagrams](#42471-bounded-context-domain-layer-class-diagrams)
-      - [4.2.4.7.2. Bounded Context Database Design Diagram](#42472-bounded-context-database-design-diagram)
-  - [4.2.5. Bounded Context: IoT Device Monitoring](#425-bounded-context-iot-device-monitoring)
-  <!-- Breve Descripción nada más -->
-
-### [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-- [5.1. Style Guidelines](#51-style-guidelines)
-  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-- [5.2. Information Architecture](#52-information-architecture)
-  - [5.2.1. Organization Systems](#521-organization-systems)
-  - [5.2.2. Labeling Systems](#522-labeling-systems)
-  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-  - [5.2.4. Searching Systems](#524-searching-systems)
-  - [5.2.5. Navigation Systems](#525-navigation-systems)
-- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
-  - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-  - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
-  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
-- [5.5. Applications Prototyping](#55-applications-prototyping)
-
-### [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
-- [6.1. Software Configuration Management](#61-software-configuration-management)
-  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-  - [6.1.2. Source Code Management](#612-source-code-management)
-  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
-  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
-  - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
-    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
-    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
-    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
-    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
-    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-  - [6.2.2. Sprint 2](#622-sprint-2)
-    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
-    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
-    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
-    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
-    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
-    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
-    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
-    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
-    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
-- [6.3. Validation Interviews](#63-validation-interviews)
-  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-- [6.4. Video About-the-Product](#64-video-about-the-product)
-
-### [Conclusiones](#conclusiones)
-### [Bibliografía](#bibliografía)
-### [Anexos](#anexos)
-
----
-
-## Registro de Versiones del Informe
-
-En esta sección se resumen los avances y modificaciones realizadas durante el ciclo de vida de desarrollo del proyecto equivalente a un semestre.
-
-| Versión | Fecha      | Autor                          | Descripción de modificación                                                 |
-| ------- | ---------- | ------------------------------ | --------------------------------------------------------------------------- |
-| 1.0     | 09/09/2025 | Aranda Vallejos, Oscar Gabriel | Creación y estructuración del informe                                       |
-| 1.1     | 11/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del capítulo I                                                   |
-| 1.2     | 14/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del event storming y bounded context canvas                      |
-| 1.3     | 15/09/2025 | Bernaola Pérez, André Arturo   | Desarrollo del diagrama de clases y de base de datos                        |
-| 1.4     | 15/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre del capítulo I y Competidores                                        |
-| 1.5     | 15/09/2025 | Soriano Medrano, Diego         | Desarrollo de los Domain Message Flows Modeling y del Context Mapping       |
-| 1.6     | 16/09/2025 | Pedraza Maldonado, Joaquín     | Desarrollo y cierre del capítulo III                                        |
-| 1.7     | 16/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo de Software Architecture                                         |
-| 1.8     | 16/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo de Tactical-Level Domain-Driven Design                           |
-| 1.9     | 17/09/2025 | Velarde Luyo, Piero Alberto    | Desarrollo del Needfinding                                                  |
-| 2.0     | 18/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos II y IV                                             |
-| 2.1     | 20/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo del Capítulo V: Solution UI/UX Design                            |
-| 2.2     | 21/09/2025 | Velarde Luyo, Piero Alberto    | Diseño de wireframes y prototipos de alta fidelidad                         |
-| 2.3     | 22/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment |
-| 2.4     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo de la sección 6.1: Software Configuration Management             |
-| 2.5     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | 6.1.1. Software Development Environment Configuration                       |
-| 2.6     | 24/09/2025 | Bernaola Pérez, André Arturo   | 6.1.2. Source Code Management                                               |
-| 2.7     | 24/09/2025 | Soriano Medrano, Diego         | 6.1.3. Source Code Style Guide & Conventions                                |
-| 2.8     | 25/09/2025 | Pedraza Maldonado, Joaquín     | 6.1.4. Software Deployment Configuration                                    |
-| 2.9     | 26/09/2025 | Velarde Luyo, Piero Alberto    | 6.2. Landing Page, Services & Applications Implementation                   |
-| 3.0     | 27/09/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1. Sprint 1 - Sprint Planning 1                                         |
-| 3.1     | 28/09/2025 | Soriano Medrano, Diego         | 6.2.1.2. Aspect Leaders and Collaborators                                   |
-| 3.2     | 28/09/2025 | Oliveira Paucar, Mauricio      | 6.2.1.3. Sprint Backlog 1                                                   |
-| 3.3     | 29/09/2025 | Pedraza Maldonado, Joaquín     | 6.2.1.4. Development Evidence for Sprint Review                             |
-| 3.4     | 30/09/2025 | Bernaola Pérez, André Arturo   | 6.2.1.5. Testing Suite Evidence for Sprint Review                           |
-| 3.5     | 01/10/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.1.6. Execution Evidence for Sprint Review                               |
-| 3.6     | 02/10/2025 | Velarde Luyo, Piero Alberto    | 6.2.1.7. Services Documentation Evidence for Sprint Review                  |
-| 3.7     | 03/10/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1.8. Software Deployment Evidence for Sprint Review                     |
-| 3.8     | 04/10/2025 | Soriano Medrano, Diego         | 6.2.1.9. Team Collaboration Insights during Sprint                          |
-| 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
-
-
-
-# Project Report Collaboration Insights
-
-<br>Se utilizaron Git y Github como herramientas fundamentales para el versionamiento y gestión del proyecto, lo cual permite una mejor colaboración y visualización de cambios en tiempo real. A continuación, se proporcionan los siguientes enlaces del proyecto:
-
-| **Descripción**            | **Enlace**                                                                 |
-| :-------------------------: | :------------------------------------------------------------------------: |
-| Repositorio de la documentación    | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip/Report         |
-| Organización del proyecto     | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip                    |
-
-<!--LO COMPLETARE DESPUES -->
-
-<br>
-
-# Contenido
-
-## Tabla de Contenidos
-
-### [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-
-### [Project Report Collaboration Insights](#project-report-collaboration-insights)
-
-### [Contenido](#contenido)
-
-### [Student Outcomes](#student-outcome)
-
-### [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-          - [**Business Outcomes:**](#business-outcomes)
-          - [**Users:**](#users)
-          - [**User Outcomes \& Benefits:**](#user-outcomes--benefits)
-          - [**Feature Assumptions:**](#feature-assumptions)
-          - [**Business Assumptions:**](#business-assumptions)
-          - [**User Assumptions:**](#user-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
-
-### [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. Event Storming](#411-event-storming)
-    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
-    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [4.1.2. Context Mapping](#412-context-mapping)
-  - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-- [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
-    - [4.2.1.1. Domain Layer](#4211-domain-layer)
-    - [4.2.1.2. Interface Layer](#4212-interface-layer)
-    - [4.2.1.3. Application Layer](#4213-application-layer)
-    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-    - [4.2.1.6. Bounded Context Software Architecture Component Level Diagrams](#4216-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.1.7. Bounded Context Software Architecture Code Level Diagrams](#4217-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.1.7.1. Bounded Context Domain Layer Class Diagrams](#42171-bounded-context-domain-layer-class-diagrams)
-      - [4.2.1.7.2. Bounded Context Database Design Diagram](#42172-bounded-context-database-design-diagram)
-  - [4.2.2. Bounded Context: Table Management](#422-bounded-context-table-management)
-    - [4.2.2.1. Domain Layer](#4221-domain-layer)
-    - [4.2.2.2. Interface Layer](#4222-interface-layer)
-    - [4.2.2.3. Application Layer](#4223-application-layer)
-    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
-    - [4.2.2.6. Bounded Context Software Architecture Component Level Diagrams](#4226-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.2.7. Bounded Context Software Architecture Code Level Diagrams](#4227-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.2.7.1. Bounded Context Domain Layer Class Diagrams](#42271-bounded-context-domain-layer-class-diagrams)
-      - [4.2.2.7.2. Bounded Context Database Design Diagram](#42272-bounded-context-database-design-diagram)
-  - [4.2.3. Bounded Context: Branching](#423-bounded-context-branching)
-    - [4.2.3.1. Domain Layer](#4231-domain-layer)
-    - [4.2.3.2. Interface Layer](#4232-interface-layer)
-    - [4.2.3.3. Application Layer](#4233-application-layer)
-    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
-    - [4.2.3.6. Bounded Context Software Architecture Component Level Diagrams](#4236-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.3.7. Bounded Context Software Architecture Code Level Diagrams](#4237-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.3.7.1. Bounded Context Domain Layer Class Diagrams](#42371-bounded-context-domain-layer-class-diagrams)
-      - [4.2.3.7.2. Bounded Context Database Design Diagram](#42372-bounded-context-database-design-diagram)
-  - [4.2.4. Bounded Context: Booking](#424-bounded-context-booking)
-    - [4.2.4.1. Domain Layer](#4241-domain-layer)
-    - [4.2.4.2. Interface Layer](#4242-interface-layer)
-    - [4.2.4.3. Application Layer](#4243-application-layer)
-    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
-    - [4.2.4.6. Bounded Context Software Architecture Component Level Diagrams](#4246-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.4.7. Bounded Context Software Architecture Code Level Diagrams](#4247-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.4.7.1. Bounded Context Domain Layer Class Diagrams](#42471-bounded-context-domain-layer-class-diagrams)
-      - [4.2.4.7.2. Bounded Context Database Design Diagram](#42472-bounded-context-database-design-diagram)
-  - [4.2.5. Bounded Context: IoT Device Monitoring](#425-bounded-context-iot-device-monitoring)
-  <!-- Breve Descripción nada más -->
-
-### [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-- [5.1. Style Guidelines](#51-style-guidelines)
-  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-- [5.2. Information Architecture](#52-information-architecture)
-  - [5.2.1. Organization Systems](#521-organization-systems)
-  - [5.2.2. Labeling Systems](#522-labeling-systems)
-  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-  - [5.2.4. Searching Systems](#524-searching-systems)
-  - [5.2.5. Navigation Systems](#525-navigation-systems)
-- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
-  - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-  - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
-  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
-- [5.5. Applications Prototyping](#55-applications-prototyping)
-
-### [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
-- [6.1. Software Configuration Management](#61-software-configuration-management)
-  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-  - [6.1.2. Source Code Management](#612-source-code-management)
-  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
-  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
-  - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
-    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
-    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
-    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
-    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
-    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-
-### [Conclusiones](#conclusiones)
-### [Bibliografía](#bibliografía)
-### [Anexos](#anexos)
-
----
 
 # Student Outcome
 
@@ -673,7 +299,7 @@ Creemos que la eficiencia en la localización de espacios y la experiencia de lo
 
 #### 1.2.2.4. Lean UX Canvas
 
-[![lean-ux-canvas.jpg](https://i.postimg.cc/BngMMX5R/lean-ux-canvas.jpg)](https://postimg.cc/4YY634S1)
+[![Group-1.png](https://i.postimg.cc/T11Txk4t/Group-1.png)](https://postimg.cc/YG55fxkF)
 
 ## 1.3. Segmentos objetivo
 
@@ -1140,7 +766,7 @@ Este mapeo “To-Be” presenta el escenario ideal posterior a la implementació
 | 9  | US005    | Ver catálogo digital de la biblioteca     | Como usuario, quiero visualizar el catálogo de la biblioteca para conocer los recursos disponibles antes de asistir.                                       | 3            |
 | 10 | US004    | Usar el formulario de contacto            | Como visitante interesado, quiero tener acceso a un formulario o medio de contacto en la landing para comunicarme con el equipo de Bib Flip.                 | 3            |
 | 11 | US014    | Ver la biblioteca asignada                | Como administrador, quiero confirmar qué biblioteca tengo asignada para asegurarme de gestionar la correcta.                                               | 3            |
-| 12 | US015    | Eliminar cubículos                        | Como administrador, quiero poder eliminar cubículos que ya no están en uso en mi biblioteca, para mantener el sistema actualizado y evitar asignaciones incorrectas. | 3    |
+  | 12 | US015    | Eliminar cubículos                        | Como administrador, quiero poder eliminar cubículos que ya no están en uso en mi biblioteca, para mantener el sistema actualizado y evitar asignaciones incorrectas. | 3    |
 | 13 | US010    | Registro de cuenta de usuario             | Como visitante, quiero poder registrarme como usuario en el sistema Bib Flip para poder acceder a las funcionalidades de reserva y visualización de cubículos. | 3    |
 | 14 | US011    | Inicio de sesión de usuario               | Como usuario registrado, quiero poder iniciar sesión en el sistema para acceder a mis reservas y funcionalidades personalizadas.                          | 3            |
 | 15 | US016    | Inicio de sesión de administrador         | Como administrador, quiero poder iniciar sesión en el sistema con mis credenciales específicas para acceder al panel de administración de mi biblioteca.   | 3            |
@@ -4173,14 +3799,11 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 <p><em>Sin Web Services en Sprint 1. Se documentarán endpoints con OpenAPI a partir de Sprint 2 (TS001–TS003).</em></p>
 
-<table>
-  <thead>
-    <tr><th>Servicio</th><th>Endpoint</th><th>Método</th><th>Descripción</th><th>OpenAPI URL</th><th>Estado</th></tr>
-  </thead>
-  <tbody>
-    <tr><td colspan="6" style="text-align:center;">— No aplica en Sprint 1 —</td></tr>
-  </tbody>
-</table>
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+|  |  |	 |	 |  |	 |
+
+<br>
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
@@ -4193,7 +3816,7 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
-- **Gestión en Trello**: tablero con columnas backlog → to-do → in-process → review → done.  
+- **Gestión en Trello**: tablero con columnas por cada Sprint.  
   - URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
 - **Git/Colaboración**: GitFlow (feature → develop → release → main); PRs con revisión cruzada; Conventional Commits y SemVer.
 - **Observaciones**:  
@@ -4204,11 +3827,216 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.2.1. Sprint Planning 2
 
+**Introducción**  
+Este sprint se orientó a entregar la primera versión navegable de la **Landing Page (HTML/CSS/JS)**, el **Frontend Web (Vue 3 + PrimeVue)** y la **App Mobile (Flutter/Dart)**, cumpliendo con los entregables solicitados para TP1.
+
+<!-- Sprint Planning Background (formato de la rúbrica) -->
+<table>
+  <thead>
+    <tr><th colspan="2">Sprint #</th><th>Sprint 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2"><strong>Sprint Planning Background</strong></td><td></td></tr>
+    <tr><td>Date</td><td>YYYY-MM-DD</td><td>2025-10-31</td></tr>
+    <tr><td>Time</td><td>HH:MM</td><td>20:30</td></tr>
+    <tr><td>Location</td><td>(física/virtual)</td><td>Virtual</td></tr>
+    <tr>
+      <td>Prepared By</td><td>(Responsable del acta)</td>
+      <td>Aranda Vallejos, Oscar Gabriel</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>(Equipo)</td>
+      <td>
+        Aranda Vallejos, Oscar Gabriel / Bernaola Pérez, André Arturo / Gutierrez Garcia, Jose Eduardo /
+        Oliveira Paucar, Mauricio / Pedraza Maldonado, Joaquin / Soriano Medrano, Diego / Velarde Luyo, Piero Alberto
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 1 – 1 Review Summary</strong><br/><em>El equipo completó la creación de la interfaz pública de la aplicación. Este trabajo de base establece una sólida presencia visual para los usuarios. Simultáneamente, se hizo un progreso significativo en las funcionalidades internas del usuario, incluyendo el diseño de las vistas para listar los servicios de las sedes, mostrar la reserva activa actual, y presentar la disponibilidad de los espacios de trabajo en tiempo real. Aunque la mayoría de las tareas de la página inicial fueron finalizadas, la implementación de estas funcionalidades más complejas, que requieren simulación de datos, se encuentra en fase de desarrollo avanzado y revisión.</em></td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 1 – 1 Retrospective Summary</strong><br/><em>El equipo logró alcanzar los objetivos relacionados con los elementos visibles de presentación. Sin embargo, se identificó una concentración de las tareas de mayor complejidad funcional las que gestionan la información dinámica y las interacciones del usuario cerca del final del ciclo de trabajo. Esta acumulación resultó en que varios entregables cruciales para la experiencia de reserva y visualización de servicios quedaron en proceso de desarrollo o pendientes de la verificación final de calidad. La lección aprendida es la necesidad de mejorar la planificación y distribución del esfuerzo para las integraciones simuladas y las revisiones de los productos desplegados.</em></td>
+    </tr>
+    <tr><td colspan="3"><strong>Sprint Goal &amp; User Stories</strong></td></tr>
+    <tr>
+      <td>Sprint 1 Goal</td>
+      <td>(SMART)</td>
+      <td>
+        El objetivo del sprint es implementar, en un periodo no mayor a una semana, un conjunto funcional de herramientas que permitan a usuarios y administradores gestionar eficazmente los cubículos de la biblioteca: los usuarios podrán visualizar su reserva activa y realizar nuevas reservas de manera clara y confiable, mientras que los administradores podrán consultar las reservas realizadas, agregar nuevos cubículos y eliminar aquellos que ya no estén en uso. Con esto, se busca mejorar la organización, disponibilidad y precisión del sistema, asegurando una experiencia más eficiente y ordenada para todos los involucrados.
+      </td>
+    </tr>
+    <tr><td>Sprint 1 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>(stories incluidos)</td>
+      <td><strong>30 SP</strong> </td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
 
 #### 6.2.2.3. Sprint Backlog 2
+
+Durante este sprint, se desarrollarán capacidades clave como la visualización de reservas activas, la realización de nuevas reservas y la consulta de reservas existentes, además de herramientas administrativas para agregar y eliminar cubículos. Estas historias de usuario permiten estructurar un ciclo de desarrollo orientado a mejorar la eficiencia, claridad y control en la operación diaria de la biblioteca.
+
+[![image.png](https://i.postimg.cc/8c2KHD70/image.png)](https://postimg.cc/2Lx7ksFQ)
+
+**URL publico de trello:** <https://trello.com/b/htxHDgrX/bibflip>
+
+<table>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th colspan="7">Sprint 2</th>
+            </tr>
+            <tr>
+                <th colspan="2">Technical Story</th>
+                <th colspan="6">Work-Item / Task</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TS004 -->
+            <tr>
+                <td>TS004</td>
+                <td>Implementar Firmware para Dispositivo IoT</td>
+                <td>TA1</td>
+                <td>Desarrollar lógica de lectura de sensores</td>
+                <td>Implementar la funcionalidad que lee datos del sensor de peso y detecta presencia en el cubículo.</td>
+                <td>04</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar transmisión de datos al Edge API</td>
+                <td>Programar la funcionalidad que genera paquetes de datos y los transmite al Edge API.</td>
+                <td>04</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar manejo de errores de hardware</td>
+                <td>Crear el sistema de registro de errores cuando falla la lectura del sensor.</td>
+                <td>02</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS005 -->
+            <tr>
+                <td>TS005</td>
+                <td>Integrar Firmware con Plataforma Embebida</td>
+                <td>TA1</td>
+                <td>Implementar inicialización del sistema</td>
+                <td>Desarrollar la rutina de arranque que inicializa sensores y configuración de red.</td>
+                <td>03</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Configurar comunicación de red</td>
+                <td>Implementar la lógica de conexión WiFi/Ethernet para comunicarse con el Edge API.</td>
+                <td>03</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar recuperación ante fallos de red</td>
+                <td>Crear el sistema de reintentos automáticos cuando falla la conexión de red.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS006 -->
+            <tr>
+                <td>TS006</td>
+                <td>Implementar Recepción de Datos en Edge API</td>
+                <td>TA1</td>
+                <td>Crear endpoint de recepción de datos IoT</td>
+                <td>Desarrollar el endpoint REST que recibe los datos transmitidos por los dispositivos IoT.</td>
+                <td>03</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar validación de formato de datos</td>
+                <td>Crear la lógica que valida el formato y estructura de los paquetes recibidos.</td>
+                <td>02</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar reenvío al backend</td>
+                <td>Programar la funcionalidad que procesa y reenvía datos válidos al backend principal.</td>
+                <td>02</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS007 -->
+            <tr>
+                <td>TS007</td>
+                <td>Simular Sensores en Wokwi</td>
+                <td>TA1</td>
+                <td>Diseñar circuito de simulación en Wokwi</td>
+                <td>Crear el circuito virtual que simula el sensor de peso y su conexión con el microcontrolador.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar lógica de detección simulada</td>
+                <td>Programar el comportamiento del sensor virtual para simular detección de ocupación.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Validar comunicación con Edge API simulado</td>
+                <td>Verificar que los datos simulados se transmiten correctamente al Edge API de prueba.</td>
+                <td>01</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+        </tbody>
+</table>
+
+<br>
 
 
 #### 6.2.2.4. Development Evidence for Sprint Review
@@ -4216,19 +4044,274 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
+En esta sección se presenta el conjunto de **Acceptance Tests automatizados** para los **Web Services** relacionados con los **User Stories** especificados en el **Sprint 2**.  
+Bajo el enfoque **BDD (Behavior-Driven Development)**, se elaboraron los archivos `.feature` utilizando el lenguaje **Gherkin** y los archivos **Steps** en **Java** para la automatización de los escenarios de prueba.
+
+#### Para cada User Story trabajado en este Sprint, se incluye:
+
+- **Archivos `.feature`:** Contienen los escenarios de aceptación escritos en formato *Gherkin (Given-When-Then)*, describiendo el comportamiento esperado del sistema desde la perspectiva del usuario.
+- **Archivos `Steps.java`:** Implementan la lógica de automatización que mapea cada paso del archivo `.feature` a código ejecutable, utilizando **Cucumber** como framework de testing BDD.
+
+Los tests de aceptación cubren las funcionalidades principales del sistema **Bib Flip**, incluyendo:
+- Gestión de usuarios (registro e inicio de sesión).
+- Administración de cubículos.
+- Visualización y creación de reservas.
+- Funcionalidades administrativas.
+
+Cada archivo de prueba está vinculado a su **User Story** correspondiente y ha sido versionado en el **repositorio de control de versiones**, asegurando la trazabilidad completa del desarrollo.
+
+#### Tabla de Commits - Acceptance Tests
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|-------------|---------|------------|----------------|---------------------|
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fa67fc | test: add US001 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 9ad3d2b | test: implement US001 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | bc22955 | test: add US004 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 1a5c39d | test: implement US004 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 8fdcb20 | test: add US006 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | f87d2dd | test: implement US006 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | b0c2381 | test: add US008 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 36b4da5 | test: implement US008 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 010363a | test: add US010 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | a3e5836 | test: implement US010 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 59ac32a | test: add US011 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 9fe14c0 | test: implement US011 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | c056515 | test: add US012 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 0fa4270 | test: implement US012 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 469eafe | test: add US013 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | cbed64f | test: implement US013 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 3500e16 | test: add US014 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 4a4f03f | test: implement US014 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 642fbfb | test: add US015 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6bc36f2 | test: implement US015 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | a09bcd0 | test: add US016 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | cb58299 | test: implement US016 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fbd3ae | test: add US017 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 945257b | test: implement US017 step definitions | 05/11/2025 |
+
+A su vez hemos realizado una serie de **Unit Tests** automatizados para los **Web Services** que están relacionado también con los **User Stories** especificados en el **Sprint 2**
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 72f2a32 | test: add unit tests for CubicleQueryServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 9df10de | test: add unit tests for CubicleCommandServiceImpl create functionality | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 45afde0 | test: add unit tests for CubicleCommandServiceImpl delete functionality | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 308f3e2 | test: add unit tests for BookingQueryServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 162934c | test: add unit tests for BookingCommandServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 9bd2b36 | test: add unit tests for booking deletion functionality | 12/11/2025 |
+
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+Durante este sprint se lograron implementar las funcionalidades esenciales para optimizar la gestión de cubículos dentro del sistema. Los usuarios ahora pueden visualizar sus reservas activas y realizar nuevas reservas de manera clara y eficiente, garantizando un proceso más organizado al llegar a la biblioteca. Asimismo, los administradores cuentan con herramientas para consultar las reservas registradas, agregar nuevos cubículos y eliminar aquellos que ya no están en uso, manteniendo así la plataforma actualizada y alineada con las necesidades operativas. Estos avances fortalecen la usabilidad y la organización general del sistema, consolidando una base sólida para futuros incrementos.
+
+- **Landing Page:**
+
+  ![landing-1](https://i.postimg.cc/KzF5tXmT/Captura-de-pantalla-2025-10-10-020020.png)  
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+ 
+  [![image.png](https://i.postimg.cc/SNKCZH67/image.png)](https://postimg.cc/14L8XCYf)
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+  [![image.png](https://i.postimg.cc/R0nZqLcT/image.png)](https://postimg.cc/R34BDfp3)
+  [![image.png](https://i.postimg.cc/RhPBgW7M/image.png)](https://postimg.cc/kRtz4XYZ)
+  [![image.png](https://i.postimg.cc/5N6dxN5p/image.png)](https://postimg.cc/SJFtd4vz)
+  [![image.png](https://i.postimg.cc/wv0ZpS7P/image.png)](https://postimg.cc/1nVJ070c)
+  [![image.png](https://i.postimg.cc/mgCnDcPp/image.png)](https://postimg.cc/G43KgmJv)
+
+- **Web Services:**
+
+  [![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+
+- **Mobile (Flutter):**
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Link video de visualización y navegación logrado en este Sprint:**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQBQVqiIknnEQJsNC2lEwg3qAc-pBdSmVQ8qelqnrxa_ty0?e=HGXPdd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+<br>
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
+En esta sección se presenta los principales endpoints de la API del sistema, desarrollados para este Sprint, organizados por bounded context como autenticación, recuperación de contraseña, reservas, cubículos, sedes, usuarios y la gestión de supervisores. Su documentación busca ofrecer una referencia clara para comprender las acciones disponibles, los parámetros requeridos y las respuestas esperadas en cada operación, facilitando así el desarrollo, la integración y el mantenimiento de nuestra solución.
+
+**Sedes y Supervisores**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Asignar supervisor | POST | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | POST /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Remover supervisor | DELETE | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | DELETE /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Obtener supervisores | GET | /api/v1/headquarters/{headquarterId}/supervisors | Path: headquarterId | GET /api/v1/headquarters/1/supervisors | Lista de supervisores |
+| Obtener sede por supervisor | GET | /api/v1/headquarters/supervisors/{supervisorId} | Path: supervisorId | GET /api/v1/headquarters/supervisors/5 | Datos de la sede asignada |
+
+**Autenticación**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Registro | POST | /api/v1/authentication/sign-up | Body: { name, email, password } | POST /api/v1/authentication/sign-up con JSON en el cuerpo | Usuario creado con token de autenticación |
+| Inicio de sesión | POST | /api/v1/authentication/sign-in | Body: { email, password } | POST /api/v1/authentication/sign-in | Devuelve token y datos del usuario |
+
+**Recuperación de Contraseña**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Solicitar recuperación | POST | /api/v1/password-recovery/request | Body: { email } | POST /api/v1/password-recovery/request | Mensaje de confirmación de envío de correo |
+| Confirmar recuperación | POST | /api/v1/password-recovery/confirm | Body: { token, newPassword } | POST /api/v1/password-recovery/confirm | Mensaje de éxito o error |
+
+**Reservas**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar reservas | GET | /api/v1/bookings | Ninguno | GET /api/v1/bookings | Lista de reservas |
+| Crear reserva | POST | /api/v1/bookings | Body: { clientId, cubicleId, date, time } | POST /api/v1/bookings | Reserva creada |
+| Obtener reserva | GET | /api/v1/bookings/{id} | Path: id | GET /api/v1/bookings/10 | Detalles de la reserva |
+| Eliminar reserva | DELETE | /api/v1/bookings/{id} | Path: id | DELETE /api/v1/bookings/10 | Mensaje de éxito |
+| Reservas por cliente | GET | /api/v1/bookings/client/{clientId} | Path: clientId | GET /api/v1/bookings/client/3 | Lista de reservas del cliente |
+
+**Cubículos**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar cubículos | GET |	/api/v1/cubicles | Ninguno	| GET /api/v1/cubicles |	Lista de cubículos |
+| Crear cubículo	| POST	| /api/v1/cubicles	| Body: { name, headquarterId, availability }	| POST /api/v1/cubicles	| Cubículo creado |
+| Actualizar estado |	PATCH |	/api/v1/cubicles/{cubicleId}/status	| Body: { status } | PATCH /api/v1/cubicles/4/status | Estado actualizado |
+| Actualizar disponibilidad |	PATCH |	/api/v1/cubicles/{cubicleId}/availability-slot/status	| Body: { slotId, status } | PATCH /api/v1/cubicles/4/availability-slot/status | Slot actualizado |
+| Obtener cubículo	| GET	| /api/v1/cubicles/{cubicleId} |	Path: cubicleId	| GET /api/v1/cubicles/4 | Detalles del cubículo |
+| Eliminar cubículo |	DELETE |	/api/v1/cubicles/{cubicleId} |	Path: cubicleId	| DELETE /api/v1/cubicles/4 |	Mensaje de éxito |
+| Horario del cubículo |	GET |	/api/v1/cubicles/{cubicleId}/schedule |	Path: cubicleId	| GET /api/v1/cubicles/4/schedule |	Lista de horarios |
+| Cubículos por sede |	GET |	/api/v1/cubicles/headquarter/{headquarterId} | Path: headquarterId |	GET /api/v1/cubicles/headquarter/1 |	Lista de cubículos en la sede |
+
+**Sedes**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar sedes |	GET |	/api/v1/headquarters	| Ninguno	| GET /api/v1/headquarters |	Lista de sedes |
+| Crear sede |	POST |	/api/v1/headquarters |	Body: { name, address, openingTime, closingTime } |	POST /api/v1/headquarters |	Sede creada |
+| Obtener sede |	GET |	/api/v1/headquarters/{headquarterId} |	Path: headquarterId	| GET /api/v1/headquarters/1 | Detalles de la sede |
+
+**Roles y Usuarios**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar roles |	GET |	/api/v1/roles |	Ninguno	| GET /api/v1/roles |	Lista de roles |
+| Listar usuarios |	GET |	/api/v1/users |	Ninguno	| GET /api/v1/users |	Lista de usuarios |
+| Obtener usuario |	GET |	/api/v1/users/{userId} |	Path: userId |	GET /api/v1/users/7 |	Detalles del usuario |
+
+**IoT Edge**
+
+| Acción | Verbo HTTP | Endpoint | Parámetros | Ejemplo | Response |
+|--------|------------|----------|------------|---------|----------|
+| Registrar dispositivo | POST | /api/v1/devices/register | Body: { "device_id": "string", "location": "string", "type": "string" } | POST /api/v1/devices/register Body: { "device_id": "chair-001", "location": "Sala A", "type": "sensor" } | Device registered successfully |
+| Actualizar lectura | POST | /api/v1/devices/{device_id}/readings | Path: device_id Body: { "temperature": number, "humidity": number, "occupied": boolean } | POST /api/v1/devices/chair-001/readings Body: { "temperature": 22.5, "humidity": 45, "occupied": true } | Reading updated |
+| Obtener dispositivos disponibles | GET | /api/v1/devices/status/available | Ninguno | GET /api/v1/devices/status/available | Available |
+| Obtener dispositivos ocupados | GET | /api/v1/devices/status/occupied | Ninguno | GET /api/v1/devices/status/occupied | Sala C, Occupied |
+| Verificar salud del backend | GET | /api/v1/devices/health/backend | Ninguno | GET /api/v1/devices/health/backend | Status: ok, Timestamp: 2025-11-14T18:00:00Z |
+| Verificar dispositivos offline | POST | /api/v1/devices/maintenance/check-offline | Ninguno | POST /api/v1/devices/maintenance/check-offline | Status: "offline" |
+| Obtener dispositivo por ID | GET | /api/v1/devices/{device_id} | Path: device_id | GET /api/v1/devices/chair-001 | device_id: "chair-001" |
+| Eliminar dispositivo | DELETE | /api/v1/devices/{device_id} | Path: device_id | DELETE /api/v1/devices/chair-001 | Device deleted |
+| Obtener todos los dispositivos | GET | /api/v1/devices/ | Ninguno | GET /api/v1/devices/ | device_id: "chair-001", ... |
+| Verificar salud general | GET | /health | Ninguno | GET /health | status: "ok" |
+
+<br>
+
+**Imagen de documentación con OpenAPI:**  
+[![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+[![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+**URL de documentación desplegada de Web Services:**  
+  <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**URL de documentación desplegada de IoT Edge:**  
+  <https://bibflip-edge-api-platform.azurewebsites.net/api/docs>
+
+**URL del repositorio de Web Services:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
+
+**URL del repositorio de IoT Edge:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform>
+
+<br>
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
+- **Landing Page:**
+
+  GitHub Pages — URL: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+
+  Firebase Hosting — URL: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+  
+  [![image.png](https://i.postimg.cc/mknq5JD4/image.png)](https://postimg.cc/CnjmZvkr)
+  
+  1. Construir aplicación Vue  
+    Genera la carpeta dist lista para producción:
+    ```bash
+    npm run build
+    ```
+  2. Inicializar Firebase en el proyecto  
+    Dentro de la carpeta del proyecto ejecuta:
+    ```bash
+    firebase init
+    ```
+  3. Desplegar la aplicación
+    ```bash
+    Desplegar la aplicación
+    ```
+  
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+
+- **Mobile Application:**
+
+  Build APK de pruebas internas.
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Web Services y IoT Edge:**
+
+  Web Services — URL: [`https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html`](https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html)
+
+  IoT Edge — URL: [`https://bibflip-edge-api-platform.azurewebsites.net/api/docs`](https://bibflip-edge-api-platform.azurewebsites.net/api/docs)
+
+  [![azure.jpg](https://i.postimg.cc/NFQf0y7Y/azure.jpg)](https://postimg.cc/xJFSx14F)
+  [![image.png](https://i.postimg.cc/CLmdz4Q2/image.png)](https://postimg.cc/HV8TNbH0)
+  [![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+<br>
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
+- **Gestión en Trello**: Tablero con columnas por cada Sprint.  
+  URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
 
+  [![image.png](https://i.postimg.cc/8c2KHD70/image.png)](https://postimg.cc/2Lx7ksFQ)
+
+- **Capturas de los analíticos de colaboración y commits en GitHub:**
+
+  - **Landing Page:**
+
+  [![image.png](https://i.postimg.cc/c4HTKFJ6/image.png)](https://postimg.cc/SjBc37Cp)
+
+  - **Web Application:**
+
+  [![image.png](https://i.postimg.cc/RF7pRqrn/image.png)](https://postimg.cc/jwjhqxSs)
+
+  - **Mobile Application:**
+
+  [![image.png](https://i.postimg.cc/pXpYVy0J/image.png)](https://postimg.cc/ZCzyVYzW)
+
+  - **Web Services & IoT Edge:**
+
+  [![image.png](https://i.postimg.cc/W35gTPgy/image.png)](https://postimg.cc/gX6nHQMy)
+  [![image.png](https://i.postimg.cc/W4nJwPWt/image.png)](https://postimg.cc/Z9WRJXhh)
+
+<br>
 
 ## 6.3.  Validation Interviews
 
@@ -4239,11 +4322,109 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 
 ### 6.3.3. Evaluaciones según heurísticas
+## 6.3.3. Evaluación según Heurísticas 
+
+A continuación se presenta la evaluación de la Landing Page y la Aplicación Web del proyecto **BibFlip** utilizando las 10 heurísticas de usabilidad de Jakob Nielsen. Esta evaluación permite identificar fortalezas, problemas y oportunidades de mejora en la experiencia de usuario.
+
+---
+
+### **Tabla General de Evaluación**
+
+| Heurística  | Evaluación en BibFlip | Puntuación (1–5) | Oportunidades de Mejora |
+|-----------------------|------------------------|------------------|--------------------------|
+| **1. Visibilidad del estado del sistema** | El sistema informa algunos cambios, pero acciones como reservación o actualización no muestran feedback inmediato. | 3 | Agregar loaders, mensajes de éxito/error y animaciones de carga. |
+| **2. Correspondencia con el mundo real** | Usa lenguaje familiar para estudiantes y bibliotecarios. Iconografía adecuada. | 4 | Mejorar descripciones en mapa y etiquetas más naturales. |
+| **3. Control y libertad del usuario** | La navegación es clara, pero algunas acciones no permiten deshacer. | 3 | Añadir confirmaciones, opción de cancelar acciones y botón “volver”. |
+| **4. Consistencia y estándares** | Se mantienen estilos, colores e íconos coherentes. | 4 | Unificar formularios y estandarizar todos los componentes UI. |
+| **5. Prevención de errores** | Validaciones básicas, pero no completas. | 3 | Añadir validación en tiempo real y evitar entradas inválidas. |
+| **6. Reconocer antes que recordar** | Los menús son visibles y los estados entendibles. | 4 | Usar más íconos o colores para reforzar el estado de cubículos. |
+| **7. Flexibilidad y eficiencia** | Adecuado para usuarios nuevos; pocas funciones avanzadas. | 3 | Filtros, búsqueda de cubículos y atajos para administradores. |
+| **8. Estética y diseño minimalista** | Interfaz limpia y moderna. | 4 | Mejorar espaciado y reducir texto extenso en la Landing Page. |
+| **9. Ayuda en recuperación de errores** | Mensajes básicos de error. | 3 | Incluir mensajes explicativos y recomendaciones de solución. |
+| **10. Ayuda y documentación** | No incluye tutoriales o sección de ayuda. | 2 | Crear guía rápida, FAQ y tutoriales para administradores. |
+
+---
+
+### **Análisis Detallado**
+
+#### **1. Visibilidad del estado del sistema**
+El sistema muestra algunos cambios, pero varias acciones no presentan retroalimentación clara, lo que puede generar incertidumbre en el usuario.
+
+**Mejoras sugeridas:** loaders, notificaciones, mensajes claros.
+
+---
+
+#### **2. Correspondencia con el mundo real**
+El uso de términos como “cubículo”, “reserva” y “dashboard” coincide con el lenguaje del usuario y facilita la comprensión del sistema.
+
+**Mejoras sugeridas:** etiquetas más descriptivas, mayor claridad en mapas.
+
+---
+
+#### **3. Control y libertad del usuario**
+Aunque la navegación es fluida, algunas acciones no permiten deshacer o cancelar, lo cual afecta el control del usuario.
+
+**Mejoras sugeridas:** agregar confirmaciones, opciones de cancelar y deshacer.
+
+---
+
+#### **4. Consistencia y estándares**
+El estilo visual es coherente, los elementos UI son uniformes y se mantiene una estética institucional clara.
+
+**Mejoras sugeridas:** estandarizar formularios y componentes.
+
+---
+
+#### **5. Prevención de errores**
+Existen validaciones básicas pero no suficientes para evitar errores comunes o entradas inválidas.
+
+**Mejoras sugeridas:** validaciones mejoradas en tiempo real.
+
+---
+
+#### **6. Reconocer antes que recordar**
+Las acciones están visibles y los usuarios no deben memorizar rutas o estados.
+
+**Mejoras sugeridas:** reforzar iconografía de estados del cubículo.
+
+---
+
+#### **7. Flexibilidad y eficiencia de uso**
+Presenta facilidad para nuevos usuarios, pero es poco eficiente para usuarios expertos o administradores con tareas repetitivas.
+
+**Mejoras sugeridas:** filtros, búsqueda, accesos rápidos.
+
+---
+
+#### **8. Estética y diseño minimalista**
+La interfaz es limpia, moderna y simple, lo cual facilita la comprensión visual.
+
+**Mejoras sugeridas:** mejorar espaciado, evitar saturación visual.
+
+---
+
+#### **9. Ayuda al usuario a recuperarse de errores**
+Los mensajes actuales son básicos y no explican claramente qué ocurrió o cómo solucionarlo.
+
+**Mejoras sugeridas:** mensajes con diagnóstico y pasos de solución.
+
+---
+
+#### **10. Ayuda y documentación**
+El sistema aún no incluye secciones de ayuda, tutoriales ni documentación accesible desde la interfaz.
+
+**Mejoras sugeridas:** añadir FAQ, guía rápida y tutorial interactivo.
+
+---
+
+### **Conclusión General**
+
+La evaluación heurística revela que **BibFlip** presenta una interfaz consistente, moderna y clara, con buena comprensión del entorno bibliotecario. Sin embargo, deben reforzarse elementos clave como la retroalimentación visual, la prevención de errores y la documentación disponible para el usuario. Implementar estas mejoras permitirá una experiencia más segura, intuitiva y eficiente tanto para estudiantes como para el personal bibliotecario.
+
 
 
 
 ## 6.4.  Video About-the-Product
-
 
 # Conclusiones
 
@@ -4254,7 +4435,11 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 **TP**
 
-Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+- Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+
+**TB2**
+
+- Para este sprint utilizamos Wokwi como principal herramienta de simulación del sistema IoT del ESP32 conectado a sensores de peso. Esto fue fundamental para mapear su conexión con el Edge Api y su integración con el backend que utiliza la aplicación tanto web como móvil.
 
 ---
 
@@ -4272,6 +4457,26 @@ SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*
 ---
 
 # Anexos
+
+### Repositorios
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Report">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Report`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform
+">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform
+`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests`</a>
 
 ### Entrevistas
 
