@@ -3828,7 +3828,7 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 #### 6.2.2.1. Sprint Planning 2
 
 **Introducción**  
-Este sprint se orientó a entregar la primera versión navegable de la **Landing Page (HTML/CSS/JS)**, el **Frontend Web (Vue 3 + PrimeVue)** y la **App Mobile (Flutter/Dart)**, cumpliendo con los entregables solicitados para TP1.
+Este sprint se orientó a entregar la primera versión navegable de la **Landing Page (HTML/CSS/JS)**, el **Frontend Web (Vue 3 + PrimeVue)** y la **App Mobile (Flutter/Dart)**, cumpliendo con los entregables solicitados para la TB2.
 
 <!-- Sprint Planning Background (formato de la rúbrica) -->
 <table>
@@ -3853,20 +3853,20 @@ Este sprint se orientó a entregar la primera versión navegable de la **Landing
       </td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Sprint 1 – 1 Review Summary</strong><br/><em>El equipo completó la creación de la interfaz pública de la aplicación. Este trabajo de base establece una sólida presencia visual para los usuarios. Simultáneamente, se hizo un progreso significativo en las funcionalidades internas del usuario, incluyendo el diseño de las vistas para listar los servicios de las sedes, mostrar la reserva activa actual, y presentar la disponibilidad de los espacios de trabajo en tiempo real. Aunque la mayoría de las tareas de la página inicial fueron finalizadas, la implementación de estas funcionalidades más complejas, que requieren simulación de datos, se encuentra en fase de desarrollo avanzado y revisión.</em></td>
+      <td colspan="3"><strong>Sprint 2 – 2 Review Summary</strong><br/><em>El equipo completó la creación de la interfaz pública de la aplicación. Este trabajo de base establece una sólida presencia visual para los usuarios. Simultáneamente, se hizo un progreso significativo en las funcionalidades internas del usuario, incluyendo el diseño de las vistas para listar los servicios de las sedes, mostrar la reserva activa actual, y presentar la disponibilidad de los espacios de trabajo en tiempo real. Aunque la mayoría de las tareas de la página inicial fueron finalizadas, la implementación de estas funcionalidades más complejas, que requieren simulación de datos, se encuentra en fase de desarrollo avanzado y revisión.</em></td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Sprint 1 – 1 Retrospective Summary</strong><br/><em>El equipo logró alcanzar los objetivos relacionados con los elementos visibles de presentación. Sin embargo, se identificó una concentración de las tareas de mayor complejidad funcional las que gestionan la información dinámica y las interacciones del usuario cerca del final del ciclo de trabajo. Esta acumulación resultó en que varios entregables cruciales para la experiencia de reserva y visualización de servicios quedaron en proceso de desarrollo o pendientes de la verificación final de calidad. La lección aprendida es la necesidad de mejorar la planificación y distribución del esfuerzo para las integraciones simuladas y las revisiones de los productos desplegados.</em></td>
+      <td colspan="3"><strong>Sprint 2 – 2 Retrospective Summary</strong><br/><em>El equipo logró alcanzar los objetivos relacionados con los elementos visibles de presentación. Sin embargo, se identificó una concentración de las tareas de mayor complejidad funcional las que gestionan la información dinámica y las interacciones del usuario cerca del final del ciclo de trabajo. Esta acumulación resultó en que varios entregables cruciales para la experiencia de reserva y visualización de servicios quedaron en proceso de desarrollo o pendientes de la verificación final de calidad. La lección aprendida es la necesidad de mejorar la planificación y distribución del esfuerzo para las integraciones simuladas y las revisiones de los productos desplegados.</em></td>
     </tr>
     <tr><td colspan="3"><strong>Sprint Goal &amp; User Stories</strong></td></tr>
     <tr>
-      <td>Sprint 1 Goal</td>
+      <td>Sprint 2 Goal</td>
       <td>(SMART)</td>
       <td>
         El objetivo del sprint es implementar, en un periodo no mayor a una semana, un conjunto funcional de herramientas que permitan a usuarios y administradores gestionar eficazmente los cubículos de la biblioteca: los usuarios podrán visualizar su reserva activa y realizar nuevas reservas de manera clara y confiable, mientras que los administradores podrán consultar las reservas realizadas, agregar nuevos cubículos y eliminar aquellos que ya no estén en uso. Con esto, se busca mejorar la organización, disponibilidad y precisión del sistema, asegurando una experiencia más eficiente y ordenada para todos los involucrados.
       </td>
     </tr>
-    <tr><td>Sprint 1 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
+    <tr><td>Sprint 2 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
     <tr>
       <td>Sum of Story Points</td>
       <td>(stories incluidos)</td>
@@ -4064,30 +4064,30 @@ Cada archivo de prueba está vinculado a su **User Story** correspondiente y ha 
 
 | Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
 |-------------|---------|------------|----------------|---------------------|
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fa67fc | test: add US001 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 9ad3d2b | test: implement US001 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | bc22955 | test: add US004 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 1a5c39d | test: implement US004 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 8fdcb20 | test: add US006 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | f87d2dd | test: implement US006 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | b0c2381 | test: add US008 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 36b4da5 | test: implement US008 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 010363a | test: add US010 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | a3e5836 | test: implement US010 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 59ac32a | test: add US011 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 9fe14c0 | test: implement US011 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | c056515 | test: add US012 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 0fa4270 | test: implement US012 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 469eafe | test: add US013 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | cbed64f | test: implement US013 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 3500e16 | test: add US014 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 4a4f03f | test: implement US014 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 642fbfb | test: add US015 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6bc36f2 | test: implement US015 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | a09bcd0 | test: add US016 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | cb58299 | test: implement US016 step definitions | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 6fbd3ae | test: add US017 acceptance test feature | 05/11/2025 |
-| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-1 | 945257b | test: implement US017 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 6fa67fc | test: add US001 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 9ad3d2b | test: implement US001 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | bc22955 | test: add US004 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 1a5c39d | test: implement US004 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 8fdcb20 | test: add US006 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | f87d2dd | test: implement US006 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | b0c2381 | test: add US008 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 36b4da5 | test: implement US008 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 010363a | test: add US010 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | a3e5836 | test: implement US010 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 59ac32a | test: add US011 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 9fe14c0 | test: implement US011 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | c056515 | test: add US012 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 0fa4270 | test: implement US012 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 469eafe | test: add US013 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | cbed64f | test: implement US013 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 3500e16 | test: add US014 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 4a4f03f | test: implement US014 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 642fbfb | test: add US015 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 6bc36f2 | test: implement US015 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | a09bcd0 | test: add US016 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | cb58299 | test: implement US016 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 6fbd3ae | test: add US017 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 945257b | test: implement US017 step definitions | 05/11/2025 |
 
 A su vez hemos realizado una serie de **Unit Tests** automatizados para los **Web Services** que están relacionado también con los **User Stories** especificados en el **Sprint 2**
 
