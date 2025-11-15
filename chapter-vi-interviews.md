@@ -23,7 +23,14 @@ Buenas tardes, gracias por asistir a esta entrevista
 
 ### Preguntas sobre la Aplicacion Web
 
-1. 
+1. ¿Cómo te pareció la aplicación web en general?
+
+2. ¿Cómo le pareció el dashboard y gestión de cubículos?
+
+3. ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál?
+
+4. ¿Hay alguna característica que le gustaría ver en la aplicación?
+
 ---
 
 ## **Estudiantes universitarios**
@@ -63,8 +70,8 @@ Buenas tardes, gracias por asistir a esta entrevista
 *Fin de la Entrevista:* 5:13<br>
 Link : https://youtu.be/FwhhGJ64cNg
 
-<a href=""><img src="" alt="Entrevista" style="width: 600px; height: auto;"><br></a>
-[![966b54cf-d7d3-4f93-b686-b5a49ee429bd.jpg](https://i.postimg.cc/7PGyDQPg/966b54cf-d7d3-4f93-b686-b5a49ee429bd.jpg)](https://postimg.cc/t7jcNkxT)
+<a href="https://postimg.cc/t7jcNkxT"><img src="https://i.postimg.cc/7PGyDQPg/966b54cf-d7d3-4f93-b686-b5a49ee429bd.jpg)" alt="Entrevista" style="width: 600px; height: auto;"><br></a>
+
 *Resumen de la Entrevista:* <br>
 El entrevistado, John Gálvez, supervisor de cubículos de 30 años, comentó que la landing page le pareció accesible, con textos legibles, botones visibles y navegación intuitiva, destacando como parte más útil la sección que explica la funcionalidad principal de la plataforma; sin embargo, notó que algunas secciones eran breves y sugirió incluir más detalles y ejemplos visuales como capturas del flujo de reserva o del dashboard. Sobre la aplicación web, indicó que está bien organizada, con una interfaz limpia y de fácil uso, y que el dashboard permite identificar rápidamente el estado de los cubículos al centralizar la información; no obstante, encontró cierta confusión en la transición entre estados de los cubículos, recomendando una guía más clara. Finalmente, propuso como mejora agregar herramientas de reportes más completas, como historiales de uso, estadísticas por periodos y un módulo para registrar incidentes dentro de los cubículos.
 
