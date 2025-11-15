@@ -299,7 +299,7 @@ Creemos que la eficiencia en la localización de espacios y la experiencia de lo
 
 #### 1.2.2.4. Lean UX Canvas
 
-[![lean-ux-canvas.jpg](https://i.postimg.cc/BngMMX5R/lean-ux-canvas.jpg)](https://postimg.cc/4YY634S1)
+[![Group-1.png](https://i.postimg.cc/T11Txk4t/Group-1.png)](https://postimg.cc/YG55fxkF)
 
 ## 1.3. Segmentos objetivo
 
