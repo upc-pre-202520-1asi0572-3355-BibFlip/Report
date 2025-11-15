@@ -3888,133 +3888,152 @@ Durante este sprint, se desarrollarán capacidades clave como la visualización 
 **URL publico de trello:** <https://trello.com/b/htxHDgrX/bibflip>
 
 <table>
-    <thead>
-        <tr>
-            <td>Sprint #</td>
-            <td colspan="7">Sprint 1</td>
-        </tr>
-        <tr>
-            <td colspan="2"> User Story</td>
-            <td colspan="6"> Work-Item / Task </td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td> Id </td>
-            <td> Title </td>
-            <td> Id </td>
-            <td> Title </td>
-            <td> Description </td>
-            <td> Estimation (Hours) </td>
-            <td> Assigned To </td>
-            <td> Status (To-do / In-Process / To-Review / Done) </td>
-        </tr>
-        <!-- US006 -->
-        <tr>
-            <td>US006</td>
-            <td>Visualizar reserva activa</td>
-            <td>TA1</td>
-            <td>Implementar consulta de reserva activa</td>
-            <td>Desarrollar la función que obtiene la reserva activa del usuario desde la base de datos.</td>
-            <td>02</td>
-            <td>Piero Velarde, Oscar Aranda</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>TA2</td>
-            <td>Diseñar interfaz de visualización</td>
-            <td>Crear la pantalla donde se mostrarán los detalles de la reserva activa del usuario.</td>
-            <td>02</td>
-            <td>Piero Velarde, Oscar Aranda</td>
-            <td>Done</td>
-        </tr>
-        <!-- US008 -->
-        <tr>
-            <td>US008</td>
-            <td>Reservar un cubículo</td>
-            <td>TA1</td>
-            <td>Crear formulario de reserva</td>
-            <td>Diseñar la interfaz donde el usuario podrá seleccionar el cubículo y horario de su reserva.</td>
-            <td>07</td>
-            <td>Jose Gutierrez, Mauricio Oliveira</td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>TA2</td>
-            <td>Implementar lógica de registro de reserva</td>
-            <td>Programar la funcionalidad que valida disponibilidad y guarda la reserva en el sistema.</td>
-            <td>06</td>
-            <td>Jose Gutierrez, Mauricio Oliveira</td>
-            <td>To-do</td>
-        </tr>
-        <!-- US013 -->
-        <tr>
-            <td>US013</td>
-            <td>Visualizar reservas realizadas</td>
-            <td>TA1</td>
-            <td>Implementar consulta de reservas</td>
-            <td>Crear la función que obtiene las reservas registradas en la biblioteca del administrador.</td>
-            <td>03</td>
-            <td>André Bernaola, Joaquin Pedraza</td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>TA2</td>
-            <td>Diseñar interfaz de listado de reservas</td>
-            <td>Construir la vista donde el administrador podrá consultar las reservas realizadas.</td>
-            <td>02</td>
-            <td>André Bernaola, Joaquin Pedraza</td>
-            <td>To-do</td>
-        </tr>
-        <!-- US012 -->
-        <tr>
-            <td>US012</td>
-            <td>Agregar nuevos cubículos</td>
-            <td>TA1</td>
-            <td>Crear formulario de registro de cubículos</td>
-            <td>Desarrollar la interfaz para registrar nuevos cubículos en la biblioteca.</td>
-            <td>03</td>
-            <td>Jose Gutierrez, Diego Soriano</td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>TA2</td>
-            <td>Implementar lógica de guardado</td>
-            <td>Programar la funcionalidad que valida y almacena nuevos cubículos en el sistema.</td>
-            <td>02</td>
-            <td>Jose Gutierrez, Diego Soriano</td>
-            <td>To-do</td>
-        </tr>
-        <!-- US015 -->
-        <tr>
-            <td>US015</td>
-            <td>Eliminar cubículos</td>
-            <td>TA1</td>
-            <td>Implementar función de eliminación</td>
-            <td>Crear la lógica que permite al administrador eliminar cubículos inactivos del sistema.</td>
-            <td>02</td>
-            <td>André Bernaola, Oscar Aranda</td>
-            <td>To-do</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>TA2</td>
-            <td>Actualizar interfaz de gestión</td>
-            <td>Modificar la vista para permitir seleccionar y eliminar cubículos registrados.</td>
-            <td>01</td>
-            <td>André Bernaola, Oscar Aranda</td>
-            <td>To-do</td>
-        </tr>
-    </tbody>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th colspan="7">Sprint 2</th>
+            </tr>
+            <tr>
+                <th colspan="2">Technical Story</th>
+                <th colspan="6">Work-Item / Task</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TS004 -->
+            <tr>
+                <td>TS004</td>
+                <td>Implementar Firmware para Dispositivo IoT</td>
+                <td>TA1</td>
+                <td>Desarrollar lógica de lectura de sensores</td>
+                <td>Implementar la funcionalidad que lee datos del sensor de peso y detecta presencia en el cubículo.</td>
+                <td>04</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar transmisión de datos al Edge API</td>
+                <td>Programar la funcionalidad que genera paquetes de datos y los transmite al Edge API.</td>
+                <td>04</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar manejo de errores de hardware</td>
+                <td>Crear el sistema de registro de errores cuando falla la lectura del sensor.</td>
+                <td>02</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS005 -->
+            <tr>
+                <td>TS005</td>
+                <td>Integrar Firmware con Plataforma Embebida</td>
+                <td>TA1</td>
+                <td>Implementar inicialización del sistema</td>
+                <td>Desarrollar la rutina de arranque que inicializa sensores y configuración de red.</td>
+                <td>03</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Configurar comunicación de red</td>
+                <td>Implementar la lógica de conexión WiFi/Ethernet para comunicarse con el Edge API.</td>
+                <td>03</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar recuperación ante fallos de red</td>
+                <td>Crear el sistema de reintentos automáticos cuando falla la conexión de red.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS006 -->
+            <tr>
+                <td>TS006</td>
+                <td>Implementar Recepción de Datos en Edge API</td>
+                <td>TA1</td>
+                <td>Crear endpoint de recepción de datos IoT</td>
+                <td>Desarrollar el endpoint REST que recibe los datos transmitidos por los dispositivos IoT.</td>
+                <td>03</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar validación de formato de datos</td>
+                <td>Crear la lógica que valida el formato y estructura de los paquetes recibidos.</td>
+                <td>02</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar reenvío al backend</td>
+                <td>Programar la funcionalidad que procesa y reenvía datos válidos al backend principal.</td>
+                <td>02</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS007 -->
+            <tr>
+                <td>TS007</td>
+                <td>Simular Sensores en Wokwi</td>
+                <td>TA1</td>
+                <td>Diseñar circuito de simulación en Wokwi</td>
+                <td>Crear el circuito virtual que simula el sensor de peso y su conexión con el microcontrolador.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar lógica de detección simulada</td>
+                <td>Programar el comportamiento del sensor virtual para simular detección de ocupación.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Validar comunicación con Edge API simulado</td>
+                <td>Verificar que los datos simulados se transmiten correctamente al Edge API de prueba.</td>
+                <td>01</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+        </tbody>
 </table>
 
 <br>
@@ -4438,6 +4457,26 @@ SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*
 ---
 
 # Anexos
+
+### Repositorios
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Report">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Report`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform
+">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform
+`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests`</a>
 
 ### Entrevistas
 
