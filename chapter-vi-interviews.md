@@ -91,6 +91,25 @@ Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal
 
 La entrevista post-demo con María José Munisaca, supervisora de biblioteca de 27 años en San Borja, permitió validar la solución desde la perspectiva del personal administrativo tras mostrarle la landing page y la aplicación web. María José consideró la landing page accesible y profesional, destacando como más útil la sección que explica los beneficios para el personal bibliotecario, aunque sugirió añadir casos de uso específicos y estadísticas que demuestren el ahorro de tiempo en la gestión; no encontró partes confusas pero recomendó incluir una sección de preguntas frecuentes para administradores. Respecto a la aplicación web, señaló que le pareció intuitiva y bien estructurada, valorando especialmente el dashboard que permite visualizar en tiempo real la ocupación de todos los cubículos y gestionar su disponibilidad de manera centralizada; el módulo de gestión de cubículos le resultó práctico para cambiar estados (disponible, ocupado, mantenimiento) y consultar el historial de reservas. Identificó como área de mejora la transición entre vistas, sugiriendo que la navegación entre módulos sea más fluida, y propuso como características deseables: la generación automática de reportes semanales y mensuales de ocupación, un sistema de alertas para cubículos que requieran mantenimiento, y la posibilidad de bloquear horarios específicos para eventos o limpieza programada. En general, considera que BibFlip facilitaría significativamente las tareas diarias del personal y reduciría la carga administrativa asociada a la gestión manual de espacios.
 
+#### Entrevista N°3:
+
+*Entrevistado:* Hanna Pairazaman <br>
+*Sexo:* Femenino <br>
+*Edad:* 25 años<br>
+*Domicilio:* Callao <br>
+*Inicio de la Entrevista:* 0:14<br>
+*Fin de la Entrevista:* 6:19<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVi6fSL5sP5DnBBJAMQJlm8BlrJc3YoBxIZm260g4J-89A)
+
+<a href="https://ibb.co/CpjMNZNT"><img src="https://i.ibb.co/8nydTpTS/entrevista-2.png" alt="entrevista-2" border="0"></a>
+
+
+*Resumen de la Entrevista:* <br>
+
+La entrevista post-demo con Hanna Pairazaman, coordinadora de biblioteca de 25 años en el Callao, permitió validar la solución desde la perspectiva del personal administrativo tras mostrarle la landing page y la aplicación web. Hanna consideró la landing page clara y funcional, destacando como más útil la sección que explica cómo la plataforma optimiza la gestión de espacios, aunque sugirió añadir testimonios de otras bibliotecas y datos concretos sobre la reducción de tiempos de gestión; no encontró partes confusas pero recomendó mejorar la visibilidad de los botones de llamada a acción. Respecto a la aplicación web, señaló que le pareció muy completa y fácil de navegar, valorando especialmente el dashboard que permite monitorear en tiempo real todos los cubículos y gestionar rápidamente cambios de estado; el módulo de gestión de cubículos le resultó eficiente para actualizar disponibilidad y consultar reservas activas de manera centralizada. Identificó como área de mejora la necesidad de agregar filtros más específicos para buscar cubículos por características (capacidad, ubicación, equipamiento), y propuso como características deseables: un sistema de notificaciones push para alertar sobre reservas próximas a vencer, herramientas de análisis predictivo para identificar patrones de uso y optimizar la asignación de recursos, y la posibilidad de exportar datos en diferentes formatos para reportes institucionales. En general, considera que BibFlip representaría una mejora significativa en la eficiencia operativa y reduciría considerablemente el tiempo dedicado a tareas administrativas repetitivas.
+
+
+
 ### Entrevista para el Segmento Objetivo 2 - Estudiantes Universitarios
 
 ---
