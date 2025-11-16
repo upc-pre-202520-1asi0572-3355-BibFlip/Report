@@ -145,3 +145,18 @@ Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal
 
 *Resumen de la Entrevista:* <br>
 La entrevista post-demo con Sebastián Pacheco, estudiante de 22 años de la carrera de Ingeniería de Software, permitió validar la solución de reserva de cubículos tras mostrarle la landing page, la aplicación web y la app móvil. Sebastián percibió la landing page como accesible y ordenada, destacando como parte más útil la sección que describe las funciones mediante tres secciones claras, además de apreciar la inclusión de reseñas y características; no encontró aspectos confusos ni oportunidades de mejora significativas. Respecto a la aplicación web, señaló que cumple exactamente con el objetivo principal de reservar cubículos y visualizar horarios disponibles; consideró que el dashboard y la gestión de reservas son sencillos y no resulta complicado hacer clic en los horarios disponibles, aunque identificó una oportunidad de mejora al sugerir implementar funcionalidad para validar y confirmar cuántos alumnos van a estar presentes en cada cubículo, así como una visualización más dinámica de horarios disponibles por día. La aplicación móvil le pareció más completa que la web, siendo honesto al afirmar que el flujo es más comprensible en móvil; no detectó flujos confusos y consideró que visualmente se ve bien y bonita, sin necesidad de características adicionales más allá de la validación de asistentes mencionada anteriormente.
+
+
+#### Entrevista N°3:
+
+*Entrevistado:* Renzo Silva <br>
+*Sexo:* Masculino <br>
+*Edad:* 20 años<br>
+*Domicilio:* [No especificado]<br>
+*Inicio de la Entrevista:* 18:11<br>
+*Fin de la Entrevista:* 22:13<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQBjbP7VjKSrQ7kNjjfJshO_Ad6oARdY88XmeYJoMSF7Dt8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vICapO)
+
+[![Captura-de-pantalla-2025-11-15-191433.png](https://i.postimg.cc/44LK81sj/Captura-de-pantalla-2025-11-15-191433.png)](https://postimg.cc/s1WDx7BJ)
+*Resumen de la Entrevista:* <br>
+La entrevista post-demo con Renzo Silva, estudiante de 20 años de la UPC, permitió percibir la opinión general de un estudiante ante una mejora en el sistema de reserva de cubículos. Durante la duración de esta, él entrevistado percibió la landing page como suficiente y concisa, destacando como parte más útil la sección de testimonios. Esto desmuestra que nuevos usuarios podrían presentar un mayor interés dependiendo de la recepción de la audiencia objetiva, tomando en cuenta las opiniones de las demás. Respecto a la aplicación web y móvil señaló que cumple exactamente con el objetivo principal de reservar cubículos y visualizar horarios disponibles, por lo cual decidió no indicar alguna funcionalidad extra que él añadiría de momento.
