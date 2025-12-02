@@ -3,7 +3,7 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>    
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Carrera de Ingeniería de Software - Ciclo VII</strong><br><br>
-    <strong>Desarrollo de Soluciones IOT</strong><br>
+    <strong>1ASI0572 - Desarrollo de Soluciones IOT</strong><br>
     <br><strong>NRC 3355</strong><br>
     <br><strong>Profesor: David Carlos Vera Olivera</strong><br>
     <br><strong><b>INFORME DEL TRABAJO FINAL</strong></b><br>
@@ -57,9 +57,8 @@
 </body>
 
 <p align="center">
-<br><strong>2025-02</strong></p>
+<br><strong>2025-20</strong></p>
 <br>
-
 
 
 ## Registro de Versiones del Informe
@@ -98,205 +97,29 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 | 3.7     | 03/10/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1.8. Software Deployment Evidence for Sprint Review                     |
 | 3.8     | 04/10/2025 | Soriano Medrano, Diego         | 6.2.1.9. Team Collaboration Insights during Sprint                          |
 | 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
+| 4.0     | 01/11/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.2.1. Sprint Planning 2
+| 4.1     | 02/11/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.2.2. Aspect Leader and Collaborators
+| 4.2     | 03/11/2025 | Velarde Luyo, Piero Alberto    | 6.2.2.3. Sprint Backlog 2
+| 4.3     | 04/11/2025 | Pedraza Maldonado, Joaquín     | 6.2.2.4. Development Evidence for Sprint Review
+| 4.4     | 05/11/2025 | Bernaola Pérez, André Arturo   | 6.2.2.5. Testing Suite Evidence for Sprint Review
+| 4.5     | 06/11/2025 | Soriano Medrano, Diego         | 6.2.2.6. Execution Evidence for Sprint Review
+| 4.6     | 07/11/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.2.7. Services Documentation Evidence for Sprint Review
+| 4.7     | 08/11/2025 | Oliveira Paucar, Mauricio      | 6.2.2.8. Software Deployment Evidence for Sprint Review
+| 4.8     | 09/11/2025 | Soriano Medrano, Diego         | 6.2.2.9. Team Collaboration Insights during Sprint
+| 4.9     | 10/11/2025 | Todo el equipo de Bibflip       | Validation Interviews y Video About-the-Product.
+| 5.0     | 20/11/2025 | Aranda Vallejos, Oscar Gabriel  | 6.2.3.1. Sprint Planning 3                                             |
+| 5.1     | 21/11/2025 | Gutiérrez García, José Eduardo  | 6.2.3.2. Aspect Leaders and Collaborators – Sprint 3                   |
+| 5.2     | 22/11/2025 | Velarde Luyo, Piero Alberto     | 6.2.3.3. Sprint Backlog 3                                              |
+| 5.3     | 23/11/2025 | Pedraza Maldonado, Joaquín      | 6.2.3.4. Development Evidence for Sprint 3 Review                      |
+| 5.4     | 24/11/2025 | Bernaola Pérez, André Arturo    | 6.2.3.5. Testing Suite Evidence for Sprint 3 Review                    |
+| 5.5     | 25/11/2025 | Soriano Medrano, Diego          | 6.2.3.6. Execution Evidence for Sprint 3 Review                        |
+| 5.6     | 26/11/2025 | Oliveira Paucar, Mauricio       | 6.2.3.7. Services Documentation Evidence for Sprint 3 Review           |
+| 5.7     | 27/11/2025 | Gutiérrez García, José Eduardo  | 6.2.3.8. Software Deployment Evidence for Sprint 3 Review              |
+| 5.8     | 28/11/2025 | Todo el equipo de Bibflip       | 6.2.3.9. Team Collaboration Insights during Sprint 3                   |
+| 5.9     | 30/11/2025 | Todo el equipo de Bibflip       | Integración del Trabajo Final (TF) y cierre del Capítulo VI del informe |
 
-# Project Report Collaboration Insights
-
-<br>Se utilizaron Git y Github como herramientas fundamentales para el versionamiento y gestión del proyecto, lo cual permite una mejor colaboración y visualización de cambios en tiempo real. A continuación, se proporcionan los siguientes enlaces del proyecto:
-
-| **Descripción**            | **Enlace**                                                                 |
-| :-------------------------: | :------------------------------------------------------------------------: |
-| Repositorio de la documentación    | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip/Report         |
-| Organización del proyecto     | https://github.com/upc-pre-202510-1asi0572-3355-BibFlip                    |
-
-<!--LO COMPLETARE DESPUES -->
 
 <br>
-
-# Contenido
-
-## Tabla de Contenidos
-
-### [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-
-### [Project Report Collaboration Insights](#project-report-collaboration-insights)
-
-### [Contenido](#contenido)
-
-### [Student Outcomes](#student-outcome)
-
-### [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-          - [**Business Outcomes:**](#business-outcomes)
-          - [**Users:**](#users)
-          - [**User Outcomes \& Benefits:**](#user-outcomes--benefits)
-          - [**Feature Assumptions:**](#feature-assumptions)
-          - [**Business Assumptions:**](#business-assumptions)
-          - [**User Assumptions:**](#user-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
-
-### [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. Event Storming](#411-event-storming)
-    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
-    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
-  - [4.1.2. Context Mapping](#412-context-mapping)
-  - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-- [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
-    - [4.2.1.1. Domain Layer](#4211-domain-layer)
-    - [4.2.1.2. Interface Layer](#4212-interface-layer)
-    - [4.2.1.3. Application Layer](#4213-application-layer)
-    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-    - [4.2.1.6. Bounded Context Software Architecture Component Level Diagrams](#4216-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.1.7. Bounded Context Software Architecture Code Level Diagrams](#4217-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.1.7.1. Bounded Context Domain Layer Class Diagrams](#42171-bounded-context-domain-layer-class-diagrams)
-      - [4.2.1.7.2. Bounded Context Database Design Diagram](#42172-bounded-context-database-design-diagram)
-  - [4.2.2. Bounded Context: Table Management](#422-bounded-context-table-management)
-    - [4.2.2.1. Domain Layer](#4221-domain-layer)
-    - [4.2.2.2. Interface Layer](#4222-interface-layer)
-    - [4.2.2.3. Application Layer](#4223-application-layer)
-    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
-    - [4.2.2.6. Bounded Context Software Architecture Component Level Diagrams](#4226-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.2.7. Bounded Context Software Architecture Code Level Diagrams](#4227-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.2.7.1. Bounded Context Domain Layer Class Diagrams](#42271-bounded-context-domain-layer-class-diagrams)
-      - [4.2.2.7.2. Bounded Context Database Design Diagram](#42272-bounded-context-database-design-diagram)
-  - [4.2.3. Bounded Context: Branching](#423-bounded-context-branching)
-    - [4.2.3.1. Domain Layer](#4231-domain-layer)
-    - [4.2.3.2. Interface Layer](#4232-interface-layer)
-    - [4.2.3.3. Application Layer](#4233-application-layer)
-    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
-    - [4.2.3.6. Bounded Context Software Architecture Component Level Diagrams](#4236-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.3.7. Bounded Context Software Architecture Code Level Diagrams](#4237-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.3.7.1. Bounded Context Domain Layer Class Diagrams](#42371-bounded-context-domain-layer-class-diagrams)
-      - [4.2.3.7.2. Bounded Context Database Design Diagram](#42372-bounded-context-database-design-diagram)
-  - [4.2.4. Bounded Context: Booking](#424-bounded-context-booking)
-    - [4.2.4.1. Domain Layer](#4241-domain-layer)
-    - [4.2.4.2. Interface Layer](#4242-interface-layer)
-    - [4.2.4.3. Application Layer](#4243-application-layer)
-    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
-    - [4.2.4.6. Bounded Context Software Architecture Component Level Diagrams](#4246-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.4.7. Bounded Context Software Architecture Code Level Diagrams](#4247-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.4.7.1. Bounded Context Domain Layer Class Diagrams](#42471-bounded-context-domain-layer-class-diagrams)
-      - [4.2.4.7.2. Bounded Context Database Design Diagram](#42472-bounded-context-database-design-diagram)
-  - [4.2.5. Bounded Context: IoT Device Monitoring](#425-bounded-context-iot-device-monitoring)
-  <!-- Breve Descripción nada más -->
-
-### [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-- [5.1. Style Guidelines](#51-style-guidelines)
-  - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-  - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-- [5.2. Information Architecture](#52-information-architecture)
-  - [5.2.1. Organization Systems](#521-organization-systems)
-  - [5.2.2. Labeling Systems](#522-labeling-systems)
-  - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-  - [5.2.4. Searching Systems](#524-searching-systems)
-  - [5.2.5. Navigation Systems](#525-navigation-systems)
-- [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-  - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-  - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-- [5.4. Applications UX/UI Design](#54-applications-uxui-design)
-  - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-  - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-  - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
-  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
-- [5.5. Applications Prototyping](#55-applications-prototyping)
-
-### [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
-- [6.1. Software Configuration Management](#61-software-configuration-management)
-  - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-  - [6.1.2. Source Code Management](#612-source-code-management)
-  - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
-  - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-- [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services-applications-implementation)
-  - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
-    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
-    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
-    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
-    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
-    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-
-### [Conclusiones](#conclusiones)
-### [Bibliografía](#bibliografía)
-### [Anexos](#anexos)
-
----
-
-## Registro de Versiones del Informe
-
-En esta sección se resumen los avances y modificaciones realizadas durante el ciclo de vida de desarrollo del proyecto equivalente a un semestre.
-
-| Versión | Fecha      | Autor                          | Descripción de modificación                                                 |
-| ------- | ---------- | ------------------------------ | --------------------------------------------------------------------------- |
-| 1.0     | 09/09/2025 | Aranda Vallejos, Oscar Gabriel | Creación y estructuración del informe                                       |
-| 1.1     | 11/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del capítulo I                                                   |
-| 1.2     | 14/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo del event storming y bounded context canvas                      |
-| 1.3     | 15/09/2025 | Bernaola Pérez, André Arturo   | Desarrollo del diagrama de clases y de base de datos                        |
-| 1.4     | 15/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre del capítulo I y Competidores                                        |
-| 1.5     | 15/09/2025 | Soriano Medrano, Diego         | Desarrollo de los Domain Message Flows Modeling y del Context Mapping       |
-| 1.6     | 16/09/2025 | Pedraza Maldonado, Joaquín     | Desarrollo y cierre del capítulo III                                        |
-| 1.7     | 16/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo de Software Architecture                                         |
-| 1.8     | 16/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo de Tactical-Level Domain-Driven Design                           |
-| 1.9     | 17/09/2025 | Velarde Luyo, Piero Alberto    | Desarrollo del Needfinding                                                  |
-| 2.0     | 18/09/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos II y IV                                             |
-| 2.1     | 20/09/2025 | Oliveira Paucar, Mauricio      | Desarrollo del Capítulo V: Solution UI/UX Design                            |
-| 2.2     | 21/09/2025 | Velarde Luyo, Piero Alberto    | Diseño de wireframes y prototipos de alta fidelidad                         |
-| 2.3     | 22/09/2025 | Gutierrez Garcia, Jose Eduardo | Desarrollo del Capítulo VI: Product Implementation, Validation & Deployment |
-| 2.4     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | Desarrollo de la sección 6.1: Software Configuration Management             |
-| 2.5     | 23/09/2025 | Aranda Vallejos, Oscar Gabriel | 6.1.1. Software Development Environment Configuration                       |
-| 2.6     | 24/09/2025 | Bernaola Pérez, André Arturo   | 6.1.2. Source Code Management                                               |
-| 2.7     | 24/09/2025 | Soriano Medrano, Diego         | 6.1.3. Source Code Style Guide & Conventions                                |
-| 2.8     | 25/09/2025 | Pedraza Maldonado, Joaquín     | 6.1.4. Software Deployment Configuration                                    |
-| 2.9     | 26/09/2025 | Velarde Luyo, Piero Alberto    | 6.2. Landing Page, Services & Applications Implementation                   |
-| 3.0     | 27/09/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1. Sprint 1 - Sprint Planning 1                                         |
-| 3.1     | 28/09/2025 | Soriano Medrano, Diego         | 6.2.1.2. Aspect Leaders and Collaborators                                   |
-| 3.2     | 28/09/2025 | Oliveira Paucar, Mauricio      | 6.2.1.3. Sprint Backlog 1                                                   |
-| 3.3     | 29/09/2025 | Pedraza Maldonado, Joaquín     | 6.2.1.4. Development Evidence for Sprint Review                             |
-| 3.4     | 30/09/2025 | Bernaola Pérez, André Arturo   | 6.2.1.5. Testing Suite Evidence for Sprint Review                           |
-| 3.5     | 01/10/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.1.6. Execution Evidence for Sprint Review                               |
-| 3.6     | 02/10/2025 | Velarde Luyo, Piero Alberto    | 6.2.1.7. Services Documentation Evidence for Sprint Review                  |
-| 3.7     | 03/10/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.1.8. Software Deployment Evidence for Sprint Review                     |
-| 3.8     | 04/10/2025 | Soriano Medrano, Diego         | 6.2.1.9. Team Collaboration Insights during Sprint                          |
-| 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
-
 
 
 # Project Report Collaboration Insights
@@ -432,8 +255,8 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
   - [5.4.1. Applications Wireframes](#541-applications-wireframes)
   - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-  - [5.4.2. Applications Mock-ups](#542-applications-mock-ups)
-  - [5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+  - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+  - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
 - [5.5. Applications Prototyping](#55-applications-prototyping)
 
 ### [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-deployment)
@@ -453,10 +276,37 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.2.3. Sprint 3](#623-sprint-3)
+    - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+    - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+    - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+    - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+    - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+    - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+    - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+    - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+    - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Video About-the-Product](#64-video-about-the-product)
+
 
 ### [Conclusiones](#conclusiones)
 ### [Bibliografía](#bibliografía)
 ### [Anexos](#anexos)
+
 
 ---
 
@@ -469,8 +319,10 @@ colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen obj
 
 | Criterio específico                                                                                | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Lideré la iniciativa de creación y estructuración del informe, estableciendo las bases para el trabajo colaborativo del equipo. Además, dirigí el desarrollo del event storming y el Domain Driven Design, facilitando la comprensión compartida del dominio entre todos los miembros.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Lideré el diseño de la base de datos y del diagrama de clases, proporcionando la base arquitectónica del software.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Asumí el liderazgo en el desarrollo de los Domain Message Flows Modeling, facilitando la comprensión de las comunicaciones del sistema. Además, dirigí el desarrollo del Context Mapping, proporcionando claridad sobre las relaciones entre contextos.<br><br>**Pedraza Maldonado, Joaquín**<br>*TB1*<br>Tomé la responsabilidad de liderar el desarrollo del capítulo III, coordinando con el equipo para mantener la consistencia técnica.<br><br>**Gutiérrez García, José Eduardo**<br>*TB1*<br>Lideré el desarrollo de los modelos C4 y comuniqué el diseño arquitectónico para el equipo.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Asumí el liderazgo en Tactical-Level Domain-Driven Design, guiando al equipo en la documentación de la estructura de cada bounded context.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Lideré el proceso de Needfinding, dirigiendo la investigación de usuarios y estableciendo las bases para las decisiones del equipo.<br><br>**TP**<br>**Oscar Aranda**<br>Durante el desarrollo del **Capítulo V: Solution UI/UX Design**, trabajé de manera conjunta con mi equipo para diseñar las interfaces y la experiencia del usuario de forma coherente, moderna y funcional. Lideré reuniones de diseño en las que cada integrante aportó ideas visuales y estructurales, y juntos tomamos decisiones sobre la organización de las vistas, la accesibilidad y los colores institucionales. Este proceso me permitió fortalecer mi capacidad para liderar desde la colaboración, escuchando las opiniones del grupo y guiando el diseño hacia un resultado unificado y centrado en el usuario.<br><br>**José Gutiérrez**<br>En la sección **6.1: Software Configuration Management**, participé activamente en la configuración del entorno de desarrollo y la gestión del código fuente. Coordiné con mis compañeros la instalación de dependencias, la definición del flujo de trabajo en Git y la organización de ramas para evitar conflictos. Ejercí liderazgo técnico al guiar la integración continua y asegurar que todos los miembros del equipo pudieran ejecutar el proyecto sin inconvenientes. Este trabajo en conjunto me ayudó a comprender la importancia de la comunicación constante y la planificación compartida en entornos de desarrollo colaborativos.<br><br>**André Bernaola**<br>Durante la implementación de la sección **6.1.3: Source Code Style Guide & Conventions**, propuse un conjunto de reglas de codificación comunes para todo el equipo, lo que facilitó la lectura, el mantenimiento y la escalabilidad del proyecto. Lideré las revisiones de código y promoví el uso de convenciones uniformes en nombres de clases, métodos y estructuras. Esta experiencia me permitió desarrollar liderazgo técnico participativo, motivando al equipo a mantener la calidad del código y a trabajar de forma organizada y alineada con las buenas prácticas.<br><br>**Joaquín Pedraza**<br>En el desarrollo del **Sprint 1**, especialmente en los puntos **6.2.1.4 al 6.2.1.8**, asumí un rol de coordinación durante las reuniones de revisión de sprint. Junto con mis compañeros, organizamos las evidencias de desarrollo, pruebas y despliegue, asegurando que el producto cumpliera los criterios de aceptación definidos. Participé activamente en las sesiones de testing y en la documentación de los resultados. Este proceso me ayudó a ejercer liderazgo en la validación del producto, fomentando la responsabilidad compartida y la mejora continua en cada iteración.<br><br>**Mauricio Oliveira**<br>Contribuí en los apartados **6.2.1.7 a 6.2.1.9**, enfocándome en la documentación de los servicios, el despliegue y la recopilación de los aprendizajes del equipo durante el sprint. Coordiné la redacción de reportes técnicos y participé en la reflexión conjunta sobre los aciertos y desafíos del desarrollo. Este trabajo fortaleció mi capacidad para liderar la comunicación técnica del grupo, promoviendo la transparencia, la colaboración y el aprendizaje colectivo como pilares del trabajo en equipo.<br><br>**Piero Velarde**<br>Durante la etapa **6.2.1.1: Sprint Planning 1**, participé activamente en la planificación inicial del sprint junto con mis compañeros, asumiendo un rol de liderazgo colaborativo para definir las prioridades y distribuir las tareas de forma equitativa. Propuse la organización del backlog en función de las capacidades y fortalezas de cada integrante, lo que nos permitió optimizar el tiempo y trabajar de manera más coordinada. Esta experiencia me enseñó la importancia de liderar desde la organización y la empatía, garantizando que todos los miembros del equipo comprendieran los objetivos del sprint y se sintieran parte del proceso de construcción del producto.<br><br>**Diego Soriano**<br>En la fase de **6.1.4: Software Deployment Configuration**, trabajé con el equipo en la integración y despliegue del producto en un entorno controlado. Mi responsabilidad fue supervisar la correcta configuración del entorno de despliegue y apoyar la resolución de incidencias durante la ejecución. Mediante la comunicación constante con mis compañeros, logramos desplegar el software de manera estable y funcional. Este proceso fortaleció mis habilidades de liderazgo técnico compartido, ya que aprendí a guiar el trabajo colaborativo bajo presión y a valorar la importancia de la coordinación grupal en las etapas críticas del proyecto. | La distribución efectiva del liderazgo técnico, donde cada miembro asume responsabilidades específicas según sus fortalezas, es fundamental para trabajar de manera más rápida y efectiva. Además, las revisiones periódicas del avance de cada integrante y la comunicación fluida permite garantizar una buena organización del proyecto.<br><br>**TP** Como equipo, demostramos la capacidad de trabajar de manera colaborativa para liderar y ejecutar todas las etapas del desarrollo del producto, desde el diseño UI/UX hasta la validación y el despliegue final. A través de una comunicación efectiva, una planificación conjunta y la distribución equitativa de responsabilidades, ejercimos un liderazgo compartido orientado a resultados, garantizando la calidad técnica del proyecto y el cumplimiento de los objetivos establecidos. Esta experiencia fortaleció nuestras competencias colectivas en organización, resolución de problemas y toma de decisiones dentro de un entorno ágil y multidisciplinario. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Establecí un ambiente colaborativo coordinando la gestión general del proyecto al definir objetivos claros y plazos específicos para cada entrega.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Contribuí al entorno colaborativo considerando las necesidades de otros componentes del sistema y planificando el modelado de relaciones del sistema.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Promoví la colaboración analizando los bounded context que conectan el trabajo de todos los miembros del equipo. Además, logré facilitar la comprensión compartida al mapear las comunicaciones entre estos.<br><br>**Pedraza Maldonado, Joaquín**<br>*TB1*<br>Logré definir las historias de usuario que forman parte de los requisitos que necesitamos cumplir y, en compañía del equipo, establecí los tiempos requeridos para implementar cada historia en el product backlog.<br><br>**Gutiérrez García, José Eduardo**<br>*TB1*<br>Establecí un entorno colaborativo diseñando los diagramas de componentes que integran el trabajo de todos los bounded context.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Planifiqué y cumplí objetivos específicos en el nivel táctico del DDD, guiando el trabajo colaborativo y sincronizando otras secciones dependientes de los bounded context.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Creé un ambiente inclusivo investigando necesidades de usuarios y compartiendo insights que orientan las decisiones del equipo.<br><br>**TP**<br>**Oscar Aranda**<br>Durante la implementación del **Capítulo VI**, asumí la responsabilidad de coordinar los avances del equipo, estableciendo metas semanales claras y asegurando que cada integrante comprendiera sus objetivos. Promoví un entorno de apoyo mutuo y comunicación abierta, lo que permitió cumplir con las entregas planificadas y mantener la cohesión del grupo.<br><br>**José Gutiérrez**<br>En la sección **6.1.2: Source Code Management**, organicé el flujo de trabajo colaborativo en Git, estableciendo ramas y políticas de integración que facilitaron el cumplimiento de los objetivos del sprint. Gracias a la planificación compartida, logramos mantener un entorno ordenado y productivo para todo el equipo.<br><br>**André Bernaola**<br>Durante la fase de **6.1.3: Source Code Style Guide & Conventions**, fomenté un entorno inclusivo al proponer estándares de codificación consensuados. Planifiqué junto a mis compañeros revisiones de código semanales que garantizaron el cumplimiento de los objetivos técnicos y la mejora continua del producto.<br><br>**Joaquín Pedraza**<br>En el desarrollo de la **Landing Page y los Servicios (6.2)**, participé en la planificación del sprint y la distribución de tareas, asegurando que todos los integrantes pudieran aportar según sus fortalezas. Contribuí a mantener un entorno colaborativo donde la comunicación y la organización fueron claves para cumplir los objetivos de cada entrega.<br><br>**Mauricio Oliveira**<br>Durante el desarrollo de los apartados **6.2.1.7 a 6.2.1.9**, coordiné la documentación técnica en conjunto con el equipo, promoviendo un ambiente inclusivo y participativo. Establecimos metas claras para la entrega de documentación y pruebas, asegurando la calidad y coherencia del producto final.<br><br>**Piero Velarde**<br>En la sección **6.2.1.1: Sprint Planning 1**, participé activamente en la planificación del sprint, fomentando la inclusión de las ideas de todos los integrantes. Contribuí en la definición de tareas y prioridades, lo que permitió un trabajo equilibrado y enfocado en los objetivos del proyecto.<br><br>**Diego Soriano**<br>Durante la configuración del entorno de despliegue (**6.1.4**), mantuve una comunicación constante con mis compañeros, coordinando los tiempos y pasos del proceso. Esta planificación conjunta permitió cumplir los objetivos técnicos y garantizar un entorno colaborativo, ordenado y eficiente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Establecer un entorno colaborativo mediante la división estratégica de tareas es vital para integrar cohesivamente todos los features en el producto final. Mantener la comunicación abierta y la planificación compartida fortalece la ejecución del proyecto.<br><br>**TP** Como equipo, demostramos la capacidad de **crear un entorno inclusivo y colaborativo**, en el que la comunicación constante, la planificación compartida y el cumplimiento de metas comunes nos permitieron avanzar de forma organizada y eficiente. Cada integrante asumió responsabilidades claras, aportando desde sus fortalezas, lo que favoreció un ambiente de trabajo equilibrado, participativo y orientado al logro de los objetivos del proyecto.                                                                                                                                                                                                     
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta**                                | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Lideré la iniciativa de creación y estructuración del informe, estableciendo las bases para el trabajo colaborativo del equipo. Además, dirigí el desarrollo del event storming y el Domain Driven Design, facilitando la comprensión compartida del dominio entre todos los miembros.<br>*TP*<br>Durante el desarrollo del **Capítulo V: Solution UI/UX Design**, trabajé de manera conjunta con mi equipo para diseñar las interfaces y la experiencia del usuario de forma coherente, moderna y funcional. Lideré reuniones de diseño en las que cada integrante aportó ideas visuales y estructurales, y juntos tomamos decisiones sobre la organización de las vistas, la accesibilidad y los colores institucionales. Este proceso me permitió fortalecer mi capacidad para liderar desde la colaboración, escuchando las opiniones del grupo y guiando el diseño hacia un resultado unificado y centrado en el usuario.<br>*TB2*<br>Lideré la implementación de la primera versión del IoT Edge API y coordiné la actualización del Backend y el Web Frontend. Esto aseguró que la capa de comunicación con los sensores se integrara correctamente con la lógica de negocio, manteniendo la consistencia técnica del sistema.<br>*TF*<br>Durante el Trabajo Final asumí la facilitación de la Sprint Planning 3, ayudando al equipo a priorizar las historias relacionadas con la integración IoT completa (sensors + Edge API + Frontend). Guié la discusión de alcance para que el sprint se mantuviera realista y alineado con los objetivos del TF, y coordiné las decisiones clave durante las reuniones, compartiendo el liderazgo con mis compañeros para evitar que la planificación dependiera de una sola persona.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Lideré el diseño de la base de datos y del diagrama de clases, proporcionando la base arquitectónica del software.<br>*TP*<br>Durante la implementación de la sección **6.1.3: Source Code Style Guide & Conventions**, propuse un conjunto de reglas de codificación comunes para todo el equipo, lo que facilitó la lectura, el mantenimiento y la escalabilidad del proyecto. Lideré las revisiones de código y promoví el uso de convenciones uniformes en nombres de clases, métodos y estructuras. Esta experiencia me permitió desarrollar liderazgo técnico participativo, motivando al equipo a mantener la calidad del código y a trabajar de forma organizada y alineada con las buenas prácticas.<br>*TB2*<br>Participé activamente en el liderazgo colaborativo del equipo para la revisión de la evidencia de Testing Suite (6.2.2.5). Me aseguré de que los Acceptance Tests y Unit Tests para el Sprint 2 cumplieran con los criterios de aceptación de las User Stories, garantizando la calidad y robustez del Web Service.<br>*TF*<br>En el TF lideré el cierre técnico de la Testing Suite para Sprint 3, organizando los últimos refactors y correcciones necesarias antes del code freeze. Coordiné con el equipo la priorización de bugs críticos y la ejecución de pruebas de regresión sobre el Web Service y la integración IoT. Esto me permitió ejercer un liderazgo técnico colaborativo, orientado a asegurar que llegáramos al demo final con una base de código estable y validada.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Asumí el liderazgo en el desarrollo de los Domain Message Flows Modeling, facilitando la comprensión de las comunicaciones del sistema. Además, dirigí el desarrollo del Context Mapping, proporcionando claridad sobre las relaciones entre contextos.<br>*TP*<br>En la fase de **6.1.4: Software Deployment Configuration**, trabajé con el equipo en la integración y despliegue del producto en un entorno controlado. Mi responsabilidad fue supervisar la correcta configuración del entorno de despliegue y apoyar la resolución de incidencias durante la ejecución. Mediante la comunicación constante con mis compañeros, logramos desplegar el software de manera estable y funcional. Este proceso fortaleció mis habilidades de liderazgo técnico compartido, ya que aprendí a guiar el trabajo colaborativo bajo presión y a valorar la importancia de la coordinación grupal en las etapas críticas del proyecto.<br>*TB2*<br>Asumí el liderazgo en la consolidación de la evidencia de Software Deployment (6.2.2.8) y la documentación de servicios (6.2.2.7). Esto aseguró que todos los endpoints de la Cloud API y Edge API estuvieran documentados con Swagger/OpenAPI y que las aplicaciones estuvieran correctamente desplegadas en Azure y Firebase.<br>*TF*<br>Durante el Trabajo Final tomé el liderazgo en las pruebas de integración extremo a extremo entre los sensores físicos, el IoT Edge API y los servicios en la nube. Organicé sesiones conjuntas para revisar logs, diagnosticar errores de comunicación y decidir en equipo qué ajustes eran prioritarios. Este rol me permitió guiar al grupo en la toma de decisiones técnicas bajo presión, siempre promoviendo que cada integrante aportara desde su experiencia.<br><br>**Pedraza Maldonado, Joaquín**<br>*TB1*<br>Tomé la responsabilidad de liderar el desarrollo del capítulo III, coordinando con el equipo para mantener la consistencia técnica.<br>*TP*<br>En el desarrollo del **Sprint 1**, especialmente en los puntos **6.2.1.4 al 6.2.1.8**, asumí un rol de coordinación durante las reuniones de revisión de sprint. Junto con mis compañeros, organizamos las evidencias de desarrollo, pruebas y despliegue, asegurando que el producto cumpliera los criterios de aceptación definidos. Participé activamente en las sesiones de testing y en la documentación de los resultados. Este proceso me ayudó a ejercer liderazgo en la validación del producto, fomentando la responsabilidad compartida y la mejora continua en cada iteración.<br>*TB2*<br>Lideré el desarrollo de la nueva versión del Mobile Frontend y completé la sección de Evaluaciones según Heurísticas (6.3.3.). Aseguré que la interfaz móvil se alineara con el diseño UI/UX final y que la usabilidad fuera validada con base en los estándares de Nielsen, dirigiendo la mejora continua del producto.<br>*TF*<br>En el TF lideré la consolidación del Mobile Frontend para el demo final, coordinando los últimos cambios de navegación y la alineación visual con la Landing Page y el Web Frontend. Preparé junto al equipo el flujo de demostración del sistema, definiendo qué pantallas y escenarios se mostrarían para evidenciar mejor el valor de la solución. De esta manera ejercí un liderazgo orientado a la experiencia del usuario y a la claridad del mensaje del producto.<br><br>**Gutiérrez García, José Eduardo**<br>*TB1*<br>Lideré el desarrollo de los modelos C4 y comuniqué el diseño arquitectónico para el equipo.<br>*TP*<br>En la sección **6.1: Software Configuration Management**, participé activamente en la configuración del entorno de desarrollo y la gestión del código fuente. Coordiné con mis compañeros la instalación de dependencias, la definición del flujo de trabajo en Git y la organización de ramas para evitar conflictos. Ejercí liderazgo técnico al guiar la integración continua y asegurar que todos los miembros del equipo pudieran ejecutar el proyecto sin inconvenientes. Este trabajo en conjunto me ayudó a comprender la importancia de la comunicación constante y la planificación compartida en entornos de desarrollo colaborativos.<br>*TB2*<br>Lideré la documentación de la Sprint Planning 2 (6.2.2.1-6.2.2.4), organizando el Sprint Backlog 2 y registrando las asignaciones de tareas técnicas de IoT. Esto proporcionó claridad sobre los objetivos del sprint, especialmente en la simulación de sensores y la implementación de firmware.<br>*TF*<br>Durante el Trabajo Final asumí el liderazgo en la gestión de versiones y despliegue final del sistema, coordinando los merges, releases y tags del repositorio para la versión del TF. Definí con el equipo la secuencia de despliegue de los componentes (firmware, Edge API, Backend y Frontends) y apoyé la resolución de conflictos de integración. Este rol de liderazgo técnico me permitió asegurar que todo el trabajo desarrollado durante los sprints convergiera en una versión final coherente y funcional.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Asumí el liderazgo en Tactical-Level Domain-Driven Design, guiando al equipo en la documentación de la estructura de cada bounded context.<br>*TP*<br>Contribuí en los apartados **6.2.1.7 a 6.2.1.9**, enfocándome en la documentación de los servicios, el despliegue y la recopilación de los aprendizajes del equipo durante el sprint. Coordiné la redacción de reportes técnicos y participé en la reflexión conjunta sobre los aciertos y desafíos del desarrollo. Este trabajo fortaleció mi capacidad para liderar la comunicación técnica del grupo, promoviendo la transparencia, la colaboración y el aprendizaje colectivo como pilares del trabajo en equipo.<br>*TB2*<br>Asumí el liderazgo en la actualización del Landing Page y la documentación del Project Report Collaboration Insights y el Student Outcome. Mantuve la coherencia visual del producto y coordiné la recopilación de los aprendizajes del equipo, promoviendo la transparencia y la mejora continua.<br>*TF*<br>En el TF lideré la documentación final del producto y la integración de los apartados de Student Outcome y conclusiones técnicas. Organicé la recolección de evidencias de todos los miembros y transformé esas contribuciones en una narrativa única y consistente para el informe y la presentación. Este liderazgo documental permitió que el trabajo del equipo se reflejara de forma clara, equilibrada y completa en el entregable final.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Lideré el proceso de Needfinding, dirigiendo la investigación de usuarios y estableciendo las bases para las decisiones del equipo.<br>*TP*<br>Durante la etapa **6.2.1.1: Sprint Planning 1**, participé activamente en la planificación inicial del sprint junto con mis compañeros, asumiendo un rol de liderazgo colaborativo para definir las prioridades y distribuir las tareas de forma equitativa. Propuse la organización del backlog en función de las capacidades y fortalezas de cada integrante, lo que nos permitió optimizar el tiempo y trabajar de manera más coordinada. Esta experiencia me enseñó la importancia de liderar desde la organización y la empatía, garantizando que todos los miembros del equipo comprendieran los objetivos del sprint y se sintieran parte del proceso de construcción del producto.<br>*TB2*<br>Lideré, junto con André, la revisión de la Testing Suite (6.2.2.5) y la implementación de los Acceptance Tests del Sprint 2, asegurando la trazabilidad de los requisitos de usuario a través de escenarios en Gherkin. Esto garantizó que las nuevas funcionalidades cumplieran con la lógica de negocio esperada.<br>*TF*<br>Durante el Trabajo Final lideré la preparación y síntesis de los resultados de validación con usuarios, organizando la información recogida en las entrevistas y pruebas de uso de la solución Bibflip. Guié la discusión en equipo sobre qué aprendizajes debían reflejarse como mejoras de producto y cuáles como hallazgos para trabajos futuros. Este rol me permitió ejercer un liderazgo centrado en la voz del usuario y en la toma de decisiones basada en evidencia.<br> | <br>**TB1**<br>La distribución efectiva del liderazgo técnico, donde cada miembro asume responsabilidades específicas según sus fortalezas, es fundamental para trabajar de manera más rápida y efectiva. Además, las revisiones periódicas del avance de cada integrante y la comunicación fluida permite garantizar una buena organización del proyecto.<br><br>**TP**<br> Como equipo, demostramos la capacidad de trabajar de manera colaborativa para liderar y ejecutar todas las etapas del desarrollo del producto, desde el diseño UI/UX hasta la validación y el despliegue final. A través de una comunicación efectiva, una planificación conjunta y la distribución equitativa de responsabilidades, ejercimos un liderazgo compartido orientado a resultados, garantizando la calidad técnica del proyecto y el cumplimiento de los objetivos establecidos. Esta experiencia fortaleció nuestras competencias colectivas en organización, resolución de problemas y toma de decisiones dentro de un entorno ágil y multidisciplinario.<br><br>**TB2**<br> El equipo demostró un liderazgo distribuido y efectivo, donde cada miembro asumió un rol técnico. Esta estructura de liderazgo conjunto facilitó la toma de decisiones técnicas rápidas y aseguró la cohesión del producto final. La supervisión de artefactos críticos (como el IoT Edge API y la documentación de servicios) y la aplicación de validaciones (como las Evaluaciones según Heurísticas) actuaron como actos de liderazgo centrados en la calidad y el cumplimiento de los objetivos del Sprint 2.<br><br>**TF**<br> En el Trabajo Final, el equipo consolidó un modelo de liderazgo distribuido, donde cada integrante asumió responsabilidades específicas en la planificación, prueba, despliegue, documentación y validación del sistema IoT. Este enfoque permitió que las decisiones clave (técnicas y de producto) se tomaran en forma conjunta, aprovechando las fortalezas individuales y garantizando que el resultado final representara el trabajo coordinado de todo el grupo.|
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Aranda Vallejos, Oscar Gabriel**<br>*TB1*<br>Establecí un ambiente colaborativo coordinando la gestión general del proyecto al definir objetivos claros y plazos específicos para cada entrega.<br>*TP*<br>Durante la implementación del **Capítulo VI**, asumí la responsabilidad de coordinar los avances del equipo, estableciendo metas semanales claras y asegurando que cada integrante comprendiera sus objetivos. Promoví un entorno de apoyo mutuo y comunicación abierta, lo que permitió cumplir con las entregas planificadas y mantener la cohesión del grupo.<br>*TB2*<br>Mantuve el entorno de desarrollo unificado y establecí las metas de integración para el Edge API y el Backend. Definí los objetivos para la actualización del Web Frontend, asegurando que las tareas del equipo convergieran hacia un sistema final integrado y funcional, cumpliendo con la meta del Sprint.<br>*TF*<br>Durante el Trabajo Final me encargué de mantener un entorno de trabajo organizado e inclusivo al coordinar la agenda de reuniones para el cierre del proyecto, clarificando objetivos semanales y fechas límite. Me aseguré de que cada integrante tuviera espacio para expresar sus avances y bloqueos, y adaptamos el plan de tareas según la carga de cada uno, lo que permitió cumplir las metas del TF sin perder la cohesión del equipo.<br><br>**Bernaola Pérez, André Arturo**<br>*TB1*<br>Contribuí al entorno colaborativo considerando las necesidades de otros componentes del sistema y planificando el modelado de relaciones del sistema.<br>*TP*<br>Durante la fase de **6.1.3: Source Code Style Guide & Conventions**, fomenté un entorno inclusivo al proponer estándares de codificación consensuados. Planifiqué junto a mis compañeros revisiones de código semanales que garantizaron el cumplimiento de los objetivos técnicos y la mejora continua del producto.<br>*TB2*<br>Contribuí a un entorno inclusivo al participar en la planificación detallada del Sprint Backlog 2 , asegurando que las tareas relacionadas con el testing (Acceptance y Unit Tests) se priorizaran y se distribuyeran equitativamente en la fase de validación (6.2.2.5).<br>*TF*<br>En el TF fomenté un entorno colaborativo a través de revisiones de código abiertas, donde se invitó a todos los miembros a comentar y aprender sobre las decisiones técnicas tomadas en la Testing Suite y el Web Service. Expliqué las convenciones aplicadas y apoyé a mis compañeros en la corrección de issues de calidad de código, contribuyendo a que el cumplimiento de los objetivos técnicos fuera un esfuerzo compartido.<br><br>**Soriano Medrano, Diego**<br>*TB1*<br>Promoví la colaboración analizando los bounded context que conectan el trabajo de todos los miembros del equipo. Además, logré facilitar la comprensión compartida al mapear las comunicaciones entre estos.<br>*TP*<br>Durante la configuración del entorno de despliegue (**6.1.4**), mantuve una comunicación constante con mis compañeros, coordinando los tiempos y pasos del proceso. Esta planificación conjunta permitió cumplir los objetivos técnicos y garantizar un entorno colaborativo, ordenado y eficiente.<br>*TB2*<br>Contribuí al entorno de trabajo mediante la gestión y actualización del Trello y el registro de la colaboración en GitHub (6.2.2.9). Esta planificación y seguimiento transparente facilitó que todos los miembros conocieran el estado del proyecto y se enfocaran en cumplir los objetivos de despliegue de los servicios.<br>*TF*<br>Durante el Trabajo Final mantuve actualizados los tableros de Trello/GitHub Projects con el estado real de las tareas de integración y despliegue, de forma transparente para todo el equipo. Esto permitió que todos conocieran en qué punto del proceso estábamos, qué dependencias existían y qué tareas eran críticas para llegar a tiempo al demo final, fortaleciendo así la planificación conjunta y el enfoque en los objetivos comunes.<br><br>**Pedraza Maldonado, Joaquín**<br>*TB1*<br>Logré definir las historias de usuario que forman parte de los requisitos que necesitamos cumplir y, en compañía del equipo, establecí los tiempos requeridos para implementar cada historia en el product backlog.<br>*TP*<br>En el desarrollo de la **Landing Page y los Servicios (6.2)**, participé en la planificación del sprint y la distribución de tareas, asegurando que todos los integrantes pudieran aportar según sus fortalezas. Contribuí a mantener un entorno colaborativo donde la comunicación y la organización fueron claves para cumplir los objetivos de cada entrega.<br>*TB2*<br>Asumí la tarea de COMPLETAR las Evaluaciones según Heurísticas (6.3.3)  y la nueva versión del Mobile Frontend. Establecí el objetivo de mejorar la usabilidad, planificando las correcciones de diseño basadas en la retroalimentación de las heurísticas de Nielsen para cumplir el objetivo de una mejor experiencia de usuario.<br>*TF*<br>En el TF promoví un entorno inclusivo organizando sesiones de trabajo conjunto para cerrar los detalles del Mobile Frontend y las evaluaciones de usabilidad. Durante estas sesiones, recogí sugerencias de diseño de todos los compañeros y las incorporé en el backlog de ajustes finales, asegurando que las decisiones sobre la interfaz no fueran solo individuales, sino resultado de la colaboración del grupo.<br><br>**Gutiérrez García, José Eduardo**<br>*TB1*<br>Establecí un entorno colaborativo diseñando los diagramas de componentes que integran el trabajo de todos los bounded context.<br>*TP*<br>En la sección **6.1.2: Source Code Management**, organicé el flujo de trabajo colaborativo en Git, estableciendo ramas y políticas de integración que facilitaron el cumplimiento de los objetivos del sprint. Gracias a la planificación compartida, logramos mantener un entorno ordenado y productivo para todo el equipo.<br>*TB2*<br>Me centré en la planificación de tareas de la sección 6.2.2 (Sprint 2), organizando las actividades del equipo en el backlog  y asegurando que las dependencias entre el firmware (TS004) y la integración de la plataforma embebida (TS005) estuvieran claras. Esto facilitó el cumplimiento de los objetivos de IoT.<br>*TF*<br>Durante el Trabajo Final contribuí al entorno colaborativo al preparar guías breves de configuración y despliegue para que todos pudieran correr el sistema completo (IoT + Backend + Frontends) en sus equipos. Respondí dudas técnicas sobre integración y ramas de Git, lo que permitió que nadie quedara excluido del proceso de prueba y que el cumplimiento de los objetivos técnicos fuera accesible para todo el equipo.<br><br>**Oliveira Paucar, Mauricio**<br>*TB1*<br>Planifiqué y cumplí objetivos específicos en el nivel táctico del DDD, guiando el trabajo colaborativo y sincronizando otras secciones dependientes de los bounded context.<br>*TP*<br>Durante el desarrollo de los apartados **6.2.1.7 a 6.2.1.9**, coordiné la documentación técnica en conjunto con el equipo, promoviendo un ambiente inclusivo y participativo. Establecimos metas claras para la entrega de documentación y pruebas, asegurando la calidad y coherencia del producto final.<br>*TB2*<br>Contribuí a la creación de un entorno colaborativo e inclusivo al garantizar la actualización y consistencia de la documentación (TB2) y las conclusiones del equipo. Esto aseguró que todas las contribuciones estuvieran representadas y que el informe final reflejara el trabajo conjunto.<br>*TF*<br>En el TF reforcé la colaboración al coordinar la integración de aportes en la documentación final, asegurándome de que cada integrante tuviera visibilidad y reconocimiento de su trabajo en el informe, anexos y presentación. Organicé la revisión conjunta de las secciones clave, promoviendo un ambiente donde todos pudieran proponer cambios y mejoras antes de la entrega final.<br><br>**Velarde Luyo, Piero Alberto**<br>*TB1*<br>Creé un ambiente inclusivo investigando necesidades de usuarios y compartiendo insights que orientan las decisiones del equipo.<br>*TP*<br>En la sección **6.2.1.1: Sprint Planning 1**, participé activamente en la planificación del sprint, fomentando la inclusión de las ideas de todos los integrantes. Contribuí en la definición de tareas y prioridades, lo que permitió un trabajo equilibrado y enfocado en los objetivos del proyecto.<br>*TB2*<br>Participé activamente en la planificación de tareas de testing y la ejecución de Acceptance Tests (6.2.2.5), contribuyendo a un entorno de calidad inclusivo. Establecí las expectativas para la cobertura de pruebas, asegurando que las metas de robustez del código se cumplieran antes de la integración final.<br>*TF*<br>Durante el Trabajo Final mantuve un entorno inclusivo coordinando las actividades de validación con usuarios y docentes, invitando a todo el equipo a participar en la definición de preguntas, observaciones y mejoras. Sinteticé las opiniones recogidas y las compartí con el grupo, de forma que las decisiones sobre ajustes finales fueran el resultado de una reflexión colectiva y alineada con los objetivos del TF.<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | <br>**TB1**<br>Establecer un entorno colaborativo mediante la división estratégica de tareas es vital para integrar cohesivamente todos los features en el producto final. Mantener la comunicación abierta y la planificación compartida fortalece la ejecución del proyecto.<br><br>**TP**<br> Como equipo, demostramos la capacidad de **crear un entorno inclusivo y colaborativo**, en el que la comunicación constante, la planificación compartida y el cumplimiento de metas comunes nos permitieron avanzar de forma organizada y eficiente. Cada integrante asumió responsabilidades claras, aportando desde sus fortalezas, lo que favoreció un ambiente de trabajo equilibrado, participativo y orientado al logro de los objetivos del proyecto.<br><br>**TB2**<br> El entorno de trabajo fue altamente colaborativo e inclusivo, fundamentado en una planificación ágil rigurosa. El equipo estableció metas claras y medibles a través del Sprint Planning 2 y el Sprint Backlog 2, asegurando la trazabilidad de tareas y responsabilidades. El cumplimiento de los objetivos se materializó con la integración exitosa de los componentes (Frontend, Backend, IoT), la evidencia de Software Deployment y la finalización de la fase de validación (Validation Interviews y Evaluaciones según Heurísticas), demostrando la capacidad del equipo para alcanzar objetivos complejos en el plazo establecido.<br><br>**TF**<br>En el Trabajo Final, el equipo demostró la capacidad de diseñar y sostener un entorno colaborativo e inclusivo, en el que la planificación de tareas, la comunicación y el seguimiento de objetivos fueron compartidos. Las herramientas de gestión (tableros, repositorios, documentación) y las reuniones periódicas se utilizaron para que todos tuvieran claridad sobre el avance y pudieran aportar, lo que permitió cumplir los objetivos del TF y cerrar el proyecto con un alto nivel de coordinación y participación grupal.                                                                                                                                                                                                     
+              
+
 
 
 # Capítulo I: Introducción
@@ -646,7 +498,7 @@ Creemos que la eficiencia en la localización de espacios y la experiencia de lo
 
 #### 1.2.2.4. Lean UX Canvas
 
-[![lean-ux-canvas.jpg](https://i.postimg.cc/BngMMX5R/lean-ux-canvas.jpg)](https://postimg.cc/4YY634S1)
+[![Group-1.png](https://i.postimg.cc/T11Txk4t/Group-1.png)](https://postimg.cc/YG55fxkF)
 
 ## 1.3. Segmentos objetivo
 
@@ -1113,7 +965,7 @@ Este mapeo “To-Be” presenta el escenario ideal posterior a la implementació
 | 9  | US005    | Ver catálogo digital de la biblioteca     | Como usuario, quiero visualizar el catálogo de la biblioteca para conocer los recursos disponibles antes de asistir.                                       | 3            |
 | 10 | US004    | Usar el formulario de contacto            | Como visitante interesado, quiero tener acceso a un formulario o medio de contacto en la landing para comunicarme con el equipo de Bib Flip.                 | 3            |
 | 11 | US014    | Ver la biblioteca asignada                | Como administrador, quiero confirmar qué biblioteca tengo asignada para asegurarme de gestionar la correcta.                                               | 3            |
-| 12 | US015    | Eliminar cubículos                        | Como administrador, quiero poder eliminar cubículos que ya no están en uso en mi biblioteca, para mantener el sistema actualizado y evitar asignaciones incorrectas. | 3    |
+  | 12 | US015    | Eliminar cubículos                        | Como administrador, quiero poder eliminar cubículos que ya no están en uso en mi biblioteca, para mantener el sistema actualizado y evitar asignaciones incorrectas. | 3    |
 | 13 | US010    | Registro de cuenta de usuario             | Como visitante, quiero poder registrarme como usuario en el sistema Bib Flip para poder acceder a las funcionalidades de reserva y visualización de cubículos. | 3    |
 | 14 | US011    | Inicio de sesión de usuario               | Como usuario registrado, quiero poder iniciar sesión en el sistema para acceder a mis reservas y funcionalidades personalizadas.                          | 3            |
 | 15 | US016    | Inicio de sesión de administrador         | Como administrador, quiero poder iniciar sesión en el sistema con mis credenciales específicas para acceder al panel de administración de mi biblioteca.   | 3            |
@@ -4002,7 +3854,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Integrar datos de reserva activa</td>
         <td>Simular datos desde UI (sin backend) y mostrarlos dinámicamente</td>
         <td>03</td>
-        <td> Jose Garcia</td>
+        <td> Jose Gutierrez</td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -4012,7 +3864,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Diseñar vista de disponibilidad</td>
         <td>Crear prototipo de interfaz para visualizar cubículos disponibles (sin integración)</td>
         <td>04</td>
-        <td> Jose Garcia </td>
+        <td> Jose Gutierrez </td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -4021,7 +3873,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Simular actualización de disponibilidad</td>
         <td>Implementar actualización de estado visual con datos simulados en frontend</td>
         <td>04</td>
-        <td> Jose Garcia </td>
+        <td> Jose Gutierrez </td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -4031,7 +3883,7 @@ Durante este sprint inicial, nos enfocamos en desarrollar las user stories que d
         <td>Diseñar flujo de reserva</td>
         <td>Diseñar las pantallas para seleccionar cubículo y confirmar reserva</td>
         <td>04</td>
-        <td> Jose Garcia </td>
+        <td> Jose Gutierrez </td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -4146,14 +3998,11 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 <p><em>Sin Web Services en Sprint 1. Se documentarán endpoints con OpenAPI a partir de Sprint 2 (TS001–TS003).</em></p>
 
-<table>
-  <thead>
-    <tr><th>Servicio</th><th>Endpoint</th><th>Método</th><th>Descripción</th><th>OpenAPI URL</th><th>Estado</th></tr>
-  </thead>
-  <tbody>
-    <tr><td colspan="6" style="text-align:center;">— No aplica en Sprint 1 —</td></tr>
-  </tbody>
-</table>
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+|  |  |	 |	 |  |	 |
+
+<br>
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
@@ -4166,13 +4015,1288 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
-- **Gestión en Trello**: tablero con columnas backlog → to-do → in-process → review → done.  
+- **Gestión en Trello**: tablero con columnas por cada Sprint.  
   - URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
 - **Git/Colaboración**: GitFlow (feature → develop → release → main); PRs con revisión cruzada; Conventional Commits y SemVer.
 - **Observaciones**:  
   - Picos de actividad: 08–10 oct (Landing/Web), 08–09 oct (Mobile).  
   - Próximo Sprint: integrar API (TS001–TS003, TS006) y pruebas e2e con datos reales.
 
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+**Introducción**  
+Este sprint se orientó a entregar la primera versión navegable de la **Landing Page (HTML/CSS/JS)**, el **Frontend Web (Vue 3 + PrimeVue)** y la **App Mobile (Flutter/Dart)**, cumpliendo con los entregables solicitados para la TB2.
+
+<!-- Sprint Planning Background (formato de la rúbrica) -->
+<table>
+  <thead>
+    <tr><th colspan="2">Sprint #</th><th>Sprint 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2"><strong>Sprint Planning Background</strong></td><td></td></tr>
+    <tr><td>Date</td><td>YYYY-MM-DD</td><td>2025-10-31</td></tr>
+    <tr><td>Time</td><td>HH:MM</td><td>20:30</td></tr>
+    <tr><td>Location</td><td>(física/virtual)</td><td>Virtual</td></tr>
+    <tr>
+      <td>Prepared By</td><td>(Responsable del acta)</td>
+      <td>Aranda Vallejos, Oscar Gabriel</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>(Equipo)</td>
+      <td>
+        Aranda Vallejos, Oscar Gabriel / Bernaola Pérez, André Arturo / Gutierrez Garcia, Jose Eduardo /
+        Oliveira Paucar, Mauricio / Pedraza Maldonado, Joaquin / Soriano Medrano, Diego / Velarde Luyo, Piero Alberto
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 2 – 2 Review Summary</strong><br/><em>El equipo completó la creación de la interfaz pública de la aplicación. Este trabajo de base establece una sólida presencia visual para los usuarios. Simultáneamente, se hizo un progreso significativo en las funcionalidades internas del usuario, incluyendo el diseño de las vistas para listar los servicios de las sedes, mostrar la reserva activa actual, y presentar la disponibilidad de los espacios de trabajo en tiempo real. Aunque la mayoría de las tareas de la página inicial fueron finalizadas, la implementación de estas funcionalidades más complejas, que requieren simulación de datos, se encuentra en fase de desarrollo avanzado y revisión.</em></td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 2 – 2 Retrospective Summary</strong><br/><em>El equipo logró alcanzar los objetivos relacionados con los elementos visibles de presentación. Sin embargo, se identificó una concentración de las tareas de mayor complejidad funcional las que gestionan la información dinámica y las interacciones del usuario cerca del final del ciclo de trabajo. Esta acumulación resultó en que varios entregables cruciales para la experiencia de reserva y visualización de servicios quedaron en proceso de desarrollo o pendientes de la verificación final de calidad. La lección aprendida es la necesidad de mejorar la planificación y distribución del esfuerzo para las integraciones simuladas y las revisiones de los productos desplegados.</em></td>
+    </tr>
+    <tr><td colspan="3"><strong>Sprint Goal &amp; User Stories</strong></td></tr>
+    <tr>
+      <td>Sprint 2 Goal</td>
+      <td>(SMART)</td>
+      <td>
+        El objetivo del sprint es implementar, en un periodo no mayor a una semana, un conjunto funcional de herramientas que permitan a usuarios y administradores gestionar eficazmente los cubículos de la biblioteca: los usuarios podrán visualizar su reserva activa y realizar nuevas reservas de manera clara y confiable, mientras que los administradores podrán consultar las reservas realizadas, agregar nuevos cubículos y eliminar aquellos que ya no estén en uso. Con esto, se busca mejorar la organización, disponibilidad y precisión del sistema, asegurando una experiencia más eficiente y ordenada para todos los involucrados.
+      </td>
+    </tr>
+    <tr><td>Sprint 2 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>(stories incluidos)</td>
+      <td><strong>30 SP</strong> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+
+#### 6.2.2.3. Sprint Backlog 2
+
+Durante este sprint, se desarrollarán capacidades clave como la visualización de reservas activas, la realización de nuevas reservas y la consulta de reservas existentes, además de herramientas administrativas para agregar y eliminar cubículos. Estas historias de usuario permiten estructurar un ciclo de desarrollo orientado a mejorar la eficiencia, claridad y control en la operación diaria de la biblioteca.
+
+[![image.png](https://i.postimg.cc/8c2KHD70/image.png)](https://postimg.cc/2Lx7ksFQ)
+
+**URL publico de trello:** <https://trello.com/b/htxHDgrX/bibflip>
+
+<table>
+        <thead>
+            <tr>
+                <th>Sprint #</th>
+                <th colspan="7">Sprint 2</th>
+            </tr>
+            <tr>
+                <th colspan="2">Technical Story</th>
+                <th colspan="6">Work-Item / Task</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Estimation (Hours)</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TS004 -->
+            <tr>
+                <td>TS004</td>
+                <td>Implementar Firmware para Dispositivo IoT</td>
+                <td>TA1</td>
+                <td>Desarrollar lógica de lectura de sensores</td>
+                <td>Implementar la funcionalidad que lee datos del sensor de peso y detecta presencia en el cubículo.</td>
+                <td>04</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar transmisión de datos al Edge API</td>
+                <td>Programar la funcionalidad que genera paquetes de datos y los transmite al Edge API.</td>
+                <td>04</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar manejo de errores de hardware</td>
+                <td>Crear el sistema de registro de errores cuando falla la lectura del sensor.</td>
+                <td>02</td>
+                <td>Piero Velarde, Oscar Aranda</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS005 -->
+            <tr>
+                <td>TS005</td>
+                <td>Integrar Firmware con Plataforma Embebida</td>
+                <td>TA1</td>
+                <td>Implementar inicialización del sistema</td>
+                <td>Desarrollar la rutina de arranque que inicializa sensores y configuración de red.</td>
+                <td>03</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Configurar comunicación de red</td>
+                <td>Implementar la lógica de conexión WiFi/Ethernet para comunicarse con el Edge API.</td>
+                <td>03</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar recuperación ante fallos de red</td>
+                <td>Crear el sistema de reintentos automáticos cuando falla la conexión de red.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Mauricio Oliveira</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS006 -->
+            <tr>
+                <td>TS006</td>
+                <td>Implementar Recepción de Datos en Edge API</td>
+                <td>TA1</td>
+                <td>Crear endpoint de recepción de datos IoT</td>
+                <td>Desarrollar el endpoint REST que recibe los datos transmitidos por los dispositivos IoT.</td>
+                <td>03</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar validación de formato de datos</td>
+                <td>Crear la lógica que valida el formato y estructura de los paquetes recibidos.</td>
+                <td>02</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Implementar reenvío al backend</td>
+                <td>Programar la funcionalidad que procesa y reenvía datos válidos al backend principal.</td>
+                <td>02</td>
+                <td>André Bernaola, Joaquin Pedraza</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <!-- TS007 -->
+            <tr>
+                <td>TS007</td>
+                <td>Simular Sensores en Wokwi</td>
+                <td>TA1</td>
+                <td>Diseñar circuito de simulación en Wokwi</td>
+                <td>Crear el circuito virtual que simula el sensor de peso y su conexión con el microcontrolador.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA2</td>
+                <td>Implementar lógica de detección simulada</td>
+                <td>Programar el comportamiento del sensor virtual para simular detección de ocupación.</td>
+                <td>02</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>TA3</td>
+                <td>Validar comunicación con Edge API simulado</td>
+                <td>Verificar que los datos simulados se transmiten correctamente al Edge API de prueba.</td>
+                <td>01</td>
+                <td>Jose Gutierrez, Diego Soriano</td>
+                <td><span class="status-todo">To-do</span></td>
+            </tr>
+        </tbody>
+</table>
+
+<br>
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip`]()
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th><th>Branch</th><th>Commit Id</th><th>Commit Message</th><th>Commit Message Body</th><th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LandingPage</td><td>main</td><td><em>e65b846</em></td>
+      <td>edit: footer(style)</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Web-Frontend</td><td>production</td><td><em>af43059</em></td>
+      <td>hotfix: update .env production</td>
+      <td>-</td>
+      <td><em>6/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Mobile-Frontend</td><td>production</td><td><em>
+        8f3b6f6</em></td>
+      <td>feat: update google maps integration</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta el conjunto de **Acceptance Tests automatizados** para los **Web Services** relacionados con los **User Stories** especificados en el **Sprint 2**.  
+Bajo el enfoque **BDD (Behavior-Driven Development)**, se elaboraron los archivos `.feature` utilizando el lenguaje **Gherkin** y los archivos **Steps** en **Java** para la automatización de los escenarios de prueba.
+
+#### Para cada User Story trabajado en este Sprint, se incluye:
+
+- **Archivos `.feature`:** Contienen los escenarios de aceptación escritos en formato *Gherkin (Given-When-Then)*, describiendo el comportamiento esperado del sistema desde la perspectiva del usuario.
+- **Archivos `Steps.java`:** Implementan la lógica de automatización que mapea cada paso del archivo `.feature` a código ejecutable, utilizando **Cucumber** como framework de testing BDD.
+
+Los tests de aceptación cubren las funcionalidades principales del sistema **Bib Flip**, incluyendo:
+- Gestión de usuarios (registro e inicio de sesión).
+- Administración de cubículos.
+- Visualización y creación de reservas.
+- Funcionalidades administrativas.
+
+Cada archivo de prueba está vinculado a su **User Story** correspondiente y ha sido versionado en el **repositorio de control de versiones**, asegurando la trazabilidad completa del desarrollo.
+
+#### Tabla de Commits - Acceptance Tests
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|-------------|---------|------------|----------------|---------------------|
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 6fa67fc | test: add US001 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 9ad3d2b | test: implement US001 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | bc22955 | test: add US004 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 1a5c39d | test: implement US004 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 8fdcb20 | test: add US006 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | f87d2dd | test: implement US006 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | b0c2381 | test: add US008 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 36b4da5 | test: implement US008 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 010363a | test: add US010 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | a3e5836 | test: implement US010 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 59ac32a | test: add US011 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 9fe14c0 | test: implement US011 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | c056515 | test: add US012 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 0fa4270 | test: implement US012 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 469eafe | test: add US013 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | cbed64f | test: implement US013 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 3500e16 | test: add US014 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 4a4f03f | test: implement US014 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 642fbfb | test: add US015 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 6bc36f2 | test: implement US015 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | a09bcd0 | test: add US016 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | cb58299 | test: implement US016 step definitions | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 6fbd3ae | test: add US017 acceptance test feature | 05/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests | sprint-2 | 945257b | test: implement US017 step definitions | 05/11/2025 |
+
+A su vez hemos realizado una serie de **Unit Tests** automatizados para los **Web Services** que están relacionado también con los **User Stories** especificados en el **Sprint 2**
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 72f2a32 | test: add unit tests for CubicleQueryServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 9df10de | test: add unit tests for CubicleCommandServiceImpl create functionality | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 45afde0 | test: add unit tests for CubicleCommandServiceImpl delete functionality | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 308f3e2 | test: add unit tests for BookingQueryServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 162934c | test: add unit tests for BookingCommandServiceImpl | 12/11/2025 |
+| upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server | develop | 9bd2b36 | test: add unit tests for booking deletion functionality | 12/11/2025 |
+
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+Durante este sprint se lograron implementar las funcionalidades esenciales para optimizar la gestión de cubículos dentro del sistema. Los usuarios ahora pueden visualizar sus reservas activas y realizar nuevas reservas de manera clara y eficiente, garantizando un proceso más organizado al llegar a la biblioteca. Asimismo, los administradores cuentan con herramientas para consultar las reservas registradas, agregar nuevos cubículos y eliminar aquellos que ya no están en uso, manteniendo así la plataforma actualizada y alineada con las necesidades operativas. Estos avances fortalecen la usabilidad y la organización general del sistema, consolidando una base sólida para futuros incrementos.
+
+- **Landing Page:**
+
+  ![landing-1](https://i.postimg.cc/KzF5tXmT/Captura-de-pantalla-2025-10-10-020020.png)  
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+ 
+  [![image.png](https://i.postimg.cc/SNKCZH67/image.png)](https://postimg.cc/14L8XCYf)
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+  [![image.png](https://i.postimg.cc/R0nZqLcT/image.png)](https://postimg.cc/R34BDfp3)
+  [![image.png](https://i.postimg.cc/RhPBgW7M/image.png)](https://postimg.cc/kRtz4XYZ)
+  [![image.png](https://i.postimg.cc/5N6dxN5p/image.png)](https://postimg.cc/SJFtd4vz)
+  [![image.png](https://i.postimg.cc/wv0ZpS7P/image.png)](https://postimg.cc/1nVJ070c)
+  [![image.png](https://i.postimg.cc/mgCnDcPp/image.png)](https://postimg.cc/G43KgmJv)
+
+- **Web Services:**
+
+  [![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+
+- **Mobile (Flutter):**
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Link video de visualización y navegación logrado en este Sprint:**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQBQVqiIknnEQJsNC2lEwg3qAc-pBdSmVQ8qelqnrxa_ty0?e=HGXPdd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+<br>
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se presenta los principales endpoints de la API del sistema, desarrollados para este Sprint, organizados por bounded context como autenticación, recuperación de contraseña, reservas, cubículos, sedes, usuarios y la gestión de supervisores. Su documentación busca ofrecer una referencia clara para comprender las acciones disponibles, los parámetros requeridos y las respuestas esperadas en cada operación, facilitando así el desarrollo, la integración y el mantenimiento de nuestra solución.
+
+**Sedes y Supervisores**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Asignar supervisor | POST | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | POST /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Remover supervisor | DELETE | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | DELETE /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Obtener supervisores | GET | /api/v1/headquarters/{headquarterId}/supervisors | Path: headquarterId | GET /api/v1/headquarters/1/supervisors | Lista de supervisores |
+| Obtener sede por supervisor | GET | /api/v1/headquarters/supervisors/{supervisorId} | Path: supervisorId | GET /api/v1/headquarters/supervisors/5 | Datos de la sede asignada |
+
+**Autenticación**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Registro | POST | /api/v1/authentication/sign-up | Body: { name, email, password } | POST /api/v1/authentication/sign-up con JSON en el cuerpo | Usuario creado con token de autenticación |
+| Inicio de sesión | POST | /api/v1/authentication/sign-in | Body: { email, password } | POST /api/v1/authentication/sign-in | Devuelve token y datos del usuario |
+
+**Recuperación de Contraseña**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Solicitar recuperación | POST | /api/v1/password-recovery/request | Body: { email } | POST /api/v1/password-recovery/request | Mensaje de confirmación de envío de correo |
+| Confirmar recuperación | POST | /api/v1/password-recovery/confirm | Body: { token, newPassword } | POST /api/v1/password-recovery/confirm | Mensaje de éxito o error |
+
+**Reservas**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar reservas | GET | /api/v1/bookings | Ninguno | GET /api/v1/bookings | Lista de reservas |
+| Crear reserva | POST | /api/v1/bookings | Body: { clientId, cubicleId, date, time } | POST /api/v1/bookings | Reserva creada |
+| Obtener reserva | GET | /api/v1/bookings/{id} | Path: id | GET /api/v1/bookings/10 | Detalles de la reserva |
+| Eliminar reserva | DELETE | /api/v1/bookings/{id} | Path: id | DELETE /api/v1/bookings/10 | Mensaje de éxito |
+| Reservas por cliente | GET | /api/v1/bookings/client/{clientId} | Path: clientId | GET /api/v1/bookings/client/3 | Lista de reservas del cliente |
+
+**Cubículos**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar cubículos | GET |	/api/v1/cubicles | Ninguno	| GET /api/v1/cubicles |	Lista de cubículos |
+| Crear cubículo	| POST	| /api/v1/cubicles	| Body: { name, headquarterId, availability }	| POST /api/v1/cubicles	| Cubículo creado |
+| Actualizar estado |	PATCH |	/api/v1/cubicles/{cubicleId}/status	| Body: { status } | PATCH /api/v1/cubicles/4/status | Estado actualizado |
+| Actualizar disponibilidad |	PATCH |	/api/v1/cubicles/{cubicleId}/availability-slot/status	| Body: { slotId, status } | PATCH /api/v1/cubicles/4/availability-slot/status | Slot actualizado |
+| Obtener cubículo	| GET	| /api/v1/cubicles/{cubicleId} |	Path: cubicleId	| GET /api/v1/cubicles/4 | Detalles del cubículo |
+| Eliminar cubículo |	DELETE |	/api/v1/cubicles/{cubicleId} |	Path: cubicleId	| DELETE /api/v1/cubicles/4 |	Mensaje de éxito |
+| Horario del cubículo |	GET |	/api/v1/cubicles/{cubicleId}/schedule |	Path: cubicleId	| GET /api/v1/cubicles/4/schedule |	Lista de horarios |
+| Cubículos por sede |	GET |	/api/v1/cubicles/headquarter/{headquarterId} | Path: headquarterId |	GET /api/v1/cubicles/headquarter/1 |	Lista de cubículos en la sede |
+
+**Sedes**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar sedes |	GET |	/api/v1/headquarters	| Ninguno	| GET /api/v1/headquarters |	Lista de sedes |
+| Crear sede |	POST |	/api/v1/headquarters |	Body: { name, address, openingTime, closingTime } |	POST /api/v1/headquarters |	Sede creada |
+| Obtener sede |	GET |	/api/v1/headquarters/{headquarterId} |	Path: headquarterId	| GET /api/v1/headquarters/1 | Detalles de la sede |
+
+**Roles y Usuarios**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar roles |	GET |	/api/v1/roles |	Ninguno	| GET /api/v1/roles |	Lista de roles |
+| Listar usuarios |	GET |	/api/v1/users |	Ninguno	| GET /api/v1/users |	Lista de usuarios |
+| Obtener usuario |	GET |	/api/v1/users/{userId} |	Path: userId |	GET /api/v1/users/7 |	Detalles del usuario |
+
+**IoT Edge**
+
+| Acción | Verbo HTTP | Endpoint | Parámetros | Ejemplo | Response |
+|--------|------------|----------|------------|---------|----------|
+| Registrar dispositivo | POST | /api/v1/devices/register | Body: { "device_id": "string", "location": "string", "type": "string" } | POST /api/v1/devices/register Body: { "device_id": "chair-001", "location": "Sala A", "type": "sensor" } | Device registered successfully |
+| Actualizar lectura | POST | /api/v1/devices/{device_id}/readings | Path: device_id Body: { "temperature": number, "humidity": number, "occupied": boolean } | POST /api/v1/devices/chair-001/readings Body: { "temperature": 22.5, "humidity": 45, "occupied": true } | Reading updated |
+| Obtener dispositivos disponibles | GET | /api/v1/devices/status/available | Ninguno | GET /api/v1/devices/status/available | Available |
+| Obtener dispositivos ocupados | GET | /api/v1/devices/status/occupied | Ninguno | GET /api/v1/devices/status/occupied | Sala C, Occupied |
+| Verificar salud del backend | GET | /api/v1/devices/health/backend | Ninguno | GET /api/v1/devices/health/backend | Status: ok, Timestamp: 2025-11-14T18:00:00Z |
+| Verificar dispositivos offline | POST | /api/v1/devices/maintenance/check-offline | Ninguno | POST /api/v1/devices/maintenance/check-offline | Status: "offline" |
+| Obtener dispositivo por ID | GET | /api/v1/devices/{device_id} | Path: device_id | GET /api/v1/devices/chair-001 | device_id: "chair-001" |
+| Eliminar dispositivo | DELETE | /api/v1/devices/{device_id} | Path: device_id | DELETE /api/v1/devices/chair-001 | Device deleted |
+| Obtener todos los dispositivos | GET | /api/v1/devices/ | Ninguno | GET /api/v1/devices/ | device_id: "chair-001", ... |
+| Verificar salud general | GET | /health | Ninguno | GET /health | status: "ok" |
+
+<br>
+
+**Imagen de documentación con OpenAPI:**  
+[![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+[![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+**URL de documentación desplegada de Web Services:**  
+  <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**URL de documentación desplegada de IoT Edge:**  
+  <https://bibflip-edge-api-platform.azurewebsites.net/api/docs>
+
+**URL del repositorio de Web Services:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
+
+**URL del repositorio de IoT Edge:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform>
+
+<br>
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+- **Landing Page:**
+
+  GitHub Pages — URL: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+
+  Firebase Hosting — URL: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+  
+  [![image.png](https://i.postimg.cc/mknq5JD4/image.png)](https://postimg.cc/CnjmZvkr)
+  
+  1. Construir aplicación Vue  
+    Genera la carpeta dist lista para producción:
+    ```bash
+    npm run build
+    ```
+  2. Inicializar Firebase en el proyecto  
+    Dentro de la carpeta del proyecto ejecuta:
+    ```bash
+    firebase init
+    ```
+  3. Desplegar la aplicación
+    ```bash
+    Desplegar la aplicación
+    ```
+  
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+
+- **Mobile Application:**
+
+  Build APK de pruebas internas.
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Web Services y IoT Edge:**
+
+  Web Services — URL: [`https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html`](https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html)
+
+  IoT Edge — URL: [`https://bibflip-edge-api-platform.azurewebsites.net/api/docs`](https://bibflip-edge-api-platform.azurewebsites.net/api/docs)
+
+  [![azure.jpg](https://i.postimg.cc/NFQf0y7Y/azure.jpg)](https://postimg.cc/xJFSx14F)
+  [![image.png](https://i.postimg.cc/CLmdz4Q2/image.png)](https://postimg.cc/HV8TNbH0)
+  [![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+<br>
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+- **Gestión en Trello**: Tablero con columnas por cada Sprint.  
+  URL del Board: <em>[`https://trello.com/b/htxHDgrX/bibflip`](https://trello.com/b/htxHDgrX/bibflip)</em>.
+
+  [![image.png](https://i.postimg.cc/8c2KHD70/image.png)](https://postimg.cc/2Lx7ksFQ)
+
+- **Capturas de los analíticos de colaboración y commits en GitHub:**
+
+  - **Landing Page:**
+
+  [![image.png](https://i.postimg.cc/c4HTKFJ6/image.png)](https://postimg.cc/SjBc37Cp)
+
+  - **Web Application:**
+
+  [![image.png](https://i.postimg.cc/RF7pRqrn/image.png)](https://postimg.cc/jwjhqxSs)
+
+  - **Mobile Application:**
+
+  [![image.png](https://i.postimg.cc/pXpYVy0J/image.png)](https://postimg.cc/ZCzyVYzW)
+
+  - **Web Services & IoT Edge:**
+
+  [![image.png](https://i.postimg.cc/W35gTPgy/image.png)](https://postimg.cc/gX6nHQMy)
+  [![image.png](https://i.postimg.cc/W4nJwPWt/image.png)](https://postimg.cc/Z9WRJXhh)
+
+<br>
+
+
+
+### 6.2.3. Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+
+**Introducción**  
+Este sprint se enfocó en el **Trabajo Final (TF)**: cerrar la integración extremo a extremo del flujo **IoT Device → Edge API → Backend → Frontends (Web + Mobile)**, estabilizar el producto y dejar lista la evidencia para la demo final (video, validaciones y despliegues en la nube).
+
+<!-- Sprint Planning Background (formato de la rúbrica) -->
+<table>
+  <thead>
+    <tr><th colspan="2">Sprint #</th><th>Sprint 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2"><strong>Sprint Planning Background</strong></td><td></td></tr>
+    <tr><td>Date</td><td>YYYY-MM-DD</td><td>2025-11-20</td></tr>
+    <tr><td>Time</td><td>HH:MM</td><td>20:30</td></tr>
+    <tr><td>Location</td><td>(física/virtual)</td><td>Virtual</td></tr>
+    <tr>
+      <td>Prepared By</td><td>(Responsable del acta)</td>
+      <td>Aranda Vallejos, Oscar Gabriel</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>(Equipo)</td>
+      <td>
+        Aranda Vallejos, Oscar Gabriel / Bernaola Pérez, André Arturo / Gutierrez Garcia, Jose Eduardo /
+        Oliveira Paucar, Mauricio / Pedraza Maldonado, Joaquin / Soriano Medrano, Diego / Velarde Luyo, Piero Alberto
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 3 – 3 Review Summary</strong><br/>
+      <em>Al cierre del Sprint 3 se consolidó la integración entre el dispositivo IoT simulado en Wokwi, el Edge API desplegado en Azure, el Backend de reservas y los frontends Web/Mobile. Se estabilizaron los flujos de reserva y disponibilidad, se completaron los escenarios de prueba de extremo a extremo y se generaron las evidencias necesarias para el Trabajo Final (video, documentación y Student Outcomes).</em></td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Sprint 3 – 3 Retrospective Summary</strong><br/>
+      <em>El equipo identificó que la mayor complejidad se concentró en la integración IoT–Backend, por lo que se incrementó el uso de pair programming y sesiones de depuración conjunta. También se mejoró la disciplina de ramas y pull requests para evitar conflictos en la etapa final. Como mejora futura se propone adelantar actividades de integración y validación en sprints anteriores, para reducir el riesgo acumulado en el último sprint.</em></td>
+    </tr>
+    <tr><td colspan="3"><strong>Sprint Goal &amp; User Stories / Technical Stories</strong></td></tr>
+    <tr>
+      <td>Sprint 3 Goal</td>
+      <td>(SMART)</td>
+      <td>
+        En un período máximo de dos semanas, completar la integración en producción de la solución
+        BibFlip, conectando los datos del dispositivo IoT (ocupación de cubículos) con el Edge API y el Backend,
+        exponiendo dicha información en los frontends Web y Mobile y dejando un entorno estable para la demo
+        del Trabajo Final, con pruebas automatizadas y documentación actualizada.
+      </td>
+    </tr>
+    <tr><td>Sprint 3 Velocity</td><td>(Story Points)</td><td><strong>30 SP</strong></td></tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>(stories incluidos)</td>
+      <td><strong>30 SP</strong> (TS008=8, TS009=10, TS010=12)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.3.2. Aspect Leaders and Collaborators.
+
+En este sprint se reforzó un **liderazgo distribuido** orientado a la integración y estabilización del producto.
+
+| Aspecto                                   | Líder                                      | Colaboradores                                                                 |
+|-------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------|
+| Planificación y coordinación del Sprint   | Aranda Vallejos, Oscar Gabriel             | Todo el equipo                                                                |
+| Integración IoT (Wokwi + Firmware)        | Velarde Luyo, Piero Alberto                | Gutierrez Garcia, Jose Eduardo / Soriano Medrano, Diego                       |
+| Edge API & Routing de datos               | Soriano Medrano, Diego                     | Bernaola Pérez, André Arturo / Pedraza Maldonado, Joaquin                     |
+| Backend de reservas & cubículos           | Bernaola Pérez, André Arturo               | Pedraza Maldonado, Joaquin / Oliveira Paucar, Mauricio                        |
+| Frontend Web (estado en tiempo real)      | Pedraza Maldonado, Joaquin                 | Aranda Vallejos, Oscar Gabriel / Velarde Luyo, Piero Alberto                  |
+| App Mobile (visualización de reserva)     | Gutierrez Garcia, Jose Eduardo             | Pedraza Maldonado, Joaquin                                                    |
+
+#### 6.2.3.3. Sprint Backlog 3.
+
+
+#### 6.2.3.3. Sprint Backlog 3
+
+Durante este sprint se priorizaron **historias técnicas** relacionadas con la integración IoT, la observabilidad del sistema y el cierre de la experiencia de usuario para el demo final del TF.
+
+**URL público de Trello:** <https://trello.com/b/htxHDgrX/bibflip>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="7">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- TS008 -->
+    <tr>
+      <td>TS008</td>
+      <td>Integrar dispositivo IoT con Edge API y Backend</td>
+      <td>TA1</td>
+      <td>Ajustar lectura de sensores y payload</td>
+      <td>Refinar la lógica de lectura de peso/ocupación y el formato del JSON enviado al Edge API.</td>
+      <td>04</td>
+      <td>Piero Velarde, Diego Soriano</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td></td><td></td>
+      <td>TA2</td>
+      <td>Conectar Edge API con servicios de cubículos</td>
+      <td>Mapear las lecturas IoT a las entidades de cubículo y actualizar su estado en el Backend.</td>
+      <td>04</td>
+      <td>Diego Soriano, André Bernaola</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td></td><td></td>
+      <td>TA3</td>
+      <td>Validar flujo end-to-end</td>
+      <td>Verificar que los cambios de ocupación se reflejen en Web y Mobile en tiempo casi real.</td>
+      <td>02</td>
+      <td>Jose Gutierrez, Joaquin Pedraza</td>
+      <td>To Review</td>
+    </tr>
+    <!-- TS009 -->
+    <tr>
+      <td>TS009</td>
+      <td>Implementar monitoreo, health-checks y logging</td>
+      <td>TA1</td>
+      <td>Extender endpoints de salud</td>
+      <td>Agregar métricas y estados de salud para Edge API y Backend (latencia, conectividad, errores).</td>
+      <td>03</td>
+      <td>André Bernaola</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td></td><td></td>
+      <td>TA2</td>
+      <td>Configurar logs de integración IoT</td>
+      <td>Registrar eventos clave de recepción y procesamiento de lecturas IoT.</td>
+      <td>03</td>
+      <td>Diego Soriano</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td></td><td></td>
+      <td>TA3</td>
+      <td>Panel básico de monitoreo</td>
+      <td>Preparar consultas y visualizaciones simples (logs, estados) para revisión en la demo.</td>
+      <td>02</td>
+      <td>Oscar Aranda</td>
+      <td>In Process</td>
+    </tr>
+    <!-- TS010 -->
+    <tr>
+      <td>TS010</td>
+      <td>Cierre de experiencia de usuario y demo TF</td>
+      <td>TA1</td>
+      <td>Ajustar vistas de disponibilidad</td>
+      <td>Refinar UI Web/Mobile para mostrar claramente cubículos libres/ocupados y reservas activas.</td>
+      <td>04</td>
+      <td>Joaquin Pedraza, Jose Gutierrez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td></td><td></td>
+      <td>TA2</td>
+      <td>Grabar video About-the-Product</td>
+      <td>Preparar guion y grabar el flujo principal del sistema para el video del TF.</td>
+      <td>03</td>
+      <td>Piero Velarde, Mauricio Oliveira</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td></td><td></td>
+      <td>TA3</td>
+      <td>Actualizar documentación y Student Outcome</td>
+      <td>Incorporar evidencias finales en el informe, Student Outcome y anexos.</td>
+      <td>03</td>
+      <td>Mauricio Oliveira, Oscar Aranda</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+#### 6.2.3.4. Development Evidence for Sprint Review.
+
+Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip`]()
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th><th>Branch</th><th>Commit Id</th><th>Commit Message</th><th>Commit Message Body</th><th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LandingPage</td><td>main</td>
+      <td><em>82d64e</em></td>
+      <td>feat: update features section</td>
+      <td>-</td>
+      <td><em>02/12/25</em></td>
+    </tr>
+    <tr>
+      <td>Web-Frontend</td>
+      <td>develop</td>
+      <td><em>7d4676f</em></td>
+      <td>feat: update sign in request</td>
+      <td>-</td>
+      <td><em>6/11/25</em></td>
+    </tr>
+    <tr>
+      <td>Mobile-Frontend</td>
+      <td>develop</td>
+      <td><em>420d355</em></td>
+      <td>feat: update cubicle bookings hours</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Edge-Api-Platform</td>
+      <td>main</td>
+      <td><em>e881e0d</em></td>
+      <td>Feat: Implement connection with backend and persistence to database</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+    <tr>
+      <td>ESP32-BibFlip-Embedded-System</td>
+      <td>main</td>
+      <td><em>a11c3d0</em></td>
+      <td>Feat: Update project from wokwi</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>production</td>
+      <td><em>95baaea</em></td>
+      <td>Feat: Put time zone config commented</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>production</td>
+      <td><em>e63579</em></td>
+      <td>Feat: Reupdate the time zone for better sincronization with edge api</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+US17- Registro de cuenta de administrador- Segmento SuperAdmin
+[![f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg](https://i.postimg.cc/pdMX6cs9/f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg)](https://postimg.cc/BjN08p9s)
+
+US08 Reserva de cubiculos -Segmento Estudiante
+[![9f9432e7-f726-4cb6-88c8-c427d06889db.jpg](https://i.postimg.cc/g2kCsCFG/9f9432e7-f726-4cb6-88c8-c427d06889db.jpg)](https://postimg.cc/nCgScwhW)
+
+#### 6.2.3.6. Execution Evidence for Sprint Review.
+
+- **Landing Page:**
+
+  ![landing-1](https://i.postimg.cc/KzF5tXmT/Captura-de-pantalla-2025-10-10-020020.png)  
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+ 
+  [![image.png](https://i.postimg.cc/SNKCZH67/image.png)](https://postimg.cc/14L8XCYf)
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+  [![image.png](https://i.postimg.cc/R0nZqLcT/image.png)](https://postimg.cc/R34BDfp3)
+  [![image.png](https://i.postimg.cc/RhPBgW7M/image.png)](https://postimg.cc/kRtz4XYZ)
+  [![image.png](https://i.postimg.cc/5N6dxN5p/image.png)](https://postimg.cc/SJFtd4vz)
+  [![image.png](https://i.postimg.cc/wv0ZpS7P/image.png)](https://postimg.cc/1nVJ070c)
+  [![image.png](https://i.postimg.cc/mgCnDcPp/image.png)](https://postimg.cc/G43KgmJv)
+
+- **Web Services:**
+
+  [![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+
+- **Mobile (Flutter):**
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Edge Api**
+
+[![Captura_de_pantalla_2025_12_02_153604.png](https://i.postimg.cc/SxSh5X9g/Captura_de_pantalla_2025_12_02_153604.png)](https://postimg.cc/crb2tLX3)
+
+[![Captura_de_pantalla_2025_12_02_153636.png](https://i.postimg.cc/65LKYV8S/Captura_de_pantalla_2025_12_02_153636.png)](https://postimg.cc/ZCRXqdFF)
+
+- **Embedded System**
+
+[![Captura_de_pantalla_2025_12_02_151015.png](https://i.postimg.cc/2SkDJqWX/Captura_de_pantalla_2025_12_02_151015.png)](https://postimg.cc/F7B8kHDj)
+
+[![ESP32_1.jpg](https://i.postimg.cc/CLK7QS1Q/ESP32_1.jpg)](https://postimg.cc/Jt9jywjN)
+
+[![ESP32_2.jpg](https://i.postimg.cc/Dyz6MnZ6/ESP32_2.jpg)](https://postimg.cc/hhHVJFVQ)
+
+
+- **Link video de visualización y navegación logrado en este Sprint:**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABQOS8HItySZW1F3XMy1nhARQ1f3P-irvGt6_ZWdZo9Po?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=md2xAV>
+
+<br>
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta los principales endpoints de la API del sistema, desarrollados para este Sprint, organizados por bounded context como autenticación, recuperación de contraseña, reservas, cubículos, sedes, usuarios y la gestión de supervisores. Su documentación busca ofrecer una referencia clara para comprender las acciones disponibles, los parámetros requeridos y las respuestas esperadas en cada operación, facilitando así el desarrollo, la integración y el mantenimiento de nuestra solución.
+
+**Sedes y Supervisores**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Asignar supervisor | POST | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | POST /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Remover supervisor | DELETE | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | DELETE /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Obtener supervisores | GET | /api/v1/headquarters/{headquarterId}/supervisors | Path: headquarterId | GET /api/v1/headquarters/1/supervisors | Lista de supervisores |
+| Obtener sede por supervisor | GET | /api/v1/headquarters/supervisors/{supervisorId} | Path: supervisorId | GET /api/v1/headquarters/supervisors/5 | Datos de la sede asignada |
+
+**Autenticación**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Registro | POST | /api/v1/authentication/sign-up | Body: { name, email, password } | POST /api/v1/authentication/sign-up con JSON en el cuerpo | Usuario creado con token de autenticación |
+| Inicio de sesión | POST | /api/v1/authentication/sign-in | Body: { email, password } | POST /api/v1/authentication/sign-in | Devuelve token y datos del usuario |
+
+**Recuperación de Contraseña**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Solicitar recuperación | POST | /api/v1/password-recovery/request | Body: { email } | POST /api/v1/password-recovery/request | Mensaje de confirmación de envío de correo |
+| Confirmar recuperación | POST | /api/v1/password-recovery/confirm | Body: { token, newPassword } | POST /api/v1/password-recovery/confirm | Mensaje de éxito o error |
+
+**Reservas**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar reservas | GET | /api/v1/bookings | Ninguno | GET /api/v1/bookings | Lista de reservas |
+| Crear reserva | POST | /api/v1/bookings | Body: { clientId, cubicleId, date, time } | POST /api/v1/bookings | Reserva creada |
+| Obtener reserva | GET | /api/v1/bookings/{id} | Path: id | GET /api/v1/bookings/10 | Detalles de la reserva |
+| Eliminar reserva | DELETE | /api/v1/bookings/{id} | Path: id | DELETE /api/v1/bookings/10 | Mensaje de éxito |
+| Reservas por cliente | GET | /api/v1/bookings/client/{clientId} | Path: clientId | GET /api/v1/bookings/client/3 | Lista de reservas del cliente |
+
+**Cubículos**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar cubículos | GET |	/api/v1/cubicles | Ninguno	| GET /api/v1/cubicles |	Lista de cubículos |
+| Crear cubículo	| POST	| /api/v1/cubicles	| Body: { name, headquarterId, availability }	| POST /api/v1/cubicles	| Cubículo creado |
+| Actualizar estado |	PATCH |	/api/v1/cubicles/{cubicleId}/status	| Body: { status } | PATCH /api/v1/cubicles/4/status | Estado actualizado |
+| Actualizar disponibilidad |	PATCH |	/api/v1/cubicles/{cubicleId}/availability-slot/status	| Body: { slotId, status } | PATCH /api/v1/cubicles/4/availability-slot/status | Slot actualizado |
+| Obtener cubículo	| GET	| /api/v1/cubicles/{cubicleId} |	Path: cubicleId	| GET /api/v1/cubicles/4 | Detalles del cubículo |
+| Eliminar cubículo |	DELETE |	/api/v1/cubicles/{cubicleId} |	Path: cubicleId	| DELETE /api/v1/cubicles/4 |	Mensaje de éxito |
+| Horario del cubículo |	GET |	/api/v1/cubicles/{cubicleId}/schedule |	Path: cubicleId	| GET /api/v1/cubicles/4/schedule |	Lista de horarios |
+| Cubículos por sede |	GET |	/api/v1/cubicles/headquarter/{headquarterId} | Path: headquarterId |	GET /api/v1/cubicles/headquarter/1 |	Lista de cubículos en la sede |
+
+**Sedes**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar sedes |	GET |	/api/v1/headquarters	| Ninguno	| GET /api/v1/headquarters |	Lista de sedes |
+| Crear sede |	POST |	/api/v1/headquarters |	Body: { name, address, openingTime, closingTime } |	POST /api/v1/headquarters |	Sede creada |
+| Obtener sede |	GET |	/api/v1/headquarters/{headquarterId} |	Path: headquarterId	| GET /api/v1/headquarters/1 | Detalles de la sede |
+
+**Roles y Usuarios**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar roles |	GET |	/api/v1/roles |	Ninguno	| GET /api/v1/roles |	Lista de roles |
+| Listar usuarios |	GET |	/api/v1/users |	Ninguno	| GET /api/v1/users |	Lista de usuarios |
+| Obtener usuario |	GET |	/api/v1/users/{userId} |	Path: userId |	GET /api/v1/users/7 |	Detalles del usuario |
+
+**IoT Edge**
+
+| Acción | Verbo HTTP | Endpoint | Parámetros | Ejemplo | Response |
+|--------|------------|----------|------------|---------|----------|
+| Registrar dispositivo | POST | /api/v1/devices/register | Body: { "device_id": "string", "location": "string", "type": "string" } | POST /api/v1/devices/register Body: { "device_id": "chair-001", "location": "Sala A", "type": "sensor" } | Device registered successfully |
+| Actualizar lectura | POST | /api/v1/devices/{device_id}/readings | Path: device_id Body: { "temperature": number, "humidity": number, "occupied": boolean } | POST /api/v1/devices/chair-001/readings Body: { "temperature": 22.5, "humidity": 45, "occupied": true } | Reading updated |
+| Obtener dispositivos disponibles | GET | /api/v1/devices/status/available | Ninguno | GET /api/v1/devices/status/available | Available |
+| Obtener dispositivos ocupados | GET | /api/v1/devices/status/occupied | Ninguno | GET /api/v1/devices/status/occupied | Sala C, Occupied |
+| Verificar salud del backend | GET | /api/v1/devices/health/backend | Ninguno | GET /api/v1/devices/health/backend | Status: ok, Timestamp: 2025-11-14T18:00:00Z |
+| Verificar dispositivos offline | POST | /api/v1/devices/maintenance/check-offline | Ninguno | POST /api/v1/devices/maintenance/check-offline | Status: "offline" |
+| Obtener dispositivo por ID | GET | /api/v1/devices/{device_id} | Path: device_id | GET /api/v1/devices/chair-001 | device_id: "chair-001" |
+| Eliminar dispositivo | DELETE | /api/v1/devices/{device_id} | Path: device_id | DELETE /api/v1/devices/chair-001 | Device deleted |
+| Obtener todos los dispositivos | GET | /api/v1/devices/ | Ninguno | GET /api/v1/devices/ | device_id: "chair-001", ... |
+| Verificar salud general | GET | /health | Ninguno | GET /health | status: "ok" |
+
+<br>
+
+**Imagen de documentación con OpenAPI:**  
+[![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+[![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+**URL de documentación desplegada de Web Services:**  
+  <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**URL de documentación desplegada de IoT Edge:**  
+  <https://bibflip-edge-api-platform.azurewebsites.net/api/docs>
+
+**URL del repositorio de Web Services:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
+
+**URL del repositorio de IoT Edge:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform>
+
+<br>
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+
+- **Landing Page:**
+
+  GitHub Pages — URL: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+
+  Firebase Hosting — URL: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+  
+  [![image.png](https://i.postimg.cc/mknq5JD4/image.png)](https://postimg.cc/CnjmZvkr)
+  
+  1. Construir aplicación Vue  
+    Genera la carpeta dist lista para producción:
+    ```bash
+    npm run build
+    ```
+  2. Inicializar Firebase en el proyecto  
+    Dentro de la carpeta del proyecto ejecuta:
+    ```bash
+    firebase init
+    ```
+  3. Desplegar la aplicación
+    ```bash
+    Desplegar la aplicación
+    ```
+  
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+
+- **Mobile Application:**
+
+  Build APK de pruebas internas.
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Web Services y IoT Edge:**
+
+  Web Services — URL: [`https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html`](https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html)
+
+  IoT Edge — URL: [`https://bibflip-edge-api-platform.azurewebsites.net/api/docs`](https://bibflip-edge-api-platform.azurewebsites.net/api/docs)
+
+  [![azure.jpg](https://i.postimg.cc/NFQf0y7Y/azure.jpg)](https://postimg.cc/xJFSx14F)
+  [![image.png](https://i.postimg.cc/CLmdz4Q2/image.png)](https://postimg.cc/HV8TNbH0)
+  [![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+
+
+<br>
+
+<!--FALTA-->
+<!--#### 6.2.3.9. Team Collaboration Insights during Sprint.-->
+
+
+## 6.3.  Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+Buenas tardes, gracias por asistir a esta entrevista
+
+### **Preguntas Generales:**
+
+1. ¿Cuál es su nombre?
+2. ¿Cuántos años tiene?
+3. ¿Cuál es su ocupación actual?
+
+### Preguntas Sobre la Landing Page
+
+1. ¿Qué tan accesible le pareció la página?
+2. ¿Qué parte le resultó más útil?
+3. ¿Alguna parte le resultó confusa? ¿Cuál?
+4. ¿Qué aspecto le gustaría cambiar o mejorar al respecto?
+
+### **Preguntas Específicas:**
+
+## **Personal de bibliotecas universitarias**
+
+### Preguntas sobre la Aplicacion Web
+
+1. ¿Cómo te pareció la aplicación web en general?
+
+2. ¿Cómo le pareció el dashboard y gestión de cubículos?
+
+3. ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál?
+
+4. ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+---
+
+## **Estudiantes universitarios**
+
+### Preguntas sobre la Aplicacion Web
+
+1. ¿Cómo te pareció la aplicación web en general?
+
+2. ¿Cómo le pareció el dashboard y gestión de reservas de cubiculos?
+
+3. ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál?
+
+4. ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+## Pregunas sobre la Aplicacion Movil
+
+1. ¿Cómo le pareció la aplicación mobile?
+
+2. ¿Hay alguna parte del proceso que le haya parecido confusa? ¿Cuál?
+
+3. ¿Hay alguna característica que le gustaría ver en la aplicación?
+
+
+### 6.3.2. Registro de Entrevistas
+
+### Entrevistas para el Segmento Objetivo 1 - Personal Bibliotecario
+
+---
+
+#### Entrevista N°1:
+
+*Entrevistado:* Jhon Galvez <br>
+*Sexo:*  Masculino <br>
+*Edad:*  30 años<br>
+*Domicilio:* Lima<br>
+*Inicio de la Entrevista:* 0:00<br>
+*Fin de la Entrevista:* 5:13<br>
+Link : [Link de la entrevista](https://youtu.be/FwhhGJ64cNg)
+
+<a href="https://postimg.cc/t7jcNkxT"><img src="https://i.postimg.cc/7PGyDQPg/966b54cf-d7d3-4f93-b686-b5a49ee429bd.jpg)" alt="Entrevista" style="width: 600px; height: auto;"><br></a>
+
+*Resumen de la Entrevista:* <br>
+El entrevistado, John Gálvez, supervisor de cubículos de 30 años, comentó que la landing page le pareció accesible, con textos legibles, botones visibles y navegación intuitiva, destacando como parte más útil la sección que explica la funcionalidad principal de la plataforma; sin embargo, notó que algunas secciones eran breves y sugirió incluir más detalles y ejemplos visuales como capturas del flujo de reserva o del dashboard. Sobre la aplicación web, indicó que está bien organizada, con una interfaz limpia y de fácil uso, y que el dashboard permite identificar rápidamente el estado de los cubículos al centralizar la información; no obstante, encontró cierta confusión en la transición entre estados de los cubículos, recomendando una guía más clara. Finalmente, propuso como mejora agregar herramientas de reportes más completas, como historiales de uso, estadísticas por periodos y un módulo para registrar incidentes dentro de los cubículos.
+
+#### Entrevista N°2:
+
+*Entrevistado:* Gerson Ambrosio<br>
+*Sexo:* Masculino <br>
+*Edad:* 20 años<br>
+*Domicilio:* Callao <br>
+*Inicio de la Entrevista:* 3:03<br>
+*Fin de la Entrevista:* 6:09<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQAX_9lpJg2mSbwpX2B69yjwAXZIUuqI9c7kB73MllXC7ho?e=Tmp5nz)
+
+<a href='https://postimg.cc/njrcYHvS' target='_blank'><img src='https://i.postimg.cc/d1mkF3DF/image.png' border='0' alt='image'></a>
+
+*Resumen de la Entrevista:* <br>
+El entrevistado, Gerson, quien trabaja como bibliotecario, compartió sus principales apreciaciones sobre las tareas y funcionalidades presentadas en la entrevista para la solución Bifflip. En cuanto a la landing page, la consideró muy práctica, destacando como la parte más útil la sección de "cómo usarla" por considerarla básica e importante. No obstante, sugirió que las descripciones de las características fuesen más detalladas, específicamente para el rol de bibliotecario. Respecto a la aplicación web para supervisores, la calificó como buena y que cumple con sus operativas, en particular para gestionar cubículos. Encontró el dashboard y la sección de gestión de cubículos simple pero práctica, ya que contiene los avisos y botones necesarios. Sin embargo, sugirió que la información de ubicación de los cubículos por sede fuese más descriptiva y que el proceso para agregar cubículos fuese más práctico con un acceso más sencillo al formulario. Finalmente, propuso la implementación de filtros en el dashboard, como por ejemplo de cubículos o sedes, para hacer la aplicación más eficiente.
+
+#### Entrevista N°3:
+
+*Entrevistado:* Hanna Pairazaman <br>
+*Sexo:* Femenino <br>
+*Edad:* 25 años<br>
+*Domicilio:* Callao <br>
+*Inicio de la Entrevista:* 0:14<br>
+*Fin de la Entrevista:* 6:19<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/EVi6fSL5sP5DnBBJAMQJlm8BlrJc3YoBxIZm260g4J-89A)
+
+<a href="https://ibb.co/CpjMNZNT"><img src="https://i.ibb.co/8nydTpTS/entrevista-2.png" alt="entrevista-2" border="0"></a>
+
+
+*Resumen de la Entrevista:* <br>
+
+La entrevista post-demo con Hanna Pairazaman, coordinadora de biblioteca de 25 años en el Callao, permitió validar la solución desde la perspectiva del personal administrativo tras mostrarle la landing page y la aplicación web. Hanna consideró la landing page clara y funcional, destacando como más útil la sección que explica cómo la plataforma optimiza la gestión de espacios, aunque sugirió añadir testimonios de otras bibliotecas y datos concretos sobre la reducción de tiempos de gestión; no encontró partes confusas pero recomendó mejorar la visibilidad de los botones de llamada a acción. Respecto a la aplicación web, señaló que le pareció muy completa y fácil de navegar, valorando especialmente el dashboard que permite monitorear en tiempo real todos los cubículos y gestionar rápidamente cambios de estado; el módulo de gestión de cubículos le resultó eficiente para actualizar disponibilidad y consultar reservas activas de manera centralizada. Identificó como área de mejora la necesidad de agregar filtros más específicos para buscar cubículos por características (capacidad, ubicación, equipamiento), y propuso como características deseables: un sistema de notificaciones push para alertar sobre reservas próximas a vencer, herramientas de análisis predictivo para identificar patrones de uso y optimizar la asignación de recursos, y la posibilidad de exportar datos en diferentes formatos para reportes institucionales. En general, considera que BibFlip representaría una mejora significativa en la eficiencia operativa y reduciría considerablemente el tiempo dedicado a tareas administrativas repetitivas.
+
+
+
+### Entrevista para el Segmento Objetivo 2 - Estudiantes Universitarios
+
+---
+
+#### Entrevista N°1:
+
+*Entrevistado:* Nasthya del Carpio<br>
+*Sexo:* Femenino <br>
+*Edad:* 21 años<br>
+*Domicilio:* La Perla<br>
+*Inicio de la Entrevista:* 0:14<br>
+*Fin de la Entrevista:* 0:00<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/IQBfx9oMRqeeSZDsCJgQYLRZAfOOPh6mrWeG03YbS7g2w2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8VNl0O)
+
+<a href="https://ibb.co/1YVtz2bM"><img src="https://i.ibb.co/TDXxWhr1/bibnas.png" alt="Entrevista con Nasthya" style="width: 600px; height: auto;"><br></a>
+
+
+*Resumen de la Entrevista:* <br>
+La entrevista post-demo con Nasthya del Carpio, estudiante de 21 años de Diseño de Interiores en la UPC, permitió validar la solución de reserva de cubículos tras mostrarle la landing page, la aplicación web y la app móvil. Nasthya percibió la landing como clara y accesible, aunque sugirió mejorar la diferenciación entre secciones y añadir más ejemplos visuales y un botón principal más destacado. La aplicación web le pareció intuitiva, especialmente el dashboard con estados de cubículos y gestión de reservas, proponiendo como mejora un resumen antes de confirmar la hora y funciones como favoritos, integración con calendario y notificaciones. La app móvil la consideró muy útil para el uso diario, con una interfaz simple, pero recomendó explicar mejor el uso del QR y añadir modo oscuro, mapa de cubículos y notificaciones personalizables. En general, considera que la solución responde a sus frustraciones previas al buscar espacios de estudio y que, bien implementada, sería usada por muchos estudiantes.
+
+
+#### Entrevista N°2:
+
+*Entrevistado:* Sebastián Pacheco <br>
+*Sexo:* Masculino <br>
+*Edad:* 22 años<br>
+*Domicilio:* [No especificado]<br>
+*Inicio de la Entrevista:* 0:00<br>
+*Fin de la Entrevista:* [Duración del video]<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114192_upc_edu_pe/IQDX7CPyICouTLNFGLlO5zneAS4ZVNFT6XbObsYE3JcFEHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bSG61J)
+
+<a href="https://postimg.cc/18F7kRfm"><img src="https://i.postimg.cc/fRq40Js9/Whats-App-Image-2025-11-15-at-6-04-20-PM.jpg" alt="Entrevista con Sebastián Pacheco" style="width: 600px; height: auto;"><br></a>
+
+*Resumen de la Entrevista:* <br>
+La entrevista post-demo con Sebastián Pacheco, estudiante de 22 años de la carrera de Ingeniería de Software, permitió validar la solución de reserva de cubículos tras mostrarle la landing page, la aplicación web y la app móvil. Sebastián percibió la landing page como accesible y ordenada, destacando como parte más útil la sección que describe las funciones mediante tres secciones claras, además de apreciar la inclusión de reseñas y características; no encontró aspectos confusos ni oportunidades de mejora significativas. Respecto a la aplicación web, señaló que cumple exactamente con el objetivo principal de reservar cubículos y visualizar horarios disponibles; consideró que el dashboard y la gestión de reservas son sencillos y no resulta complicado hacer clic en los horarios disponibles, aunque identificó una oportunidad de mejora al sugerir implementar funcionalidad para validar y confirmar cuántos alumnos van a estar presentes en cada cubículo, así como una visualización más dinámica de horarios disponibles por día. La aplicación móvil le pareció más completa que la web, siendo honesto al afirmar que el flujo es más comprensible en móvil; no detectó flujos confusos y consideró que visualmente se ve bien y bonita, sin necesidad de características adicionales más allá de la validación de asistentes mencionada anteriormente.
+
+
+#### Entrevista N°3:
+
+*Entrevistado:* Renzo Silva <br>
+*Sexo:* Masculino <br>
+*Edad:* 20 años<br>
+*Domicilio:* [No especificado]<br>
+*Inicio de la Entrevista:* 18:11<br>
+*Fin de la Entrevista:* 22:13<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQBjbP7VjKSrQ7kNjjfJshO_Ad6oARdY88XmeYJoMSF7Dt8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vICapO)
+
+[![Captura-de-pantalla-2025-11-15-191433.png](https://i.postimg.cc/44LK81sj/Captura-de-pantalla-2025-11-15-191433.png)](https://postimg.cc/s1WDx7BJ)
+*Resumen de la Entrevista:* <br>
+La entrevista post-demo con Renzo Silva, estudiante de 20 años de la UPC, permitió percibir la opinión general de un estudiante ante una mejora en el sistema de reserva de cubículos. Durante la duración de esta, él entrevistado percibió la landing page como suficiente y concisa, destacando como parte más útil la sección de testimonios. Esto desmuestra que nuevos usuarios podrían presentar un mayor interés dependiendo de la recepción de la audiencia objetiva, tomando en cuenta las opiniones de las demás. Respecto a la aplicación web y móvil señaló que cumple exactamente con el objetivo principal de reservar cubículos y visualizar horarios disponibles, por lo cual decidió no indicar alguna funcionalidad extra que él añadiría de momento.
+
+
+### 6.3.3. Evaluaciones según heurísticas
+## 6.3.3. Evaluación según Heurísticas 
+
+A continuación se presenta la evaluación de la Landing Page y la Aplicación Web del proyecto **BibFlip** utilizando las 10 heurísticas de usabilidad de Jakob Nielsen. Esta evaluación permite identificar fortalezas, problemas y oportunidades de mejora en la experiencia de usuario.
+
+---
+
+### **Tabla General de Evaluación**
+
+| Heurística  | Evaluación en BibFlip | Puntuación (1–5) | Oportunidades de Mejora |
+|-----------------------|------------------------|------------------|--------------------------|
+| **1. Visibilidad del estado del sistema** | El sistema informa algunos cambios, pero acciones como reservación o actualización no muestran feedback inmediato. | 3 | Agregar loaders, mensajes de éxito/error y animaciones de carga. |
+| **2. Correspondencia con el mundo real** | Usa lenguaje familiar para estudiantes y bibliotecarios. Iconografía adecuada. | 4 | Mejorar descripciones en mapa y etiquetas más naturales. |
+| **3. Control y libertad del usuario** | La navegación es clara, pero algunas acciones no permiten deshacer. | 3 | Añadir confirmaciones, opción de cancelar acciones y botón “volver”. |
+| **4. Consistencia y estándares** | Se mantienen estilos, colores e íconos coherentes. | 4 | Unificar formularios y estandarizar todos los componentes UI. |
+| **5. Prevención de errores** | Validaciones básicas, pero no completas. | 3 | Añadir validación en tiempo real y evitar entradas inválidas. |
+| **6. Reconocer antes que recordar** | Los menús son visibles y los estados entendibles. | 4 | Usar más íconos o colores para reforzar el estado de cubículos. |
+| **7. Flexibilidad y eficiencia** | Adecuado para usuarios nuevos; pocas funciones avanzadas. | 3 | Filtros, búsqueda de cubículos y atajos para administradores. |
+| **8. Estética y diseño minimalista** | Interfaz limpia y moderna. | 4 | Mejorar espaciado y reducir texto extenso en la Landing Page. |
+| **9. Ayuda en recuperación de errores** | Mensajes básicos de error. | 3 | Incluir mensajes explicativos y recomendaciones de solución. |
+| **10. Ayuda y documentación** | No incluye tutoriales o sección de ayuda. | 2 | Crear guía rápida, FAQ y tutoriales para administradores. |
+
+---
+
+### **Análisis Detallado**
+
+#### **1. Visibilidad del estado del sistema**
+El sistema muestra algunos cambios, pero varias acciones no presentan retroalimentación clara, lo que puede generar incertidumbre en el usuario.
+
+**Mejoras sugeridas:** loaders, notificaciones, mensajes claros.
+
+---
+
+#### **2. Correspondencia con el mundo real**
+El uso de términos como “cubículo”, “reserva” y “dashboard” coincide con el lenguaje del usuario y facilita la comprensión del sistema.
+
+**Mejoras sugeridas:** etiquetas más descriptivas, mayor claridad en mapas.
+
+---
+
+#### **3. Control y libertad del usuario**
+Aunque la navegación es fluida, algunas acciones no permiten deshacer o cancelar, lo cual afecta el control del usuario.
+
+**Mejoras sugeridas:** agregar confirmaciones, opciones de cancelar y deshacer.
+
+---
+
+#### **4. Consistencia y estándares**
+El estilo visual es coherente, los elementos UI son uniformes y se mantiene una estética institucional clara.
+
+**Mejoras sugeridas:** estandarizar formularios y componentes.
+
+---
+
+#### **5. Prevención de errores**
+Existen validaciones básicas pero no suficientes para evitar errores comunes o entradas inválidas.
+
+**Mejoras sugeridas:** validaciones mejoradas en tiempo real.
+
+---
+
+#### **6. Reconocer antes que recordar**
+Las acciones están visibles y los usuarios no deben memorizar rutas o estados.
+
+**Mejoras sugeridas:** reforzar iconografía de estados del cubículo.
+
+---
+
+#### **7. Flexibilidad y eficiencia de uso**
+Presenta facilidad para nuevos usuarios, pero es poco eficiente para usuarios expertos o administradores con tareas repetitivas.
+
+**Mejoras sugeridas:** filtros, búsqueda, accesos rápidos.
+
+---
+
+#### **8. Estética y diseño minimalista**
+La interfaz es limpia, moderna y simple, lo cual facilita la comprensión visual.
+
+**Mejoras sugeridas:** mejorar espaciado, evitar saturación visual.
+
+---
+
+#### **9. Ayuda al usuario a recuperarse de errores**
+Los mensajes actuales son básicos y no explican claramente qué ocurrió o cómo solucionarlo.
+
+**Mejoras sugeridas:** mensajes con diagnóstico y pasos de solución.
+
+---
+
+#### **10. Ayuda y documentación**
+El sistema aún no incluye secciones de ayuda, tutoriales ni documentación accesible desde la interfaz.
+
+**Mejoras sugeridas:** añadir FAQ, guía rápida y tutorial interactivo.
+
+---
+
+### **Conclusión General**
+
+La evaluación heurística revela que **BibFlip** presenta una interfaz consistente, moderna y clara, con buena comprensión del entorno bibliotecario. Sin embargo, deben reforzarse elementos clave como la retroalimentación visual, la prevención de errores y la documentación disponible para el usuario. Implementar estas mejoras permitirá una experiencia más segura, intuitiva y eficiente tanto para estudiantes como para el personal bibliotecario.
+
+
+## 6.4.  Video About-the-Product
+
+**Introducción**
+
+El Video About-the-Product de BibFlip presenta nuestra solución innovadora para la gestión inteligente de espacios de estudio en bibliotecas universitarias. Este contenido audiovisual comunica de manera efectiva el valor de nuestra plataforma tanto a visitantes del Landing Page que desean comprender nuestro modelo de negocio, como a usuarios actuales y potenciales que buscan conocer las funcionalidades clave del sistema.
+
+<a href="https://ibb.co/TB0DWdM3"><img src="https://i.ibb.co/d0psmx4Y/aaaaaaa.png" alt="aaaaaaa" border="0"></a>
+
+**Duración:**: 6:31
+
+**URL Microsoft Stream:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O`</a>
+
+**URL YouTube:** <a href="https://youtu.be/EhF8cJ7II6Q">`https://youtu.be/EhF8cJ7II6Q`</a>
+
+**Resumen del Contenido**
+
+El video muestra cómo BibFlip transforma la experiencia de reserva de cubículos mediante tecnología IoT con sensores de peso que permiten consultar disponibilidad en tiempo real desde cualquier dispositivo. Presentamos el flujo intuitivo de reserva para estudiantes y las herramientas de gestión administrativas que facilitan al personal bibliotecario la supervisión de ocupación y generación de reportes estadísticos. Además, incorporamos el testimonio de un estudiante participante en nuestras entrevistas de validación, quien destaca: "BibFlip cambió completamente mi rutina de estudio. Ahora puedo planificar mis sesiones con certeza y llegar sabiendo que tendré un espacio disponible". El contenido mantiene coherencia con la identidad de BibFlip, empleando un tono profesional pero accesible, combinando elementos visuales modernos con una narrativa enfocada en beneficios tangibles para estudiantes, administradores y stakeholders educativos.
 
 # Conclusiones
 
@@ -4183,7 +5307,11 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 
 **TP**
 
-Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+- Como equipo, logramos integrar de manera efectiva el diseño UI/UX con la implementación, validación y despliegue del producto, trabajando bajo un liderazgo colaborativo y una comunicación constante. Cada integrante aportó desde su rol técnico y creativo, fortaleciendo la organización, la planificación y la toma de decisiones conjuntas. Este proceso nos permitió desarrollar un producto funcional y coherente, al mismo tiempo que consolidamos nuestras habilidades de trabajo en equipo, liderazgo compartido y compromiso con los objetivos del proyecto.
+
+**TB2**
+
+- Para este sprint utilizamos Wokwi como principal herramienta de simulación del sistema IoT del ESP32 conectado a sensores de peso. Esto fue fundamental para mapear su conexión con el Edge Api y su integración con el backend que utiliza la aplicación tanto web como móvil.
 
 ---
 
@@ -4202,6 +5330,26 @@ SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*
 
 # Anexos
 
+### Repositorios
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Report">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Report`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform
+">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform
+`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/LandingPage`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Web-Frontend`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Mobile-Frontend`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend-Testing-Server`</a>
+
+<a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests`</a>
+
 ### Entrevistas
 
 Needfinding: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k`</a>
@@ -4214,3 +5362,16 @@ Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u2022181
 ### TP1
 
 Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbaC_7b6-cpOr9fC8eRi2SIBC0CdyTv6xPXbdar4eIvDGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v7hTif">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbaC_7b6-cpOr9fC8eRi2SIBC0CdyTv6xPXbdar4eIvDGQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v7hTif`</a>
+
+### TB2
+
+Exposición: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQBBWmbs1qG7RreZ6vZTNO2ZARtiyZ6fi3mCC09zbDIXXTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CLGhpd">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQBBWmbs1qG7RreZ6vZTNO2ZARtiyZ6fi3mCC09zbDIXXTA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CLGhpd`</a>
+
+### Video About The Product
+
+About The Product: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQCRUJH6EhUnSrTAUMgJSLGjAXpO_sITh5o-VyID7lnwlFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=26Qx5O`</a>
+
+
+### Video About The Team
+
+About The Team: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq`</a>
