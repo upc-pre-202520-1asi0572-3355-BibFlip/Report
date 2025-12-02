@@ -262,8 +262,11 @@ Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFl
 </table>
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
-US17- Registro de cuenta de administrador
+US17- Registro de cuenta de administrador- Segmento SuperAdmin
 [![f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg](https://i.postimg.cc/pdMX6cs9/f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg)](https://postimg.cc/BjN08p9s)
+
+US08 Reserva de cubiculos -Segmento Estudiante
+[![9f9432e7-f726-4cb6-88c8-c427d06889db.jpg](https://i.postimg.cc/g2kCsCFG/9f9432e7-f726-4cb6-88c8-c427d06889db.jpg)](https://postimg.cc/nCgScwhW)
 
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 
