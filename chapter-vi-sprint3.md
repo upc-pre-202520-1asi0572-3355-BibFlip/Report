@@ -194,6 +194,8 @@ Durante este sprint se priorizaron **historias técnicas** relacionadas con la i
 
 #### 6.2.3.4. Development Evidence for Sprint Review.
 
+Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip`]()
+
 <table>
   <thead>
     <tr>
