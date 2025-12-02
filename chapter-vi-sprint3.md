@@ -268,6 +268,18 @@ US18- Acceder a todos los módulos del sistema- Segmento SuperAdmin
 US08 Reserva de cubiculos -Segmento Estudiante
 [![9f9432e7-f726-4cb6-88c8-c427d06889db.jpg](https://i.postimg.cc/g2kCsCFG/9f9432e7-f726-4cb6-88c8-c427d06889db.jpg)](https://postimg.cc/nCgScwhW)
 
+US12 Agregar nuevos cubículos - Segmento Supervisor
+[![US012.png](https://i.postimg.cc/cCTvqpD0/US012.png)](https://postimg.cc/MfM6VF2F)
+
+US13 Visualizar reservas activas - Segmento Supervisor
+[![US013.png](https://i.postimg.cc/qvpd6tMQ/US013.png)](https://postimg.cc/hfZYHtm7)
+
+US14 Ver la biblioteca asignada - Segmento Supervisor
+[![US014.png](https://i.postimg.cc/zDWmdwyn/US014.png)](https://postimg.cc/z3JPvgSB)
+
+US15 Eliminar cubículos - Segmento Supervisor
+[![US015.png](https://i.postimg.cc/rwVvFvQ3/US015.png)](https://postimg.cc/tYcrBm0N)
+
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 
 - **Landing Page:**
