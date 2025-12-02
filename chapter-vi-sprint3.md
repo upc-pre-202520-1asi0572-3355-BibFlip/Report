@@ -193,6 +193,72 @@ Durante este sprint se priorizaron **historias técnicas** relacionadas con la i
 <br>
 
 #### 6.2.3.4. Development Evidence for Sprint Review.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th><th>Branch</th><th>Commit Id</th><th>Commit Message</th><th>Commit Message Body</th><th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LandingPage</td><td>main</td>
+      <td><em>82d64e</em></td>
+      <td>feat: update features section</td>
+      <td>-</td>
+      <td><em>02/12/25</em></td>
+    </tr>
+    <tr>
+      <td>Web-Frontend</td>
+      <td>develop</td>
+      <td><em>7d4676f</em></td>
+      <td>feat: update sign in request</td>
+      <td>-</td>
+      <td><em>6/11/25</em></td>
+    </tr>
+    <tr>
+      <td>Mobile-Frontend</td>
+      <td>develop</td>
+      <td><em>420d355</em></td>
+      <td>feat: update cubicle bookings hours</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Edge-Api-Platform</td>
+      <td>main</td>
+      <td><em>e881e0d</em></td>
+      <td>Feat: Implement connection with backend and persistence to database</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+    <tr>
+      <td>ESP32-BibFlip-Embedded-System</td>
+      <td>main</td>
+      <td><em>a11c3d0</em></td>
+      <td>Feat: Update project from wokwi</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>production</td>
+      <td><em>95baaea</em></td>
+      <td>Feat: Put time zone config commented</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>production</td>
+      <td><em>e63579</em></td>
+      <td>Feat: Reupdate the time zone for better sincronization with edge api</td>
+      <td>-</td>
+      <td><em>15/11/25</em></td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
