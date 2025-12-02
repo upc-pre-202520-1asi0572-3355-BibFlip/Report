@@ -4591,19 +4591,18 @@ El entrevistado, John Gálvez, supervisor de cubículos de 30 años, comentó qu
 
 #### Entrevista N°2:
 
-*Entrevistado:* Maria Jose Munisaca<br>
-*Sexo:* Femenino <br>
-*Edad:* 27 años<br>
-*Domicilio:* San Borja, Lima <br>
-*Inicio de la Entrevista:* 0:14<br>
-*Fin de la Entrevista:* 7:10<br>
-Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221518_upc_edu_pe/IQD0aewzuiOQRoiFQJ6mYC9wAVzt17kXfTA2oaIcPeM6fqI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Dsreaq)
+*Entrevistado:* Gerson Ambrosio<br>
+*Sexo:* Masculino <br>
+*Edad:* 20 años<br>
+*Domicilio:* Callao <br>
+*Inicio de la Entrevista:* 3:03<br>
+*Fin de la Entrevista:* 6:09<br>
+Link : [Link de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQAX_9lpJg2mSbwpX2B69yjwAXZIUuqI9c7kB73MllXC7ho?e=Tmp5nz)
 
-<a href="https://ibb.co/k6Q5R6Sc"><img src="https://i.ibb.co/WpgGbp2K/wawwaawwaaw.png" alt="wawwaawwaaw" border="0"></a>
+<a href='https://postimg.cc/njrcYHvS' target='_blank'><img src='https://i.postimg.cc/d1mkF3DF/image.png' border='0' alt='image'></a>
 
 *Resumen de la Entrevista:* <br>
-
-La entrevista post-demo con María José Munisaca, supervisora de biblioteca de 27 años en San Borja, permitió validar la solución desde la perspectiva del personal administrativo tras mostrarle la landing page y la aplicación web. María José consideró la landing page accesible y profesional, destacando como más útil la sección que explica los beneficios para el personal bibliotecario, aunque sugirió añadir casos de uso específicos y estadísticas que demuestren el ahorro de tiempo en la gestión; no encontró partes confusas pero recomendó incluir una sección de preguntas frecuentes para administradores. Respecto a la aplicación web, señaló que le pareció intuitiva y bien estructurada, valorando especialmente el dashboard que permite visualizar en tiempo real la ocupación de todos los cubículos y gestionar su disponibilidad de manera centralizada; el módulo de gestión de cubículos le resultó práctico para cambiar estados (disponible, ocupado, mantenimiento) y consultar el historial de reservas. Identificó como área de mejora la transición entre vistas, sugiriendo que la navegación entre módulos sea más fluida, y propuso como características deseables: la generación automática de reportes semanales y mensuales de ocupación, un sistema de alertas para cubículos que requieran mantenimiento, y la posibilidad de bloquear horarios específicos para eventos o limpieza programada. En general, considera que BibFlip facilitaría significativamente las tareas diarias del personal y reduciría la carga administrativa asociada a la gestión manual de espacios.
+El entrevistado, Gerson, quien trabaja como bibliotecario, compartió sus principales apreciaciones sobre las tareas y funcionalidades presentadas en la entrevista para la solución Bifflip. En cuanto a la landing page, la consideró muy práctica, destacando como la parte más útil la sección de "cómo usarla" por considerarla básica e importante. No obstante, sugirió que las descripciones de las características fuesen más detalladas, específicamente para el rol de bibliotecario. Respecto a la aplicación web para supervisores, la calificó como buena y que cumple con sus operativas, en particular para gestionar cubículos. Encontró el dashboard y la sección de gestión de cubículos simple pero práctica, ya que contiene los avisos y botones necesarios. Sin embargo, sugirió que la información de ubicación de los cubículos por sede fuese más descriptiva y que el proceso para agregar cubículos fuese más práctico con un acceso más sencillo al formulario. Finalmente, propuso la implementación de filtros en el dashboard, como por ejemplo de cubículos o sedes, para hacer la aplicación más eficiente.
 
 #### Entrevista N°3:
 
