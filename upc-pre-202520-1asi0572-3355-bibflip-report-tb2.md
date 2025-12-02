@@ -99,14 +99,14 @@ En esta sección se resumen los avances y modificaciones realizadas durante el c
 | 3.9     | 05/10/2025 | Aranda Vallejos, Oscar Gabriel | Cierre de los capítulos V y VI                                              |
 | 4.0     | 01/11/2025 | Gutierrez Garcia, Jose Eduardo | 6.2.2.1. Sprint Planning 2
 | 4.1     | 02/11/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.2.2. Aspect Leader and Collaborators
-| 4.2     | 03/11/2025 | Velarde Luyo, Piero Alberto | 6.2.2.3. Sprint Backlog 2
-| 4.3     | 04/11/2025 | Pedraza Maldonado, Joaquín | 6.2.2.4. Development Evidence for Sprint Review
-| 4.4     | 05/11/2025 | Bernaola Pérez, André Arturo | 6.2.2.5. Testing Suite Evidence for Sprint Review
-| 4.5     | 06/11/2025 | Soriano Medrano, Diego | 6.2.2.6. Execution Evidence for Sprint Review
+| 4.2     | 03/11/2025 | Velarde Luyo, Piero Alberto    | 6.2.2.3. Sprint Backlog 2
+| 4.3     | 04/11/2025 | Pedraza Maldonado, Joaquín     | 6.2.2.4. Development Evidence for Sprint Review
+| 4.4     | 05/11/2025 | Bernaola Pérez, André Arturo   | 6.2.2.5. Testing Suite Evidence for Sprint Review
+| 4.5     | 06/11/2025 | Soriano Medrano, Diego         | 6.2.2.6. Execution Evidence for Sprint Review
 | 4.6     | 07/11/2025 | Aranda Vallejos, Oscar Gabriel | 6.2.2.7. Services Documentation Evidence for Sprint Review
-| 4.7     | 08/11/2025 | Oliveira Paucar, Mauricio | 6.2.2.8. Software Deployment Evidence for Sprint Review
-| 4.8     | 09/11/2025 | Soriano Medrano, Diego | 6.2.2.9. Team Collaboration Insights during Sprint
-| 4.9     | 10/11/2025 | Todo el equipo de Bibflip | Validation Interviews y Video About-the-Product.
+| 4.7     | 08/11/2025 | Oliveira Paucar, Mauricio      | 6.2.2.8. Software Deployment Evidence for Sprint Review
+| 4.8     | 09/11/2025 | Soriano Medrano, Diego         | 6.2.2.9. Team Collaboration Insights during Sprint
+| 4.9     | 10/11/2025 | Todo el equipo de Bibflip       | Validation Interviews y Video About-the-Product.
 | 5.0     | 20/11/2025 | Aranda Vallejos, Oscar Gabriel  | 6.2.3.1. Sprint Planning 3                                             |
 | 5.1     | 21/11/2025 | Gutiérrez García, José Eduardo  | 6.2.3.2. Aspect Leaders and Collaborators – Sprint 3                   |
 | 5.2     | 22/11/2025 | Velarde Luyo, Piero Alberto     | 6.2.3.3. Sprint Backlog 3                                              |
