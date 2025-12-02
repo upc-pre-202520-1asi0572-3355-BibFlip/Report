@@ -3,7 +3,7 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>    
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Carrera de Ingeniería de Software - Ciclo VII</strong><br><br>
-    <strong>Desarrollo de Soluciones IOT</strong><br>
+    <strong>1ASI0572 - Desarrollo de Soluciones IOT</strong><br>
     <br><strong>NRC 3355</strong><br>
     <br><strong>Profesor: David Carlos Vera Olivera</strong><br>
     <br><strong><b>INFORME DEL TRABAJO FINAL</strong></b><br>
@@ -57,7 +57,7 @@
 </body>
 
 <p align="center">
-<br><strong>2025-02</strong></p>
+<br><strong>2025-20</strong></p>
 <br>
 
 
