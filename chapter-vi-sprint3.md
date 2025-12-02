@@ -294,8 +294,23 @@ US08 Reserva de cubiculos -Segmento Estudiante
   ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
   ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
 
+- **Edge Api**
+
+[![Captura_de_pantalla_2025_12_02_153604.png](https://i.postimg.cc/SxSh5X9g/Captura_de_pantalla_2025_12_02_153604.png)](https://postimg.cc/crb2tLX3)
+
+[![Captura_de_pantalla_2025_12_02_153636.png](https://i.postimg.cc/65LKYV8S/Captura_de_pantalla_2025_12_02_153636.png)](https://postimg.cc/ZCRXqdFF)
+
+- **Embedded System**
+
+[![Captura_de_pantalla_2025_12_02_151015.png](https://i.postimg.cc/2SkDJqWX/Captura_de_pantalla_2025_12_02_151015.png)](https://postimg.cc/F7B8kHDj)
+
+[![ESP32_1.jpg](https://i.postimg.cc/CLK7QS1Q/ESP32_1.jpg)](https://postimg.cc/Jt9jywjN)
+
+[![ESP32_2.jpg](https://i.postimg.cc/Dyz6MnZ6/ESP32_2.jpg)](https://postimg.cc/hhHVJFVQ)
+
+
 - **Link video de visualización y navegación logrado en este Sprint:**  
-  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQBQVqiIknnEQJsNC2lEwg3qAc-pBdSmVQ8qelqnrxa_ty0?e=HGXPdd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABQOS8HItySZW1F3XMy1nhARQ1f3P-irvGt6_ZWdZo9Po?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=md2xAV>
 
 <br>
 
@@ -447,6 +462,8 @@ En esta sección se presenta los principales endpoints de la API del sistema, de
   [![azure.jpg](https://i.postimg.cc/NFQf0y7Y/azure.jpg)](https://postimg.cc/xJFSx14F)
   [![image.png](https://i.postimg.cc/CLmdz4Q2/image.png)](https://postimg.cc/HV8TNbH0)
   [![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+
 
 <br>
 
