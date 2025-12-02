@@ -4240,6 +4240,35 @@ Durante este sprint, se desarrollarán capacidades clave como la visualización 
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
+Orgnaizacion del github: [`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip`]()
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th><th>Branch</th><th>Commit Id</th><th>Commit Message</th><th>Commit Message Body</th><th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LandingPage</td><td>main</td><td><em>e65b846</em></td>
+      <td>edit: footer(style)</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Web-Frontend</td><td>production</td><td><em>af43059</em></td>
+      <td>hotfix: update .env production</td>
+      <td>-</td>
+      <td><em>6/10/25</em></td>
+    </tr>
+    <tr>
+      <td>Mobile-Frontend</td><td>production</td><td><em>
+        8f3b6f6</em></td>
+      <td>feat: update google maps integration</td>
+      <td>-</td>
+      <td><em>8/10/25</em></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
