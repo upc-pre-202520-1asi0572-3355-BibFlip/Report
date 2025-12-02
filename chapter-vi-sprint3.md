@@ -266,6 +266,185 @@ US17- Registro de cuenta de administrador
 [![f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg](https://i.postimg.cc/pdMX6cs9/f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg)](https://postimg.cc/BjN08p9s)
 
 #### 6.2.3.6. Execution Evidence for Sprint Review.
+
+- **Landing Page:**
+
+  ![landing-1](https://i.postimg.cc/KzF5tXmT/Captura-de-pantalla-2025-10-10-020020.png)  
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+ 
+  [![image.png](https://i.postimg.cc/SNKCZH67/image.png)](https://postimg.cc/14L8XCYf)
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+  [![image.png](https://i.postimg.cc/R0nZqLcT/image.png)](https://postimg.cc/R34BDfp3)
+  [![image.png](https://i.postimg.cc/RhPBgW7M/image.png)](https://postimg.cc/kRtz4XYZ)
+  [![image.png](https://i.postimg.cc/5N6dxN5p/image.png)](https://postimg.cc/SJFtd4vz)
+  [![image.png](https://i.postimg.cc/wv0ZpS7P/image.png)](https://postimg.cc/1nVJ070c)
+  [![image.png](https://i.postimg.cc/mgCnDcPp/image.png)](https://postimg.cc/G43KgmJv)
+
+- **Web Services:**
+
+  [![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+
+- **Mobile (Flutter):**
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Link video de visualización y navegación logrado en este Sprint:**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114793_upc_edu_pe/IQBQVqiIknnEQJsNC2lEwg3qAc-pBdSmVQ8qelqnrxa_ty0?e=HGXPdd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+<br>
+
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta los principales endpoints de la API del sistema, desarrollados para este Sprint, organizados por bounded context como autenticación, recuperación de contraseña, reservas, cubículos, sedes, usuarios y la gestión de supervisores. Su documentación busca ofrecer una referencia clara para comprender las acciones disponibles, los parámetros requeridos y las respuestas esperadas en cada operación, facilitando así el desarrollo, la integración y el mantenimiento de nuestra solución.
+
+**Sedes y Supervisores**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Asignar supervisor | POST | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | POST /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Remover supervisor | DELETE | /api/v1/headquarters/{headquarterId}/supervisors/{supervisorId} | Path: headquarterId, supervisorId | DELETE /api/v1/headquarters/1/supervisors/5 | Mensaje de éxito |
+| Obtener supervisores | GET | /api/v1/headquarters/{headquarterId}/supervisors | Path: headquarterId | GET /api/v1/headquarters/1/supervisors | Lista de supervisores |
+| Obtener sede por supervisor | GET | /api/v1/headquarters/supervisors/{supervisorId} | Path: supervisorId | GET /api/v1/headquarters/supervisors/5 | Datos de la sede asignada |
+
+**Autenticación**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Registro | POST | /api/v1/authentication/sign-up | Body: { name, email, password } | POST /api/v1/authentication/sign-up con JSON en el cuerpo | Usuario creado con token de autenticación |
+| Inicio de sesión | POST | /api/v1/authentication/sign-in | Body: { email, password } | POST /api/v1/authentication/sign-in | Devuelve token y datos del usuario |
+
+**Recuperación de Contraseña**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Solicitar recuperación | POST | /api/v1/password-recovery/request | Body: { email } | POST /api/v1/password-recovery/request | Mensaje de confirmación de envío de correo |
+| Confirmar recuperación | POST | /api/v1/password-recovery/confirm | Body: { token, newPassword } | POST /api/v1/password-recovery/confirm | Mensaje de éxito o error |
+
+**Reservas**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar reservas | GET | /api/v1/bookings | Ninguno | GET /api/v1/bookings | Lista de reservas |
+| Crear reserva | POST | /api/v1/bookings | Body: { clientId, cubicleId, date, time } | POST /api/v1/bookings | Reserva creada |
+| Obtener reserva | GET | /api/v1/bookings/{id} | Path: id | GET /api/v1/bookings/10 | Detalles de la reserva |
+| Eliminar reserva | DELETE | /api/v1/bookings/{id} | Path: id | DELETE /api/v1/bookings/10 | Mensaje de éxito |
+| Reservas por cliente | GET | /api/v1/bookings/client/{clientId} | Path: clientId | GET /api/v1/bookings/client/3 | Lista de reservas del cliente |
+
+**Cubículos**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar cubículos | GET |	/api/v1/cubicles | Ninguno	| GET /api/v1/cubicles |	Lista de cubículos |
+| Crear cubículo	| POST	| /api/v1/cubicles	| Body: { name, headquarterId, availability }	| POST /api/v1/cubicles	| Cubículo creado |
+| Actualizar estado |	PATCH |	/api/v1/cubicles/{cubicleId}/status	| Body: { status } | PATCH /api/v1/cubicles/4/status | Estado actualizado |
+| Actualizar disponibilidad |	PATCH |	/api/v1/cubicles/{cubicleId}/availability-slot/status	| Body: { slotId, status } | PATCH /api/v1/cubicles/4/availability-slot/status | Slot actualizado |
+| Obtener cubículo	| GET	| /api/v1/cubicles/{cubicleId} |	Path: cubicleId	| GET /api/v1/cubicles/4 | Detalles del cubículo |
+| Eliminar cubículo |	DELETE |	/api/v1/cubicles/{cubicleId} |	Path: cubicleId	| DELETE /api/v1/cubicles/4 |	Mensaje de éxito |
+| Horario del cubículo |	GET |	/api/v1/cubicles/{cubicleId}/schedule |	Path: cubicleId	| GET /api/v1/cubicles/4/schedule |	Lista de horarios |
+| Cubículos por sede |	GET |	/api/v1/cubicles/headquarter/{headquarterId} | Path: headquarterId |	GET /api/v1/cubicles/headquarter/1 |	Lista de cubículos en la sede |
+
+**Sedes**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar sedes |	GET |	/api/v1/headquarters	| Ninguno	| GET /api/v1/headquarters |	Lista de sedes |
+| Crear sede |	POST |	/api/v1/headquarters |	Body: { name, address, openingTime, closingTime } |	POST /api/v1/headquarters |	Sede creada |
+| Obtener sede |	GET |	/api/v1/headquarters/{headquarterId} |	Path: headquarterId	| GET /api/v1/headquarters/1 | Detalles de la sede |
+
+**Roles y Usuarios**
+
+| Acción |	Verbo	| Endpoint |	Parámetros |	Ejemplo	| Response |
+|:-------|--------|----------|:------------|:---------|:---------|
+| Listar roles |	GET |	/api/v1/roles |	Ninguno	| GET /api/v1/roles |	Lista de roles |
+| Listar usuarios |	GET |	/api/v1/users |	Ninguno	| GET /api/v1/users |	Lista de usuarios |
+| Obtener usuario |	GET |	/api/v1/users/{userId} |	Path: userId |	GET /api/v1/users/7 |	Detalles del usuario |
+
+**IoT Edge**
+
+| Acción | Verbo HTTP | Endpoint | Parámetros | Ejemplo | Response |
+|--------|------------|----------|------------|---------|----------|
+| Registrar dispositivo | POST | /api/v1/devices/register | Body: { "device_id": "string", "location": "string", "type": "string" } | POST /api/v1/devices/register Body: { "device_id": "chair-001", "location": "Sala A", "type": "sensor" } | Device registered successfully |
+| Actualizar lectura | POST | /api/v1/devices/{device_id}/readings | Path: device_id Body: { "temperature": number, "humidity": number, "occupied": boolean } | POST /api/v1/devices/chair-001/readings Body: { "temperature": 22.5, "humidity": 45, "occupied": true } | Reading updated |
+| Obtener dispositivos disponibles | GET | /api/v1/devices/status/available | Ninguno | GET /api/v1/devices/status/available | Available |
+| Obtener dispositivos ocupados | GET | /api/v1/devices/status/occupied | Ninguno | GET /api/v1/devices/status/occupied | Sala C, Occupied |
+| Verificar salud del backend | GET | /api/v1/devices/health/backend | Ninguno | GET /api/v1/devices/health/backend | Status: ok, Timestamp: 2025-11-14T18:00:00Z |
+| Verificar dispositivos offline | POST | /api/v1/devices/maintenance/check-offline | Ninguno | POST /api/v1/devices/maintenance/check-offline | Status: "offline" |
+| Obtener dispositivo por ID | GET | /api/v1/devices/{device_id} | Path: device_id | GET /api/v1/devices/chair-001 | device_id: "chair-001" |
+| Eliminar dispositivo | DELETE | /api/v1/devices/{device_id} | Path: device_id | DELETE /api/v1/devices/chair-001 | Device deleted |
+| Obtener todos los dispositivos | GET | /api/v1/devices/ | Ninguno | GET /api/v1/devices/ | device_id: "chair-001", ... |
+| Verificar salud general | GET | /health | Ninguno | GET /health | status: "ok" |
+
+<br>
+
+**Imagen de documentación con OpenAPI:**  
+[![image.png](https://i.postimg.cc/BQQDbRtC/image.png)](https://postimg.cc/DmHmYjrW)
+[![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+**URL de documentación desplegada de Web Services:**  
+  <https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html>
+
+**URL de documentación desplegada de IoT Edge:**  
+  <https://bibflip-edge-api-platform.azurewebsites.net/api/docs>
+
+**URL del repositorio de Web Services:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Backend>
+
+**URL del repositorio de IoT Edge:**  
+  <https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/Edge-Api-Platform>
+
+<br>
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
+
+- **Landing Page:**
+
+  GitHub Pages — URL: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+
+  ![landing-2](https://i.postimg.cc/VkC9Ts6D/Captura-de-pantalla-2025-10-10-020056.png)
+
+- **Web Application:**
+
+  Firebase Hosting — URL: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+  
+  [![image.png](https://i.postimg.cc/mknq5JD4/image.png)](https://postimg.cc/CnjmZvkr)
+  
+  1. Construir aplicación Vue  
+    Genera la carpeta dist lista para producción:
+    ```bash
+    npm run build
+    ```
+  2. Inicializar Firebase en el proyecto  
+    Dentro de la carpeta del proyecto ejecuta:
+    ```bash
+    firebase init
+    ```
+  3. Desplegar la aplicación
+    ```bash
+    Desplegar la aplicación
+    ```
+  
+  [![image.png](https://i.postimg.cc/CKJmBbSs/image.png)](https://postimg.cc/CZBj9BZR)
+
+- **Mobile Application:**
+
+  Build APK de pruebas internas.
+
+  ![mobile-1](https://i.postimg.cc/jdWkxb2b/Captura-de-pantalla-2025-10-10-020731.png)  
+  ![mobile-2](https://i.postimg.cc/cLBzjc6J/Captura-de-pantalla-2025-10-10-020835.png)
+
+- **Web Services y IoT Edge:**
+
+  Web Services — URL: [`https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html`](https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html)
+
+  IoT Edge — URL: [`https://bibflip-edge-api-platform.azurewebsites.net/api/docs`](https://bibflip-edge-api-platform.azurewebsites.net/api/docs)
+
+  [![azure.jpg](https://i.postimg.cc/NFQf0y7Y/azure.jpg)](https://postimg.cc/xJFSx14F)
+  [![image.png](https://i.postimg.cc/CLmdz4Q2/image.png)](https://postimg.cc/HV8TNbH0)
+  [![image.png](https://i.postimg.cc/XvnNVBVH/image.png)](https://postimg.cc/zyPY7BHK)
+
+<br>
+
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
