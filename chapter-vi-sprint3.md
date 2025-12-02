@@ -468,3 +468,5 @@ En esta sección se presenta los principales endpoints de la API del sistema, de
 <br>
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
+
+
