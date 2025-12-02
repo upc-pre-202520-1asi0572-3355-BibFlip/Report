@@ -260,6 +260,9 @@ Durante este sprint se priorizaron **historias técnicas** relacionadas con la i
 </table>
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review.
+US17- Registro de cuenta de administrador
+[![f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg](https://i.postimg.cc/pdMX6cs9/f45dea48-c4e2-469e-8c2d-02a741f6c54c.jpg)](https://postimg.cc/BjN08p9s)
+
 #### 6.2.3.6. Execution Evidence for Sprint Review.
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review.
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review.
