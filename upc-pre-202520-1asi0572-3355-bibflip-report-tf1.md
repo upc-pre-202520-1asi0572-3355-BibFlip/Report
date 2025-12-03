@@ -5014,16 +5014,35 @@ En esta sección se presenta los principales endpoints de la API del sistema, de
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
 
+Edge API Platform Repository Insights
 [![Sin-tituloqq.png](https://i.postimg.cc/qRMGNt7Q/Sin-tituloqq.png)](https://postimg.cc/yJtR58cS)
+
+Web API Platform Repository Insights
 
 [![network2.jpg](https://i.postimg.cc/KvyRf6PM/network2.jpg)](https://postimg.cc/z30zXPPz)
 
+Landing Page Repository Insights
+
 [![network3.jpg](https://i.postimg.cc/dVsDPGNb/network3.jpg)](https://postimg.cc/KRWmt32f)
+
+Report Repository Insights
+
 [![network4.jpg](https://i.postimg.cc/DzDzXHfV/network4.jpg)](https://postimg.cc/sBYyFnZK)
+
+Embedded System Repository Insights
+
 [![network5.jpg](https://i.postimg.cc/zvwD4fCG/network5.jpg)](https://postimg.cc/LgXM12Qc)
+
+Acceptance Test Repository Insights
+
 [![network6.jpg](https://i.postimg.cc/ncZhBvxs/network6.jpg)](https://postimg.cc/G97R1THr)
-[![network7.jpg](https://i.postimg.cc/vm1Ybhrz/network7.jpg)](https://postimg.cc/wtp8khby)
+
+Mobile Frontend Repository Insights
+
 [![network8.jpg](https://i.postimg.cc/rmxqtpYQ/network8.jpg)](https://postimg.cc/Q9822jDT)
+
+Web Page Frontend Repository Insights
+
 [![network9.jpg](https://i.postimg.cc/gjKdNTpq/network9.jpg)](https://postimg.cc/XBXTvxpp)
 
 
