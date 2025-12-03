@@ -5301,7 +5301,9 @@ El Video About-the-Product de BibFlip presenta nuestra solución innovadora para
 
 El video muestra cómo BibFlip transforma la experiencia de reserva de cubículos mediante tecnología IoT con sensores de peso que permiten consultar disponibilidad en tiempo real desde cualquier dispositivo. Presentamos el flujo intuitivo de reserva para estudiantes y las herramientas de gestión administrativas que facilitan al personal bibliotecario la supervisión de ocupación y generación de reportes estadísticos. Además, incorporamos el testimonio de un estudiante participante en nuestras entrevistas de validación, quien destaca: "BibFlip cambió completamente mi rutina de estudio. Ahora puedo planificar mis sesiones con certeza y llegar sabiendo que tendré un espacio disponible". El contenido mantiene coherencia con la identidad de BibFlip, empleando un tono profesional pero accesible, combinando elementos visuales modernos con una narrativa enfocada en beneficios tangibles para estudiantes, administradores y stakeholders educativos.
 
-# Conclusiones
+# Conclusiones y Recomendaciones
+
+## Conclusiones
 
 **TB1**
 - Es importante realizar un análisis real de los costos para la instalación y mantenimiento de los dispositivos IOT para cada cubículo. Además, se debe considerar la cantidad general de los cubículos, y el gasto en el uso de tecnologías CLOUD
@@ -5316,7 +5318,41 @@ El video muestra cómo BibFlip transforma la experiencia de reserva de cubículo
 
 - Para este sprint utilizamos Wokwi como principal herramienta de simulación del sistema IoT del ESP32 conectado a sensores de peso. Esto fue fundamental para mapear su conexión con el Edge Api y su integración con el backend que utiliza la aplicación tanto web como móvil.
 
+**TF1**   
+- Para esta entrega final (TF1), la integración del modelo físico de BibFlip con el ecosistema IoT (ESP32, sensores de peso, Edge API y backend) permitió validar en un entorno real los flujos de reserva y ocupación diseñados en las etapas previas. El paso de la simulación en Wokwi al prototipo físico confirmó la viabilidad técnica de la solución propuesta para gestionar cubículos de estudio.  
+- En esta entrega se verificó, mediante pruebas end-to-end desde el dispositivo en el cubículo hasta la visualización en las aplicaciones web y móvil, que la arquitectura por bounded contexts y los Web Services diseñados soportan correctamente los casos de uso de estudiantes, administradores y superadministradores, manteniendo coherencia entre el modelo conceptual y la implementación.  
+- El proceso de calibración de sensores, manejo de ruido en las lecturas y depuración del firmware permitió identificar desafíos reales de confiabilidad, latencia y estabilidad del sistema. Esto aportó aprendizajes clave sobre la importancia del diseño robusto en la capa IoT y la necesidad de monitorear continuamente el estado de los dispositivos desplegados.  
+- En conjunto, la integración física lograda en esta entrega demostró que BibFlip no es solo un prototipo de software, sino una solución ciberfísica capaz de conectar infraestructura de biblioteca, dispositivos IoT y servicios en la nube, sentando una base sólida para escalamiento a más sedes y escenarios de uso.
+
+
+## Recomendaciones
+
+- Implementar un flujo de **check-in mediante códigos QR** físicos en cada cubículo: el estudiante escanea el QR al llegar para confirmar su reserva, actualizar el estado de ocupación en tiempo real y reducir las “reservas fantasma”. Este mismo mecanismo podría utilizarse para el check-out y para reportar incidencias del cubículo.  
+- Extender el módulo de **analítica para administradores y superadministradores**, incorporando indicadores como horas pico de uso, tasa de cancelaciones, porcentaje de ocupación por sede y por tipo de cubículo. Estos dashboards permitirían tomar decisiones de capacidad, mantenimiento y ampliación de infraestructura basadas en datos.  
+- Ampliar el ecosistema IoT incorporando **nuevos tipos de sensores** (ruido ambiental, temperatura, iluminación) que permitan ofrecer información de confort y detectar usos inadecuados de los cubículos, mejorando la experiencia del estudiante y la supervisión del personal de biblioteca.  
+- Fortalecer los aspectos de **seguridad y gobernanza** del sistema, reforzando controles de autenticación y autorización para cada rol (estudiante, administrador, superadmin), así como el registro de logs de auditoría sobre reservas, cambios de estado de cubículos y operaciones críticas en los Web Services.  
+- Planificar una estrategia de **escalabilidad y mantenibilidad** que incluya documentación técnica estandarizada, guías de instalación de dispositivos, scripts de despliegue automatizado en la nube y procedimientos para reemplazo de hardware en campo, con el fin de facilitar la adopción de BibFlip en múltiples campus o instituciones educativas.
+
+
+
 ---
+
+
+# Video About-the-team
+
+Este video presenta el trabajo colaborativo del equipo responsable del desarrollo de BibFlip, una solución IoT-Web orientada a optimizar la gestión de cubículos de estudio en bibliotecas universitarias. A través de fragmentos de reuniones de planificación, sesiones de diseño de arquitectura (Landing, Frontend Web, Backend e IoT Edge), modelado de dominios y pruebas sobre el prototipo físico y las simulaciones en Wokwi, se evidencia cómo el equipo articuló hardware (sensores y microcontrolador), firmware embebido, APIs REST y frontends (web y mobile) para ofrecer una experiencia integrada de reserva y monitoreo de cubículos en tiempo casi real.
+
+El video destaca la participación activa de cada integrante en diferentes etapas del ciclo de vida del sistema: desde la definición de requisitos y el diseño de las historias de usuario, hasta la implementación del backend con servicios de reservas y cubículos, la configuración del Edge API para recibir lecturas de los dispositivos IoT y la construcción de interfaces en Vue y Flutter para estudiantes, administradores y superadministradores. Se incluyen momentos de pair programming, debugging colaborativo, revisiones de código y sincronización de tareas en Trello y GitHub, así como breves testimonios en los que cada miembro comenta sus responsabilidades, retos técnicos y aprendizajes.
+
+En conjunto, el material evidencia no solo el uso de metodologías ágiles y buenas prácticas de ingeniería de software e IoT (versionado, testing automatizado, despliegues en la nube), sino también el desarrollo de competencias de comunicación, trabajo en equipo y responsabilidad profesional alineadas con el Student Outcome 3 de ABET, centrado en la capacidad de funcionar eficazmente en equipos que establecen metas, planifican tareas y cumplen compromisos.
+
+<a href="https://ibb.co/VW5vFWpz"><img src="https://i.ibb.co/GvNVZv38/bibflipp.png" alt="bibflipp" border="0"></a>
+
+Link en Sharepoint: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq`</a>
+
+
+Link en Youtube: <a href="https://youtu.be/xKDkc9CdFKo">`https://youtu.be/xKDkc9CdFKo`</a>
+
 
 # Bibliografía
 
@@ -5353,9 +5389,22 @@ SUNEDU. (2022). *III Informe bienal sobre la realidad universitaria en el Perú*
 
 <a href="https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests">`https://github.com/upc-pre-202520-1asi0572-3355-BibFlip/BibFlip-Acceptance-Tests`</a>
 
+### Deployments
+
+  Landing Page: [`https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/`](https://upc-pre-202520-1asi0572-3355-bibflip.github.io/LandingPage/)
+
+  Web Application: [`https://bib-flip-web-app-2025-02.web.app/`](https://bib-flip-web-app-2025-02.web.app/)
+
+  API Web Service: [`https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html`](https://bibflip-api-platform.azurewebsites.net/swagger-ui/index.html)
+
+  IoT Edge API: [`https://bibflip-edge-api-platform.azurewebsites.net/api/docs`](https://bibflip-edge-api-platform.azurewebsites.net/api/docs)
+
+
 ### Entrevistas
 
 Needfinding: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/EbipDl3neqpBkcsL2Ewh0tIBwZL3w3QbSfnV5e7A5g833w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=h1Nh0k`</a>
+
+Validation: <a href=" https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114192_upc_edu_pe/Documents/estudiante-bipflip.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bhO4fe">` https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114192_upc_edu_pe/Documents/estudiante-bipflip.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bhO4fe`</a>
 
 
 ### TB1
