@@ -5348,10 +5348,10 @@ En conjunto, el material evidencia no solo el uso de metodologías ágiles y bue
 
 <a href="https://ibb.co/VW5vFWpz"><img src="https://i.ibb.co/GvNVZv38/bibflipp.png" alt="bibflipp" border="0"></a>
 
-Link en Sharepoint: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq`</a>
+**URL Microsoft Stream:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq">`https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218167_upc_edu_pe/IQABw7pheblETYdES6x5oRrjAaZnJymeXa-TXuDqbgVArIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=siE5iq`</a>
 
 
-Link en Youtube: <a href="https://youtu.be/xKDkc9CdFKo">`https://youtu.be/xKDkc9CdFKo`</a>
+**URL YouTube:** <a href="https://youtu.be/xKDkc9CdFKo">`https://youtu.be/xKDkc9CdFKo`</a>
 
 
 # Bibliografía
