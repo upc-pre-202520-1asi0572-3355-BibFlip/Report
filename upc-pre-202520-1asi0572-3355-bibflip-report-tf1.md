@@ -5014,6 +5014,17 @@ En esta sección se presenta los principales endpoints de la API del sistema, de
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint.
 
+[![Sin-tituloqq.png](https://i.postimg.cc/qRMGNt7Q/Sin-tituloqq.png)](https://postimg.cc/yJtR58cS)
+
+[![network2.jpg](https://i.postimg.cc/KvyRf6PM/network2.jpg)](https://postimg.cc/z30zXPPz)
+
+[![network3.jpg](https://i.postimg.cc/dVsDPGNb/network3.jpg)](https://postimg.cc/KRWmt32f)
+[![network4.jpg](https://i.postimg.cc/DzDzXHfV/network4.jpg)](https://postimg.cc/sBYyFnZK)
+[![network5.jpg](https://i.postimg.cc/zvwD4fCG/network5.jpg)](https://postimg.cc/LgXM12Qc)
+[![network6.jpg](https://i.postimg.cc/ncZhBvxs/network6.jpg)](https://postimg.cc/G97R1THr)
+[![network7.jpg](https://i.postimg.cc/vm1Ybhrz/network7.jpg)](https://postimg.cc/wtp8khby)
+[![network8.jpg](https://i.postimg.cc/rmxqtpYQ/network8.jpg)](https://postimg.cc/Q9822jDT)
+[![network9.jpg](https://i.postimg.cc/gjKdNTpq/network9.jpg)](https://postimg.cc/XBXTvxpp)
 
 
 
