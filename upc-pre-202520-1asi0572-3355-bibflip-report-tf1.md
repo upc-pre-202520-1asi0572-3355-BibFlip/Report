@@ -4672,7 +4672,7 @@ Durante este sprint se priorizaron **historias técnicas** relacionadas con la i
       <td>Verificar que los cambios de ocupación se reflejen en Web y Mobile en tiempo casi real.</td>
       <td>02</td>
       <td>Jose Gutierrez, Joaquin Pedraza</td>
-      <td>To Review</td>
+      <td>Done</td>
     </tr>
     <!-- TS009 -->
     <tr>
@@ -4701,7 +4701,7 @@ Durante este sprint se priorizaron **historias técnicas** relacionadas con la i
       <td>Preparar consultas y visualizaciones simples (logs, estados) para revisión en la demo.</td>
       <td>02</td>
       <td>Oscar Aranda</td>
-      <td>In Process</td>
+      <td>Done</td>
     </tr>
     <!-- TS010 -->
     <tr>
